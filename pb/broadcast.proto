@@ -1,0 +1,746 @@
+
+syntax = "proto3";
+package GoogleProtoBB;                                             
+
+enum BroadcastInfoKey
+{	
+	 Recorder_Train_In_Out						=0;
+	 CommonTimeReference						=1;
+	 Player_Status								=2;
+	 Player_Group								=3;
+	 Player_Camera								=4;
+	 Player_Type								=5;
+	 Player_Speed								=6;
+	 Player_Consigne							=7;
+	 Player_Mode								=8;
+	 Player_Extend_Playlist						=9;
+	 Camera_Type								=10;
+	 Player_Limit_In_Out						=11;
+	 Player_Loop_Mode							=12;
+	 Player_Loop_Count							=13;
+	 Player_Playlist_ID							=14;
+	 Player_Playlist_Element_ID					=15;
+	 DVE_Mode									=16;
+	 DVE_Type									=17;
+	 DVE_Channel								=18;
+	 DVE_Num									=19;
+	 DVE_Den									=20;
+	 DVE_CutThreshold							=21;
+	 DVE_Custom_Transparency					=22;
+	 RTD_Status									=23;			
+	 RTD_Type									=24;			
+	 RTD_Position								=25;			
+	 GFX_Status									=26;			
+	 GFX_Position								=27;			
+	 GFX_Fade_In_Out_Duration					=28;
+	 GFX_Loop_In_Out							=29;			
+	 GFX_Loop_Count								=30;			
+	 GFX_Preload_Status							=31;			
+	 HealthInfo_Storage_Capacity				=32;
+	 HealthInfo_Version							=33;			
+	 HealthInfo_Mixer_Status					=34;
+	 HealthInfo_Network_Bandwidth				=35;
+	 HealthInfo_GPU_Temperature					=36;
+	 HealthInfo_AJA_Status						=37;
+	 HealthInfo_HDD_Status						=38;
+	 HealthInfo_ASIO_Status						=39;
+	 HealthInfo_External_TimeCode				=40;
+	 CustomInfoBroadcast						=41;
+	 BMR_Setting								=42;			
+	 VuMeter_Live_Mixer_PGM						=43;
+	 Recorder_Close_Caption						=44;
+	 Player_Close_Caption						=45;
+	 CustomInfoNotify							=46;
+	 Player_AudioPresetId						=47;
+	 PiP_Status									=48;
+	 HealthInfo_Server_Memory					=49;
+	 Cache_ReplayPlayer_HighResVideo			=50;
+	 Cache_ReplayPlayer_ExternalAudio			=51;
+	 HealthInfo_ReferenceStatus					=52;
+	 HealthInfo_SerialNumber					=53;
+	 HealthInfo_RemainingTimePerCam				=54;
+	 Film_Effect_Status							=55;
+     Tally										=56;	 
+}                                                         
+enum CnlID 
+{
+	ID_Replay1_0=0;
+	ID_Replay1_15 = 15;
+	ID_Replay1_31 = 31;
+	ID_Replay1_PGMDirty = 32;
+	ID_Replay1_PGMClean = 33;
+	ID_Replay1_Import = 34;
+	ID_Replay2_0 = 50;
+	ID_Replay2_15 = 65;
+	ID_Replay2_31 = 81;
+	ID_Replay2_PGMDirty = 82;
+	ID_Replay2_PGMClean = 83;
+	ID_Replay2_Import = 84;
+	ID_PGM1 		=100;
+	ID_PRV1			=101;
+	ID_PGM1v		=102;
+	ID_PGM2			=103;
+	ID_PGM2v		=104;
+	ID_PRV2			=105;
+	ID_PGM3			=106;
+	ID_PGM3v		=107;
+	ID_PRV3			=108;
+	ID_PGM4			=109;
+	ID_PGM4v		=110;
+	ID_PRV4			=111;
+	ID_PGM5			=112;
+	ID_PGM5v		=113;
+	ID_PRV5			=114;
+	ID_PGM6			=115;
+	ID_PGM6v		=116;
+	ID_PRV6			=117;
+	ID_PGM7			=118;
+	ID_PGM7v		=119;
+	ID_PRV7			=120;
+	ID_PGM8			=121;
+	ID_PGM8v		=122;
+	ID_PRV8			=123;
+	ID_Live_0 = 150;
+	ID_Live_15 = 165;
+	ID_Live_31 = 181;
+	ID_Live_PGMDirty = 182;
+	ID_Live_PGMClean = 183;
+	ID_Live_Import = 184;
+	ID_Live_PGM2 = 185;
+	ID_Live_PGM3 = 186;
+	ID_Live_PGM4 = 187;
+	ID_Live_PGM5 = 188;
+	ID_Live_PGM6 = 189;
+	ID_Live_PGM7 = 190;
+	ID_Live_PGM8 = 191;
+	ID_Replay3_0 = 192;
+	ID_Replay3_15 = 207;
+	ID_Replay3_31 = 223;
+	ID_Replay3_PGMDirty = 224;
+	ID_Replay3_PGMClean = 225;
+	ID_Replay3_Import = 226;
+	ID_PGM2_480_270 = 227;    //only used for Dll.FrameReceiver for cnl register
+	ID_PGM3_480_270 = 228;		 //only used for Dll.FrameReceiver for cnl register
+	ID_PGM4_480_270= 229;		 //only used for Dll.FrameReceiver for cnl register
+	ID_PGM5_480_270= 230;		 //only used for Dll.FrameReceiver for cnl register
+	ID_PGM6_480_270= 231;		 //only used for Dll.FrameReceiver for cnl register
+	ID_PGM7_480_270= 232;		 //only used for Dll.FrameReceiver for cnl register
+	ID_PGM8_480_270= 233;		 //only used for Dll.FrameReceiver for cnl register
+	ID_TGA_0= 234;				  //only used for Dll.FrameReceiver for cnl register
+	ID_TGA_1= 235;				  //only used for Dll.FrameReceiver for cnl register
+	ID_Cnl_Max=236;
+};
+message Value_Recorder_Train_In_Out
+{	
+	uint32			count =1;
+	repeated uint64			trainIn=2;
+	repeated uint64			trainOut=3;
+};
+	
+message Value_Player_Status
+{
+	message StatusInfo
+	{
+		CnlID		id=1;
+		uint32		status=2;
+	};
+	uint32			count =1;
+	repeated StatusInfo		 statusInfo=2;
+};	
+
+message Value_Camera_Type
+{
+	message ItemInfo{
+		uint32 camID=1;
+		bool  isNetworking=2;
+	};
+	uint32			count = 1;
+	repeated ItemInfo	items=2;
+};
+
+message Value_Recorder_ClosedCaption
+{
+	message ItemInfo{
+		uint32 camID=1;
+		bool  hasClosedCaption=2;
+	};
+	uint32				count = 1;
+	repeated ItemInfo	items=2;
+};
+
+message Value_Player_ClosedCaption
+{
+	message ItemInfo{
+		uint32 playerid=1;
+		bool  hasClosedCaption=2;
+	};
+	uint32				count = 1;
+	repeated ItemInfo	items=2;
+};
+/*
+message Value_Player_Status
+{
+	message StatusInfo
+	{
+		CnlID		id;
+		uint8_t		status;
+	};
+	uint32			 count = NB_PLAYER;
+	StatusInfo		 statusInfo[NB_PLAYER];
+};
+
+message Value_Player_Group
+{
+	message GroupInfo
+	{
+		CnlID		id;
+		char		group;
+	};
+	uint32			 count = NB_PLAYER;
+	GroupInfo		 groupInfo[NB_PLAYER];
+};
+
+message Value_Player_Camera
+{
+	message CameraInfo
+	{
+		CnlID		id;
+		CamID		camera;
+	};
+	uint32			 count = NB_PLAYER;
+	CameraInfo		 cameraInfo[NB_PLAYER];
+};
+
+message Value_Player_Type
+{
+	message TypeInfo
+	{
+		CnlID				id;
+		PlayerType	type;
+	};
+	uint32				count = NB_PLAYER;
+	TypeInfo			typeInfo[NB_PLAYER];
+};
+
+message Value_Player_AudioPresetId
+{
+	message TypeInfo
+	{
+		CnlID				id;
+		uint8_t				audioPresetId;//-1 means not preset assigned
+	};
+	uint32				count = NB_PLAYER;
+	TypeInfo			typeInfo[NB_PLAYER];
+};
+
+message Value_Player_Speed
+{
+	message SpeedInfo
+	{
+		CnlID				id;
+		int32_t				speedN;
+		int32_t				speedD;
+	};
+	uint32				count = NB_PLAYER;
+	SpeedInfo			speedInfo[NB_PLAYER];
+};
+
+message Value_Player_Consigne
+{
+	message ConsigneInfo
+	{
+		CnlID				id;
+		uint64_t			consigne;
+	};
+	uint32				count = NB_PLAYER;
+	ConsigneInfo		consigneInfo[NB_PLAYER];
+};
+
+message Value_Player_Mode
+{
+	message ModeInfo
+	{
+		CnlID				id;
+		PlayerMode		playerMode;
+	};
+	uint32				count = NB_PLAYER;
+	ModeInfo			modeInfo[NB_PLAYER];
+};
+
+message Value_Player_Extend_Playlist
+{
+	message ExtendPlaylistInfo
+	{
+		CnlID				id;
+		bool				bExtendPlaylist;
+	};
+	uint32				count = NB_PLAYER;
+	ExtendPlaylistInfo  extendPlaylistInfo[NB_PLAYER];
+};
+
+message Value_Player_Limit_In_Out
+{
+	message LimitInfo
+	{
+		CnlID				id;
+		bool				isLimitInRelative;
+		bool				isLimitOutRelative;
+		uint64_t			limitIn;
+		uint64_t			limitOut;
+	};
+	uint32				count = NB_PLAYER;
+	LimitInfo			limitInfo[NB_PLAYER];
+};
+
+message Value_Player_Loop_Mode
+{
+	message LoopModeInfo
+	{
+		CnlID				id;
+		PlayerLoopMode	loopMode;
+	};
+	uint32				count = NB_PLAYER;
+	LoopModeInfo		loopModeInfo[NB_PLAYER];
+};
+
+message Value_Player_Loop_Count
+{
+	message LoopCountInfo
+	{
+		CnlID				id;
+		uint8_t				loopCount;
+	};
+	uint32				count = NB_PLAYER;
+	LoopCountInfo		loopCountInfo[NB_PLAYER];
+};
+
+message Value_Player_Playlist_ID
+{
+	message PlaylistIDInfo
+	{
+		CnlID	id;
+		uint8_t	idSize;
+		char* playlistID;
+	};
+	uint32				count = NB_PLAYER;
+	PlaylistIDInfo		playlistIDInfo[NB_PLAYER];
+};
+
+message Value_Player_Playlist_Element_ID
+{
+	message ElementIDInfo
+	{
+		CnlID				id;
+		uint8_t				idSize;
+		char* elementID;
+	};
+	uint32				count = NB_PLAYER;
+	ElementIDInfo		elementIDInfo[NB_PLAYER];
+};
+
+message Value_DVE_Mode
+{
+	message DVEModeInfo
+	{
+		CnlID id;
+		DVEMode				mode;
+	};
+	uint32				count = NB_MAX_USER;
+	DVEModeInfo			modeInfo[NB_MAX_USER];
+};
+
+message Value_DVE_Type
+{
+	message DVETypeInfo
+	{
+		CnlID id;
+		transportCmd::DVEType	type;
+	};
+	uint32					count = NB_MAX_USER;
+	DVETypeInfo				typeInfo[NB_MAX_USER];
+};
+
+message Value_DVE_Channel
+{
+	uint32			 count = NB_MAX_USER;
+	CnlID			 cnl[NB_MAX_USER];
+};
+
+message Value_DVE_Num
+{
+	message DVENumInfo
+	{
+		CnlID		id;
+		int32_t		num;
+	};
+	uint32			 count = NB_MAX_USER;
+	DVENumInfo		 numInfo[NB_MAX_USER];
+};
+
+message Value_DVE_Den
+{
+	message DVEDenInfo
+	{
+		CnlID		id;
+		int32_t		den;
+	};
+	uint32			 count = NB_MAX_USER;
+	DVEDenInfo		 denInfo[NB_MAX_USER];
+};
+
+message Value_DVE_CutThreshold
+{
+	message DVEThresholdInfo
+	{
+		CnlID		id;
+		int32_t		threshold;
+	};
+	uint32			 count = NB_MAX_USER;
+	DVEThresholdInfo thresholdInfo[NB_MAX_USER];
+};
+
+message Value_DVE_Custom_Transparency
+{
+	message DVECustomTransparencyInfo
+	{
+		CnlID		id;
+		bool		bCustom;
+	};
+	uint32					  count = NB_MAX_USER;
+	DVECustomTransparencyInfo customInfo[NB_MAX_USER];
+};
+
+message Value_RTD_Status
+{
+	message RTDStatusInfo
+	{
+		CnlID		id;
+		bool		enable;
+	};
+	uint32			 count = NB_MAX_USER;
+	RTDStatusInfo	 statusInfo[NB_MAX_USER];
+};
+
+message Value_RTD_Type
+{
+	message RTDTypeInfo
+	{
+		CnlID		id;
+		transportCmd::RTDType	 type;
+	};
+	uint32					 count = NB_MAX_USER;
+	RTDTypeInfo				 typeInfo[NB_MAX_USER];
+};
+
+message Value_RTD_Position
+{
+	message RTDPositionInfo
+	{
+		CnlID		id;
+		uint32_t		 position;
+	};
+	uint32			 count = NB_MAX_USER;
+	RTDPositionInfo	 positionInfo[NB_MAX_USER];
+};
+
+message Value_GFX_Status
+{
+	message GFXStatus
+	{
+		CnlID targetCnlID;
+		GFxCnl gfxCnl;
+		bool enable;
+	};
+	message PGMGFX
+	{
+		uint32			 count;
+		GFXStatus* gfxStatus;
+	};
+	uint32			 pgmCount;
+	PGMGFX* pgmGfx;
+};
+
+message Value_GFX_Position
+{
+	message GFXPosition
+	{
+		CnlID	 targetCnlID;
+		GFxCnl	 gfxCnl;
+		uint32_t position;
+	};
+	message PGMGFX
+	{
+		uint32			 count;
+		GFXPosition* gfxPosition;
+	};
+	uint32			 pgmCount;
+	PGMGFX* pgmGfx;
+};
+
+message Value_GFX_Fade_In_Out_Duration
+{
+	message GFXFadeDuration
+	{
+		CnlID		targetCnlID;
+		GFxCnl		gfxCnl;
+		uint32_t		fadeInDuration;
+		uint32_t		fadeOutDuration;
+	};
+	message PGMGFX
+	{
+		uint32			 count;
+		GFXFadeDuration* gfxFadeDuration;
+	};
+	uint32				pgmCount;
+	PGMGFX* pgmGfx;
+};
+
+message Value_GFX_Loop_In_Out
+{
+	message GFXLoopInOut
+	{
+		CnlID targetCnlID;
+		GFxCnl gfxCnl;
+		uint32_t loopIn;
+		uint32_t loopOut;
+	};
+	message PGMGFX
+	{
+		uint32			count;
+		GFXLoopInOut* gfxLoopInOut;
+	};
+	uint32				pgmCount;
+	PGMGFX* pgmGfx;
+};
+
+message Value_GFX_Loop_Count
+{
+	message GFXLoopCnt
+	{
+		CnlID targetCnlID;
+		GFxCnl gfxCnl;
+		uint32_t loopCnt;
+	};
+	message PGMGFX
+	{
+		uint32		  count;
+		GFXLoopCnt* gfxLoopCnt;
+	};
+	uint32				pgmCount;
+	PGMGFX* pgmGfx;
+};
+
+message Value_GFX_Preload_Status
+{
+	message GFXPreloadStatus
+	{
+		TGAChannel			gfxCnl;
+		TGAChannelStatus	preloadingStatus;
+		uint32_t			preloadNum;
+		uint32_t			preloadDen;
+		uint32_t			idSize;
+		char* id;
+	};
+	uint32				count;
+	GFXPreloadStatus* gfxPreloadStatus;
+};
+
+message Value_HealthInfo_Version
+{
+	uint8_t			 version[4];
+};
+
+message Value_HealthInfo_Mixer_Status
+{
+	bool			 hasConnectedAudioMixer;
+};
+
+message Value_HealthInfo_Network_Bandwidth
+{
+	uint32_t			networkBandwidth;
+};
+
+message Value_HealthInfo_GPU_Temperature
+{
+	uint32				count = 2;
+	int32_t* temperatureGPU;
+};
+
+message Value_HealthInfo_AJA_Status
+{
+	message InfoAJA
+	{
+		int32_t	 temperatureAJA;
+		bool	 lostAJA;
+	};
+
+	uint32				count = 2;
+	InfoAJA* status;
+};
+
+message Value_HealthInfo_HDD_Status
+{
+	uint16_t			hddFaulty;
+};
+
+message Value_HealthInfo_ASIO_Status
+{
+	AsioStatus			status;
+};
+
+message Value_HealthInfo_External_TimeCode
+{
+	bool				isExternalTC;
+};
+
+message Value_CustomInfo
+{
+	message InfoPair
+	{
+		DWORD keySize;
+		DWORD valueSize;
+		char* key;
+		char* value;
+	};
+
+	uint32				nbCustomInfo;
+	InfoPair* infoArray;
+};
+
+message Value_BMR_Setting
+{
+	uint8_t				type;
+	uint32_t			bufSize;
+	char* buf;
+};
+
+message Value_VuMeter_Live_Mixer_PGM
+{
+	message VuMeter
+	{
+		uint8_t count;
+		float* dbTbl;
+	};
+
+	VuMeter				mixerMeter;
+
+	uint32 countofLiveMeter;
+	VuMeter* liveMeter;
+
+	uint32 countofPRV;
+	VuMeter* prvMeter;
+
+	uint32 countofPGM;   //each PGM has clean ,dirty and player vumeters
+	message PGMUV {
+		VuMeter uvClean;
+		VuMeter dirty;
+		VuMeter player;
+	};
+	PGMUV* pgmMeter;  //clean1,dirty1 and player1,clean2 dirty2,player2
+					  //and so on
+};
+
+message Value_PiP_Status
+{
+	message PiPStatus
+	{
+		CnlID targetCnlID;
+		transportCmd::PiPType pipCnl;
+		bool enable;
+		int	 bgFadeInDuration;
+		int	 bgFadeOutDuration;
+		int	 bgLoopIn;
+		int	 bgLoopOut;
+		int	 bgLoopCnt;
+	};
+	message PGMPiP
+	{
+		uint32			 count;
+		PiPStatus* gfxStatus;
+	};
+	uint32			 pgmCount;
+	PGMPiP* pgmPiP;
+};
+
+message Value_Server_Memory
+{
+	uint32_t			currentMemory_GB;
+	uint32_t			expectedMemory_GB;
+};
+
+message Value_Cache_ReplayPlayer_HighResVideo
+{
+	message Range
+	{
+		uint64_t currentFrameID;
+		uint64_t out;
+	};
+	uint32				count = NB_REPLAY;
+	Range				range[NB_REPLAY];
+};
+
+message Value_Cache_ReplayPlayer_ExternalAudio
+{
+	message Range
+	{
+		uint64_t currentFrameID;
+		uint64_t out;
+	};
+	uint32				count = NB_REPLAY;
+	Range				range[NB_REPLAY];
+};
+
+message Value_Storage_Capacity
+{
+	uint32_t			blockSize_MB = 32;
+	uint32_t			nbBlockUsed = 0;
+	uint32_t			nbBlockTotal = 0;
+};
+
+message Value_HealthInfo_ReferenceStatus
+{
+	ReferenceStatus		referenceStatus;
+};
+
+message Value_HealthInfo_SerialNumber
+{
+	message ServerInfo
+	{
+		int32_t				ip;
+		uint32_t			snSize;
+		char* sn;
+	};
+
+	uint32_t			nbServer;
+	ServerInfo* serverInfo;
+};
+
+message Value_HealthInfo_RemainingTimePerCam
+{
+	message RemainingTime
+	{
+		CamID	 cam;
+		uint32_t remainingSecond;
+	};
+
+	uint32				count = NB_CAMERA;
+	RemainingTime		remainingTime[NB_CAMERA];
+};
+
+message Value_Film_Effect_Status
+{
+	bool				PGM_enabled[NB_PLAYOUT] = { false };
+	bool				PRV_enabled[NB_PLAYOUT] = { false };
+};
+
+message Value_Common_TimeReference
+{
+	uint64_t			timeReference=1;
+};*/
+message BroadCastData{
+	Value_Recorder_Train_In_Out Recorder_Train_In_Out=1;
+	Value_Player_Status Player_Status=2;
+	Value_Camera_Type  camera_type=3;
+	Value_Recorder_ClosedCaption Recorder_ClosedCaption=4;
+	Value_Player_ClosedCaption Player_ClosedCaption=5;
+}

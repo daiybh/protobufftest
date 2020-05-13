@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+package GoogleProtoBB;                                             
+
+message BroadCastData{
+	Value_Recorder_Train_In_Out Recorder_Train_In_Out=1;
+	Value_Player_Status Player_Status=2;
+	Value_Camera_Type  camera_type=3;
+	Value_Recorder_ClosedCaption Recorder_ClosedCaption=4;
+	Value_Player_ClosedCaption Player_ClosedCaption=5;
+}

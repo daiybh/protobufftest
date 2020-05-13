@@ -1,0 +1,115 @@
+
+syntax = "proto3";
+package GoogleProtoBB;
+enum BroadcastInfoKey
+{	
+	 Recorder_Train_In_Out						=0;
+	 CommonTimeReference						=1;
+	 Player_Status								=2;
+	 Player_Group								=3;
+	 Player_Camera								=4;
+	 Player_Type								=5;
+	 Player_Speed								=6;
+	 Player_Consigne							=7;
+	 Player_Mode								=8;
+	 Player_Extend_Playlist						=9;
+	 Camera_Type								=10;
+	 Player_Limit_In_Out						=11;
+	 Player_Loop_Mode							=12;
+	 Player_Loop_Count							=13;
+	 Player_Playlist_ID							=14;
+	 Player_Playlist_Element_ID					=15;
+	 DVE_Mode									=16;
+	 DVE_Type									=17;
+	 DVE_Channel								=18;
+	 DVE_Num									=19;
+	 DVE_Den									=20;
+	 DVE_CutThreshold							=21;
+	 DVE_Custom_Transparency					=22;
+	 RTD_Status									=23;			
+	 RTD_Type									=24;			
+	 RTD_Position								=25;			
+	 GFX_Status									=26;			
+	 GFX_Position								=27;			
+	 GFX_Fade_In_Out_Duration					=28;
+	 GFX_Loop_In_Out							=29;			
+	 GFX_Loop_Count								=30;			
+	 GFX_Preload_Status							=31;			
+	 HealthInfo_Storage_Capacity				=32;
+	 HealthInfo_Version							=33;			
+	 HealthInfo_Mixer_Status					=34;
+	 HealthInfo_Network_Bandwidth				=35;
+	 HealthInfo_GPU_Temperature					=36;
+	 HealthInfo_AJA_Status						=37;
+	 HealthInfo_HDD_Status						=38;
+	 HealthInfo_ASIO_Status						=39;
+	 HealthInfo_External_TimeCode				=40;
+	 CustomInfoBroadcast						=41;
+	 BMR_Setting								=42;			
+	 VuMeter_Live_Mixer_PGM						=43;
+	 Recorder_Close_Caption						=44;
+	 Player_Close_Caption						=45;
+	 CustomInfoNotify							=46;
+	 Player_AudioPresetId						=47;
+	 PiP_Status									=48;
+	 HealthInfo_Server_Memory					=49;
+	 Cache_ReplayPlayer_HighResVideo			=50;
+	 Cache_ReplayPlayer_ExternalAudio			=51;
+	 HealthInfo_ReferenceStatus					=52;
+	 HealthInfo_SerialNumber					=53;
+	 HealthInfo_RemainingTimePerCam				=54;
+	 Film_Effect_Status							=55;
+     Tally										=56;	 
+}                                                      
+                                                        
+
+message Value_Recorder_Train_In_Out
+{	
+	uint32			count =1;
+	repeated uint64			trainIn=2;
+	repeated uint64			trainOut=3;
+};
+	
+message Value_Player_Status
+{
+	message StatusInfo
+	{
+		uint32		id=1;
+		uint32		status=2;
+	};
+	uint32			count =1;
+	repeated StatusInfo		 statusInfo=2;
+};		   
+message BroadCastHeader{
+	BroadcastInfoKey  key=1;
+	uint32   dataSize=2;	
+}
+message BroadCastData{
+	Value_Recorder_Train_In_Out Recorder_Train_In_Out=1;
+	Value_Player_Status Player_Status=2;
+}
+
+
+message Person {
+	 string name = 1;
+	 int32 id = 2;
+	string email = 3;
+  
+	enum PhoneType {
+	  MOBILE = 0;
+	  HOME = 1;
+	  WORK = 2;
+	}
+  
+	message PhoneNumber {
+	   string number = 1;
+	  PhoneType type = 2 ;
+	}
+  
+	repeated PhoneNumber phones = 4;
+  }
+  
+  message AddressBook {
+	repeated Person people = 1;
+  }
+
