@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='GoogleProtoBB',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x0f\x62roadcast.proto\x12\rGoogleProtoBB\"O\n\x1bValue_Recorder_Train_In_Out\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x0f\n\x07trainIn\x18\x02 \x03(\x04\x12\x10\n\x08trainOut\x18\x03 \x03(\x04\"\xa7\x01\n\x13Value_Player_Status\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\nstatusInfo\x18\x02 \x03(\x0b\x32-.GoogleProtoBB.Value_Player_Status.StatusInfo\x1a>\n\nStatusInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06status\x18\x02 \x01(\r\"\x8d\x01\n\x11Value_Camera_Type\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x38\n\x05items\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_Camera_Type.ItemInfo\x1a/\n\x08ItemInfo\x12\r\n\x05\x63\x61mID\x18\x01 \x01(\r\x12\x14\n\x0cisNetworking\x18\x02 \x01(\x08\"\xa7\x01\n\x1cValue_Recorder_ClosedCaption\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x43\n\x05items\x18\x02 \x03(\x0b\x32\x34.GoogleProtoBB.Value_Recorder_ClosedCaption.ItemInfo\x1a\x33\n\x08ItemInfo\x12\r\n\x05\x63\x61mID\x18\x01 \x01(\r\x12\x18\n\x10hasClosedCaption\x18\x02 \x01(\x08\"\xa6\x01\n\x1aValue_Player_ClosedCaption\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\x05items\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_Player_ClosedCaption.ItemInfo\x1a\x36\n\x08ItemInfo\x12\x10\n\x08playerid\x18\x01 \x01(\r\x12\x18\n\x10hasClosedCaption\x18\x02 \x01(\x08\"\xe2\x02\n\rBroadCastData\x12I\n\x15Recorder_Train_In_Out\x18\x01 \x01(\x0b\x32*.GoogleProtoBB.Value_Recorder_Train_In_Out\x12\x39\n\rPlayer_Status\x18\x02 \x01(\x0b\x32\".GoogleProtoBB.Value_Player_Status\x12\x35\n\x0b\x63\x61mera_type\x18\x03 \x01(\x0b\x32 .GoogleProtoBB.Value_Camera_Type\x12K\n\x16Recorder_ClosedCaption\x18\x04 \x01(\x0b\x32+.GoogleProtoBB.Value_Recorder_ClosedCaption\x12G\n\x14Player_ClosedCaption\x18\x05 \x01(\x0b\x32).GoogleProtoBB.Value_Player_ClosedCaption*\xd2\n\n\x10\x42roadcastInfoKey\x12\x19\n\x15Recorder_Train_In_Out\x10\x00\x12\x17\n\x13\x43ommonTimeReference\x10\x01\x12\x11\n\rPlayer_Status\x10\x02\x12\x10\n\x0cPlayer_Group\x10\x03\x12\x11\n\rPlayer_Camera\x10\x04\x12\x0f\n\x0bPlayer_Type\x10\x05\x12\x10\n\x0cPlayer_Speed\x10\x06\x12\x13\n\x0fPlayer_Consigne\x10\x07\x12\x0f\n\x0bPlayer_Mode\x10\x08\x12\x1a\n\x16Player_Extend_Playlist\x10\t\x12\x0f\n\x0b\x43\x61mera_Type\x10\n\x12\x17\n\x13Player_Limit_In_Out\x10\x0b\x12\x14\n\x10Player_Loop_Mode\x10\x0c\x12\x15\n\x11Player_Loop_Count\x10\r\x12\x16\n\x12Player_Playlist_ID\x10\x0e\x12\x1e\n\x1aPlayer_Playlist_Element_ID\x10\x0f\x12\x0c\n\x08\x44VE_Mode\x10\x10\x12\x0c\n\x08\x44VE_Type\x10\x11\x12\x0f\n\x0b\x44VE_Channel\x10\x12\x12\x0b\n\x07\x44VE_Num\x10\x13\x12\x0b\n\x07\x44VE_Den\x10\x14\x12\x14\n\x10\x44VE_CutThreshold\x10\x15\x12\x1b\n\x17\x44VE_Custom_Transparency\x10\x16\x12\x0e\n\nRTD_Status\x10\x17\x12\x0c\n\x08RTD_Type\x10\x18\x12\x10\n\x0cRTD_Position\x10\x19\x12\x0e\n\nGFX_Status\x10\x1a\x12\x10\n\x0cGFX_Position\x10\x1b\x12\x1c\n\x18GFX_Fade_In_Out_Duration\x10\x1c\x12\x13\n\x0fGFX_Loop_In_Out\x10\x1d\x12\x12\n\x0eGFX_Loop_Count\x10\x1e\x12\x16\n\x12GFX_Preload_Status\x10\x1f\x12\x1f\n\x1bHealthInfo_Storage_Capacity\x10 \x12\x16\n\x12HealthInfo_Version\x10!\x12\x1b\n\x17HealthInfo_Mixer_Status\x10\"\x12 \n\x1cHealthInfo_Network_Bandwidth\x10#\x12\x1e\n\x1aHealthInfo_GPU_Temperature\x10$\x12\x19\n\x15HealthInfo_AJA_Status\x10%\x12\x19\n\x15HealthInfo_HDD_Status\x10&\x12\x1a\n\x16HealthInfo_ASIO_Status\x10\'\x12 \n\x1cHealthInfo_External_TimeCode\x10(\x12\x17\n\x13\x43ustomInfoBroadcast\x10)\x12\x0f\n\x0b\x42MR_Setting\x10*\x12\x1a\n\x16VuMeter_Live_Mixer_PGM\x10+\x12\x1a\n\x16Recorder_Close_Caption\x10,\x12\x18\n\x14Player_Close_Caption\x10-\x12\x14\n\x10\x43ustomInfoNotify\x10.\x12\x18\n\x14Player_AudioPresetId\x10/\x12\x0e\n\nPiP_Status\x10\x30\x12\x1c\n\x18HealthInfo_Server_Memory\x10\x31\x12#\n\x1f\x43\x61\x63he_ReplayPlayer_HighResVideo\x10\x32\x12$\n Cache_ReplayPlayer_ExternalAudio\x10\x33\x12\x1e\n\x1aHealthInfo_ReferenceStatus\x10\x34\x12\x1b\n\x17HealthInfo_SerialNumber\x10\x35\x12\"\n\x1eHealthInfo_RemainingTimePerCam\x10\x36\x12\x16\n\x12\x46ilm_Effect_Status\x10\x37\x12\t\n\x05Tally\x10\x38*\x93\t\n\x05\x43nlID\x12\x10\n\x0cID_Replay1_0\x10\x00\x12\x11\n\rID_Replay1_15\x10\x0f\x12\x11\n\rID_Replay1_31\x10\x1f\x12\x17\n\x13ID_Replay1_PGMDirty\x10 \x12\x17\n\x13ID_Replay1_PGMClean\x10!\x12\x15\n\x11ID_Replay1_Import\x10\"\x12\x10\n\x0cID_Replay2_0\x10\x32\x12\x11\n\rID_Replay2_15\x10\x41\x12\x11\n\rID_Replay2_31\x10Q\x12\x17\n\x13ID_Replay2_PGMDirty\x10R\x12\x17\n\x13ID_Replay2_PGMClean\x10S\x12\x15\n\x11ID_Replay2_Import\x10T\x12\x0b\n\x07ID_PGM1\x10\x64\x12\x0b\n\x07ID_PRV1\x10\x65\x12\x0c\n\x08ID_PGM1v\x10\x66\x12\x0b\n\x07ID_PGM2\x10g\x12\x0c\n\x08ID_PGM2v\x10h\x12\x0b\n\x07ID_PRV2\x10i\x12\x0b\n\x07ID_PGM3\x10j\x12\x0c\n\x08ID_PGM3v\x10k\x12\x0b\n\x07ID_PRV3\x10l\x12\x0b\n\x07ID_PGM4\x10m\x12\x0c\n\x08ID_PGM4v\x10n\x12\x0b\n\x07ID_PRV4\x10o\x12\x0b\n\x07ID_PGM5\x10p\x12\x0c\n\x08ID_PGM5v\x10q\x12\x0b\n\x07ID_PRV5\x10r\x12\x0b\n\x07ID_PGM6\x10s\x12\x0c\n\x08ID_PGM6v\x10t\x12\x0b\n\x07ID_PRV6\x10u\x12\x0b\n\x07ID_PGM7\x10v\x12\x0c\n\x08ID_PGM7v\x10w\x12\x0b\n\x07ID_PRV7\x10x\x12\x0b\n\x07ID_PGM8\x10y\x12\x0c\n\x08ID_PGM8v\x10z\x12\x0b\n\x07ID_PRV8\x10{\x12\x0e\n\tID_Live_0\x10\x96\x01\x12\x0f\n\nID_Live_15\x10\xa5\x01\x12\x0f\n\nID_Live_31\x10\xb5\x01\x12\x15\n\x10ID_Live_PGMDirty\x10\xb6\x01\x12\x15\n\x10ID_Live_PGMClean\x10\xb7\x01\x12\x13\n\x0eID_Live_Import\x10\xb8\x01\x12\x11\n\x0cID_Live_PGM2\x10\xb9\x01\x12\x11\n\x0cID_Live_PGM3\x10\xba\x01\x12\x11\n\x0cID_Live_PGM4\x10\xbb\x01\x12\x11\n\x0cID_Live_PGM5\x10\xbc\x01\x12\x11\n\x0cID_Live_PGM6\x10\xbd\x01\x12\x11\n\x0cID_Live_PGM7\x10\xbe\x01\x12\x11\n\x0cID_Live_PGM8\x10\xbf\x01\x12\x11\n\x0cID_Replay3_0\x10\xc0\x01\x12\x12\n\rID_Replay3_15\x10\xcf\x01\x12\x12\n\rID_Replay3_31\x10\xdf\x01\x12\x18\n\x13ID_Replay3_PGMDirty\x10\xe0\x01\x12\x18\n\x13ID_Replay3_PGMClean\x10\xe1\x01\x12\x16\n\x11ID_Replay3_Import\x10\xe2\x01\x12\x14\n\x0fID_PGM2_480_270\x10\xe3\x01\x12\x14\n\x0fID_PGM3_480_270\x10\xe4\x01\x12\x14\n\x0fID_PGM4_480_270\x10\xe5\x01\x12\x14\n\x0fID_PGM5_480_270\x10\xe6\x01\x12\x14\n\x0fID_PGM6_480_270\x10\xe7\x01\x12\x14\n\x0fID_PGM7_480_270\x10\xe8\x01\x12\x14\n\x0fID_PGM8_480_270\x10\xe9\x01\x12\r\n\x08ID_TGA_0\x10\xea\x01\x12\r\n\x08ID_TGA_1\x10\xeb\x01\x12\x0f\n\nID_Cnl_Max\x10\xec\x01\x62\x06proto3')
+  serialized_pb=_b('\n\x0f\x62roadcast.proto\x12\rGoogleProtoBB\"O\n\x1bValue_Recorder_Train_In_Out\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x0f\n\x07trainIn\x18\x02 \x03(\x04\x12\x10\n\x08trainOut\x18\x03 \x03(\x04\"\xa7\x01\n\x13Value_Player_Status\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\nstatusInfo\x18\x02 \x03(\x0b\x32-.GoogleProtoBB.Value_Player_Status.StatusInfo\x1a>\n\nStatusInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06status\x18\x02 \x01(\r\"\x8d\x01\n\x11Value_Camera_Type\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x38\n\x05items\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_Camera_Type.ItemInfo\x1a/\n\x08ItemInfo\x12\r\n\x05\x63\x61mID\x18\x01 \x01(\r\x12\x14\n\x0cisNetworking\x18\x02 \x01(\x08\"\xa7\x01\n\x1cValue_Recorder_ClosedCaption\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x43\n\x05items\x18\x02 \x03(\x0b\x32\x34.GoogleProtoBB.Value_Recorder_ClosedCaption.ItemInfo\x1a\x33\n\x08ItemInfo\x12\r\n\x05\x63\x61mID\x18\x01 \x01(\r\x12\x18\n\x10hasClosedCaption\x18\x02 \x01(\x08\"\xa6\x01\n\x1aValue_Player_ClosedCaption\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\x05items\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_Player_ClosedCaption.ItemInfo\x1a\x36\n\x08ItemInfo\x12\x10\n\x08playerid\x18\x01 \x01(\r\x12\x18\n\x10hasClosedCaption\x18\x02 \x01(\x08\"\xa1\x01\n\x12Value_Player_Group\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12>\n\tgroupInfo\x18\x02 \x03(\x0b\x32+.GoogleProtoBB.Value_Player_Group.GroupInfo\x1a<\n\tGroupInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\r\n\x05group\x18\x02 \x01(\r\"\xbd\x01\n\x13Value_Player_Camera\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\ncameraInfo\x18\x02 \x03(\x0b\x32-.GoogleProtoBB.Value_Player_Camera.CameraInfo\x1aT\n\nCameraInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12$\n\x06\x63\x61mera\x18\x02 \x01(\x0e\x32\x14.GoogleProtoBB.CamID\"\x84\x02\n\x11Value_Player_Type\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12;\n\x08typeInfo\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_Player_Type.TypeInfo\x1ag\n\x08TypeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x39\n\x04type\x18\x02 \x01(\x0e\x32+.GoogleProtoBB.Value_Player_Type.PlayerType\":\n\nPlayerType\x12\x16\n\x12PLAYER_TYPE_REPLAY\x10\x00\x12\x14\n\x10PLAYER_TYPE_LIVE\x10\x01\"\xb6\x01\n\x1aValue_Player_AudioPresetId\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x44\n\x08typeInfo\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo\x1a\x43\n\x08TypeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x15\n\raudioPresetId\x18\x02 \x01(\r\"\xb2\x01\n\x12Value_Player_Speed\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12>\n\tspeedInfo\x18\x02 \x03(\x0b\x32+.GoogleProtoBB.Value_Player_Speed.SpeedInfo\x1aM\n\tSpeedInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06speedN\x18\x02 \x01(\x05\x12\x0e\n\x06speedD\x18\x03 \x01(\x05\"\xb3\x01\n\x15Value_Player_Consigne\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12G\n\x0c\x63onsigneInfo\x18\x02 \x03(\x0b\x32\x31.GoogleProtoBB.Value_Player_Consigne.ConsigneInfo\x1a\x42\n\x0c\x43onsigneInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x10\n\x08\x63onsigne\x18\x02 \x01(\x04\"\xfc\x01\n\x11Value_Player_Mode\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12;\n\x08modeInfo\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_Player_Mode.ModeInfo\x1am\n\x08ModeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12?\n\nplayerMode\x18\x02 \x01(\x0e\x32+.GoogleProtoBB.Value_Player_Mode.PlayerMode\",\n\nPlayerMode\x12\x0c\n\x08\x63lipMode\x10\x00\x12\x10\n\x0cplaylistMode\x10\x01\"\xda\x01\n\x1cValue_Player_Extend_Playlist\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12Z\n\x12\x65xtendPlaylistInfo\x18\x02 \x03(\x0b\x32>.GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo\x1aO\n\x12\x45xtendPlaylistInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x17\n\x0f\x62\x45xtendPlaylist\x18\x02 \x01(\x08\"\xfb\x01\n\x19Value_Player_Limit_In_Out\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x45\n\tlimitInfo\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo\x1a\x87\x01\n\tLimitInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x19\n\x11isLimitInRelative\x18\x02 \x01(\x08\x12\x1a\n\x12isLimitOutRelative\x18\x03 \x01(\x08\x12\x0f\n\x07limitIn\x18\x04 \x01(\x04\x12\x10\n\x08limitOut\x18\x05 \x01(\x04\"\x9e\x02\n\x16Value_Player_Loop_Mode\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12H\n\x0cloopModeInfo\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo\x1ax\n\x0cLoopModeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x46\n\x08loopMode\x18\x02 \x01(\x0e\x32\x34.GoogleProtoBB.Value_Player_Loop_Mode.PlayerLoopMode\"1\n\x0ePlayerLoopMode\x12\x07\n\x03OFF\x10\x00\x12\x07\n\x03STD\x10\x01\x12\r\n\tPING_PONG\x10\x02\"\xbb\x01\n\x17Value_Player_Loop_Count\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12K\n\rloopCountInfo\x18\x02 \x03(\x0b\x32\x34.GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo\x1a\x44\n\rLoopCountInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x11\n\tloopCount\x18\x02 \x01(\r\"\xd1\x01\n\x18Value_Player_Playlist_ID\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12N\n\x0eplaylistIDInfo\x18\x02 \x03(\x0b\x32\x36.GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo\x1aV\n\x0ePlaylistIDInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06idSize\x18\x02 \x01(\r\x12\x12\n\nplaylistID\x18\x03 \x01(\x0c\"\xdd\x01\n Value_Player_Playlist_Element_ID\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12T\n\relementIDInfo\x18\x02 \x03(\x0b\x32=.GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo\x1aT\n\rElementIDInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06idSize\x18\x02 \x01(\r\x12\x11\n\telementID\x18\x03 \x01(\x0c\"\xf8\x01\n\x0eValue_DVE_Mode\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12;\n\x08modeInfo\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_DVE_Mode.DVEModeInfo\x1a\x64\n\x0b\x44VEModeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x33\n\x04mode\x18\x02 \x01(\x0e\x32%.GoogleProtoBB.Value_DVE_Mode.DVEMode\"4\n\x07\x44VEMode\x12\x0b\n\x07offMode\x10\x00\x12\x0c\n\x08\x61utoMode\x10\x01\x12\x0e\n\nmanualMode\x10\x02\"\xfc\x01\n\x0eValue_DVE_Type\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12;\n\x08typeInfo\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_DVE_Type.DVETypeInfo\x1a\x64\n\x0b\x44VETypeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x33\n\x04type\x18\x02 \x01(\x0e\x32%.GoogleProtoBB.Value_DVE_Type.DVEType\"8\n\x07\x44VEType\x12\x0b\n\x07\x64ve_MIX\x10\x00\x12\x0f\n\x0b\x64ve_WIPE_LR\x10\x01\x12\x0f\n\x0b\x64ve_WIPE_RL\x10\x02\"E\n\x11Value_DVE_Channel\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12!\n\x03\x63nl\x18\x02 \x03(\x0e\x32\x14.GoogleProtoBB.CnlID\"\x95\x01\n\rValue_DVE_Num\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x38\n\x07numInfo\x18\x02 \x03(\x0b\x32\'.GoogleProtoBB.Value_DVE_Num.DVENumInfo\x1a;\n\nDVENumInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0b\n\x03num\x18\x02 \x01(\x05\"\x95\x01\n\rValue_DVE_Den\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x38\n\x07\x64\x65nInfo\x18\x02 \x03(\x0b\x32\'.GoogleProtoBB.Value_DVE_Den.DVEDenInfo\x1a;\n\nDVEDenInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0b\n\x03\x64\x65n\x18\x02 \x01(\x05\"\xbf\x01\n\x16Value_DVE_CutThreshold\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12M\n\rthresholdInfo\x18\x02 \x03(\x0b\x32\x36.GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo\x1aG\n\x10\x44VEThresholdInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x11\n\tthreshold\x18\x02 \x01(\x05\"\xda\x01\n\x1dValue_DVE_Custom_Transparency\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12Z\n\ncustomInfo\x18\x02 \x03(\x0b\x32\x46.GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo\x1aN\n\x19\x44VECustomTransparencyInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0f\n\x07\x62\x43ustom\x18\x02 \x01(\x08\"\xa7\x01\n\x10Value_RTD_Status\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x41\n\nstatusInfo\x18\x02 \x03(\x0b\x32-.GoogleProtoBB.Value_RTD_Status.RTDStatusInfo\x1a\x41\n\rRTDStatusInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x0e\n\x06\x65nable\x18\x02 \x01(\x08\"\xb3\x01\n\x0eValue_RTD_Type\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12;\n\x08typeInfo\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_RTD_Type.RTDTypeInfo\x1aU\n\x0bRTDTypeInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12$\n\x04type\x18\x02 \x01(\x0e\x32\x16.GoogleProtoBB.RTDType\"\xb3\x01\n\x12Value_RTD_Position\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12G\n\x0cpositionInfo\x18\x02 \x03(\x0b\x32\x31.GoogleProtoBB.Value_RTD_Position.RTDPositionInfo\x1a\x45\n\x0fRTDPositionInfo\x12 \n\x02id\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12\x10\n\x08position\x18\x02 \x01(\r\"\xa2\x02\n\x10Value_GFX_Status\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12\x36\n\x06pgmGfx\x18\x02 \x03(\x0b\x32&.GoogleProtoBB.Value_GFX_Status.PGMGFX\x1am\n\tGFXStatus\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12%\n\x06gfxCnl\x18\x02 \x01(\x0e\x32\x15.GoogleProtoBB.GFxCnl\x12\x0e\n\x06\x65nable\x18\x03 \x01(\x08\x1aU\n\x06PGMGFX\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12<\n\tgfxStatus\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_GFX_Status.GFXStatus\"\xb0\x02\n\x12Value_GFX_Position\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12\x38\n\x06pgmGfx\x18\x02 \x03(\x0b\x32(.GoogleProtoBB.Value_GFX_Position.PGMGFX\x1aq\n\x0bGFXPosition\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12%\n\x06gfxCnl\x18\x02 \x01(\x0e\x32\x15.GoogleProtoBB.GFxCnl\x12\x10\n\x08position\x18\x03 \x01(\r\x1a[\n\x06PGMGFX\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x42\n\x0bgfxPosition\x18\x02 \x03(\x0b\x32-.GoogleProtoBB.Value_GFX_Position.GFXPosition\"\x80\x03\n\x1eValue_GFX_Fade_In_Out_Duration\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12\x44\n\x06pgmGfx\x18\x02 \x03(\x0b\x32\x34.GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX\x1a\x94\x01\n\x0fGFXFadeDuration\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12%\n\x06gfxCnl\x18\x02 \x01(\x0e\x32\x15.GoogleProtoBB.GFxCnl\x12\x16\n\x0e\x66\x61\x64\x65InDuration\x18\x03 \x01(\r\x12\x17\n\x0f\x66\x61\x64\x65OutDuration\x18\x04 \x01(\r\x1ao\n\x06PGMGFX\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12V\n\x0fgfxFadeDuration\x18\x02 \x03(\x0b\x32=.GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration\"\xcc\x02\n\x15Value_GFX_Loop_In_Out\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12;\n\x06pgmGfx\x18\x02 \x03(\x0b\x32+.GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX\x1a\x81\x01\n\x0cGFXLoopInOut\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12%\n\x06gfxCnl\x18\x02 \x01(\x0e\x32\x15.GoogleProtoBB.GFxCnl\x12\x0e\n\x06loopIn\x18\x03 \x01(\r\x12\x0f\n\x07loopOut\x18\x04 \x01(\r\x1a`\n\x06PGMGFX\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12G\n\x0cgfxLoopInOut\x18\x02 \x03(\x0b\x32\x31.GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut\"\xb2\x02\n\x14Value_GFX_Loop_Count\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12:\n\x06pgmGfx\x18\x02 \x03(\x0b\x32*.GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX\x1ao\n\nGFXLoopCnt\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12%\n\x06gfxCnl\x18\x02 \x01(\x0e\x32\x15.GoogleProtoBB.GFxCnl\x12\x0f\n\x07loopCnt\x18\x03 \x01(\r\x1a[\n\x06PGMGFX\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x42\n\ngfxLoopCnt\x18\x02 \x03(\x0b\x32..GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt\"\xbc\x02\n\x18Value_GFX_Preload_Status\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12R\n\x10gfxPreloadStatus\x18\x02 \x03(\x0b\x32\x38.GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus\x1a\xbc\x01\n\x10GFXPreloadStatus\x12)\n\x06gfxCnl\x18\x01 \x01(\x0e\x32\x19.GoogleProtoBB.TGAChannel\x12\x39\n\x10preloadingStatus\x18\x02 \x01(\x0e\x32\x1f.GoogleProtoBB.TGAChannelStatus\x12\x12\n\npreloadNum\x18\x03 \x01(\r\x12\x12\n\npreloadDen\x18\x04 \x01(\r\x12\x0e\n\x06idSize\x18\x05 \x01(\r\x12\n\n\x02id\x18\x06 \x01(\x0c\"b\n\x18Value_HealthInfo_Version\x12\x10\n\x08version0\x18\x01 \x01(\r\x12\x10\n\x08version1\x18\x02 \x01(\r\x12\x10\n\x08version2\x18\x03 \x01(\r\x12\x10\n\x08version3\x18\x04 \x01(\r\"?\n\x1dValue_HealthInfo_Mixer_Status\x12\x1e\n\x16hasConnectedAudioMixer\x18\x01 \x01(\x08\">\n\"Value_HealthInfo_Network_Bandwidth\x12\x18\n\x10networkBandwidth\x18\x01 \x01(\r\"I\n Value_HealthInfo_GPU_Temperature\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x16\n\x0etemperatureGPU\x18\x02 \x03(\x05\"\xa4\x01\n\x1bValue_HealthInfo_AJA_Status\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\x42\n\x06status\x18\x02 \x03(\x0b\x32\x32.GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA\x1a\x32\n\x07InfoAJA\x12\x16\n\x0etemperatureAJA\x18\x01 \x01(\x05\x12\x0f\n\x07lostAJA\x18\x02 \x01(\x08\"0\n\x1bValue_HealthInfo_HDD_Status\x12\x11\n\thddFaulty\x18\x01 \x01(\r\"\xee\x03\n\x1cValue_HealthInfo_ASIO_Status\x12\x46\n\x06status\x18\x01 \x01(\x0b\x32\x36.GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus\x1a.\n\x0fValueStatusPair\x12\x0b\n\x03val\x18\x01 \x01(\r\x12\x0e\n\x06isGood\x18\x02 \x01(\x08\x1a\xd5\x02\n\nAsioStatus\x12O\n\nsampleRate\x18\x01 \x01(\x0b\x32;.GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair\x12O\n\nbufferSize\x18\x02 \x01(\x0b\x32;.GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair\x12Q\n\x0cinputLatency\x18\x03 \x01(\x0b\x32;.GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair\x12R\n\routputLatency\x18\x04 \x01(\x0b\x32;.GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair\":\n\"Value_HealthInfo_External_TimeCode\x12\x14\n\x0cisExternalTC\x18\x01 \x01(\x08\"\xb1\x01\n\x10Value_CustomInfo\x12\x14\n\x0cnbCustomInfo\x18\x01 \x01(\r\x12;\n\tinfoArray\x18\x02 \x03(\x0b\x32(.GoogleProtoBB.Value_CustomInfo.InfoPair\x1aJ\n\x08InfoPair\x12\x0f\n\x07keySize\x18\x01 \x01(\r\x12\x11\n\tvalueSize\x18\x02 \x01(\r\x12\x0b\n\x03key\x18\x03 \x01(\x0c\x12\r\n\x05value\x18\x04 \x01(\x0c\"?\n\x11Value_BMR_Setting\x12\x0c\n\x04type\x18\x01 \x01(\r\x12\x0f\n\x07\x62ufSize\x18\x02 \x01(\r\x12\x0b\n\x03\x62uf\x18\x03 \x01(\x0c\"\xff\x04\n\x1cValue_VuMeter_Live_Mixer_PGM\x12G\n\nmixerMeter\x18\x01 \x01(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\x12\x18\n\x10\x63ountofLiveMeter\x18\x02 \x01(\r\x12\x46\n\tliveMeter\x18\x03 \x03(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\x12\x12\n\ncountofPRV\x18\x04 \x01(\r\x12\x45\n\x08prvMeter\x18\x05 \x03(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\x12\x12\n\ncountofPGM\x18\x06 \x01(\r\x12\x43\n\x08pgmMeter\x18\x07 \x03(\x0b\x32\x31.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV\x1a\'\n\x07VuMeter\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12\r\n\x05\x64\x62Tbl\x18\x02 \x03(\x02\x1a\xd6\x01\n\x05PGMUV\x12\x44\n\x07uvClean\x18\x01 \x01(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\x12\x42\n\x05\x64irty\x18\x02 \x01(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\x12\x43\n\x06player\x18\x03 \x01(\x0b\x32\x33.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter\"\x91\x03\n\x10Value_PiP_Status\x12\x10\n\x08pgmCount\x18\x01 \x01(\r\x12\x36\n\x06pgmPiP\x18\x02 \x03(\x0b\x32&.GoogleProtoBB.Value_PiP_Status.PGMPiP\x1a\xdb\x01\n\tPiPStatus\x12)\n\x0btargetCnlID\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CnlID\x12&\n\x06pipCnl\x18\x02 \x01(\x0e\x32\x16.GoogleProtoBB.PiPType\x12\x0e\n\x06\x65nable\x18\x03 \x01(\x08\x12\x18\n\x10\x62gFadeInDuration\x18\x04 \x01(\r\x12\x19\n\x11\x62gFadeOutDuration\x18\x05 \x01(\r\x12\x10\n\x08\x62gLoopIn\x18\x06 \x01(\r\x12\x11\n\tbgLoopOut\x18\x07 \x01(\r\x12\x11\n\tbgLoopCnt\x18\x08 \x01(\r\x1aU\n\x06PGMPiP\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12<\n\tgfxStatus\x18\x02 \x03(\x0b\x32).GoogleProtoBB.Value_PiP_Status.PiPStatus\"J\n\x13Value_Server_Memory\x12\x18\n\x10\x63urrentMemory_GB\x18\x01 \x01(\r\x12\x19\n\x11\x65xpectedMemory_GB\x18\x02 \x01(\r\"\xaf\x01\n%Value_Cache_ReplayPlayer_HighResVideo\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12I\n\x05range\x18\x02 \x03(\x0b\x32:.GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range\x1a,\n\x05Range\x12\x16\n\x0e\x63urrentFrameID\x18\x01 \x01(\x04\x12\x0b\n\x03out\x18\x02 \x01(\x04\"\xb1\x01\n&Value_Cache_ReplayPlayer_ExternalAudio\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12J\n\x05range\x18\x02 \x03(\x0b\x32;.GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range\x1a,\n\x05Range\x12\x16\n\x0e\x63urrentFrameID\x18\x01 \x01(\x04\x12\x0b\n\x03out\x18\x02 \x01(\x04\"Y\n\x16Value_Storage_Capacity\x12\x14\n\x0c\x62lockSize_MB\x18\x01 \x01(\r\x12\x13\n\x0bnbBlockUsed\x18\x02 \x01(\r\x12\x14\n\x0cnbBlockTotal\x18\x03 \x01(\r\"[\n Value_HealthInfo_ReferenceStatus\x12\x37\n\x0freferenceStatus\x18\x01 \x01(\x0e\x32\x1e.GoogleProtoBB.ReferenceStatus\"\xb4\x01\n\x1dValue_HealthInfo_SerialNumber\x12\x10\n\x08nbServer\x18\x01 \x01(\r\x12K\n\nserverInfo\x18\x02 \x03(\x0b\x32\x37.GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo\x1a\x34\n\nServerInfo\x12\n\n\x02ip\x18\x01 \x01(\x05\x12\x0e\n\x06snSize\x18\x02 \x01(\r\x12\n\n\x02sn\x18\x03 \x01(\x0c\"\xdc\x01\n$Value_HealthInfo_RemainingTimePerCam\x12\r\n\x05\x63ount\x18\x01 \x01(\r\x12X\n\rremainingTime\x18\x02 \x03(\x0b\x32\x41.GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime\x1aK\n\rRemainingTime\x12!\n\x03\x63\x61m\x18\x01 \x01(\x0e\x32\x14.GoogleProtoBB.CamID\x12\x17\n\x0fremainingSecond\x18\x02 \x01(\r\"D\n\x18Value_Film_Effect_Status\x12\x13\n\x0bPGM_enabled\x18\x01 \x03(\x08\x12\x13\n\x0bPRV_enabled\x18\x02 \x03(\x08\"3\n\x1aValue_Common_TimeReference\x12\x15\n\rtimeReference\x18\x01 \x01(\x04\"\xde\x1f\n\rBroadCastData\x12O\n\x1bvalue_Recorder_Train_In_Out\x18\x01 \x01(\x0b\x32*.GoogleProtoBB.Value_Recorder_Train_In_Out\x12?\n\x13value_Player_Status\x18\x02 \x01(\x0b\x32\".GoogleProtoBB.Value_Player_Status\x12;\n\x11value_Camera_Type\x18\x03 \x01(\x0b\x32 .GoogleProtoBB.Value_Camera_Type\x12Q\n\x1cvalue_Recorder_ClosedCaption\x18\x04 \x01(\x0b\x32+.GoogleProtoBB.Value_Recorder_ClosedCaption\x12M\n\x1avalue_Player_ClosedCaption\x18\x05 \x01(\x0b\x32).GoogleProtoBB.Value_Player_ClosedCaption\x12=\n\x12value_Player_Group\x18\x06 \x01(\x0b\x32!.GoogleProtoBB.Value_Player_Group\x12?\n\x13value_Player_Camera\x18\x07 \x01(\x0b\x32\".GoogleProtoBB.Value_Player_Camera\x12;\n\x11value_Player_Type\x18\x08 \x01(\x0b\x32 .GoogleProtoBB.Value_Player_Type\x12M\n\x1avalue_Player_AudioPresetId\x18\t \x01(\x0b\x32).GoogleProtoBB.Value_Player_AudioPresetId\x12=\n\x12value_Player_Speed\x18\n \x01(\x0b\x32!.GoogleProtoBB.Value_Player_Speed\x12\x43\n\x15value_Player_Consigne\x18\x0b \x01(\x0b\x32$.GoogleProtoBB.Value_Player_Consigne\x12;\n\x11value_Player_Mode\x18\x0c \x01(\x0b\x32 .GoogleProtoBB.Value_Player_Mode\x12Q\n\x1cvalue_Player_Extend_Playlist\x18\r \x01(\x0b\x32+.GoogleProtoBB.Value_Player_Extend_Playlist\x12K\n\x19value_Player_Limit_In_Out\x18\x0e \x01(\x0b\x32(.GoogleProtoBB.Value_Player_Limit_In_Out\x12\x45\n\x16value_Player_Loop_Mode\x18\x0f \x01(\x0b\x32%.GoogleProtoBB.Value_Player_Loop_Mode\x12G\n\x17value_Player_Loop_Count\x18\x10 \x01(\x0b\x32&.GoogleProtoBB.Value_Player_Loop_Count\x12I\n\x18value_Player_Playlist_ID\x18\x11 \x01(\x0b\x32\'.GoogleProtoBB.Value_Player_Playlist_ID\x12Y\n value_Player_Playlist_Element_ID\x18\x12 \x01(\x0b\x32/.GoogleProtoBB.Value_Player_Playlist_Element_ID\x12\x35\n\x0evalue_DVE_Mode\x18\x13 \x01(\x0b\x32\x1d.GoogleProtoBB.Value_DVE_Mode\x12\x35\n\x0evalue_DVE_Type\x18\x14 \x01(\x0b\x32\x1d.GoogleProtoBB.Value_DVE_Type\x12;\n\x11value_DVE_Channel\x18\x15 \x01(\x0b\x32 .GoogleProtoBB.Value_DVE_Channel\x12\x33\n\rvalue_DVE_Num\x18\x16 \x01(\x0b\x32\x1c.GoogleProtoBB.Value_DVE_Num\x12\x33\n\rvalue_DVE_Den\x18\x17 \x01(\x0b\x32\x1c.GoogleProtoBB.Value_DVE_Den\x12\x45\n\x16value_DVE_CutThreshold\x18\x18 \x01(\x0b\x32%.GoogleProtoBB.Value_DVE_CutThreshold\x12S\n\x1dvalue_DVE_Custom_Transparency\x18\x19 \x01(\x0b\x32,.GoogleProtoBB.Value_DVE_Custom_Transparency\x12\x39\n\x10value_RTD_Status\x18\x1a \x01(\x0b\x32\x1f.GoogleProtoBB.Value_RTD_Status\x12\x35\n\x0evalue_RTD_Type\x18\x1b \x01(\x0b\x32\x1d.GoogleProtoBB.Value_RTD_Type\x12=\n\x12value_RTD_Position\x18\x1c \x01(\x0b\x32!.GoogleProtoBB.Value_RTD_Position\x12\x39\n\x10value_GFX_Status\x18\x1d \x01(\x0b\x32\x1f.GoogleProtoBB.Value_GFX_Status\x12=\n\x12value_GFX_Position\x18\x1e \x01(\x0b\x32!.GoogleProtoBB.Value_GFX_Position\x12U\n\x1evalue_GFX_Fade_In_Out_Duration\x18\x1f \x01(\x0b\x32-.GoogleProtoBB.Value_GFX_Fade_In_Out_Duration\x12\x43\n\x15value_GFX_Loop_In_Out\x18  \x01(\x0b\x32$.GoogleProtoBB.Value_GFX_Loop_In_Out\x12\x41\n\x14value_GFX_Loop_Count\x18! \x01(\x0b\x32#.GoogleProtoBB.Value_GFX_Loop_Count\x12I\n\x18value_GFX_Preload_Status\x18\" \x01(\x0b\x32\'.GoogleProtoBB.Value_GFX_Preload_Status\x12I\n\x18value_HealthInfo_Version\x18# \x01(\x0b\x32\'.GoogleProtoBB.Value_HealthInfo_Version\x12S\n\x1dvalue_HealthInfo_Mixer_Status\x18$ \x01(\x0b\x32,.GoogleProtoBB.Value_HealthInfo_Mixer_Status\x12]\n\"value_HealthInfo_Network_Bandwidth\x18% \x01(\x0b\x32\x31.GoogleProtoBB.Value_HealthInfo_Network_Bandwidth\x12Y\n value_HealthInfo_GPU_Temperature\x18& \x01(\x0b\x32/.GoogleProtoBB.Value_HealthInfo_GPU_Temperature\x12O\n\x1bvalue_HealthInfo_AJA_Status\x18\' \x01(\x0b\x32*.GoogleProtoBB.Value_HealthInfo_AJA_Status\x12O\n\x1bvalue_HealthInfo_HDD_Status\x18( \x01(\x0b\x32*.GoogleProtoBB.Value_HealthInfo_HDD_Status\x12Q\n\x1cvalue_HealthInfo_ASIO_Status\x18) \x01(\x0b\x32+.GoogleProtoBB.Value_HealthInfo_ASIO_Status\x12]\n\"value_HealthInfo_External_TimeCode\x18* \x01(\x0b\x32\x31.GoogleProtoBB.Value_HealthInfo_External_TimeCode\x12\x39\n\x10value_CustomInfo\x18+ \x01(\x0b\x32\x1f.GoogleProtoBB.Value_CustomInfo\x12;\n\x11value_BMR_Setting\x18, \x01(\x0b\x32 .GoogleProtoBB.Value_BMR_Setting\x12Q\n\x1cvalue_VuMeter_Live_Mixer_PGM\x18- \x01(\x0b\x32+.GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM\x12\x39\n\x10value_PiP_Status\x18. \x01(\x0b\x32\x1f.GoogleProtoBB.Value_PiP_Status\x12?\n\x13value_Server_Memory\x18/ \x01(\x0b\x32\".GoogleProtoBB.Value_Server_Memory\x12\x63\n%value_Cache_ReplayPlayer_HighResVideo\x18\x30 \x01(\x0b\x32\x34.GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo\x12\x65\n&value_Cache_ReplayPlayer_ExternalAudio\x18\x31 \x01(\x0b\x32\x35.GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio\x12\x45\n\x16value_Storage_Capacity\x18\x32 \x01(\x0b\x32%.GoogleProtoBB.Value_Storage_Capacity\x12Y\n value_HealthInfo_ReferenceStatus\x18\x33 \x01(\x0b\x32/.GoogleProtoBB.Value_HealthInfo_ReferenceStatus\x12S\n\x1dvalue_HealthInfo_SerialNumber\x18\x34 \x01(\x0b\x32,.GoogleProtoBB.Value_HealthInfo_SerialNumber\x12\x61\n$value_HealthInfo_RemainingTimePerCam\x18\x35 \x01(\x0b\x32\x33.GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam\x12I\n\x18value_Film_Effect_Status\x18\x36 \x01(\x0b\x32\'.GoogleProtoBB.Value_Film_Effect_Status\x12M\n\x1avalue_Common_TimeReference\x18\x37 \x01(\x0b\x32).GoogleProtoBB.Value_Common_TimeReference*\xd2\n\n\x10\x42roadcastInfoKey\x12\x19\n\x15Recorder_Train_In_Out\x10\x00\x12\x17\n\x13\x43ommonTimeReference\x10\x01\x12\x11\n\rPlayer_Status\x10\x02\x12\x10\n\x0cPlayer_Group\x10\x03\x12\x11\n\rPlayer_Camera\x10\x04\x12\x0f\n\x0bPlayer_Type\x10\x05\x12\x10\n\x0cPlayer_Speed\x10\x06\x12\x13\n\x0fPlayer_Consigne\x10\x07\x12\x0f\n\x0bPlayer_Mode\x10\x08\x12\x1a\n\x16Player_Extend_Playlist\x10\t\x12\x0f\n\x0b\x43\x61mera_Type\x10\n\x12\x17\n\x13Player_Limit_In_Out\x10\x0b\x12\x14\n\x10Player_Loop_Mode\x10\x0c\x12\x15\n\x11Player_Loop_Count\x10\r\x12\x16\n\x12Player_Playlist_ID\x10\x0e\x12\x1e\n\x1aPlayer_Playlist_Element_ID\x10\x0f\x12\x0c\n\x08\x44VE_Mode\x10\x10\x12\x0c\n\x08\x44VE_Type\x10\x11\x12\x0f\n\x0b\x44VE_Channel\x10\x12\x12\x0b\n\x07\x44VE_Num\x10\x13\x12\x0b\n\x07\x44VE_Den\x10\x14\x12\x14\n\x10\x44VE_CutThreshold\x10\x15\x12\x1b\n\x17\x44VE_Custom_Transparency\x10\x16\x12\x0e\n\nRTD_Status\x10\x17\x12\x0c\n\x08RTD_Type\x10\x18\x12\x10\n\x0cRTD_Position\x10\x19\x12\x0e\n\nGFX_Status\x10\x1a\x12\x10\n\x0cGFX_Position\x10\x1b\x12\x1c\n\x18GFX_Fade_In_Out_Duration\x10\x1c\x12\x13\n\x0fGFX_Loop_In_Out\x10\x1d\x12\x12\n\x0eGFX_Loop_Count\x10\x1e\x12\x16\n\x12GFX_Preload_Status\x10\x1f\x12\x1f\n\x1bHealthInfo_Storage_Capacity\x10 \x12\x16\n\x12HealthInfo_Version\x10!\x12\x1b\n\x17HealthInfo_Mixer_Status\x10\"\x12 \n\x1cHealthInfo_Network_Bandwidth\x10#\x12\x1e\n\x1aHealthInfo_GPU_Temperature\x10$\x12\x19\n\x15HealthInfo_AJA_Status\x10%\x12\x19\n\x15HealthInfo_HDD_Status\x10&\x12\x1a\n\x16HealthInfo_ASIO_Status\x10\'\x12 \n\x1cHealthInfo_External_TimeCode\x10(\x12\x17\n\x13\x43ustomInfoBroadcast\x10)\x12\x0f\n\x0b\x42MR_Setting\x10*\x12\x1a\n\x16VuMeter_Live_Mixer_PGM\x10+\x12\x1a\n\x16Recorder_Close_Caption\x10,\x12\x18\n\x14Player_Close_Caption\x10-\x12\x14\n\x10\x43ustomInfoNotify\x10.\x12\x18\n\x14Player_AudioPresetId\x10/\x12\x0e\n\nPiP_Status\x10\x30\x12\x1c\n\x18HealthInfo_Server_Memory\x10\x31\x12#\n\x1f\x43\x61\x63he_ReplayPlayer_HighResVideo\x10\x32\x12$\n Cache_ReplayPlayer_ExternalAudio\x10\x33\x12\x1e\n\x1aHealthInfo_ReferenceStatus\x10\x34\x12\x1b\n\x17HealthInfo_SerialNumber\x10\x35\x12\"\n\x1eHealthInfo_RemainingTimePerCam\x10\x36\x12\x16\n\x12\x46ilm_Effect_Status\x10\x37\x12\t\n\x05Tally\x10\x38*\x93\t\n\x05\x43nlID\x12\x10\n\x0cID_Replay1_0\x10\x00\x12\x11\n\rID_Replay1_15\x10\x0f\x12\x11\n\rID_Replay1_31\x10\x1f\x12\x17\n\x13ID_Replay1_PGMDirty\x10 \x12\x17\n\x13ID_Replay1_PGMClean\x10!\x12\x15\n\x11ID_Replay1_Import\x10\"\x12\x10\n\x0cID_Replay2_0\x10\x32\x12\x11\n\rID_Replay2_15\x10\x41\x12\x11\n\rID_Replay2_31\x10Q\x12\x17\n\x13ID_Replay2_PGMDirty\x10R\x12\x17\n\x13ID_Replay2_PGMClean\x10S\x12\x15\n\x11ID_Replay2_Import\x10T\x12\x0b\n\x07ID_PGM1\x10\x64\x12\x0b\n\x07ID_PRV1\x10\x65\x12\x0c\n\x08ID_PGM1v\x10\x66\x12\x0b\n\x07ID_PGM2\x10g\x12\x0c\n\x08ID_PGM2v\x10h\x12\x0b\n\x07ID_PRV2\x10i\x12\x0b\n\x07ID_PGM3\x10j\x12\x0c\n\x08ID_PGM3v\x10k\x12\x0b\n\x07ID_PRV3\x10l\x12\x0b\n\x07ID_PGM4\x10m\x12\x0c\n\x08ID_PGM4v\x10n\x12\x0b\n\x07ID_PRV4\x10o\x12\x0b\n\x07ID_PGM5\x10p\x12\x0c\n\x08ID_PGM5v\x10q\x12\x0b\n\x07ID_PRV5\x10r\x12\x0b\n\x07ID_PGM6\x10s\x12\x0c\n\x08ID_PGM6v\x10t\x12\x0b\n\x07ID_PRV6\x10u\x12\x0b\n\x07ID_PGM7\x10v\x12\x0c\n\x08ID_PGM7v\x10w\x12\x0b\n\x07ID_PRV7\x10x\x12\x0b\n\x07ID_PGM8\x10y\x12\x0c\n\x08ID_PGM8v\x10z\x12\x0b\n\x07ID_PRV8\x10{\x12\x0e\n\tID_Live_0\x10\x96\x01\x12\x0f\n\nID_Live_15\x10\xa5\x01\x12\x0f\n\nID_Live_31\x10\xb5\x01\x12\x15\n\x10ID_Live_PGMDirty\x10\xb6\x01\x12\x15\n\x10ID_Live_PGMClean\x10\xb7\x01\x12\x13\n\x0eID_Live_Import\x10\xb8\x01\x12\x11\n\x0cID_Live_PGM2\x10\xb9\x01\x12\x11\n\x0cID_Live_PGM3\x10\xba\x01\x12\x11\n\x0cID_Live_PGM4\x10\xbb\x01\x12\x11\n\x0cID_Live_PGM5\x10\xbc\x01\x12\x11\n\x0cID_Live_PGM6\x10\xbd\x01\x12\x11\n\x0cID_Live_PGM7\x10\xbe\x01\x12\x11\n\x0cID_Live_PGM8\x10\xbf\x01\x12\x11\n\x0cID_Replay3_0\x10\xc0\x01\x12\x12\n\rID_Replay3_15\x10\xcf\x01\x12\x12\n\rID_Replay3_31\x10\xdf\x01\x12\x18\n\x13ID_Replay3_PGMDirty\x10\xe0\x01\x12\x18\n\x13ID_Replay3_PGMClean\x10\xe1\x01\x12\x16\n\x11ID_Replay3_Import\x10\xe2\x01\x12\x14\n\x0fID_PGM2_480_270\x10\xe3\x01\x12\x14\n\x0fID_PGM3_480_270\x10\xe4\x01\x12\x14\n\x0fID_PGM4_480_270\x10\xe5\x01\x12\x14\n\x0fID_PGM5_480_270\x10\xe6\x01\x12\x14\n\x0fID_PGM6_480_270\x10\xe7\x01\x12\x14\n\x0fID_PGM7_480_270\x10\xe8\x01\x12\x14\n\x0fID_PGM8_480_270\x10\xe9\x01\x12\r\n\x08ID_TGA_0\x10\xea\x01\x12\r\n\x08ID_TGA_1\x10\xeb\x01\x12\x0f\n\nID_Cnl_Max\x10\xec\x01*\x15\n\x05\x43\x61mID\x12\x0c\n\x08ID_Cam_0\x10\x00*\\\n\x07RTDType\x12\x08\n\x04rtd1\x10\x00\x12\x08\n\x04rtd2\x10\x01\x12\x08\n\x04rtd3\x10\x02\x12\x08\n\x04rtd4\x10\x03\x12\x08\n\x04rtd5\x10\x04\x12\x08\n\x04rtd6\x10\x05\x12\x08\n\x04rtd7\x10\x06\x12\x0b\n\x07rtd_Max\x10\x07*\x0f\n\x06GFxCnl\x12\x05\n\x01\x61\x10\x00*\xa2\x02\n\nTGAChannel\x12\x13\n\x0fTGAChannel_gfx1\x10\x00\x12\x13\n\x0fTGAChannel_gfx2\x10\x01\x12\x13\n\x0fTGAChannel_gfx3\x10\x02\x12\x13\n\x0fTGAChannel_rtd1\x10\x03\x12\x13\n\x0fTGAChannel_rtd2\x10\x04\x12\x16\n\x12TGAChannel_PiP_PGM\x10\x05\x12\x16\n\x12TGAChannel_PiP_PRV\x10\x06\x12\x13\n\x0fTGAChannel_rtd3\x10\x07\x12\x13\n\x0fTGAChannel_rtd4\x10\x08\x12\x13\n\x0fTGAChannel_rtd5\x10\t\x12\x13\n\x0fTGAChannel_rtd6\x10\n\x12\x13\n\x0fTGAChannel_rtd7\x10\x0b\x12\x12\n\x0eTGAChannel_max\x10\x0c*\x9e\x01\n\x10TGAChannelStatus\x12\x19\n\x15TGAChannelStatus_None\x10\x00\x12%\n!TGAChannelStatus_PreloadingSecure\x10\x01\x12\x1e\n\x1aTGAChannelStatus_Preloaded\x10\x02\x12(\n$TGAChannelStatus_PreloadingNotSecure\x10\x03*0\n\x07PiPType\x12\x0b\n\x07PiP_PGM\x10\x00\x12\x0b\n\x07PiP_PRV\x10\x01\x12\x0b\n\x07PiP_Max\x10\x02*A\n\x0fReferenceStatus\x12\x08\n\x04None\x10\x00\x12\x12\n\x0eInvalidGenlock\x10\x01\x12\x10\n\x0cValidGenlock\x10\x02\x62\x06proto3')
 )
 
 _BROADCASTINFOKEY = _descriptor.EnumDescriptor(
@@ -260,8 +260,8 @@ _BROADCASTINFOKEY = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=1126,
-  serialized_end=2488,
+  serialized_start=14942,
+  serialized_end=16304,
 )
 _sym_db.RegisterEnumDescriptor(_BROADCASTINFOKEY)
 
@@ -535,12 +535,249 @@ _CNLID = _descriptor.EnumDescriptor(
   ],
   containing_type=None,
   serialized_options=None,
-  serialized_start=2491,
-  serialized_end=3662,
+  serialized_start=16307,
+  serialized_end=17478,
 )
 _sym_db.RegisterEnumDescriptor(_CNLID)
 
 CnlID = enum_type_wrapper.EnumTypeWrapper(_CNLID)
+_CAMID = _descriptor.EnumDescriptor(
+  name='CamID',
+  full_name='GoogleProtoBB.CamID',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='ID_Cam_0', index=0, number=0,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=17480,
+  serialized_end=17501,
+)
+_sym_db.RegisterEnumDescriptor(_CAMID)
+
+CamID = enum_type_wrapper.EnumTypeWrapper(_CAMID)
+_RTDTYPE = _descriptor.EnumDescriptor(
+  name='RTDType',
+  full_name='GoogleProtoBB.RTDType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='rtd1', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd2', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd3', index=2, number=2,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd4', index=3, number=3,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd5', index=4, number=4,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd6', index=5, number=5,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd7', index=6, number=6,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='rtd_Max', index=7, number=7,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=17503,
+  serialized_end=17595,
+)
+_sym_db.RegisterEnumDescriptor(_RTDTYPE)
+
+RTDType = enum_type_wrapper.EnumTypeWrapper(_RTDTYPE)
+_GFXCNL = _descriptor.EnumDescriptor(
+  name='GFxCnl',
+  full_name='GoogleProtoBB.GFxCnl',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='a', index=0, number=0,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=17597,
+  serialized_end=17612,
+)
+_sym_db.RegisterEnumDescriptor(_GFXCNL)
+
+GFxCnl = enum_type_wrapper.EnumTypeWrapper(_GFXCNL)
+_TGACHANNEL = _descriptor.EnumDescriptor(
+  name='TGAChannel',
+  full_name='GoogleProtoBB.TGAChannel',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_gfx1', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_gfx2', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_gfx3', index=2, number=2,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd1', index=3, number=3,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd2', index=4, number=4,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_PiP_PGM', index=5, number=5,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_PiP_PRV', index=6, number=6,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd3', index=7, number=7,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd4', index=8, number=8,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd5', index=9, number=9,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd6', index=10, number=10,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_rtd7', index=11, number=11,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannel_max', index=12, number=12,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=17615,
+  serialized_end=17905,
+)
+_sym_db.RegisterEnumDescriptor(_TGACHANNEL)
+
+TGAChannel = enum_type_wrapper.EnumTypeWrapper(_TGACHANNEL)
+_TGACHANNELSTATUS = _descriptor.EnumDescriptor(
+  name='TGAChannelStatus',
+  full_name='GoogleProtoBB.TGAChannelStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannelStatus_None', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannelStatus_PreloadingSecure', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannelStatus_Preloaded', index=2, number=2,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='TGAChannelStatus_PreloadingNotSecure', index=3, number=3,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=17908,
+  serialized_end=18066,
+)
+_sym_db.RegisterEnumDescriptor(_TGACHANNELSTATUS)
+
+TGAChannelStatus = enum_type_wrapper.EnumTypeWrapper(_TGACHANNELSTATUS)
+_PIPTYPE = _descriptor.EnumDescriptor(
+  name='PiPType',
+  full_name='GoogleProtoBB.PiPType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='PiP_PGM', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='PiP_PRV', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='PiP_Max', index=2, number=2,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=18068,
+  serialized_end=18116,
+)
+_sym_db.RegisterEnumDescriptor(_PIPTYPE)
+
+PiPType = enum_type_wrapper.EnumTypeWrapper(_PIPTYPE)
+_REFERENCESTATUS = _descriptor.EnumDescriptor(
+  name='ReferenceStatus',
+  full_name='GoogleProtoBB.ReferenceStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='None', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='InvalidGenlock', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='ValidGenlock', index=2, number=2,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=18118,
+  serialized_end=18183,
+)
+_sym_db.RegisterEnumDescriptor(_REFERENCESTATUS)
+
+ReferenceStatus = enum_type_wrapper.EnumTypeWrapper(_REFERENCESTATUS)
 Recorder_Train_In_Out = 0
 CommonTimeReference = 1
 Player_Status = 2
@@ -663,7 +900,162 @@ ID_PGM8_480_270 = 233
 ID_TGA_0 = 234
 ID_TGA_1 = 235
 ID_Cnl_Max = 236
+ID_Cam_0 = 0
+rtd1 = 0
+rtd2 = 1
+rtd3 = 2
+rtd4 = 3
+rtd5 = 4
+rtd6 = 5
+rtd7 = 6
+rtd_Max = 7
+a = 0
+TGAChannel_gfx1 = 0
+TGAChannel_gfx2 = 1
+TGAChannel_gfx3 = 2
+TGAChannel_rtd1 = 3
+TGAChannel_rtd2 = 4
+TGAChannel_PiP_PGM = 5
+TGAChannel_PiP_PRV = 6
+TGAChannel_rtd3 = 7
+TGAChannel_rtd4 = 8
+TGAChannel_rtd5 = 9
+TGAChannel_rtd6 = 10
+TGAChannel_rtd7 = 11
+TGAChannel_max = 12
+TGAChannelStatus_None = 0
+TGAChannelStatus_PreloadingSecure = 1
+TGAChannelStatus_Preloaded = 2
+TGAChannelStatus_PreloadingNotSecure = 3
+PiP_PGM = 0
+PiP_PRV = 1
+PiP_Max = 2
+None = 0
+InvalidGenlock = 1
+ValidGenlock = 2
 
+
+_VALUE_PLAYER_TYPE_PLAYERTYPE = _descriptor.EnumDescriptor(
+  name='PlayerType',
+  full_name='GoogleProtoBB.Value_Player_Type.PlayerType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='PLAYER_TYPE_REPLAY', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='PLAYER_TYPE_LIVE', index=1, number=1,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=1327,
+  serialized_end=1385,
+)
+_sym_db.RegisterEnumDescriptor(_VALUE_PLAYER_TYPE_PLAYERTYPE)
+
+_VALUE_PLAYER_MODE_PLAYERMODE = _descriptor.EnumDescriptor(
+  name='PlayerMode',
+  full_name='GoogleProtoBB.Value_Player_Mode.PlayerMode',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='clipMode', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='playlistMode', index=1, number=1,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=2144,
+  serialized_end=2188,
+)
+_sym_db.RegisterEnumDescriptor(_VALUE_PLAYER_MODE_PLAYERMODE)
+
+_VALUE_PLAYER_LOOP_MODE_PLAYERLOOPMODE = _descriptor.EnumDescriptor(
+  name='PlayerLoopMode',
+  full_name='GoogleProtoBB.Value_Player_Loop_Mode.PlayerLoopMode',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='OFF', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='STD', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='PING_PONG', index=2, number=2,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=2903,
+  serialized_end=2952,
+)
+_sym_db.RegisterEnumDescriptor(_VALUE_PLAYER_LOOP_MODE_PLAYERLOOPMODE)
+
+_VALUE_DVE_MODE_DVEMODE = _descriptor.EnumDescriptor(
+  name='DVEMode',
+  full_name='GoogleProtoBB.Value_DVE_Mode.DVEMode',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='offMode', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='autoMode', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='manualMode', index=2, number=2,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=3777,
+  serialized_end=3829,
+)
+_sym_db.RegisterEnumDescriptor(_VALUE_DVE_MODE_DVEMODE)
+
+_VALUE_DVE_TYPE_DVETYPE = _descriptor.EnumDescriptor(
+  name='DVEType',
+  full_name='GoogleProtoBB.Value_DVE_Type.DVEType',
+  filename=None,
+  file=DESCRIPTOR,
+  values=[
+    _descriptor.EnumValueDescriptor(
+      name='dve_MIX', index=0, number=0,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='dve_WIPE_LR', index=1, number=1,
+      serialized_options=None,
+      type=None),
+    _descriptor.EnumValueDescriptor(
+      name='dve_WIPE_RL', index=2, number=2,
+      serialized_options=None,
+      type=None),
+  ],
+  containing_type=None,
+  serialized_options=None,
+  serialized_start=4028,
+  serialized_end=4084,
+)
+_sym_db.RegisterEnumDescriptor(_VALUE_DVE_TYPE_DVETYPE)
 
 
 _VALUE_RECORDER_TRAIN_IN_OUT = _descriptor.Descriptor(
@@ -1011,44 +1403,2779 @@ _VALUE_PLAYER_CLOSEDCAPTION = _descriptor.Descriptor(
 )
 
 
-_BROADCASTDATA = _descriptor.Descriptor(
-  name='BroadCastData',
-  full_name='GoogleProtoBB.BroadCastData',
+_VALUE_PLAYER_GROUP_GROUPINFO = _descriptor.Descriptor(
+  name='GroupInfo',
+  full_name='GoogleProtoBB.Value_Player_Group.GroupInfo',
   filename=None,
   file=DESCRIPTOR,
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='Recorder_Train_In_Out', full_name='GoogleProtoBB.BroadCastData.Recorder_Train_In_Out', index=0,
+      name='id', full_name='GoogleProtoBB.Value_Player_Group.GroupInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='group', full_name='GoogleProtoBB.Value_Player_Group.GroupInfo.group', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=870,
+  serialized_end=930,
+)
+
+_VALUE_PLAYER_GROUP = _descriptor.Descriptor(
+  name='Value_Player_Group',
+  full_name='GoogleProtoBB.Value_Player_Group',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Group.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='groupInfo', full_name='GoogleProtoBB.Value_Player_Group.groupInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_GROUP_GROUPINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=769,
+  serialized_end=930,
+)
+
+
+_VALUE_PLAYER_CAMERA_CAMERAINFO = _descriptor.Descriptor(
+  name='CameraInfo',
+  full_name='GoogleProtoBB.Value_Player_Camera.CameraInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Camera.CameraInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='camera', full_name='GoogleProtoBB.Value_Player_Camera.CameraInfo.camera', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1038,
+  serialized_end=1122,
+)
+
+_VALUE_PLAYER_CAMERA = _descriptor.Descriptor(
+  name='Value_Player_Camera',
+  full_name='GoogleProtoBB.Value_Player_Camera',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Camera.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='cameraInfo', full_name='GoogleProtoBB.Value_Player_Camera.cameraInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_CAMERA_CAMERAINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=933,
+  serialized_end=1122,
+)
+
+
+_VALUE_PLAYER_TYPE_TYPEINFO = _descriptor.Descriptor(
+  name='TypeInfo',
+  full_name='GoogleProtoBB.Value_Player_Type.TypeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Type.TypeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='GoogleProtoBB.Value_Player_Type.TypeInfo.type', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1222,
+  serialized_end=1325,
+)
+
+_VALUE_PLAYER_TYPE = _descriptor.Descriptor(
+  name='Value_Player_Type',
+  full_name='GoogleProtoBB.Value_Player_Type',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Type.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='typeInfo', full_name='GoogleProtoBB.Value_Player_Type.typeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_TYPE_TYPEINFO, ],
+  enum_types=[
+    _VALUE_PLAYER_TYPE_PLAYERTYPE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1125,
+  serialized_end=1385,
+)
+
+
+_VALUE_PLAYER_AUDIOPRESETID_TYPEINFO = _descriptor.Descriptor(
+  name='TypeInfo',
+  full_name='GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='audioPresetId', full_name='GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.audioPresetId', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1503,
+  serialized_end=1570,
+)
+
+_VALUE_PLAYER_AUDIOPRESETID = _descriptor.Descriptor(
+  name='Value_Player_AudioPresetId',
+  full_name='GoogleProtoBB.Value_Player_AudioPresetId',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_AudioPresetId.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='typeInfo', full_name='GoogleProtoBB.Value_Player_AudioPresetId.typeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_AUDIOPRESETID_TYPEINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1388,
+  serialized_end=1570,
+)
+
+
+_VALUE_PLAYER_SPEED_SPEEDINFO = _descriptor.Descriptor(
+  name='SpeedInfo',
+  full_name='GoogleProtoBB.Value_Player_Speed.SpeedInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Speed.SpeedInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='speedN', full_name='GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedN', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='speedD', full_name='GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedD', index=2,
+      number=3, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1674,
+  serialized_end=1751,
+)
+
+_VALUE_PLAYER_SPEED = _descriptor.Descriptor(
+  name='Value_Player_Speed',
+  full_name='GoogleProtoBB.Value_Player_Speed',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Speed.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='speedInfo', full_name='GoogleProtoBB.Value_Player_Speed.speedInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_SPEED_SPEEDINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1573,
+  serialized_end=1751,
+)
+
+
+_VALUE_PLAYER_CONSIGNE_CONSIGNEINFO = _descriptor.Descriptor(
+  name='ConsigneInfo',
+  full_name='GoogleProtoBB.Value_Player_Consigne.ConsigneInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='consigne', full_name='GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.consigne', index=1,
+      number=2, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1867,
+  serialized_end=1933,
+)
+
+_VALUE_PLAYER_CONSIGNE = _descriptor.Descriptor(
+  name='Value_Player_Consigne',
+  full_name='GoogleProtoBB.Value_Player_Consigne',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Consigne.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='consigneInfo', full_name='GoogleProtoBB.Value_Player_Consigne.consigneInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_CONSIGNE_CONSIGNEINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1754,
+  serialized_end=1933,
+)
+
+
+_VALUE_PLAYER_MODE_MODEINFO = _descriptor.Descriptor(
+  name='ModeInfo',
+  full_name='GoogleProtoBB.Value_Player_Mode.ModeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Mode.ModeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='playerMode', full_name='GoogleProtoBB.Value_Player_Mode.ModeInfo.playerMode', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2033,
+  serialized_end=2142,
+)
+
+_VALUE_PLAYER_MODE = _descriptor.Descriptor(
+  name='Value_Player_Mode',
+  full_name='GoogleProtoBB.Value_Player_Mode',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Mode.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='modeInfo', full_name='GoogleProtoBB.Value_Player_Mode.modeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_MODE_MODEINFO, ],
+  enum_types=[
+    _VALUE_PLAYER_MODE_PLAYERMODE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=1936,
+  serialized_end=2188,
+)
+
+
+_VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO = _descriptor.Descriptor(
+  name='ExtendPlaylistInfo',
+  full_name='GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bExtendPlaylist', full_name='GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.bExtendPlaylist', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2330,
+  serialized_end=2409,
+)
+
+_VALUE_PLAYER_EXTEND_PLAYLIST = _descriptor.Descriptor(
+  name='Value_Player_Extend_Playlist',
+  full_name='GoogleProtoBB.Value_Player_Extend_Playlist',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Extend_Playlist.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='extendPlaylistInfo', full_name='GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2191,
+  serialized_end=2409,
+)
+
+
+_VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO = _descriptor.Descriptor(
+  name='LimitInfo',
+  full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='isLimitInRelative', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitInRelative', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='isLimitOutRelative', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitOutRelative', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='limitIn', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitIn', index=3,
+      number=4, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='limitOut', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitOut', index=4,
+      number=5, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2528,
+  serialized_end=2663,
+)
+
+_VALUE_PLAYER_LIMIT_IN_OUT = _descriptor.Descriptor(
+  name='Value_Player_Limit_In_Out',
+  full_name='GoogleProtoBB.Value_Player_Limit_In_Out',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='limitInfo', full_name='GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2412,
+  serialized_end=2663,
+)
+
+
+_VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO = _descriptor.Descriptor(
+  name='LoopModeInfo',
+  full_name='GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopMode', full_name='GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.loopMode', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2781,
+  serialized_end=2901,
+)
+
+_VALUE_PLAYER_LOOP_MODE = _descriptor.Descriptor(
+  name='Value_Player_Loop_Mode',
+  full_name='GoogleProtoBB.Value_Player_Loop_Mode',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Loop_Mode.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopModeInfo', full_name='GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO, ],
+  enum_types=[
+    _VALUE_PLAYER_LOOP_MODE_PLAYERLOOPMODE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2666,
+  serialized_end=2952,
+)
+
+
+_VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO = _descriptor.Descriptor(
+  name='LoopCountInfo',
+  full_name='GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopCount', full_name='GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.loopCount', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3074,
+  serialized_end=3142,
+)
+
+_VALUE_PLAYER_LOOP_COUNT = _descriptor.Descriptor(
+  name='Value_Player_Loop_Count',
+  full_name='GoogleProtoBB.Value_Player_Loop_Count',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Loop_Count.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopCountInfo', full_name='GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=2955,
+  serialized_end=3142,
+)
+
+
+_VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO = _descriptor.Descriptor(
+  name='PlaylistIDInfo',
+  full_name='GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='idSize', full_name='GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.idSize', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='playlistID', full_name='GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID', index=2,
+      number=3, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3268,
+  serialized_end=3354,
+)
+
+_VALUE_PLAYER_PLAYLIST_ID = _descriptor.Descriptor(
+  name='Value_Player_Playlist_ID',
+  full_name='GoogleProtoBB.Value_Player_Playlist_ID',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Playlist_ID.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='playlistIDInfo', full_name='GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3145,
+  serialized_end=3354,
+)
+
+
+_VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO = _descriptor.Descriptor(
+  name='ElementIDInfo',
+  full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='idSize', full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.idSize', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='elementID', full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID', index=2,
+      number=3, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3494,
+  serialized_end=3578,
+)
+
+_VALUE_PLAYER_PLAYLIST_ELEMENT_ID = _descriptor.Descriptor(
+  name='Value_Player_Playlist_Element_ID',
+  full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='elementIDInfo', full_name='GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3357,
+  serialized_end=3578,
+)
+
+
+_VALUE_DVE_MODE_DVEMODEINFO = _descriptor.Descriptor(
+  name='DVEModeInfo',
+  full_name='GoogleProtoBB.Value_DVE_Mode.DVEModeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='mode', full_name='GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.mode', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3675,
+  serialized_end=3775,
+)
+
+_VALUE_DVE_MODE = _descriptor.Descriptor(
+  name='Value_DVE_Mode',
+  full_name='GoogleProtoBB.Value_DVE_Mode',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Mode.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='modeInfo', full_name='GoogleProtoBB.Value_DVE_Mode.modeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_MODE_DVEMODEINFO, ],
+  enum_types=[
+    _VALUE_DVE_MODE_DVEMODE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3581,
+  serialized_end=3829,
+)
+
+
+_VALUE_DVE_TYPE_DVETYPEINFO = _descriptor.Descriptor(
+  name='DVETypeInfo',
+  full_name='GoogleProtoBB.Value_DVE_Type.DVETypeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_Type.DVETypeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='GoogleProtoBB.Value_DVE_Type.DVETypeInfo.type', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3926,
+  serialized_end=4026,
+)
+
+_VALUE_DVE_TYPE = _descriptor.Descriptor(
+  name='Value_DVE_Type',
+  full_name='GoogleProtoBB.Value_DVE_Type',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Type.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='typeInfo', full_name='GoogleProtoBB.Value_DVE_Type.typeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_TYPE_DVETYPEINFO, ],
+  enum_types=[
+    _VALUE_DVE_TYPE_DVETYPE,
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=3832,
+  serialized_end=4084,
+)
+
+
+_VALUE_DVE_CHANNEL = _descriptor.Descriptor(
+  name='Value_DVE_Channel',
+  full_name='GoogleProtoBB.Value_DVE_Channel',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Channel.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='cnl', full_name='GoogleProtoBB.Value_DVE_Channel.cnl', index=1,
+      number=2, type=14, cpp_type=8, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4086,
+  serialized_end=4155,
+)
+
+
+_VALUE_DVE_NUM_DVENUMINFO = _descriptor.Descriptor(
+  name='DVENumInfo',
+  full_name='GoogleProtoBB.Value_DVE_Num.DVENumInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_Num.DVENumInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='num', full_name='GoogleProtoBB.Value_DVE_Num.DVENumInfo.num', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4248,
+  serialized_end=4307,
+)
+
+_VALUE_DVE_NUM = _descriptor.Descriptor(
+  name='Value_DVE_Num',
+  full_name='GoogleProtoBB.Value_DVE_Num',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Num.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='numInfo', full_name='GoogleProtoBB.Value_DVE_Num.numInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_NUM_DVENUMINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4158,
+  serialized_end=4307,
+)
+
+
+_VALUE_DVE_DEN_DVEDENINFO = _descriptor.Descriptor(
+  name='DVEDenInfo',
+  full_name='GoogleProtoBB.Value_DVE_Den.DVEDenInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_Den.DVEDenInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='den', full_name='GoogleProtoBB.Value_DVE_Den.DVEDenInfo.den', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4400,
+  serialized_end=4459,
+)
+
+_VALUE_DVE_DEN = _descriptor.Descriptor(
+  name='Value_DVE_Den',
+  full_name='GoogleProtoBB.Value_DVE_Den',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Den.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='denInfo', full_name='GoogleProtoBB.Value_DVE_Den.denInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_DEN_DVEDENINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4310,
+  serialized_end=4459,
+)
+
+
+_VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO = _descriptor.Descriptor(
+  name='DVEThresholdInfo',
+  full_name='GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='threshold', full_name='GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.threshold', index=1,
+      number=2, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4582,
+  serialized_end=4653,
+)
+
+_VALUE_DVE_CUTTHRESHOLD = _descriptor.Descriptor(
+  name='Value_DVE_CutThreshold',
+  full_name='GoogleProtoBB.Value_DVE_CutThreshold',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_CutThreshold.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='thresholdInfo', full_name='GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4462,
+  serialized_end=4653,
+)
+
+
+_VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO = _descriptor.Descriptor(
+  name='DVECustomTransparencyInfo',
+  full_name='GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bCustom', full_name='GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.bCustom', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4796,
+  serialized_end=4874,
+)
+
+_VALUE_DVE_CUSTOM_TRANSPARENCY = _descriptor.Descriptor(
+  name='Value_DVE_Custom_Transparency',
+  full_name='GoogleProtoBB.Value_DVE_Custom_Transparency',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_DVE_Custom_Transparency.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='customInfo', full_name='GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4656,
+  serialized_end=4874,
+)
+
+
+_VALUE_RTD_STATUS_RTDSTATUSINFO = _descriptor.Descriptor(
+  name='RTDStatusInfo',
+  full_name='GoogleProtoBB.Value_RTD_Status.RTDStatusInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable', full_name='GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.enable', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4979,
+  serialized_end=5044,
+)
+
+_VALUE_RTD_STATUS = _descriptor.Descriptor(
+  name='Value_RTD_Status',
+  full_name='GoogleProtoBB.Value_RTD_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_RTD_Status.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='statusInfo', full_name='GoogleProtoBB.Value_RTD_Status.statusInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_RTD_STATUS_RTDSTATUSINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=4877,
+  serialized_end=5044,
+)
+
+
+_VALUE_RTD_TYPE_RTDTYPEINFO = _descriptor.Descriptor(
+  name='RTDTypeInfo',
+  full_name='GoogleProtoBB.Value_RTD_Type.RTDTypeInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='type', full_name='GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.type', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5141,
+  serialized_end=5226,
+)
+
+_VALUE_RTD_TYPE = _descriptor.Descriptor(
+  name='Value_RTD_Type',
+  full_name='GoogleProtoBB.Value_RTD_Type',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_RTD_Type.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='typeInfo', full_name='GoogleProtoBB.Value_RTD_Type.typeInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_RTD_TYPE_RTDTYPEINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5047,
+  serialized_end=5226,
+)
+
+
+_VALUE_RTD_POSITION_RTDPOSITIONINFO = _descriptor.Descriptor(
+  name='RTDPositionInfo',
+  full_name='GoogleProtoBB.Value_RTD_Position.RTDPositionInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.id', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='position', full_name='GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.position', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5339,
+  serialized_end=5408,
+)
+
+_VALUE_RTD_POSITION = _descriptor.Descriptor(
+  name='Value_RTD_Position',
+  full_name='GoogleProtoBB.Value_RTD_Position',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_RTD_Position.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='positionInfo', full_name='GoogleProtoBB.Value_RTD_Position.positionInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_RTD_POSITION_RTDPOSITIONINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5229,
+  serialized_end=5408,
+)
+
+
+_VALUE_GFX_STATUS_GFXSTATUS = _descriptor.Descriptor(
+  name='GFXStatus',
+  full_name='GoogleProtoBB.Value_GFX_Status.GFXStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_GFX_Status.GFXStatus.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Status.GFXStatus.gfxCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable', full_name='GoogleProtoBB.Value_GFX_Status.GFXStatus.enable', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5505,
+  serialized_end=5614,
+)
+
+_VALUE_GFX_STATUS_PGMGFX = _descriptor.Descriptor(
+  name='PGMGFX',
+  full_name='GoogleProtoBB.Value_GFX_Status.PGMGFX',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Status.PGMGFX.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxStatus', full_name='GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5616,
+  serialized_end=5701,
+)
+
+_VALUE_GFX_STATUS = _descriptor.Descriptor(
+  name='Value_GFX_Status',
+  full_name='GoogleProtoBB.Value_GFX_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_GFX_Status.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmGfx', full_name='GoogleProtoBB.Value_GFX_Status.pgmGfx', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_STATUS_GFXSTATUS, _VALUE_GFX_STATUS_PGMGFX, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5411,
+  serialized_end=5701,
+)
+
+
+_VALUE_GFX_POSITION_GFXPOSITION = _descriptor.Descriptor(
+  name='GFXPosition',
+  full_name='GoogleProtoBB.Value_GFX_Position.GFXPosition',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_GFX_Position.GFXPosition.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Position.GFXPosition.gfxCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='position', full_name='GoogleProtoBB.Value_GFX_Position.GFXPosition.position', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5802,
+  serialized_end=5915,
+)
+
+_VALUE_GFX_POSITION_PGMGFX = _descriptor.Descriptor(
+  name='PGMGFX',
+  full_name='GoogleProtoBB.Value_GFX_Position.PGMGFX',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Position.PGMGFX.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxPosition', full_name='GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5917,
+  serialized_end=6008,
+)
+
+_VALUE_GFX_POSITION = _descriptor.Descriptor(
+  name='Value_GFX_Position',
+  full_name='GoogleProtoBB.Value_GFX_Position',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_GFX_Position.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmGfx', full_name='GoogleProtoBB.Value_GFX_Position.pgmGfx', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_POSITION_GFXPOSITION, _VALUE_GFX_POSITION_PGMGFX, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=5704,
+  serialized_end=6008,
+)
+
+
+_VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION = _descriptor.Descriptor(
+  name='GFXFadeDuration',
+  full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.gfxCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='fadeInDuration', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeInDuration', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='fadeOutDuration', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeOutDuration', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6134,
+  serialized_end=6282,
+)
+
+_VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX = _descriptor.Descriptor(
+  name='PGMGFX',
+  full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxFadeDuration', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6284,
+  serialized_end=6395,
+)
+
+_VALUE_GFX_FADE_IN_OUT_DURATION = _descriptor.Descriptor(
+  name='Value_GFX_Fade_In_Out_Duration',
+  full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmGfx', full_name='GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION, _VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6011,
+  serialized_end=6395,
+)
+
+
+_VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT = _descriptor.Descriptor(
+  name='GFXLoopInOut',
+  full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.gfxCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopIn', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopIn', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopOut', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopOut', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6503,
+  serialized_end=6632,
+)
+
+_VALUE_GFX_LOOP_IN_OUT_PGMGFX = _descriptor.Descriptor(
+  name='PGMGFX',
+  full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxLoopInOut', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6634,
+  serialized_end=6730,
+)
+
+_VALUE_GFX_LOOP_IN_OUT = _descriptor.Descriptor(
+  name='Value_GFX_Loop_In_Out',
+  full_name='GoogleProtoBB.Value_GFX_Loop_In_Out',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmGfx', full_name='GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT, _VALUE_GFX_LOOP_IN_OUT_PGMGFX, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6398,
+  serialized_end=6730,
+)
+
+
+_VALUE_GFX_LOOP_COUNT_GFXLOOPCNT = _descriptor.Descriptor(
+  name='GFXLoopCnt',
+  full_name='GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.gfxCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='loopCnt', full_name='GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.loopCnt', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6835,
+  serialized_end=6946,
+)
+
+_VALUE_GFX_LOOP_COUNT_PGMGFX = _descriptor.Descriptor(
+  name='PGMGFX',
+  full_name='GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxLoopCnt', full_name='GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6948,
+  serialized_end=7039,
+)
+
+_VALUE_GFX_LOOP_COUNT = _descriptor.Descriptor(
+  name='Value_GFX_Loop_Count',
+  full_name='GoogleProtoBB.Value_GFX_Loop_Count',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_GFX_Loop_Count.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmGfx', full_name='GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_LOOP_COUNT_GFXLOOPCNT, _VALUE_GFX_LOOP_COUNT_PGMGFX, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=6733,
+  serialized_end=7039,
+)
+
+
+_VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS = _descriptor.Descriptor(
+  name='GFXPreloadStatus',
+  full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='gfxCnl', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.gfxCnl', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='preloadingStatus', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadingStatus', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='preloadNum', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadNum', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='preloadDen', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadDen', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='idSize', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.idSize', index=4,
+      number=5, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='id', full_name='GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id', index=5,
+      number=6, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7170,
+  serialized_end=7358,
+)
+
+_VALUE_GFX_PRELOAD_STATUS = _descriptor.Descriptor(
+  name='Value_GFX_Preload_Status',
+  full_name='GoogleProtoBB.Value_GFX_Preload_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_GFX_Preload_Status.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxPreloadStatus', full_name='GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7042,
+  serialized_end=7358,
+)
+
+
+_VALUE_HEALTHINFO_VERSION = _descriptor.Descriptor(
+  name='Value_HealthInfo_Version',
+  full_name='GoogleProtoBB.Value_HealthInfo_Version',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='version0', full_name='GoogleProtoBB.Value_HealthInfo_Version.version0', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='version1', full_name='GoogleProtoBB.Value_HealthInfo_Version.version1', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='version2', full_name='GoogleProtoBB.Value_HealthInfo_Version.version2', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='version3', full_name='GoogleProtoBB.Value_HealthInfo_Version.version3', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7360,
+  serialized_end=7458,
+)
+
+
+_VALUE_HEALTHINFO_MIXER_STATUS = _descriptor.Descriptor(
+  name='Value_HealthInfo_Mixer_Status',
+  full_name='GoogleProtoBB.Value_HealthInfo_Mixer_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='hasConnectedAudioMixer', full_name='GoogleProtoBB.Value_HealthInfo_Mixer_Status.hasConnectedAudioMixer', index=0,
+      number=1, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7460,
+  serialized_end=7523,
+)
+
+
+_VALUE_HEALTHINFO_NETWORK_BANDWIDTH = _descriptor.Descriptor(
+  name='Value_HealthInfo_Network_Bandwidth',
+  full_name='GoogleProtoBB.Value_HealthInfo_Network_Bandwidth',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='networkBandwidth', full_name='GoogleProtoBB.Value_HealthInfo_Network_Bandwidth.networkBandwidth', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7525,
+  serialized_end=7587,
+)
+
+
+_VALUE_HEALTHINFO_GPU_TEMPERATURE = _descriptor.Descriptor(
+  name='Value_HealthInfo_GPU_Temperature',
+  full_name='GoogleProtoBB.Value_HealthInfo_GPU_Temperature',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_HealthInfo_GPU_Temperature.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='temperatureGPU', full_name='GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU', index=1,
+      number=2, type=5, cpp_type=1, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7589,
+  serialized_end=7662,
+)
+
+
+_VALUE_HEALTHINFO_AJA_STATUS_INFOAJA = _descriptor.Descriptor(
+  name='InfoAJA',
+  full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='temperatureAJA', full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.temperatureAJA', index=0,
+      number=1, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='lostAJA', full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.lostAJA', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7779,
+  serialized_end=7829,
+)
+
+_VALUE_HEALTHINFO_AJA_STATUS = _descriptor.Descriptor(
+  name='Value_HealthInfo_AJA_Status',
+  full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='status', full_name='GoogleProtoBB.Value_HealthInfo_AJA_Status.status', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_HEALTHINFO_AJA_STATUS_INFOAJA, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7665,
+  serialized_end=7829,
+)
+
+
+_VALUE_HEALTHINFO_HDD_STATUS = _descriptor.Descriptor(
+  name='Value_HealthInfo_HDD_Status',
+  full_name='GoogleProtoBB.Value_HealthInfo_HDD_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='hddFaulty', full_name='GoogleProtoBB.Value_HealthInfo_HDD_Status.hddFaulty', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7831,
+  serialized_end=7879,
+)
+
+
+_VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR = _descriptor.Descriptor(
+  name='ValueStatusPair',
+  full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='val', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.val', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='isGood', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.isGood', index=1,
+      number=2, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7986,
+  serialized_end=8032,
+)
+
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS = _descriptor.Descriptor(
+  name='AsioStatus',
+  full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='sampleRate', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.sampleRate', index=0,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='Player_Status', full_name='GoogleProtoBB.BroadCastData.Player_Status', index=1,
+      name='bufferSize', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.bufferSize', index=1,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='camera_type', full_name='GoogleProtoBB.BroadCastData.camera_type', index=2,
+      name='inputLatency', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.inputLatency', index=2,
       number=3, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
     _descriptor.FieldDescriptor(
-      name='Recorder_ClosedCaption', full_name='GoogleProtoBB.BroadCastData.Recorder_ClosedCaption', index=3,
+      name='outputLatency', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.outputLatency', index=3,
       number=4, type=11, cpp_type=10, label=1,
-      has_default_value=False, default_value=None,
-      message_type=None, enum_type=None, containing_type=None,
-      is_extension=False, extension_scope=None,
-      serialized_options=None, file=DESCRIPTOR),
-    _descriptor.FieldDescriptor(
-      name='Player_ClosedCaption', full_name='GoogleProtoBB.BroadCastData.Player_ClosedCaption', index=4,
-      number=5, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -1065,8 +4192,1410 @@ _BROADCASTDATA = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=769,
-  serialized_end=1123,
+  serialized_start=8035,
+  serialized_end=8376,
+)
+
+_VALUE_HEALTHINFO_ASIO_STATUS = _descriptor.Descriptor(
+  name='Value_HealthInfo_ASIO_Status',
+  full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='status', full_name='GoogleProtoBB.Value_HealthInfo_ASIO_Status.status', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR, _VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=7882,
+  serialized_end=8376,
+)
+
+
+_VALUE_HEALTHINFO_EXTERNAL_TIMECODE = _descriptor.Descriptor(
+  name='Value_HealthInfo_External_TimeCode',
+  full_name='GoogleProtoBB.Value_HealthInfo_External_TimeCode',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='isExternalTC', full_name='GoogleProtoBB.Value_HealthInfo_External_TimeCode.isExternalTC', index=0,
+      number=1, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8378,
+  serialized_end=8436,
+)
+
+
+_VALUE_CUSTOMINFO_INFOPAIR = _descriptor.Descriptor(
+  name='InfoPair',
+  full_name='GoogleProtoBB.Value_CustomInfo.InfoPair',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='keySize', full_name='GoogleProtoBB.Value_CustomInfo.InfoPair.keySize', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='valueSize', full_name='GoogleProtoBB.Value_CustomInfo.InfoPair.valueSize', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='key', full_name='GoogleProtoBB.Value_CustomInfo.InfoPair.key', index=2,
+      number=3, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value', full_name='GoogleProtoBB.Value_CustomInfo.InfoPair.value', index=3,
+      number=4, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8542,
+  serialized_end=8616,
+)
+
+_VALUE_CUSTOMINFO = _descriptor.Descriptor(
+  name='Value_CustomInfo',
+  full_name='GoogleProtoBB.Value_CustomInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='nbCustomInfo', full_name='GoogleProtoBB.Value_CustomInfo.nbCustomInfo', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='infoArray', full_name='GoogleProtoBB.Value_CustomInfo.infoArray', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_CUSTOMINFO_INFOPAIR, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8439,
+  serialized_end=8616,
+)
+
+
+_VALUE_BMR_SETTING = _descriptor.Descriptor(
+  name='Value_BMR_Setting',
+  full_name='GoogleProtoBB.Value_BMR_Setting',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='type', full_name='GoogleProtoBB.Value_BMR_Setting.type', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bufSize', full_name='GoogleProtoBB.Value_BMR_Setting.bufSize', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='buf', full_name='GoogleProtoBB.Value_BMR_Setting.buf', index=2,
+      number=3, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8618,
+  serialized_end=8681,
+)
+
+
+_VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER = _descriptor.Descriptor(
+  name='VuMeter',
+  full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='dbTbl', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl', index=1,
+      number=2, type=2, cpp_type=6, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9067,
+  serialized_end=9106,
+)
+
+_VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV = _descriptor.Descriptor(
+  name='PGMUV',
+  full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='uvClean', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.uvClean', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='dirty', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.dirty', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='player', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.player', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9109,
+  serialized_end=9323,
+)
+
+_VALUE_VUMETER_LIVE_MIXER_PGM = _descriptor.Descriptor(
+  name='Value_VuMeter_Live_Mixer_PGM',
+  full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='mixerMeter', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.mixerMeter', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='countofLiveMeter', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofLiveMeter', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='liveMeter', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter', index=2,
+      number=3, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='countofPRV', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPRV', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='prvMeter', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter', index=4,
+      number=5, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='countofPGM', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPGM', index=5,
+      number=6, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmMeter', full_name='GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter', index=6,
+      number=7, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER, _VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=8684,
+  serialized_end=9323,
+)
+
+
+_VALUE_PIP_STATUS_PIPSTATUS = _descriptor.Descriptor(
+  name='PiPStatus',
+  full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='targetCnlID', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.targetCnlID', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pipCnl', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.pipCnl', index=1,
+      number=2, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='enable', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.enable', index=2,
+      number=3, type=8, cpp_type=7, label=1,
+      has_default_value=False, default_value=False,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bgFadeInDuration', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeInDuration', index=3,
+      number=4, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bgFadeOutDuration', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeOutDuration', index=4,
+      number=5, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bgLoopIn', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopIn', index=5,
+      number=6, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bgLoopOut', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopOut', index=6,
+      number=7, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='bgLoopCnt', full_name='GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopCnt', index=7,
+      number=8, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9421,
+  serialized_end=9640,
+)
+
+_VALUE_PIP_STATUS_PGMPIP = _descriptor.Descriptor(
+  name='PGMPiP',
+  full_name='GoogleProtoBB.Value_PiP_Status.PGMPiP',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_PiP_Status.PGMPiP.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='gfxStatus', full_name='GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9642,
+  serialized_end=9727,
+)
+
+_VALUE_PIP_STATUS = _descriptor.Descriptor(
+  name='Value_PiP_Status',
+  full_name='GoogleProtoBB.Value_PiP_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='pgmCount', full_name='GoogleProtoBB.Value_PiP_Status.pgmCount', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='pgmPiP', full_name='GoogleProtoBB.Value_PiP_Status.pgmPiP', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_PIP_STATUS_PIPSTATUS, _VALUE_PIP_STATUS_PGMPIP, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9326,
+  serialized_end=9727,
+)
+
+
+_VALUE_SERVER_MEMORY = _descriptor.Descriptor(
+  name='Value_Server_Memory',
+  full_name='GoogleProtoBB.Value_Server_Memory',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='currentMemory_GB', full_name='GoogleProtoBB.Value_Server_Memory.currentMemory_GB', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='expectedMemory_GB', full_name='GoogleProtoBB.Value_Server_Memory.expectedMemory_GB', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9729,
+  serialized_end=9803,
+)
+
+
+_VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO_RANGE = _descriptor.Descriptor(
+  name='Range',
+  full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='currentFrameID', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.currentFrameID', index=0,
+      number=1, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='out', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.out', index=1,
+      number=2, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9937,
+  serialized_end=9981,
+)
+
+_VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO = _descriptor.Descriptor(
+  name='Value_Cache_ReplayPlayer_HighResVideo',
+  full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='range', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO_RANGE, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9806,
+  serialized_end=9981,
+)
+
+
+_VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO_RANGE = _descriptor.Descriptor(
+  name='Range',
+  full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='currentFrameID', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.currentFrameID', index=0,
+      number=1, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='out', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.out', index=1,
+      number=2, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9937,
+  serialized_end=9981,
+)
+
+_VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO = _descriptor.Descriptor(
+  name='Value_Cache_ReplayPlayer_ExternalAudio',
+  full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='range', full_name='GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO_RANGE, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=9984,
+  serialized_end=10161,
+)
+
+
+_VALUE_STORAGE_CAPACITY = _descriptor.Descriptor(
+  name='Value_Storage_Capacity',
+  full_name='GoogleProtoBB.Value_Storage_Capacity',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='blockSize_MB', full_name='GoogleProtoBB.Value_Storage_Capacity.blockSize_MB', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='nbBlockUsed', full_name='GoogleProtoBB.Value_Storage_Capacity.nbBlockUsed', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='nbBlockTotal', full_name='GoogleProtoBB.Value_Storage_Capacity.nbBlockTotal', index=2,
+      number=3, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10163,
+  serialized_end=10252,
+)
+
+
+_VALUE_HEALTHINFO_REFERENCESTATUS = _descriptor.Descriptor(
+  name='Value_HealthInfo_ReferenceStatus',
+  full_name='GoogleProtoBB.Value_HealthInfo_ReferenceStatus',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='referenceStatus', full_name='GoogleProtoBB.Value_HealthInfo_ReferenceStatus.referenceStatus', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10254,
+  serialized_end=10345,
+)
+
+
+_VALUE_HEALTHINFO_SERIALNUMBER_SERVERINFO = _descriptor.Descriptor(
+  name='ServerInfo',
+  full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='ip', full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.ip', index=0,
+      number=1, type=5, cpp_type=1, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='snSize', full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.snSize', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='sn', full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn', index=2,
+      number=3, type=12, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b(""),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10476,
+  serialized_end=10528,
+)
+
+_VALUE_HEALTHINFO_SERIALNUMBER = _descriptor.Descriptor(
+  name='Value_HealthInfo_SerialNumber',
+  full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='nbServer', full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.nbServer', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='serverInfo', full_name='GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_HEALTHINFO_SERIALNUMBER_SERVERINFO, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10348,
+  serialized_end=10528,
+)
+
+
+_VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME = _descriptor.Descriptor(
+  name='RemainingTime',
+  full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='cam', full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.cam', index=0,
+      number=1, type=14, cpp_type=8, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='remainingSecond', full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.remainingSecond', index=1,
+      number=2, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10676,
+  serialized_end=10751,
+)
+
+_VALUE_HEALTHINFO_REMAININGTIMEPERCAM = _descriptor.Descriptor(
+  name='Value_HealthInfo_RemainingTimePerCam',
+  full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='count', full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.count', index=0,
+      number=1, type=13, cpp_type=3, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='remainingTime', full_name='GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime', index=1,
+      number=2, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[_VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME, ],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10531,
+  serialized_end=10751,
+)
+
+
+_VALUE_FILM_EFFECT_STATUS = _descriptor.Descriptor(
+  name='Value_Film_Effect_Status',
+  full_name='GoogleProtoBB.Value_Film_Effect_Status',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='PGM_enabled', full_name='GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled', index=0,
+      number=1, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='PRV_enabled', full_name='GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled', index=1,
+      number=2, type=8, cpp_type=7, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10753,
+  serialized_end=10821,
+)
+
+
+_VALUE_COMMON_TIMEREFERENCE = _descriptor.Descriptor(
+  name='Value_Common_TimeReference',
+  full_name='GoogleProtoBB.Value_Common_TimeReference',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='timeReference', full_name='GoogleProtoBB.Value_Common_TimeReference.timeReference', index=0,
+      number=1, type=4, cpp_type=4, label=1,
+      has_default_value=False, default_value=0,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10823,
+  serialized_end=10874,
+)
+
+
+_BROADCASTDATA = _descriptor.Descriptor(
+  name='BroadCastData',
+  full_name='GoogleProtoBB.BroadCastData',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='value_Recorder_Train_In_Out', full_name='GoogleProtoBB.BroadCastData.value_Recorder_Train_In_Out', index=0,
+      number=1, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Status', full_name='GoogleProtoBB.BroadCastData.value_Player_Status', index=1,
+      number=2, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Camera_Type', full_name='GoogleProtoBB.BroadCastData.value_Camera_Type', index=2,
+      number=3, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Recorder_ClosedCaption', full_name='GoogleProtoBB.BroadCastData.value_Recorder_ClosedCaption', index=3,
+      number=4, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_ClosedCaption', full_name='GoogleProtoBB.BroadCastData.value_Player_ClosedCaption', index=4,
+      number=5, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Group', full_name='GoogleProtoBB.BroadCastData.value_Player_Group', index=5,
+      number=6, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Camera', full_name='GoogleProtoBB.BroadCastData.value_Player_Camera', index=6,
+      number=7, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Type', full_name='GoogleProtoBB.BroadCastData.value_Player_Type', index=7,
+      number=8, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_AudioPresetId', full_name='GoogleProtoBB.BroadCastData.value_Player_AudioPresetId', index=8,
+      number=9, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Speed', full_name='GoogleProtoBB.BroadCastData.value_Player_Speed', index=9,
+      number=10, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Consigne', full_name='GoogleProtoBB.BroadCastData.value_Player_Consigne', index=10,
+      number=11, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Mode', full_name='GoogleProtoBB.BroadCastData.value_Player_Mode', index=11,
+      number=12, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Extend_Playlist', full_name='GoogleProtoBB.BroadCastData.value_Player_Extend_Playlist', index=12,
+      number=13, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Limit_In_Out', full_name='GoogleProtoBB.BroadCastData.value_Player_Limit_In_Out', index=13,
+      number=14, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Loop_Mode', full_name='GoogleProtoBB.BroadCastData.value_Player_Loop_Mode', index=14,
+      number=15, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Loop_Count', full_name='GoogleProtoBB.BroadCastData.value_Player_Loop_Count', index=15,
+      number=16, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Playlist_ID', full_name='GoogleProtoBB.BroadCastData.value_Player_Playlist_ID', index=16,
+      number=17, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Player_Playlist_Element_ID', full_name='GoogleProtoBB.BroadCastData.value_Player_Playlist_Element_ID', index=17,
+      number=18, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Mode', full_name='GoogleProtoBB.BroadCastData.value_DVE_Mode', index=18,
+      number=19, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Type', full_name='GoogleProtoBB.BroadCastData.value_DVE_Type', index=19,
+      number=20, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Channel', full_name='GoogleProtoBB.BroadCastData.value_DVE_Channel', index=20,
+      number=21, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Num', full_name='GoogleProtoBB.BroadCastData.value_DVE_Num', index=21,
+      number=22, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Den', full_name='GoogleProtoBB.BroadCastData.value_DVE_Den', index=22,
+      number=23, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_CutThreshold', full_name='GoogleProtoBB.BroadCastData.value_DVE_CutThreshold', index=23,
+      number=24, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_DVE_Custom_Transparency', full_name='GoogleProtoBB.BroadCastData.value_DVE_Custom_Transparency', index=24,
+      number=25, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_RTD_Status', full_name='GoogleProtoBB.BroadCastData.value_RTD_Status', index=25,
+      number=26, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_RTD_Type', full_name='GoogleProtoBB.BroadCastData.value_RTD_Type', index=26,
+      number=27, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_RTD_Position', full_name='GoogleProtoBB.BroadCastData.value_RTD_Position', index=27,
+      number=28, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Status', full_name='GoogleProtoBB.BroadCastData.value_GFX_Status', index=28,
+      number=29, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Position', full_name='GoogleProtoBB.BroadCastData.value_GFX_Position', index=29,
+      number=30, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Fade_In_Out_Duration', full_name='GoogleProtoBB.BroadCastData.value_GFX_Fade_In_Out_Duration', index=30,
+      number=31, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Loop_In_Out', full_name='GoogleProtoBB.BroadCastData.value_GFX_Loop_In_Out', index=31,
+      number=32, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Loop_Count', full_name='GoogleProtoBB.BroadCastData.value_GFX_Loop_Count', index=32,
+      number=33, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_GFX_Preload_Status', full_name='GoogleProtoBB.BroadCastData.value_GFX_Preload_Status', index=33,
+      number=34, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_Version', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_Version', index=34,
+      number=35, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_Mixer_Status', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_Mixer_Status', index=35,
+      number=36, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_Network_Bandwidth', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_Network_Bandwidth', index=36,
+      number=37, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_GPU_Temperature', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_GPU_Temperature', index=37,
+      number=38, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_AJA_Status', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_AJA_Status', index=38,
+      number=39, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_HDD_Status', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_HDD_Status', index=39,
+      number=40, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_ASIO_Status', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_ASIO_Status', index=40,
+      number=41, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_External_TimeCode', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_External_TimeCode', index=41,
+      number=42, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_CustomInfo', full_name='GoogleProtoBB.BroadCastData.value_CustomInfo', index=42,
+      number=43, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_BMR_Setting', full_name='GoogleProtoBB.BroadCastData.value_BMR_Setting', index=43,
+      number=44, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_VuMeter_Live_Mixer_PGM', full_name='GoogleProtoBB.BroadCastData.value_VuMeter_Live_Mixer_PGM', index=44,
+      number=45, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_PiP_Status', full_name='GoogleProtoBB.BroadCastData.value_PiP_Status', index=45,
+      number=46, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Server_Memory', full_name='GoogleProtoBB.BroadCastData.value_Server_Memory', index=46,
+      number=47, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Cache_ReplayPlayer_HighResVideo', full_name='GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_HighResVideo', index=47,
+      number=48, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Cache_ReplayPlayer_ExternalAudio', full_name='GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_ExternalAudio', index=48,
+      number=49, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Storage_Capacity', full_name='GoogleProtoBB.BroadCastData.value_Storage_Capacity', index=49,
+      number=50, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_ReferenceStatus', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_ReferenceStatus', index=50,
+      number=51, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_SerialNumber', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_SerialNumber', index=51,
+      number=52, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_HealthInfo_RemainingTimePerCam', full_name='GoogleProtoBB.BroadCastData.value_HealthInfo_RemainingTimePerCam', index=52,
+      number=53, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Film_Effect_Status', full_name='GoogleProtoBB.BroadCastData.value_Film_Effect_Status', index=53,
+      number=54, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='value_Common_TimeReference', full_name='GoogleProtoBB.BroadCastData.value_Common_TimeReference', index=54,
+      number=55, type=11, cpp_type=10, label=1,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  serialized_options=None,
+  is_extendable=False,
+  syntax='proto3',
+  extension_ranges=[],
+  oneofs=[
+  ],
+  serialized_start=10877,
+  serialized_end=14939,
 )
 
 _VALUE_PLAYER_STATUS_STATUSINFO.fields_by_name['id'].enum_type = _CNLID
@@ -1078,19 +5607,275 @@ _VALUE_RECORDER_CLOSEDCAPTION_ITEMINFO.containing_type = _VALUE_RECORDER_CLOSEDC
 _VALUE_RECORDER_CLOSEDCAPTION.fields_by_name['items'].message_type = _VALUE_RECORDER_CLOSEDCAPTION_ITEMINFO
 _VALUE_PLAYER_CLOSEDCAPTION_ITEMINFO.containing_type = _VALUE_PLAYER_CLOSEDCAPTION
 _VALUE_PLAYER_CLOSEDCAPTION.fields_by_name['items'].message_type = _VALUE_PLAYER_CLOSEDCAPTION_ITEMINFO
-_BROADCASTDATA.fields_by_name['Recorder_Train_In_Out'].message_type = _VALUE_RECORDER_TRAIN_IN_OUT
-_BROADCASTDATA.fields_by_name['Player_Status'].message_type = _VALUE_PLAYER_STATUS
-_BROADCASTDATA.fields_by_name['camera_type'].message_type = _VALUE_CAMERA_TYPE
-_BROADCASTDATA.fields_by_name['Recorder_ClosedCaption'].message_type = _VALUE_RECORDER_CLOSEDCAPTION
-_BROADCASTDATA.fields_by_name['Player_ClosedCaption'].message_type = _VALUE_PLAYER_CLOSEDCAPTION
+_VALUE_PLAYER_GROUP_GROUPINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_GROUP_GROUPINFO.containing_type = _VALUE_PLAYER_GROUP
+_VALUE_PLAYER_GROUP.fields_by_name['groupInfo'].message_type = _VALUE_PLAYER_GROUP_GROUPINFO
+_VALUE_PLAYER_CAMERA_CAMERAINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_CAMERA_CAMERAINFO.fields_by_name['camera'].enum_type = _CAMID
+_VALUE_PLAYER_CAMERA_CAMERAINFO.containing_type = _VALUE_PLAYER_CAMERA
+_VALUE_PLAYER_CAMERA.fields_by_name['cameraInfo'].message_type = _VALUE_PLAYER_CAMERA_CAMERAINFO
+_VALUE_PLAYER_TYPE_TYPEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_TYPE_TYPEINFO.fields_by_name['type'].enum_type = _VALUE_PLAYER_TYPE_PLAYERTYPE
+_VALUE_PLAYER_TYPE_TYPEINFO.containing_type = _VALUE_PLAYER_TYPE
+_VALUE_PLAYER_TYPE.fields_by_name['typeInfo'].message_type = _VALUE_PLAYER_TYPE_TYPEINFO
+_VALUE_PLAYER_TYPE_PLAYERTYPE.containing_type = _VALUE_PLAYER_TYPE
+_VALUE_PLAYER_AUDIOPRESETID_TYPEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_AUDIOPRESETID_TYPEINFO.containing_type = _VALUE_PLAYER_AUDIOPRESETID
+_VALUE_PLAYER_AUDIOPRESETID.fields_by_name['typeInfo'].message_type = _VALUE_PLAYER_AUDIOPRESETID_TYPEINFO
+_VALUE_PLAYER_SPEED_SPEEDINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_SPEED_SPEEDINFO.containing_type = _VALUE_PLAYER_SPEED
+_VALUE_PLAYER_SPEED.fields_by_name['speedInfo'].message_type = _VALUE_PLAYER_SPEED_SPEEDINFO
+_VALUE_PLAYER_CONSIGNE_CONSIGNEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_CONSIGNE_CONSIGNEINFO.containing_type = _VALUE_PLAYER_CONSIGNE
+_VALUE_PLAYER_CONSIGNE.fields_by_name['consigneInfo'].message_type = _VALUE_PLAYER_CONSIGNE_CONSIGNEINFO
+_VALUE_PLAYER_MODE_MODEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_MODE_MODEINFO.fields_by_name['playerMode'].enum_type = _VALUE_PLAYER_MODE_PLAYERMODE
+_VALUE_PLAYER_MODE_MODEINFO.containing_type = _VALUE_PLAYER_MODE
+_VALUE_PLAYER_MODE.fields_by_name['modeInfo'].message_type = _VALUE_PLAYER_MODE_MODEINFO
+_VALUE_PLAYER_MODE_PLAYERMODE.containing_type = _VALUE_PLAYER_MODE
+_VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO.containing_type = _VALUE_PLAYER_EXTEND_PLAYLIST
+_VALUE_PLAYER_EXTEND_PLAYLIST.fields_by_name['extendPlaylistInfo'].message_type = _VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO
+_VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO.containing_type = _VALUE_PLAYER_LIMIT_IN_OUT
+_VALUE_PLAYER_LIMIT_IN_OUT.fields_by_name['limitInfo'].message_type = _VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO
+_VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO.fields_by_name['loopMode'].enum_type = _VALUE_PLAYER_LOOP_MODE_PLAYERLOOPMODE
+_VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO.containing_type = _VALUE_PLAYER_LOOP_MODE
+_VALUE_PLAYER_LOOP_MODE.fields_by_name['loopModeInfo'].message_type = _VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO
+_VALUE_PLAYER_LOOP_MODE_PLAYERLOOPMODE.containing_type = _VALUE_PLAYER_LOOP_MODE
+_VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO.containing_type = _VALUE_PLAYER_LOOP_COUNT
+_VALUE_PLAYER_LOOP_COUNT.fields_by_name['loopCountInfo'].message_type = _VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO
+_VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO.containing_type = _VALUE_PLAYER_PLAYLIST_ID
+_VALUE_PLAYER_PLAYLIST_ID.fields_by_name['playlistIDInfo'].message_type = _VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO
+_VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO.containing_type = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID
+_VALUE_PLAYER_PLAYLIST_ELEMENT_ID.fields_by_name['elementIDInfo'].message_type = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO
+_VALUE_DVE_MODE_DVEMODEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_MODE_DVEMODEINFO.fields_by_name['mode'].enum_type = _VALUE_DVE_MODE_DVEMODE
+_VALUE_DVE_MODE_DVEMODEINFO.containing_type = _VALUE_DVE_MODE
+_VALUE_DVE_MODE.fields_by_name['modeInfo'].message_type = _VALUE_DVE_MODE_DVEMODEINFO
+_VALUE_DVE_MODE_DVEMODE.containing_type = _VALUE_DVE_MODE
+_VALUE_DVE_TYPE_DVETYPEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_TYPE_DVETYPEINFO.fields_by_name['type'].enum_type = _VALUE_DVE_TYPE_DVETYPE
+_VALUE_DVE_TYPE_DVETYPEINFO.containing_type = _VALUE_DVE_TYPE
+_VALUE_DVE_TYPE.fields_by_name['typeInfo'].message_type = _VALUE_DVE_TYPE_DVETYPEINFO
+_VALUE_DVE_TYPE_DVETYPE.containing_type = _VALUE_DVE_TYPE
+_VALUE_DVE_CHANNEL.fields_by_name['cnl'].enum_type = _CNLID
+_VALUE_DVE_NUM_DVENUMINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_NUM_DVENUMINFO.containing_type = _VALUE_DVE_NUM
+_VALUE_DVE_NUM.fields_by_name['numInfo'].message_type = _VALUE_DVE_NUM_DVENUMINFO
+_VALUE_DVE_DEN_DVEDENINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_DEN_DVEDENINFO.containing_type = _VALUE_DVE_DEN
+_VALUE_DVE_DEN.fields_by_name['denInfo'].message_type = _VALUE_DVE_DEN_DVEDENINFO
+_VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO.containing_type = _VALUE_DVE_CUTTHRESHOLD
+_VALUE_DVE_CUTTHRESHOLD.fields_by_name['thresholdInfo'].message_type = _VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO
+_VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO.containing_type = _VALUE_DVE_CUSTOM_TRANSPARENCY
+_VALUE_DVE_CUSTOM_TRANSPARENCY.fields_by_name['customInfo'].message_type = _VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO
+_VALUE_RTD_STATUS_RTDSTATUSINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_RTD_STATUS_RTDSTATUSINFO.containing_type = _VALUE_RTD_STATUS
+_VALUE_RTD_STATUS.fields_by_name['statusInfo'].message_type = _VALUE_RTD_STATUS_RTDSTATUSINFO
+_VALUE_RTD_TYPE_RTDTYPEINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_RTD_TYPE_RTDTYPEINFO.fields_by_name['type'].enum_type = _RTDTYPE
+_VALUE_RTD_TYPE_RTDTYPEINFO.containing_type = _VALUE_RTD_TYPE
+_VALUE_RTD_TYPE.fields_by_name['typeInfo'].message_type = _VALUE_RTD_TYPE_RTDTYPEINFO
+_VALUE_RTD_POSITION_RTDPOSITIONINFO.fields_by_name['id'].enum_type = _CNLID
+_VALUE_RTD_POSITION_RTDPOSITIONINFO.containing_type = _VALUE_RTD_POSITION
+_VALUE_RTD_POSITION.fields_by_name['positionInfo'].message_type = _VALUE_RTD_POSITION_RTDPOSITIONINFO
+_VALUE_GFX_STATUS_GFXSTATUS.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_GFX_STATUS_GFXSTATUS.fields_by_name['gfxCnl'].enum_type = _GFXCNL
+_VALUE_GFX_STATUS_GFXSTATUS.containing_type = _VALUE_GFX_STATUS
+_VALUE_GFX_STATUS_PGMGFX.fields_by_name['gfxStatus'].message_type = _VALUE_GFX_STATUS_GFXSTATUS
+_VALUE_GFX_STATUS_PGMGFX.containing_type = _VALUE_GFX_STATUS
+_VALUE_GFX_STATUS.fields_by_name['pgmGfx'].message_type = _VALUE_GFX_STATUS_PGMGFX
+_VALUE_GFX_POSITION_GFXPOSITION.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_GFX_POSITION_GFXPOSITION.fields_by_name['gfxCnl'].enum_type = _GFXCNL
+_VALUE_GFX_POSITION_GFXPOSITION.containing_type = _VALUE_GFX_POSITION
+_VALUE_GFX_POSITION_PGMGFX.fields_by_name['gfxPosition'].message_type = _VALUE_GFX_POSITION_GFXPOSITION
+_VALUE_GFX_POSITION_PGMGFX.containing_type = _VALUE_GFX_POSITION
+_VALUE_GFX_POSITION.fields_by_name['pgmGfx'].message_type = _VALUE_GFX_POSITION_PGMGFX
+_VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION.fields_by_name['gfxCnl'].enum_type = _GFXCNL
+_VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION.containing_type = _VALUE_GFX_FADE_IN_OUT_DURATION
+_VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX.fields_by_name['gfxFadeDuration'].message_type = _VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION
+_VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX.containing_type = _VALUE_GFX_FADE_IN_OUT_DURATION
+_VALUE_GFX_FADE_IN_OUT_DURATION.fields_by_name['pgmGfx'].message_type = _VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX
+_VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT.fields_by_name['gfxCnl'].enum_type = _GFXCNL
+_VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT.containing_type = _VALUE_GFX_LOOP_IN_OUT
+_VALUE_GFX_LOOP_IN_OUT_PGMGFX.fields_by_name['gfxLoopInOut'].message_type = _VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT
+_VALUE_GFX_LOOP_IN_OUT_PGMGFX.containing_type = _VALUE_GFX_LOOP_IN_OUT
+_VALUE_GFX_LOOP_IN_OUT.fields_by_name['pgmGfx'].message_type = _VALUE_GFX_LOOP_IN_OUT_PGMGFX
+_VALUE_GFX_LOOP_COUNT_GFXLOOPCNT.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_GFX_LOOP_COUNT_GFXLOOPCNT.fields_by_name['gfxCnl'].enum_type = _GFXCNL
+_VALUE_GFX_LOOP_COUNT_GFXLOOPCNT.containing_type = _VALUE_GFX_LOOP_COUNT
+_VALUE_GFX_LOOP_COUNT_PGMGFX.fields_by_name['gfxLoopCnt'].message_type = _VALUE_GFX_LOOP_COUNT_GFXLOOPCNT
+_VALUE_GFX_LOOP_COUNT_PGMGFX.containing_type = _VALUE_GFX_LOOP_COUNT
+_VALUE_GFX_LOOP_COUNT.fields_by_name['pgmGfx'].message_type = _VALUE_GFX_LOOP_COUNT_PGMGFX
+_VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS.fields_by_name['gfxCnl'].enum_type = _TGACHANNEL
+_VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS.fields_by_name['preloadingStatus'].enum_type = _TGACHANNELSTATUS
+_VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS.containing_type = _VALUE_GFX_PRELOAD_STATUS
+_VALUE_GFX_PRELOAD_STATUS.fields_by_name['gfxPreloadStatus'].message_type = _VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS
+_VALUE_HEALTHINFO_AJA_STATUS_INFOAJA.containing_type = _VALUE_HEALTHINFO_AJA_STATUS
+_VALUE_HEALTHINFO_AJA_STATUS.fields_by_name['status'].message_type = _VALUE_HEALTHINFO_AJA_STATUS_INFOAJA
+_VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR.containing_type = _VALUE_HEALTHINFO_ASIO_STATUS
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS.fields_by_name['sampleRate'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS.fields_by_name['bufferSize'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS.fields_by_name['inputLatency'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS.fields_by_name['outputLatency'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR
+_VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS.containing_type = _VALUE_HEALTHINFO_ASIO_STATUS
+_VALUE_HEALTHINFO_ASIO_STATUS.fields_by_name['status'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS
+_VALUE_CUSTOMINFO_INFOPAIR.containing_type = _VALUE_CUSTOMINFO
+_VALUE_CUSTOMINFO.fields_by_name['infoArray'].message_type = _VALUE_CUSTOMINFO_INFOPAIR
+_VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER.containing_type = _VALUE_VUMETER_LIVE_MIXER_PGM
+_VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV.fields_by_name['uvClean'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV.fields_by_name['dirty'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV.fields_by_name['player'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV.containing_type = _VALUE_VUMETER_LIVE_MIXER_PGM
+_VALUE_VUMETER_LIVE_MIXER_PGM.fields_by_name['mixerMeter'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM.fields_by_name['liveMeter'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM.fields_by_name['prvMeter'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER
+_VALUE_VUMETER_LIVE_MIXER_PGM.fields_by_name['pgmMeter'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV
+_VALUE_PIP_STATUS_PIPSTATUS.fields_by_name['targetCnlID'].enum_type = _CNLID
+_VALUE_PIP_STATUS_PIPSTATUS.fields_by_name['pipCnl'].enum_type = _PIPTYPE
+_VALUE_PIP_STATUS_PIPSTATUS.containing_type = _VALUE_PIP_STATUS
+_VALUE_PIP_STATUS_PGMPIP.fields_by_name['gfxStatus'].message_type = _VALUE_PIP_STATUS_PIPSTATUS
+_VALUE_PIP_STATUS_PGMPIP.containing_type = _VALUE_PIP_STATUS
+_VALUE_PIP_STATUS.fields_by_name['pgmPiP'].message_type = _VALUE_PIP_STATUS_PGMPIP
+_VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO_RANGE.containing_type = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO
+_VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO.fields_by_name['range'].message_type = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO_RANGE
+_VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO_RANGE.containing_type = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO
+_VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO.fields_by_name['range'].message_type = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO_RANGE
+_VALUE_HEALTHINFO_REFERENCESTATUS.fields_by_name['referenceStatus'].enum_type = _REFERENCESTATUS
+_VALUE_HEALTHINFO_SERIALNUMBER_SERVERINFO.containing_type = _VALUE_HEALTHINFO_SERIALNUMBER
+_VALUE_HEALTHINFO_SERIALNUMBER.fields_by_name['serverInfo'].message_type = _VALUE_HEALTHINFO_SERIALNUMBER_SERVERINFO
+_VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME.fields_by_name['cam'].enum_type = _CAMID
+_VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME.containing_type = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM
+_VALUE_HEALTHINFO_REMAININGTIMEPERCAM.fields_by_name['remainingTime'].message_type = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME
+_BROADCASTDATA.fields_by_name['value_Recorder_Train_In_Out'].message_type = _VALUE_RECORDER_TRAIN_IN_OUT
+_BROADCASTDATA.fields_by_name['value_Player_Status'].message_type = _VALUE_PLAYER_STATUS
+_BROADCASTDATA.fields_by_name['value_Camera_Type'].message_type = _VALUE_CAMERA_TYPE
+_BROADCASTDATA.fields_by_name['value_Recorder_ClosedCaption'].message_type = _VALUE_RECORDER_CLOSEDCAPTION
+_BROADCASTDATA.fields_by_name['value_Player_ClosedCaption'].message_type = _VALUE_PLAYER_CLOSEDCAPTION
+_BROADCASTDATA.fields_by_name['value_Player_Group'].message_type = _VALUE_PLAYER_GROUP
+_BROADCASTDATA.fields_by_name['value_Player_Camera'].message_type = _VALUE_PLAYER_CAMERA
+_BROADCASTDATA.fields_by_name['value_Player_Type'].message_type = _VALUE_PLAYER_TYPE
+_BROADCASTDATA.fields_by_name['value_Player_AudioPresetId'].message_type = _VALUE_PLAYER_AUDIOPRESETID
+_BROADCASTDATA.fields_by_name['value_Player_Speed'].message_type = _VALUE_PLAYER_SPEED
+_BROADCASTDATA.fields_by_name['value_Player_Consigne'].message_type = _VALUE_PLAYER_CONSIGNE
+_BROADCASTDATA.fields_by_name['value_Player_Mode'].message_type = _VALUE_PLAYER_MODE
+_BROADCASTDATA.fields_by_name['value_Player_Extend_Playlist'].message_type = _VALUE_PLAYER_EXTEND_PLAYLIST
+_BROADCASTDATA.fields_by_name['value_Player_Limit_In_Out'].message_type = _VALUE_PLAYER_LIMIT_IN_OUT
+_BROADCASTDATA.fields_by_name['value_Player_Loop_Mode'].message_type = _VALUE_PLAYER_LOOP_MODE
+_BROADCASTDATA.fields_by_name['value_Player_Loop_Count'].message_type = _VALUE_PLAYER_LOOP_COUNT
+_BROADCASTDATA.fields_by_name['value_Player_Playlist_ID'].message_type = _VALUE_PLAYER_PLAYLIST_ID
+_BROADCASTDATA.fields_by_name['value_Player_Playlist_Element_ID'].message_type = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID
+_BROADCASTDATA.fields_by_name['value_DVE_Mode'].message_type = _VALUE_DVE_MODE
+_BROADCASTDATA.fields_by_name['value_DVE_Type'].message_type = _VALUE_DVE_TYPE
+_BROADCASTDATA.fields_by_name['value_DVE_Channel'].message_type = _VALUE_DVE_CHANNEL
+_BROADCASTDATA.fields_by_name['value_DVE_Num'].message_type = _VALUE_DVE_NUM
+_BROADCASTDATA.fields_by_name['value_DVE_Den'].message_type = _VALUE_DVE_DEN
+_BROADCASTDATA.fields_by_name['value_DVE_CutThreshold'].message_type = _VALUE_DVE_CUTTHRESHOLD
+_BROADCASTDATA.fields_by_name['value_DVE_Custom_Transparency'].message_type = _VALUE_DVE_CUSTOM_TRANSPARENCY
+_BROADCASTDATA.fields_by_name['value_RTD_Status'].message_type = _VALUE_RTD_STATUS
+_BROADCASTDATA.fields_by_name['value_RTD_Type'].message_type = _VALUE_RTD_TYPE
+_BROADCASTDATA.fields_by_name['value_RTD_Position'].message_type = _VALUE_RTD_POSITION
+_BROADCASTDATA.fields_by_name['value_GFX_Status'].message_type = _VALUE_GFX_STATUS
+_BROADCASTDATA.fields_by_name['value_GFX_Position'].message_type = _VALUE_GFX_POSITION
+_BROADCASTDATA.fields_by_name['value_GFX_Fade_In_Out_Duration'].message_type = _VALUE_GFX_FADE_IN_OUT_DURATION
+_BROADCASTDATA.fields_by_name['value_GFX_Loop_In_Out'].message_type = _VALUE_GFX_LOOP_IN_OUT
+_BROADCASTDATA.fields_by_name['value_GFX_Loop_Count'].message_type = _VALUE_GFX_LOOP_COUNT
+_BROADCASTDATA.fields_by_name['value_GFX_Preload_Status'].message_type = _VALUE_GFX_PRELOAD_STATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_Version'].message_type = _VALUE_HEALTHINFO_VERSION
+_BROADCASTDATA.fields_by_name['value_HealthInfo_Mixer_Status'].message_type = _VALUE_HEALTHINFO_MIXER_STATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_Network_Bandwidth'].message_type = _VALUE_HEALTHINFO_NETWORK_BANDWIDTH
+_BROADCASTDATA.fields_by_name['value_HealthInfo_GPU_Temperature'].message_type = _VALUE_HEALTHINFO_GPU_TEMPERATURE
+_BROADCASTDATA.fields_by_name['value_HealthInfo_AJA_Status'].message_type = _VALUE_HEALTHINFO_AJA_STATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_HDD_Status'].message_type = _VALUE_HEALTHINFO_HDD_STATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_ASIO_Status'].message_type = _VALUE_HEALTHINFO_ASIO_STATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_External_TimeCode'].message_type = _VALUE_HEALTHINFO_EXTERNAL_TIMECODE
+_BROADCASTDATA.fields_by_name['value_CustomInfo'].message_type = _VALUE_CUSTOMINFO
+_BROADCASTDATA.fields_by_name['value_BMR_Setting'].message_type = _VALUE_BMR_SETTING
+_BROADCASTDATA.fields_by_name['value_VuMeter_Live_Mixer_PGM'].message_type = _VALUE_VUMETER_LIVE_MIXER_PGM
+_BROADCASTDATA.fields_by_name['value_PiP_Status'].message_type = _VALUE_PIP_STATUS
+_BROADCASTDATA.fields_by_name['value_Server_Memory'].message_type = _VALUE_SERVER_MEMORY
+_BROADCASTDATA.fields_by_name['value_Cache_ReplayPlayer_HighResVideo'].message_type = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO
+_BROADCASTDATA.fields_by_name['value_Cache_ReplayPlayer_ExternalAudio'].message_type = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO
+_BROADCASTDATA.fields_by_name['value_Storage_Capacity'].message_type = _VALUE_STORAGE_CAPACITY
+_BROADCASTDATA.fields_by_name['value_HealthInfo_ReferenceStatus'].message_type = _VALUE_HEALTHINFO_REFERENCESTATUS
+_BROADCASTDATA.fields_by_name['value_HealthInfo_SerialNumber'].message_type = _VALUE_HEALTHINFO_SERIALNUMBER
+_BROADCASTDATA.fields_by_name['value_HealthInfo_RemainingTimePerCam'].message_type = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM
+_BROADCASTDATA.fields_by_name['value_Film_Effect_Status'].message_type = _VALUE_FILM_EFFECT_STATUS
+_BROADCASTDATA.fields_by_name['value_Common_TimeReference'].message_type = _VALUE_COMMON_TIMEREFERENCE
 DESCRIPTOR.message_types_by_name['Value_Recorder_Train_In_Out'] = _VALUE_RECORDER_TRAIN_IN_OUT
 DESCRIPTOR.message_types_by_name['Value_Player_Status'] = _VALUE_PLAYER_STATUS
 DESCRIPTOR.message_types_by_name['Value_Camera_Type'] = _VALUE_CAMERA_TYPE
 DESCRIPTOR.message_types_by_name['Value_Recorder_ClosedCaption'] = _VALUE_RECORDER_CLOSEDCAPTION
 DESCRIPTOR.message_types_by_name['Value_Player_ClosedCaption'] = _VALUE_PLAYER_CLOSEDCAPTION
+DESCRIPTOR.message_types_by_name['Value_Player_Group'] = _VALUE_PLAYER_GROUP
+DESCRIPTOR.message_types_by_name['Value_Player_Camera'] = _VALUE_PLAYER_CAMERA
+DESCRIPTOR.message_types_by_name['Value_Player_Type'] = _VALUE_PLAYER_TYPE
+DESCRIPTOR.message_types_by_name['Value_Player_AudioPresetId'] = _VALUE_PLAYER_AUDIOPRESETID
+DESCRIPTOR.message_types_by_name['Value_Player_Speed'] = _VALUE_PLAYER_SPEED
+DESCRIPTOR.message_types_by_name['Value_Player_Consigne'] = _VALUE_PLAYER_CONSIGNE
+DESCRIPTOR.message_types_by_name['Value_Player_Mode'] = _VALUE_PLAYER_MODE
+DESCRIPTOR.message_types_by_name['Value_Player_Extend_Playlist'] = _VALUE_PLAYER_EXTEND_PLAYLIST
+DESCRIPTOR.message_types_by_name['Value_Player_Limit_In_Out'] = _VALUE_PLAYER_LIMIT_IN_OUT
+DESCRIPTOR.message_types_by_name['Value_Player_Loop_Mode'] = _VALUE_PLAYER_LOOP_MODE
+DESCRIPTOR.message_types_by_name['Value_Player_Loop_Count'] = _VALUE_PLAYER_LOOP_COUNT
+DESCRIPTOR.message_types_by_name['Value_Player_Playlist_ID'] = _VALUE_PLAYER_PLAYLIST_ID
+DESCRIPTOR.message_types_by_name['Value_Player_Playlist_Element_ID'] = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID
+DESCRIPTOR.message_types_by_name['Value_DVE_Mode'] = _VALUE_DVE_MODE
+DESCRIPTOR.message_types_by_name['Value_DVE_Type'] = _VALUE_DVE_TYPE
+DESCRIPTOR.message_types_by_name['Value_DVE_Channel'] = _VALUE_DVE_CHANNEL
+DESCRIPTOR.message_types_by_name['Value_DVE_Num'] = _VALUE_DVE_NUM
+DESCRIPTOR.message_types_by_name['Value_DVE_Den'] = _VALUE_DVE_DEN
+DESCRIPTOR.message_types_by_name['Value_DVE_CutThreshold'] = _VALUE_DVE_CUTTHRESHOLD
+DESCRIPTOR.message_types_by_name['Value_DVE_Custom_Transparency'] = _VALUE_DVE_CUSTOM_TRANSPARENCY
+DESCRIPTOR.message_types_by_name['Value_RTD_Status'] = _VALUE_RTD_STATUS
+DESCRIPTOR.message_types_by_name['Value_RTD_Type'] = _VALUE_RTD_TYPE
+DESCRIPTOR.message_types_by_name['Value_RTD_Position'] = _VALUE_RTD_POSITION
+DESCRIPTOR.message_types_by_name['Value_GFX_Status'] = _VALUE_GFX_STATUS
+DESCRIPTOR.message_types_by_name['Value_GFX_Position'] = _VALUE_GFX_POSITION
+DESCRIPTOR.message_types_by_name['Value_GFX_Fade_In_Out_Duration'] = _VALUE_GFX_FADE_IN_OUT_DURATION
+DESCRIPTOR.message_types_by_name['Value_GFX_Loop_In_Out'] = _VALUE_GFX_LOOP_IN_OUT
+DESCRIPTOR.message_types_by_name['Value_GFX_Loop_Count'] = _VALUE_GFX_LOOP_COUNT
+DESCRIPTOR.message_types_by_name['Value_GFX_Preload_Status'] = _VALUE_GFX_PRELOAD_STATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_Version'] = _VALUE_HEALTHINFO_VERSION
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_Mixer_Status'] = _VALUE_HEALTHINFO_MIXER_STATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_Network_Bandwidth'] = _VALUE_HEALTHINFO_NETWORK_BANDWIDTH
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_GPU_Temperature'] = _VALUE_HEALTHINFO_GPU_TEMPERATURE
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_AJA_Status'] = _VALUE_HEALTHINFO_AJA_STATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_HDD_Status'] = _VALUE_HEALTHINFO_HDD_STATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_ASIO_Status'] = _VALUE_HEALTHINFO_ASIO_STATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_External_TimeCode'] = _VALUE_HEALTHINFO_EXTERNAL_TIMECODE
+DESCRIPTOR.message_types_by_name['Value_CustomInfo'] = _VALUE_CUSTOMINFO
+DESCRIPTOR.message_types_by_name['Value_BMR_Setting'] = _VALUE_BMR_SETTING
+DESCRIPTOR.message_types_by_name['Value_VuMeter_Live_Mixer_PGM'] = _VALUE_VUMETER_LIVE_MIXER_PGM
+DESCRIPTOR.message_types_by_name['Value_PiP_Status'] = _VALUE_PIP_STATUS
+DESCRIPTOR.message_types_by_name['Value_Server_Memory'] = _VALUE_SERVER_MEMORY
+DESCRIPTOR.message_types_by_name['Value_Cache_ReplayPlayer_HighResVideo'] = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO
+DESCRIPTOR.message_types_by_name['Value_Cache_ReplayPlayer_ExternalAudio'] = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO
+DESCRIPTOR.message_types_by_name['Value_Storage_Capacity'] = _VALUE_STORAGE_CAPACITY
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_ReferenceStatus'] = _VALUE_HEALTHINFO_REFERENCESTATUS
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_SerialNumber'] = _VALUE_HEALTHINFO_SERIALNUMBER
+DESCRIPTOR.message_types_by_name['Value_HealthInfo_RemainingTimePerCam'] = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM
+DESCRIPTOR.message_types_by_name['Value_Film_Effect_Status'] = _VALUE_FILM_EFFECT_STATUS
+DESCRIPTOR.message_types_by_name['Value_Common_TimeReference'] = _VALUE_COMMON_TIMEREFERENCE
 DESCRIPTOR.message_types_by_name['BroadCastData'] = _BROADCASTDATA
 DESCRIPTOR.enum_types_by_name['BroadcastInfoKey'] = _BROADCASTINFOKEY
 DESCRIPTOR.enum_types_by_name['CnlID'] = _CNLID
+DESCRIPTOR.enum_types_by_name['CamID'] = _CAMID
+DESCRIPTOR.enum_types_by_name['RTDType'] = _RTDTYPE
+DESCRIPTOR.enum_types_by_name['GFxCnl'] = _GFXCNL
+DESCRIPTOR.enum_types_by_name['TGAChannel'] = _TGACHANNEL
+DESCRIPTOR.enum_types_by_name['TGAChannelStatus'] = _TGACHANNELSTATUS
+DESCRIPTOR.enum_types_by_name['PiPType'] = _PIPTYPE
+DESCRIPTOR.enum_types_by_name['ReferenceStatus'] = _REFERENCESTATUS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Value_Recorder_Train_In_Out = _reflection.GeneratedProtocolMessageType('Value_Recorder_Train_In_Out', (_message.Message,), dict(
@@ -1159,6 +5944,716 @@ Value_Player_ClosedCaption = _reflection.GeneratedProtocolMessageType('Value_Pla
   ))
 _sym_db.RegisterMessage(Value_Player_ClosedCaption)
 _sym_db.RegisterMessage(Value_Player_ClosedCaption.ItemInfo)
+
+Value_Player_Group = _reflection.GeneratedProtocolMessageType('Value_Player_Group', (_message.Message,), dict(
+
+  GroupInfo = _reflection.GeneratedProtocolMessageType('GroupInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_GROUP_GROUPINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Group.GroupInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_GROUP,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Group)
+  ))
+_sym_db.RegisterMessage(Value_Player_Group)
+_sym_db.RegisterMessage(Value_Player_Group.GroupInfo)
+
+Value_Player_Camera = _reflection.GeneratedProtocolMessageType('Value_Player_Camera', (_message.Message,), dict(
+
+  CameraInfo = _reflection.GeneratedProtocolMessageType('CameraInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_CAMERA_CAMERAINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Camera.CameraInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_CAMERA,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Camera)
+  ))
+_sym_db.RegisterMessage(Value_Player_Camera)
+_sym_db.RegisterMessage(Value_Player_Camera.CameraInfo)
+
+Value_Player_Type = _reflection.GeneratedProtocolMessageType('Value_Player_Type', (_message.Message,), dict(
+
+  TypeInfo = _reflection.GeneratedProtocolMessageType('TypeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_TYPE_TYPEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Type.TypeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_TYPE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Type)
+  ))
+_sym_db.RegisterMessage(Value_Player_Type)
+_sym_db.RegisterMessage(Value_Player_Type.TypeInfo)
+
+Value_Player_AudioPresetId = _reflection.GeneratedProtocolMessageType('Value_Player_AudioPresetId', (_message.Message,), dict(
+
+  TypeInfo = _reflection.GeneratedProtocolMessageType('TypeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_AUDIOPRESETID_TYPEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_AUDIOPRESETID,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_AudioPresetId)
+  ))
+_sym_db.RegisterMessage(Value_Player_AudioPresetId)
+_sym_db.RegisterMessage(Value_Player_AudioPresetId.TypeInfo)
+
+Value_Player_Speed = _reflection.GeneratedProtocolMessageType('Value_Player_Speed', (_message.Message,), dict(
+
+  SpeedInfo = _reflection.GeneratedProtocolMessageType('SpeedInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_SPEED_SPEEDINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Speed.SpeedInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_SPEED,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Speed)
+  ))
+_sym_db.RegisterMessage(Value_Player_Speed)
+_sym_db.RegisterMessage(Value_Player_Speed.SpeedInfo)
+
+Value_Player_Consigne = _reflection.GeneratedProtocolMessageType('Value_Player_Consigne', (_message.Message,), dict(
+
+  ConsigneInfo = _reflection.GeneratedProtocolMessageType('ConsigneInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_CONSIGNE_CONSIGNEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_CONSIGNE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Consigne)
+  ))
+_sym_db.RegisterMessage(Value_Player_Consigne)
+_sym_db.RegisterMessage(Value_Player_Consigne.ConsigneInfo)
+
+Value_Player_Mode = _reflection.GeneratedProtocolMessageType('Value_Player_Mode', (_message.Message,), dict(
+
+  ModeInfo = _reflection.GeneratedProtocolMessageType('ModeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_MODE_MODEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Mode.ModeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_MODE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Mode)
+  ))
+_sym_db.RegisterMessage(Value_Player_Mode)
+_sym_db.RegisterMessage(Value_Player_Mode.ModeInfo)
+
+Value_Player_Extend_Playlist = _reflection.GeneratedProtocolMessageType('Value_Player_Extend_Playlist', (_message.Message,), dict(
+
+  ExtendPlaylistInfo = _reflection.GeneratedProtocolMessageType('ExtendPlaylistInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_EXTEND_PLAYLIST_EXTENDPLAYLISTINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_EXTEND_PLAYLIST,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Extend_Playlist)
+  ))
+_sym_db.RegisterMessage(Value_Player_Extend_Playlist)
+_sym_db.RegisterMessage(Value_Player_Extend_Playlist.ExtendPlaylistInfo)
+
+Value_Player_Limit_In_Out = _reflection.GeneratedProtocolMessageType('Value_Player_Limit_In_Out', (_message.Message,), dict(
+
+  LimitInfo = _reflection.GeneratedProtocolMessageType('LimitInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_LIMIT_IN_OUT_LIMITINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_LIMIT_IN_OUT,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Limit_In_Out)
+  ))
+_sym_db.RegisterMessage(Value_Player_Limit_In_Out)
+_sym_db.RegisterMessage(Value_Player_Limit_In_Out.LimitInfo)
+
+Value_Player_Loop_Mode = _reflection.GeneratedProtocolMessageType('Value_Player_Loop_Mode', (_message.Message,), dict(
+
+  LoopModeInfo = _reflection.GeneratedProtocolMessageType('LoopModeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_LOOP_MODE_LOOPMODEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_LOOP_MODE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Mode)
+  ))
+_sym_db.RegisterMessage(Value_Player_Loop_Mode)
+_sym_db.RegisterMessage(Value_Player_Loop_Mode.LoopModeInfo)
+
+Value_Player_Loop_Count = _reflection.GeneratedProtocolMessageType('Value_Player_Loop_Count', (_message.Message,), dict(
+
+  LoopCountInfo = _reflection.GeneratedProtocolMessageType('LoopCountInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_LOOP_COUNT_LOOPCOUNTINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_LOOP_COUNT,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Count)
+  ))
+_sym_db.RegisterMessage(Value_Player_Loop_Count)
+_sym_db.RegisterMessage(Value_Player_Loop_Count.LoopCountInfo)
+
+Value_Player_Playlist_ID = _reflection.GeneratedProtocolMessageType('Value_Player_Playlist_ID', (_message.Message,), dict(
+
+  PlaylistIDInfo = _reflection.GeneratedProtocolMessageType('PlaylistIDInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_PLAYLIST_ID_PLAYLISTIDINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_PLAYLIST_ID,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_ID)
+  ))
+_sym_db.RegisterMessage(Value_Player_Playlist_ID)
+_sym_db.RegisterMessage(Value_Player_Playlist_ID.PlaylistIDInfo)
+
+Value_Player_Playlist_Element_ID = _reflection.GeneratedProtocolMessageType('Value_Player_Playlist_Element_ID', (_message.Message,), dict(
+
+  ElementIDInfo = _reflection.GeneratedProtocolMessageType('ElementIDInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID_ELEMENTIDINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PLAYER_PLAYLIST_ELEMENT_ID,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_Element_ID)
+  ))
+_sym_db.RegisterMessage(Value_Player_Playlist_Element_ID)
+_sym_db.RegisterMessage(Value_Player_Playlist_Element_ID.ElementIDInfo)
+
+Value_DVE_Mode = _reflection.GeneratedProtocolMessageType('Value_DVE_Mode', (_message.Message,), dict(
+
+  DVEModeInfo = _reflection.GeneratedProtocolMessageType('DVEModeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_MODE_DVEMODEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_MODE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Mode)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Mode)
+_sym_db.RegisterMessage(Value_DVE_Mode.DVEModeInfo)
+
+Value_DVE_Type = _reflection.GeneratedProtocolMessageType('Value_DVE_Type', (_message.Message,), dict(
+
+  DVETypeInfo = _reflection.GeneratedProtocolMessageType('DVETypeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_TYPE_DVETYPEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Type.DVETypeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_TYPE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Type)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Type)
+_sym_db.RegisterMessage(Value_DVE_Type.DVETypeInfo)
+
+Value_DVE_Channel = _reflection.GeneratedProtocolMessageType('Value_DVE_Channel', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_DVE_CHANNEL,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Channel)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Channel)
+
+Value_DVE_Num = _reflection.GeneratedProtocolMessageType('Value_DVE_Num', (_message.Message,), dict(
+
+  DVENumInfo = _reflection.GeneratedProtocolMessageType('DVENumInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_NUM_DVENUMINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Num.DVENumInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_NUM,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Num)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Num)
+_sym_db.RegisterMessage(Value_DVE_Num.DVENumInfo)
+
+Value_DVE_Den = _reflection.GeneratedProtocolMessageType('Value_DVE_Den', (_message.Message,), dict(
+
+  DVEDenInfo = _reflection.GeneratedProtocolMessageType('DVEDenInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_DEN_DVEDENINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Den.DVEDenInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_DEN,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Den)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Den)
+_sym_db.RegisterMessage(Value_DVE_Den.DVEDenInfo)
+
+Value_DVE_CutThreshold = _reflection.GeneratedProtocolMessageType('Value_DVE_CutThreshold', (_message.Message,), dict(
+
+  DVEThresholdInfo = _reflection.GeneratedProtocolMessageType('DVEThresholdInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_CUTTHRESHOLD_DVETHRESHOLDINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_CUTTHRESHOLD,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_CutThreshold)
+  ))
+_sym_db.RegisterMessage(Value_DVE_CutThreshold)
+_sym_db.RegisterMessage(Value_DVE_CutThreshold.DVEThresholdInfo)
+
+Value_DVE_Custom_Transparency = _reflection.GeneratedProtocolMessageType('Value_DVE_Custom_Transparency', (_message.Message,), dict(
+
+  DVECustomTransparencyInfo = _reflection.GeneratedProtocolMessageType('DVECustomTransparencyInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_DVE_CUSTOM_TRANSPARENCY_DVECUSTOMTRANSPARENCYINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_DVE_CUSTOM_TRANSPARENCY,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Custom_Transparency)
+  ))
+_sym_db.RegisterMessage(Value_DVE_Custom_Transparency)
+_sym_db.RegisterMessage(Value_DVE_Custom_Transparency.DVECustomTransparencyInfo)
+
+Value_RTD_Status = _reflection.GeneratedProtocolMessageType('Value_RTD_Status', (_message.Message,), dict(
+
+  RTDStatusInfo = _reflection.GeneratedProtocolMessageType('RTDStatusInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_RTD_STATUS_RTDSTATUSINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_RTD_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Status)
+  ))
+_sym_db.RegisterMessage(Value_RTD_Status)
+_sym_db.RegisterMessage(Value_RTD_Status.RTDStatusInfo)
+
+Value_RTD_Type = _reflection.GeneratedProtocolMessageType('Value_RTD_Type', (_message.Message,), dict(
+
+  RTDTypeInfo = _reflection.GeneratedProtocolMessageType('RTDTypeInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_RTD_TYPE_RTDTYPEINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_RTD_TYPE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Type)
+  ))
+_sym_db.RegisterMessage(Value_RTD_Type)
+_sym_db.RegisterMessage(Value_RTD_Type.RTDTypeInfo)
+
+Value_RTD_Position = _reflection.GeneratedProtocolMessageType('Value_RTD_Position', (_message.Message,), dict(
+
+  RTDPositionInfo = _reflection.GeneratedProtocolMessageType('RTDPositionInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_RTD_POSITION_RTDPOSITIONINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_RTD_POSITION,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Position)
+  ))
+_sym_db.RegisterMessage(Value_RTD_Position)
+_sym_db.RegisterMessage(Value_RTD_Position.RTDPositionInfo)
+
+Value_GFX_Status = _reflection.GeneratedProtocolMessageType('Value_GFX_Status', (_message.Message,), dict(
+
+  GFXStatus = _reflection.GeneratedProtocolMessageType('GFXStatus', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_STATUS_GFXSTATUS,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status.GFXStatus)
+    ))
+  ,
+
+  PGMGFX = _reflection.GeneratedProtocolMessageType('PGMGFX', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_STATUS_PGMGFX,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status.PGMGFX)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Status)
+_sym_db.RegisterMessage(Value_GFX_Status.GFXStatus)
+_sym_db.RegisterMessage(Value_GFX_Status.PGMGFX)
+
+Value_GFX_Position = _reflection.GeneratedProtocolMessageType('Value_GFX_Position', (_message.Message,), dict(
+
+  GFXPosition = _reflection.GeneratedProtocolMessageType('GFXPosition', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_POSITION_GFXPOSITION,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position.GFXPosition)
+    ))
+  ,
+
+  PGMGFX = _reflection.GeneratedProtocolMessageType('PGMGFX', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_POSITION_PGMGFX,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position.PGMGFX)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_POSITION,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Position)
+_sym_db.RegisterMessage(Value_GFX_Position.GFXPosition)
+_sym_db.RegisterMessage(Value_GFX_Position.PGMGFX)
+
+Value_GFX_Fade_In_Out_Duration = _reflection.GeneratedProtocolMessageType('Value_GFX_Fade_In_Out_Duration', (_message.Message,), dict(
+
+  GFXFadeDuration = _reflection.GeneratedProtocolMessageType('GFXFadeDuration', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_FADE_IN_OUT_DURATION_GFXFADEDURATION,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration)
+    ))
+  ,
+
+  PGMGFX = _reflection.GeneratedProtocolMessageType('PGMGFX', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_FADE_IN_OUT_DURATION_PGMGFX,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_FADE_IN_OUT_DURATION,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Fade_In_Out_Duration)
+_sym_db.RegisterMessage(Value_GFX_Fade_In_Out_Duration.GFXFadeDuration)
+_sym_db.RegisterMessage(Value_GFX_Fade_In_Out_Duration.PGMGFX)
+
+Value_GFX_Loop_In_Out = _reflection.GeneratedProtocolMessageType('Value_GFX_Loop_In_Out', (_message.Message,), dict(
+
+  GFXLoopInOut = _reflection.GeneratedProtocolMessageType('GFXLoopInOut', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_LOOP_IN_OUT_GFXLOOPINOUT,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut)
+    ))
+  ,
+
+  PGMGFX = _reflection.GeneratedProtocolMessageType('PGMGFX', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_LOOP_IN_OUT_PGMGFX,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_LOOP_IN_OUT,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Loop_In_Out)
+_sym_db.RegisterMessage(Value_GFX_Loop_In_Out.GFXLoopInOut)
+_sym_db.RegisterMessage(Value_GFX_Loop_In_Out.PGMGFX)
+
+Value_GFX_Loop_Count = _reflection.GeneratedProtocolMessageType('Value_GFX_Loop_Count', (_message.Message,), dict(
+
+  GFXLoopCnt = _reflection.GeneratedProtocolMessageType('GFXLoopCnt', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_LOOP_COUNT_GFXLOOPCNT,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt)
+    ))
+  ,
+
+  PGMGFX = _reflection.GeneratedProtocolMessageType('PGMGFX', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_LOOP_COUNT_PGMGFX,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_LOOP_COUNT,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Loop_Count)
+_sym_db.RegisterMessage(Value_GFX_Loop_Count.GFXLoopCnt)
+_sym_db.RegisterMessage(Value_GFX_Loop_Count.PGMGFX)
+
+Value_GFX_Preload_Status = _reflection.GeneratedProtocolMessageType('Value_GFX_Preload_Status', (_message.Message,), dict(
+
+  GFXPreloadStatus = _reflection.GeneratedProtocolMessageType('GFXPreloadStatus', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_GFX_PRELOAD_STATUS_GFXPRELOADSTATUS,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_GFX_PRELOAD_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Preload_Status)
+  ))
+_sym_db.RegisterMessage(Value_GFX_Preload_Status)
+_sym_db.RegisterMessage(Value_GFX_Preload_Status.GFXPreloadStatus)
+
+Value_HealthInfo_Version = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_Version', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_VERSION,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Version)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_Version)
+
+Value_HealthInfo_Mixer_Status = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_Mixer_Status', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_MIXER_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Mixer_Status)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_Mixer_Status)
+
+Value_HealthInfo_Network_Bandwidth = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_Network_Bandwidth', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_NETWORK_BANDWIDTH,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Network_Bandwidth)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_Network_Bandwidth)
+
+Value_HealthInfo_GPU_Temperature = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_GPU_Temperature', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_GPU_TEMPERATURE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_GPU_Temperature)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_GPU_Temperature)
+
+Value_HealthInfo_AJA_Status = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_AJA_Status', (_message.Message,), dict(
+
+  InfoAJA = _reflection.GeneratedProtocolMessageType('InfoAJA', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_HEALTHINFO_AJA_STATUS_INFOAJA,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_HEALTHINFO_AJA_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_AJA_Status)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_AJA_Status)
+_sym_db.RegisterMessage(Value_HealthInfo_AJA_Status.InfoAJA)
+
+Value_HealthInfo_HDD_Status = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_HDD_Status', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_HDD_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_HDD_Status)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_HDD_Status)
+
+Value_HealthInfo_ASIO_Status = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_ASIO_Status', (_message.Message,), dict(
+
+  ValueStatusPair = _reflection.GeneratedProtocolMessageType('ValueStatusPair', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_HEALTHINFO_ASIO_STATUS_VALUESTATUSPAIR,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair)
+    ))
+  ,
+
+  AsioStatus = _reflection.GeneratedProtocolMessageType('AsioStatus', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_HEALTHINFO_ASIO_STATUS_ASIOSTATUS,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_HEALTHINFO_ASIO_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_ASIO_Status)
+_sym_db.RegisterMessage(Value_HealthInfo_ASIO_Status.ValueStatusPair)
+_sym_db.RegisterMessage(Value_HealthInfo_ASIO_Status.AsioStatus)
+
+Value_HealthInfo_External_TimeCode = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_External_TimeCode', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_EXTERNAL_TIMECODE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_External_TimeCode)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_External_TimeCode)
+
+Value_CustomInfo = _reflection.GeneratedProtocolMessageType('Value_CustomInfo', (_message.Message,), dict(
+
+  InfoPair = _reflection.GeneratedProtocolMessageType('InfoPair', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_CUSTOMINFO_INFOPAIR,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_CustomInfo.InfoPair)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_CUSTOMINFO,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_CustomInfo)
+  ))
+_sym_db.RegisterMessage(Value_CustomInfo)
+_sym_db.RegisterMessage(Value_CustomInfo.InfoPair)
+
+Value_BMR_Setting = _reflection.GeneratedProtocolMessageType('Value_BMR_Setting', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_BMR_SETTING,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_BMR_Setting)
+  ))
+_sym_db.RegisterMessage(Value_BMR_Setting)
+
+Value_VuMeter_Live_Mixer_PGM = _reflection.GeneratedProtocolMessageType('Value_VuMeter_Live_Mixer_PGM', (_message.Message,), dict(
+
+  VuMeter = _reflection.GeneratedProtocolMessageType('VuMeter', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_VUMETER_LIVE_MIXER_PGM_VUMETER,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter)
+    ))
+  ,
+
+  PGMUV = _reflection.GeneratedProtocolMessageType('PGMUV', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_VUMETER_LIVE_MIXER_PGM_PGMUV,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_VUMETER_LIVE_MIXER_PGM,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM)
+  ))
+_sym_db.RegisterMessage(Value_VuMeter_Live_Mixer_PGM)
+_sym_db.RegisterMessage(Value_VuMeter_Live_Mixer_PGM.VuMeter)
+_sym_db.RegisterMessage(Value_VuMeter_Live_Mixer_PGM.PGMUV)
+
+Value_PiP_Status = _reflection.GeneratedProtocolMessageType('Value_PiP_Status', (_message.Message,), dict(
+
+  PiPStatus = _reflection.GeneratedProtocolMessageType('PiPStatus', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PIP_STATUS_PIPSTATUS,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status.PiPStatus)
+    ))
+  ,
+
+  PGMPiP = _reflection.GeneratedProtocolMessageType('PGMPiP', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_PIP_STATUS_PGMPIP,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status.PGMPiP)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_PIP_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status)
+  ))
+_sym_db.RegisterMessage(Value_PiP_Status)
+_sym_db.RegisterMessage(Value_PiP_Status.PiPStatus)
+_sym_db.RegisterMessage(Value_PiP_Status.PGMPiP)
+
+Value_Server_Memory = _reflection.GeneratedProtocolMessageType('Value_Server_Memory', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_SERVER_MEMORY,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Server_Memory)
+  ))
+_sym_db.RegisterMessage(Value_Server_Memory)
+
+Value_Cache_ReplayPlayer_HighResVideo = _reflection.GeneratedProtocolMessageType('Value_Cache_ReplayPlayer_HighResVideo', (_message.Message,), dict(
+
+  Range = _reflection.GeneratedProtocolMessageType('Range', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO_RANGE,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_CACHE_REPLAYPLAYER_HIGHRESVIDEO,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo)
+  ))
+_sym_db.RegisterMessage(Value_Cache_ReplayPlayer_HighResVideo)
+_sym_db.RegisterMessage(Value_Cache_ReplayPlayer_HighResVideo.Range)
+
+Value_Cache_ReplayPlayer_ExternalAudio = _reflection.GeneratedProtocolMessageType('Value_Cache_ReplayPlayer_ExternalAudio', (_message.Message,), dict(
+
+  Range = _reflection.GeneratedProtocolMessageType('Range', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO_RANGE,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_CACHE_REPLAYPLAYER_EXTERNALAUDIO,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio)
+  ))
+_sym_db.RegisterMessage(Value_Cache_ReplayPlayer_ExternalAudio)
+_sym_db.RegisterMessage(Value_Cache_ReplayPlayer_ExternalAudio.Range)
+
+Value_Storage_Capacity = _reflection.GeneratedProtocolMessageType('Value_Storage_Capacity', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_STORAGE_CAPACITY,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Storage_Capacity)
+  ))
+_sym_db.RegisterMessage(Value_Storage_Capacity)
+
+Value_HealthInfo_ReferenceStatus = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_ReferenceStatus', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_HEALTHINFO_REFERENCESTATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ReferenceStatus)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_ReferenceStatus)
+
+Value_HealthInfo_SerialNumber = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_SerialNumber', (_message.Message,), dict(
+
+  ServerInfo = _reflection.GeneratedProtocolMessageType('ServerInfo', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_HEALTHINFO_SERIALNUMBER_SERVERINFO,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_HEALTHINFO_SERIALNUMBER,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_SerialNumber)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_SerialNumber)
+_sym_db.RegisterMessage(Value_HealthInfo_SerialNumber.ServerInfo)
+
+Value_HealthInfo_RemainingTimePerCam = _reflection.GeneratedProtocolMessageType('Value_HealthInfo_RemainingTimePerCam', (_message.Message,), dict(
+
+  RemainingTime = _reflection.GeneratedProtocolMessageType('RemainingTime', (_message.Message,), dict(
+    DESCRIPTOR = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM_REMAININGTIME,
+    __module__ = 'broadcast_pb2'
+    # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime)
+    ))
+  ,
+  DESCRIPTOR = _VALUE_HEALTHINFO_REMAININGTIMEPERCAM,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam)
+  ))
+_sym_db.RegisterMessage(Value_HealthInfo_RemainingTimePerCam)
+_sym_db.RegisterMessage(Value_HealthInfo_RemainingTimePerCam.RemainingTime)
+
+Value_Film_Effect_Status = _reflection.GeneratedProtocolMessageType('Value_Film_Effect_Status', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_FILM_EFFECT_STATUS,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Film_Effect_Status)
+  ))
+_sym_db.RegisterMessage(Value_Film_Effect_Status)
+
+Value_Common_TimeReference = _reflection.GeneratedProtocolMessageType('Value_Common_TimeReference', (_message.Message,), dict(
+  DESCRIPTOR = _VALUE_COMMON_TIMEREFERENCE,
+  __module__ = 'broadcast_pb2'
+  # @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Common_TimeReference)
+  ))
+_sym_db.RegisterMessage(Value_Common_TimeReference)
 
 BroadCastData = _reflection.GeneratedProtocolMessageType('BroadCastData', (_message.Message,), dict(
   DESCRIPTOR = _BROADCASTDATA,

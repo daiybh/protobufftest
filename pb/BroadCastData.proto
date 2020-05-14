@@ -3,9 +3,130 @@ syntax = "proto3";
 package GoogleProtoBB;                                             
 
 message BroadCastData{
-	Value_Recorder_Train_In_Out Recorder_Train_In_Out=1;
-	Value_Player_Status Player_Status=2;
-	Value_Camera_Type  camera_type=3;
-	Value_Recorder_ClosedCaption Recorder_ClosedCaption=4;
-	Value_Player_ClosedCaption Player_ClosedCaption=5;
+	Value_Recorder_Train_In_Out 		Recorder_Train_In_Out=1;
+	Value_Player_Status 				Player_Status=2;
+	Value_Camera_Type  					camera_type=3;
+	Value_Recorder_ClosedCaption 		Recorder_ClosedCaption=4;
+	Value_Player_ClosedCaption 			Player_ClosedCaption=5;
+	Value_Player_Status 				Player_Status=6;
+	Value_Player_Group 					Value_Player_Group=7;
+	Value_Player_Camera 				Value_Player_Camera=8;
+	Value_Player_Type 				Value_Player_Type=9;
+	Value_Player_AudioPresetId 				Value_Player_AudioPresetId=10;
+	Value_Player_Speed 				Value_Player_Speed=11;
+	Value_Player_Consigne 				Value_Player_Consigne=12;
+	Value_Player_Mode 				Value_Player_Mode=13;
+	Value_Player_Extend_Playlist 				Value_Player_Extend_Playlist=14;
+	Value_Player_Limit_In_Out 				Value_Player_Limit_In_Out=15;
+	Value_Player_Loop_Mode 				Value_Player_Loop_Mode=16;
+	Value_Player_Loop_Count 				Value_Player_Loop_Count=17;
+	Value_Player_Playlist_ID 				Value_Player_Playlist_ID=18;
+	Value_Player_Camera 				=19;
+	Value_Player_Camera 				=20;
+	Value_Player_Camera 				=21;
+	Value_Player_Camera 				=22;
+	Value_Player_Camera 				=23;
+	Value_Player_Camera 				=24;
+	Value_Player_Camera 				=25;
+	Value_Player_Camera 				=26;
+	Value_Player_Camera 				=27;
+	Value_Player_Camera 				=28;
+	Value_Player_Camera 				=29;
+	Value_Player_Camera 				=30;
+	Value_Player_Camera 				=31;
+	Value_Player_Camera 				=32;
+	Value_Player_Camera 				=33;
+	Value_Player_Camera 				=34;
+	Value_Player_Camera 				=35;
+	Value_Player_Camera 				=36;
+	Value_Player_Camera 				=37;
+	Value_Player_Camera 				=38;
+	Value_Player_Camera 				=39;
+	Value_Player_Camera 				=40;
+	Value_Player_Camera 				=41;
+	Value_Player_Camera 				=42;
+	Value_Player_Camera 				=43;
+	Value_Player_Camera 				=44;
+	Value_Player_Camera 				=45;
+	Value_Player_Camera 				=46;
+	Value_Player_Camera 				=47;
+	Value_Player_Camera 				=48;
+	Value_Player_Camera 				=49;
+	Value_Player_Camera 				=50;
+	Value_Player_Camera 				=51;
+	Value_Player_Camera 				=52;
+	Value_Player_Camera 				=53;
+	Value_Player_Camera 				=54;
+	Value_Player_Camera 				=55;
+	Value_Player_Camera 				=56;
+	Value_Player_Camera 				=57;
+	Value_Player_Camera 				=58;
+	Value_Player_Camera 				=59;
+	
+	
+
+
+
+
+
+
+
 }
+
+message Value_Recorder_Train_In_Out
+message Value_Player_Status	
+message Value_Camera_Type
+message Value_Recorder_ClosedCaption
+message Value_Player_ClosedCaption
+message Value_Player_Status
+message Value_Player_Group
+message Value_Player_Camera
+message Value_Player_Type
+message Value_Player_AudioPresetId
+message Value_Player_Speed
+message Value_Player_Consigne
+message Value_Player_Mode
+message Value_Player_Extend_Playlist
+message Value_Player_Limit_In_Out
+message Value_Player_Loop_Mode
+message Value_Player_Loop_Count
+message Value_Player_Playlist_ID
+message Value_Player_Playlist_Element_ID
+message Value_DVE_Mode
+message Value_DVE_Type
+message Value_DVE_Channel
+message Value_DVE_Num
+message Value_DVE_Den
+message Value_DVE_CutThreshold
+message Value_DVE_Custom_Transparency
+message Value_RTD_Status
+message Value_RTD_Type
+message Value_RTD_Position
+message Value_GFX_Status
+message Value_GFX_Position
+message Value_GFX_Fade_In_Out_Duration
+message Value_GFX_Loop_In_Out
+message Value_GFX_Loop_Count
+message Value_GFX_Preload_Status
+message Value_HealthInfo_Version
+message Value_HealthInfo_Mixer_Status
+message Value_HealthInfo_Network_Bandwidth
+message Value_HealthInfo_GPU_Temperature
+message Value_HealthInfo_AJA_Status
+message Value_HealthInfo_HDD_Status
+message Value_HealthInfo_ASIO_Status
+message Value_HealthInfo_External_TimeCode
+message Value_CustomInfo
+message Value_BMR_Setting
+message Value_VuMeter_Live_Mixer_PGM
+message Value_PiP_Status
+message Value_Server_Memory
+message Value_Cache_ReplayPlayer_HighResVideo
+message Value_Cache_ReplayPlayer_ExternalAudio
+message Value_Storage_Capacity
+message Value_HealthInfo_ReferenceStatus
+message Value_HealthInfo_SerialNumber
+message Value_HealthInfo_RemainingTimePerCam
+message Value_Film_Effect_Status
+message Value_Common_TimeReference
+

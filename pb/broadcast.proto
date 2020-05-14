@@ -130,6 +130,10 @@ enum CnlID
 	ID_TGA_1= 235;				  //only used for Dll.FrameReceiver for cnl register
 	ID_Cnl_Max=236;
 };
+enum CamID 
+{	
+	ID_Cam_0 = 0;
+};
 message Value_Recorder_Train_In_Out
 {	
 	uint32			count =1;
@@ -177,570 +181,709 @@ message Value_Player_ClosedCaption
 	uint32				count = 1;
 	repeated ItemInfo	items=2;
 };
-/*
-message Value_Player_Status
-{
-	message StatusInfo
-	{
-		CnlID		id;
-		uint8_t		status;
-	};
-	uint32			 count = NB_PLAYER;
-	StatusInfo		 statusInfo[NB_PLAYER];
-};
+
 
 message Value_Player_Group
 {
 	message GroupInfo
 	{
-		CnlID		id;
-		char		group;
+		CnlID		id=1;
+		uint32		group=2;
 	};
-	uint32			 count = NB_PLAYER;
-	GroupInfo		 groupInfo[NB_PLAYER];
+	uint32			 count = 1;
+	repeated GroupInfo		 groupInfo=2;
 };
 
 message Value_Player_Camera
 {
 	message CameraInfo
 	{
-		CnlID		id;
-		CamID		camera;
+		CnlID		id=1;
+		CamID		camera=2;
 	};
-	uint32			 count = NB_PLAYER;
-	CameraInfo		 cameraInfo[NB_PLAYER];
+	uint32			 count = 1;
+	repeated CameraInfo		 cameraInfo=2;
 };
 
 message Value_Player_Type
 {
+	
+enum PlayerType 
+{
+	PLAYER_TYPE_REPLAY=0;
+	PLAYER_TYPE_LIVE=1;
+};
 	message TypeInfo
 	{
-		CnlID				id;
-		PlayerType	type;
+		CnlID				id=1;
+		PlayerType	type=2;
 	};
-	uint32				count = NB_PLAYER;
-	TypeInfo			typeInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated TypeInfo			typeInfo=2;
 };
 
 message Value_Player_AudioPresetId
 {
 	message TypeInfo
 	{
-		CnlID				id;
-		uint8_t				audioPresetId;//-1 means not preset assigned
+		CnlID				id=1;
+		uint32				audioPresetId=2;//-1 means not preset assigned
 	};
-	uint32				count = NB_PLAYER;
-	TypeInfo			typeInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated TypeInfo			typeInfo=2;
 };
 
 message Value_Player_Speed
 {
 	message SpeedInfo
 	{
-		CnlID				id;
-		int32_t				speedN;
-		int32_t				speedD;
+		CnlID				id=1;
+		int32				speedN=2;
+		int32				speedD=3;
 	};
-	uint32				count = NB_PLAYER;
-	SpeedInfo			speedInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated SpeedInfo			speedInfo=2;
 };
 
 message Value_Player_Consigne
 {
 	message ConsigneInfo
 	{
-		CnlID				id;
-		uint64_t			consigne;
+		CnlID				id=1;
+		uint64			consigne=2;
 	};
-	uint32				count = NB_PLAYER;
-	ConsigneInfo		consigneInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated ConsigneInfo		consigneInfo=2;
 };
 
 message Value_Player_Mode
 {
+	
+enum PlayerMode
+{
+	clipMode=0;
+	playlistMode=1;
+};
 	message ModeInfo
 	{
-		CnlID				id;
-		PlayerMode		playerMode;
+		CnlID				id=1;
+		PlayerMode		playerMode=2;
 	};
-	uint32				count = NB_PLAYER;
-	ModeInfo			modeInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated ModeInfo			modeInfo=2;
 };
 
 message Value_Player_Extend_Playlist
 {
 	message ExtendPlaylistInfo
 	{
-		CnlID				id;
-		bool				bExtendPlaylist;
+		CnlID				id=1;
+		bool				bExtendPlaylist=2;
 	};
-	uint32				count = NB_PLAYER;
-	ExtendPlaylistInfo  extendPlaylistInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated ExtendPlaylistInfo  extendPlaylistInfo=2;
 };
 
 message Value_Player_Limit_In_Out
 {
 	message LimitInfo
 	{
-		CnlID				id;
-		bool				isLimitInRelative;
-		bool				isLimitOutRelative;
-		uint64_t			limitIn;
-		uint64_t			limitOut;
+		CnlID				id=1;
+		bool				isLimitInRelative=2;
+		bool				isLimitOutRelative=3;
+		uint64			limitIn=4;
+		uint64			limitOut=5;
 	};
-	uint32				count = NB_PLAYER;
-	LimitInfo			limitInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated LimitInfo			limitInfo=2;
 };
 
 message Value_Player_Loop_Mode
 {
+	
+enum PlayerLoopMode
+{
+	OFF = 0;
+	STD=1;
+	PING_PONG=2;
+};
 	message LoopModeInfo
 	{
-		CnlID				id;
-		PlayerLoopMode	loopMode;
+		CnlID				id=1;
+		PlayerLoopMode	loopMode=2;
 	};
-	uint32				count = NB_PLAYER;
-	LoopModeInfo		loopModeInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated LoopModeInfo		loopModeInfo=2;
 };
 
 message Value_Player_Loop_Count
 {
 	message LoopCountInfo
 	{
-		CnlID				id;
-		uint8_t				loopCount;
+		CnlID				id=1;
+		uint32				loopCount=2;
 	};
-	uint32				count = NB_PLAYER;
-	LoopCountInfo		loopCountInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated LoopCountInfo		loopCountInfo=2;
 };
 
 message Value_Player_Playlist_ID
 {
 	message PlaylistIDInfo
 	{
-		CnlID	id;
-		uint8_t	idSize;
-		char* playlistID;
+		CnlID	id=1;
+		uint32	idSize=2;
+		bytes playlistID=3;
 	};
-	uint32				count = NB_PLAYER;
-	PlaylistIDInfo		playlistIDInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated PlaylistIDInfo		playlistIDInfo=2;
 };
 
 message Value_Player_Playlist_Element_ID
 {
 	message ElementIDInfo
 	{
-		CnlID				id;
-		uint8_t				idSize;
-		char* elementID;
+		CnlID				id=1;
+		uint32				idSize=2;
+		bytes elementID=3;
 	};
-	uint32				count = NB_PLAYER;
-	ElementIDInfo		elementIDInfo[NB_PLAYER];
+	uint32				count = 1;
+	repeated ElementIDInfo		elementIDInfo=2;
 };
 
 message Value_DVE_Mode
 {
+	
+enum DVEMode 
+{
+	offMode=0;
+	autoMode=1;
+	manualMode=2;
+};
 	message DVEModeInfo
 	{
-		CnlID id;
-		DVEMode				mode;
+		CnlID id=1;
+		DVEMode				mode=2;
 	};
-	uint32				count = NB_MAX_USER;
-	DVEModeInfo			modeInfo[NB_MAX_USER];
+	uint32				count = 1;
+	repeated DVEModeInfo			modeInfo=2;
 };
 
 message Value_DVE_Type
 {
+	enum  DVEType 
+	{
+		dve_MIX = 0;
+		dve_WIPE_LR=1;
+		dve_WIPE_RL=2;
+	};
 	message DVETypeInfo
 	{
-		CnlID id;
-		transportCmd::DVEType	type;
+		CnlID id=1;
+		DVEType	type=2;
 	};
-	uint32					count = NB_MAX_USER;
-	DVETypeInfo				typeInfo[NB_MAX_USER];
+	uint32					count = 1;
+	repeated DVETypeInfo				typeInfo=2;
 };
 
 message Value_DVE_Channel
 {
-	uint32			 count = NB_MAX_USER;
-	CnlID			 cnl[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated CnlID			 cnl=2;
 };
 
 message Value_DVE_Num
 {
 	message DVENumInfo
 	{
-		CnlID		id;
-		int32_t		num;
+		CnlID		id=1;
+		int32		num=2;
 	};
-	uint32			 count = NB_MAX_USER;
-	DVENumInfo		 numInfo[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated DVENumInfo		 numInfo=2;
 };
 
 message Value_DVE_Den
 {
 	message DVEDenInfo
 	{
-		CnlID		id;
-		int32_t		den;
+		CnlID		id=1;
+		int32		den=2;
 	};
-	uint32			 count = NB_MAX_USER;
-	DVEDenInfo		 denInfo[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated DVEDenInfo		 denInfo=2;
 };
 
 message Value_DVE_CutThreshold
 {
 	message DVEThresholdInfo
 	{
-		CnlID		id;
-		int32_t		threshold;
+		CnlID		id=1;
+		int32		threshold=2;
 	};
-	uint32			 count = NB_MAX_USER;
-	DVEThresholdInfo thresholdInfo[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated DVEThresholdInfo thresholdInfo=2;
 };
 
 message Value_DVE_Custom_Transparency
 {
 	message DVECustomTransparencyInfo
 	{
-		CnlID		id;
-		bool		bCustom;
+		CnlID		id=1;
+		bool		bCustom=2;
 	};
-	uint32					  count = NB_MAX_USER;
-	DVECustomTransparencyInfo customInfo[NB_MAX_USER];
+	uint32					  count = 1;
+	repeated DVECustomTransparencyInfo customInfo=2;
 };
 
 message Value_RTD_Status
 {
 	message RTDStatusInfo
 	{
-		CnlID		id;
-		bool		enable;
+		CnlID		id=1;
+		bool		enable=2;
 	};
-	uint32			 count = NB_MAX_USER;
-	RTDStatusInfo	 statusInfo[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated RTDStatusInfo	 statusInfo=2;
 };
+
+enum RTDType 
+	{
+		rtd1=0;
+		rtd2=1;
+		rtd3=2;
+		rtd4=3;
+		rtd5=4;
+		rtd6=5;
+		rtd7=6;
+		rtd_Max=7;
+	};
 
 message Value_RTD_Type
 {
 	message RTDTypeInfo
 	{
-		CnlID		id;
-		transportCmd::RTDType	 type;
+		CnlID		id=1;
+		RTDType	 type=2;
 	};
-	uint32					 count = NB_MAX_USER;
-	RTDTypeInfo				 typeInfo[NB_MAX_USER];
+	uint32					 count = 1;
+	repeated RTDTypeInfo				 typeInfo=2;
 };
 
 message Value_RTD_Position
 {
 	message RTDPositionInfo
 	{
-		CnlID		id;
-		uint32_t		 position;
+		CnlID		id=1;
+		uint32		 position=2;
 	};
-	uint32			 count = NB_MAX_USER;
-	RTDPositionInfo	 positionInfo[NB_MAX_USER];
+	uint32			 count = 1;
+	repeated RTDPositionInfo	 positionInfo=2;
 };
-
+enum GFxCnl{
+	a=0;
+}
 message Value_GFX_Status
 {
 	message GFXStatus
 	{
-		CnlID targetCnlID;
-		GFxCnl gfxCnl;
-		bool enable;
+		CnlID targetCnlID=1;
+		GFxCnl gfxCnl=2;
+		bool enable=3;
 	};
 	message PGMGFX
 	{
-		uint32			 count;
-		GFXStatus* gfxStatus;
+		uint32			 count=1;
+		repeated GFXStatus gfxStatus=2;
 	};
-	uint32			 pgmCount;
-	PGMGFX* pgmGfx;
+	uint32			 pgmCount=1;
+	repeated PGMGFX pgmGfx=2;
 };
 
 message Value_GFX_Position
 {
 	message GFXPosition
 	{
-		CnlID	 targetCnlID;
-		GFxCnl	 gfxCnl;
-		uint32_t position;
+		CnlID	 targetCnlID=1;
+		GFxCnl	 gfxCnl=2;
+		uint32 position=3;
 	};
 	message PGMGFX
 	{
-		uint32			 count;
-		GFXPosition* gfxPosition;
+		uint32			 count=1;
+		repeated GFXPosition gfxPosition=2;
 	};
-	uint32			 pgmCount;
-	PGMGFX* pgmGfx;
+	uint32			 pgmCount=1;
+	repeated PGMGFX pgmGfx=2;
 };
 
 message Value_GFX_Fade_In_Out_Duration
 {
 	message GFXFadeDuration
 	{
-		CnlID		targetCnlID;
-		GFxCnl		gfxCnl;
-		uint32_t		fadeInDuration;
-		uint32_t		fadeOutDuration;
+		CnlID		targetCnlID=1;
+		GFxCnl		gfxCnl=2;
+		uint32		fadeInDuration=3;
+		uint32		fadeOutDuration=4;
 	};
 	message PGMGFX
 	{
-		uint32			 count;
-		GFXFadeDuration* gfxFadeDuration;
+		uint32			 count=1;
+		repeated GFXFadeDuration gfxFadeDuration=2;
 	};
-	uint32				pgmCount;
-	PGMGFX* pgmGfx;
+	uint32				pgmCount=1;
+	repeated PGMGFX pgmGfx=2;
 };
 
 message Value_GFX_Loop_In_Out
 {
 	message GFXLoopInOut
 	{
-		CnlID targetCnlID;
-		GFxCnl gfxCnl;
-		uint32_t loopIn;
-		uint32_t loopOut;
+		CnlID targetCnlID=1;
+		GFxCnl gfxCnl=2;
+		uint32 loopIn=3;
+		uint32 loopOut=4;
 	};
 	message PGMGFX
 	{
-		uint32			count;
-		GFXLoopInOut* gfxLoopInOut;
+		uint32			count=1;
+		repeated GFXLoopInOut gfxLoopInOut=2;
 	};
-	uint32				pgmCount;
-	PGMGFX* pgmGfx;
+	uint32				pgmCount=1;
+	repeated PGMGFX pgmGfx=2;
 };
 
 message Value_GFX_Loop_Count
 {
 	message GFXLoopCnt
 	{
-		CnlID targetCnlID;
-		GFxCnl gfxCnl;
-		uint32_t loopCnt;
+		CnlID targetCnlID=1;
+		GFxCnl gfxCnl=2;
+		uint32 loopCnt=3;
 	};
 	message PGMGFX
 	{
-		uint32		  count;
-		GFXLoopCnt* gfxLoopCnt;
+		uint32		  count=1;
+		repeated GFXLoopCnt gfxLoopCnt=2;
 	};
-	uint32				pgmCount;
-	PGMGFX* pgmGfx;
+	uint32				pgmCount=1;
+	repeated PGMGFX pgmGfx=2;
+};
+enum TGAChannel 
+{	TGAChannel_gfx1=0;
+	TGAChannel_gfx2=1;
+	TGAChannel_gfx3=2;
+	TGAChannel_rtd1=3;
+	TGAChannel_rtd2=4;
+	TGAChannel_PiP_PGM=5;
+	TGAChannel_PiP_PRV=6;
+	TGAChannel_rtd3=7;
+	TGAChannel_rtd4=8;
+	TGAChannel_rtd5=9;
+	TGAChannel_rtd6=10;
+	TGAChannel_rtd7=11;
+	TGAChannel_max=12;
 };
 
+enum TGAChannelStatus
+{
+	TGAChannelStatus_None=0;
+	TGAChannelStatus_PreloadingSecure=1;
+	TGAChannelStatus_Preloaded=2;
+	TGAChannelStatus_PreloadingNotSecure=3;
+};
 message Value_GFX_Preload_Status
 {
 	message GFXPreloadStatus
 	{
-		TGAChannel			gfxCnl;
-		TGAChannelStatus	preloadingStatus;
-		uint32_t			preloadNum;
-		uint32_t			preloadDen;
-		uint32_t			idSize;
-		char* id;
+		TGAChannel			gfxCnl=1;
+		TGAChannelStatus	preloadingStatus=2;
+		uint32			preloadNum=3;
+		uint32			preloadDen=4;
+		uint32			idSize=5;
+		bytes id=6;
 	};
-	uint32				count;
-	GFXPreloadStatus* gfxPreloadStatus;
+	uint32				count=1;
+	repeated GFXPreloadStatus gfxPreloadStatus=2;
 };
 
 message Value_HealthInfo_Version
 {
-	uint8_t			 version[4];
+	uint32			 version0=1;
+	uint32			 version1=2;
+	uint32			 version2=3;
+	uint32			 version3=4;
 };
 
 message Value_HealthInfo_Mixer_Status
 {
-	bool			 hasConnectedAudioMixer;
+	bool			 hasConnectedAudioMixer=1;
 };
 
 message Value_HealthInfo_Network_Bandwidth
 {
-	uint32_t			networkBandwidth;
+	uint32			networkBandwidth=1;
 };
 
 message Value_HealthInfo_GPU_Temperature
 {
-	uint32				count = 2;
-	int32_t* temperatureGPU;
+	uint32				count = 1;
+	repeated int32 temperatureGPU=2;
 };
 
 message Value_HealthInfo_AJA_Status
 {
 	message InfoAJA
 	{
-		int32_t	 temperatureAJA;
-		bool	 lostAJA;
+		int32	 temperatureAJA=1;
+		bool	 lostAJA=2;
 	};
 
-	uint32				count = 2;
-	InfoAJA* status;
+	uint32				count = 1;
+	repeated InfoAJA status=2;
 };
 
 message Value_HealthInfo_HDD_Status
 {
-	uint16_t			hddFaulty;
+	uint32			hddFaulty=1;
 };
 
 message Value_HealthInfo_ASIO_Status
 {
-	AsioStatus			status;
+	
+	message ValueStatusPair
+{
+	uint32 val=1;
+	bool isGood=2;	
+};
+	message AsioStatus
+{
+	ValueStatusPair sampleRate=1;
+	ValueStatusPair bufferSize=2;
+	ValueStatusPair inputLatency=3;
+	ValueStatusPair outputLatency=4;
+};
+	AsioStatus			status=1;
 };
 
 message Value_HealthInfo_External_TimeCode
 {
-	bool				isExternalTC;
+	bool				isExternalTC=1;
 };
 
 message Value_CustomInfo
 {
 	message InfoPair
 	{
-		DWORD keySize;
-		DWORD valueSize;
-		char* key;
-		char* value;
+		uint32 keySize=1;
+		uint32 valueSize=2;
+		bytes key=3;
+		bytes value=4;
 	};
 
-	uint32				nbCustomInfo;
-	InfoPair* infoArray;
+	uint32				nbCustomInfo=1;
+	repeated InfoPair infoArray=2;
 };
 
 message Value_BMR_Setting
 {
-	uint8_t				type;
-	uint32_t			bufSize;
-	char* buf;
+	uint32				type=1;
+	uint32			bufSize=2;
+	bytes buf=3;
 };
 
 message Value_VuMeter_Live_Mixer_PGM
 {
 	message VuMeter
 	{
-		uint8_t count;
-		float* dbTbl;
+		uint32 count=1;
+		repeated float dbTbl=2;
 	};
 
-	VuMeter				mixerMeter;
+	VuMeter				mixerMeter=1;
 
-	uint32 countofLiveMeter;
-	VuMeter* liveMeter;
+	uint32 countofLiveMeter=2;
+	repeated VuMeter liveMeter=3;
 
-	uint32 countofPRV;
-	VuMeter* prvMeter;
+	uint32 countofPRV=4;
+	repeated VuMeter prvMeter=5;
 
-	uint32 countofPGM;   //each PGM has clean ,dirty and player vumeters
+	uint32 countofPGM=6;   //each PGM has clean ,dirty and player vumeters
 	message PGMUV {
-		VuMeter uvClean;
-		VuMeter dirty;
-		VuMeter player;
+		VuMeter uvClean=1;
+		VuMeter dirty=2;
+		VuMeter player=3;
 	};
-	PGMUV* pgmMeter;  //clean1,dirty1 and player1,clean2 dirty2,player2
+	repeated PGMUV pgmMeter=7;  //clean1,dirty1 and player1,clean2 dirty2,player2
 					  //and so on
 };
+enum PiPType 
+	{
+		PiP_PGM=0;
+		PiP_PRV=1;
+		PiP_Max=2;
+	};
 
 message Value_PiP_Status
 {
 	message PiPStatus
 	{
-		CnlID targetCnlID;
-		transportCmd::PiPType pipCnl;
-		bool enable;
-		int	 bgFadeInDuration;
-		int	 bgFadeOutDuration;
-		int	 bgLoopIn;
-		int	 bgLoopOut;
-		int	 bgLoopCnt;
+		CnlID targetCnlID=1;
+		PiPType pipCnl=2;
+		bool enable=3;
+		uint32	 bgFadeInDuration=4;
+		uint32	 bgFadeOutDuration=5;
+		uint32	 bgLoopIn=6;
+		uint32	 bgLoopOut=7;
+		uint32	 bgLoopCnt=8;
 	};
 	message PGMPiP
 	{
-		uint32			 count;
-		PiPStatus* gfxStatus;
+		uint32			 count=1;
+		repeated PiPStatus gfxStatus=2;
 	};
-	uint32			 pgmCount;
-	PGMPiP* pgmPiP;
+	uint32			 pgmCount=1;
+	repeated PGMPiP pgmPiP=2;
 };
 
 message Value_Server_Memory
 {
-	uint32_t			currentMemory_GB;
-	uint32_t			expectedMemory_GB;
+	uint32			currentMemory_GB=1;
+	uint32			expectedMemory_GB=2;
 };
 
 message Value_Cache_ReplayPlayer_HighResVideo
 {
 	message Range
 	{
-		uint64_t currentFrameID;
-		uint64_t out;
+		uint64 currentFrameID=1;
+		uint64 out=2;
 	};
-	uint32				count = NB_REPLAY;
-	Range				range[NB_REPLAY];
+	uint32				count = 1;
+	repeated Range				range=2;
 };
 
 message Value_Cache_ReplayPlayer_ExternalAudio
 {
 	message Range
 	{
-		uint64_t currentFrameID;
-		uint64_t out;
+		uint64 currentFrameID=1;
+		uint64 out=2;
 	};
-	uint32				count = NB_REPLAY;
-	Range				range[NB_REPLAY];
+	uint32				count = 1;
+	repeated Range				range=2;
 };
 
 message Value_Storage_Capacity
 {
-	uint32_t			blockSize_MB = 32;
-	uint32_t			nbBlockUsed = 0;
-	uint32_t			nbBlockTotal = 0;
+	uint32			blockSize_MB = 1;
+	uint32			nbBlockUsed = 2;
+	uint32			nbBlockTotal = 3;
+};
+
+enum  ReferenceStatus
+{
+	None=0;
+	InvalidGenlock=1;
+	ValidGenlock=2;
 };
 
 message Value_HealthInfo_ReferenceStatus
 {
-	ReferenceStatus		referenceStatus;
+	ReferenceStatus		referenceStatus=1;
 };
 
 message Value_HealthInfo_SerialNumber
 {
 	message ServerInfo
 	{
-		int32_t				ip;
-		uint32_t			snSize;
-		char* sn;
+		int32				ip=1;
+		uint32			snSize=2;
+		bytes sn=3;
 	};
 
-	uint32_t			nbServer;
-	ServerInfo* serverInfo;
+	uint32			nbServer=1;
+	repeated ServerInfo serverInfo=2;
 };
 
 message Value_HealthInfo_RemainingTimePerCam
 {
 	message RemainingTime
 	{
-		CamID	 cam;
-		uint32_t remainingSecond;
+		CamID	 cam=1;
+		uint32 remainingSecond=2;
 	};
 
-	uint32				count = NB_CAMERA;
-	RemainingTime		remainingTime[NB_CAMERA];
+	uint32				count = 1;
+	repeated RemainingTime		remainingTime=2;
 };
 
 message Value_Film_Effect_Status
 {
-	bool				PGM_enabled[NB_PLAYOUT] = { false };
-	bool				PRV_enabled[NB_PLAYOUT] = { false };
+	repeated bool				PGM_enabled=1;
+	repeated bool				PRV_enabled=2;
 };
 
 message Value_Common_TimeReference
 {
-	uint64_t			timeReference=1;
-};*/
+	uint64			timeReference=1;
+};
 message BroadCastData{
-	Value_Recorder_Train_In_Out Recorder_Train_In_Out=1;
-	Value_Player_Status Player_Status=2;
-	Value_Camera_Type  camera_type=3;
-	Value_Recorder_ClosedCaption Recorder_ClosedCaption=4;
-	Value_Player_ClosedCaption Player_ClosedCaption=5;
+	Value_Recorder_Train_In_Out      value_Recorder_Train_In_Out=1;
+Value_Player_Status      value_Player_Status=2;
+Value_Camera_Type      value_Camera_Type=3;
+Value_Recorder_ClosedCaption      value_Recorder_ClosedCaption=4;
+Value_Player_ClosedCaption      value_Player_ClosedCaption=5;
+Value_Player_Group      value_Player_Group=6;
+Value_Player_Camera      value_Player_Camera=7;
+Value_Player_Type      value_Player_Type=8;
+Value_Player_AudioPresetId      value_Player_AudioPresetId=9;
+Value_Player_Speed      value_Player_Speed=10;
+Value_Player_Consigne      value_Player_Consigne=11;
+Value_Player_Mode      value_Player_Mode=12;
+Value_Player_Extend_Playlist      value_Player_Extend_Playlist=13;
+Value_Player_Limit_In_Out      value_Player_Limit_In_Out=14;
+Value_Player_Loop_Mode      value_Player_Loop_Mode=15;
+Value_Player_Loop_Count      value_Player_Loop_Count=16;
+Value_Player_Playlist_ID      value_Player_Playlist_ID=17;
+Value_Player_Playlist_Element_ID      value_Player_Playlist_Element_ID=18;
+Value_DVE_Mode      value_DVE_Mode=19;
+Value_DVE_Type      value_DVE_Type=20;
+Value_DVE_Channel      value_DVE_Channel=21;
+Value_DVE_Num      value_DVE_Num=22;
+Value_DVE_Den      value_DVE_Den=23;
+Value_DVE_CutThreshold      value_DVE_CutThreshold=24;
+Value_DVE_Custom_Transparency      value_DVE_Custom_Transparency=25;
+Value_RTD_Status      value_RTD_Status=26;
+Value_RTD_Type      value_RTD_Type=27;
+Value_RTD_Position      value_RTD_Position=28;
+Value_GFX_Status      value_GFX_Status=29;
+Value_GFX_Position      value_GFX_Position=30;
+Value_GFX_Fade_In_Out_Duration      value_GFX_Fade_In_Out_Duration=31;
+Value_GFX_Loop_In_Out      value_GFX_Loop_In_Out=32;
+Value_GFX_Loop_Count      value_GFX_Loop_Count=33;
+Value_GFX_Preload_Status      value_GFX_Preload_Status=34;
+Value_HealthInfo_Version      value_HealthInfo_Version=35;
+Value_HealthInfo_Mixer_Status      value_HealthInfo_Mixer_Status=36;
+Value_HealthInfo_Network_Bandwidth      value_HealthInfo_Network_Bandwidth=37;
+Value_HealthInfo_GPU_Temperature      value_HealthInfo_GPU_Temperature=38;
+Value_HealthInfo_AJA_Status      value_HealthInfo_AJA_Status=39;
+Value_HealthInfo_HDD_Status      value_HealthInfo_HDD_Status=40;
+Value_HealthInfo_ASIO_Status      value_HealthInfo_ASIO_Status=41;
+Value_HealthInfo_External_TimeCode      value_HealthInfo_External_TimeCode=42;
+Value_CustomInfo      value_CustomInfo=43;
+Value_BMR_Setting      value_BMR_Setting=44;
+Value_VuMeter_Live_Mixer_PGM      value_VuMeter_Live_Mixer_PGM=45;
+Value_PiP_Status      value_PiP_Status=46;
+Value_Server_Memory      value_Server_Memory=47;
+Value_Cache_ReplayPlayer_HighResVideo      value_Cache_ReplayPlayer_HighResVideo=48;
+Value_Cache_ReplayPlayer_ExternalAudio      value_Cache_ReplayPlayer_ExternalAudio=49;
+Value_Storage_Capacity      value_Storage_Capacity=50;
+Value_HealthInfo_ReferenceStatus      value_HealthInfo_ReferenceStatus=51;
+Value_HealthInfo_SerialNumber      value_HealthInfo_SerialNumber=52;
+Value_HealthInfo_RemainingTimePerCam      value_HealthInfo_RemainingTimePerCam=53;
+Value_Film_Effect_Status      value_Film_Effect_Status=54;
+Value_Common_TimeReference      value_Common_TimeReference=55;
+
+
 }

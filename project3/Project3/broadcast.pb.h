@@ -39,7 +39,7 @@ namespace protobuf_broadcast_2eproto {
 struct TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
-  static const ::google::protobuf::internal::ParseTable schema[10];
+  static const ::google::protobuf::internal::ParseTable schema[105];
   static const ::google::protobuf::internal::FieldMetadata field_metadata[];
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
@@ -50,24 +50,294 @@ namespace GoogleProtoBB {
 class BroadCastData;
 class BroadCastDataDefaultTypeInternal;
 extern BroadCastDataDefaultTypeInternal _BroadCastData_default_instance_;
+class Value_BMR_Setting;
+class Value_BMR_SettingDefaultTypeInternal;
+extern Value_BMR_SettingDefaultTypeInternal _Value_BMR_Setting_default_instance_;
+class Value_Cache_ReplayPlayer_ExternalAudio;
+class Value_Cache_ReplayPlayer_ExternalAudioDefaultTypeInternal;
+extern Value_Cache_ReplayPlayer_ExternalAudioDefaultTypeInternal _Value_Cache_ReplayPlayer_ExternalAudio_default_instance_;
+class Value_Cache_ReplayPlayer_ExternalAudio_Range;
+class Value_Cache_ReplayPlayer_ExternalAudio_RangeDefaultTypeInternal;
+extern Value_Cache_ReplayPlayer_ExternalAudio_RangeDefaultTypeInternal _Value_Cache_ReplayPlayer_ExternalAudio_Range_default_instance_;
+class Value_Cache_ReplayPlayer_HighResVideo;
+class Value_Cache_ReplayPlayer_HighResVideoDefaultTypeInternal;
+extern Value_Cache_ReplayPlayer_HighResVideoDefaultTypeInternal _Value_Cache_ReplayPlayer_HighResVideo_default_instance_;
+class Value_Cache_ReplayPlayer_HighResVideo_Range;
+class Value_Cache_ReplayPlayer_HighResVideo_RangeDefaultTypeInternal;
+extern Value_Cache_ReplayPlayer_HighResVideo_RangeDefaultTypeInternal _Value_Cache_ReplayPlayer_HighResVideo_Range_default_instance_;
 class Value_Camera_Type;
 class Value_Camera_TypeDefaultTypeInternal;
 extern Value_Camera_TypeDefaultTypeInternal _Value_Camera_Type_default_instance_;
 class Value_Camera_Type_ItemInfo;
 class Value_Camera_Type_ItemInfoDefaultTypeInternal;
 extern Value_Camera_Type_ItemInfoDefaultTypeInternal _Value_Camera_Type_ItemInfo_default_instance_;
+class Value_Common_TimeReference;
+class Value_Common_TimeReferenceDefaultTypeInternal;
+extern Value_Common_TimeReferenceDefaultTypeInternal _Value_Common_TimeReference_default_instance_;
+class Value_CustomInfo;
+class Value_CustomInfoDefaultTypeInternal;
+extern Value_CustomInfoDefaultTypeInternal _Value_CustomInfo_default_instance_;
+class Value_CustomInfo_InfoPair;
+class Value_CustomInfo_InfoPairDefaultTypeInternal;
+extern Value_CustomInfo_InfoPairDefaultTypeInternal _Value_CustomInfo_InfoPair_default_instance_;
+class Value_DVE_Channel;
+class Value_DVE_ChannelDefaultTypeInternal;
+extern Value_DVE_ChannelDefaultTypeInternal _Value_DVE_Channel_default_instance_;
+class Value_DVE_Custom_Transparency;
+class Value_DVE_Custom_TransparencyDefaultTypeInternal;
+extern Value_DVE_Custom_TransparencyDefaultTypeInternal _Value_DVE_Custom_Transparency_default_instance_;
+class Value_DVE_Custom_Transparency_DVECustomTransparencyInfo;
+class Value_DVE_Custom_Transparency_DVECustomTransparencyInfoDefaultTypeInternal;
+extern Value_DVE_Custom_Transparency_DVECustomTransparencyInfoDefaultTypeInternal _Value_DVE_Custom_Transparency_DVECustomTransparencyInfo_default_instance_;
+class Value_DVE_CutThreshold;
+class Value_DVE_CutThresholdDefaultTypeInternal;
+extern Value_DVE_CutThresholdDefaultTypeInternal _Value_DVE_CutThreshold_default_instance_;
+class Value_DVE_CutThreshold_DVEThresholdInfo;
+class Value_DVE_CutThreshold_DVEThresholdInfoDefaultTypeInternal;
+extern Value_DVE_CutThreshold_DVEThresholdInfoDefaultTypeInternal _Value_DVE_CutThreshold_DVEThresholdInfo_default_instance_;
+class Value_DVE_Den;
+class Value_DVE_DenDefaultTypeInternal;
+extern Value_DVE_DenDefaultTypeInternal _Value_DVE_Den_default_instance_;
+class Value_DVE_Den_DVEDenInfo;
+class Value_DVE_Den_DVEDenInfoDefaultTypeInternal;
+extern Value_DVE_Den_DVEDenInfoDefaultTypeInternal _Value_DVE_Den_DVEDenInfo_default_instance_;
+class Value_DVE_Mode;
+class Value_DVE_ModeDefaultTypeInternal;
+extern Value_DVE_ModeDefaultTypeInternal _Value_DVE_Mode_default_instance_;
+class Value_DVE_Mode_DVEModeInfo;
+class Value_DVE_Mode_DVEModeInfoDefaultTypeInternal;
+extern Value_DVE_Mode_DVEModeInfoDefaultTypeInternal _Value_DVE_Mode_DVEModeInfo_default_instance_;
+class Value_DVE_Num;
+class Value_DVE_NumDefaultTypeInternal;
+extern Value_DVE_NumDefaultTypeInternal _Value_DVE_Num_default_instance_;
+class Value_DVE_Num_DVENumInfo;
+class Value_DVE_Num_DVENumInfoDefaultTypeInternal;
+extern Value_DVE_Num_DVENumInfoDefaultTypeInternal _Value_DVE_Num_DVENumInfo_default_instance_;
+class Value_DVE_Type;
+class Value_DVE_TypeDefaultTypeInternal;
+extern Value_DVE_TypeDefaultTypeInternal _Value_DVE_Type_default_instance_;
+class Value_DVE_Type_DVETypeInfo;
+class Value_DVE_Type_DVETypeInfoDefaultTypeInternal;
+extern Value_DVE_Type_DVETypeInfoDefaultTypeInternal _Value_DVE_Type_DVETypeInfo_default_instance_;
+class Value_Film_Effect_Status;
+class Value_Film_Effect_StatusDefaultTypeInternal;
+extern Value_Film_Effect_StatusDefaultTypeInternal _Value_Film_Effect_Status_default_instance_;
+class Value_GFX_Fade_In_Out_Duration;
+class Value_GFX_Fade_In_Out_DurationDefaultTypeInternal;
+extern Value_GFX_Fade_In_Out_DurationDefaultTypeInternal _Value_GFX_Fade_In_Out_Duration_default_instance_;
+class Value_GFX_Fade_In_Out_Duration_GFXFadeDuration;
+class Value_GFX_Fade_In_Out_Duration_GFXFadeDurationDefaultTypeInternal;
+extern Value_GFX_Fade_In_Out_Duration_GFXFadeDurationDefaultTypeInternal _Value_GFX_Fade_In_Out_Duration_GFXFadeDuration_default_instance_;
+class Value_GFX_Fade_In_Out_Duration_PGMGFX;
+class Value_GFX_Fade_In_Out_Duration_PGMGFXDefaultTypeInternal;
+extern Value_GFX_Fade_In_Out_Duration_PGMGFXDefaultTypeInternal _Value_GFX_Fade_In_Out_Duration_PGMGFX_default_instance_;
+class Value_GFX_Loop_Count;
+class Value_GFX_Loop_CountDefaultTypeInternal;
+extern Value_GFX_Loop_CountDefaultTypeInternal _Value_GFX_Loop_Count_default_instance_;
+class Value_GFX_Loop_Count_GFXLoopCnt;
+class Value_GFX_Loop_Count_GFXLoopCntDefaultTypeInternal;
+extern Value_GFX_Loop_Count_GFXLoopCntDefaultTypeInternal _Value_GFX_Loop_Count_GFXLoopCnt_default_instance_;
+class Value_GFX_Loop_Count_PGMGFX;
+class Value_GFX_Loop_Count_PGMGFXDefaultTypeInternal;
+extern Value_GFX_Loop_Count_PGMGFXDefaultTypeInternal _Value_GFX_Loop_Count_PGMGFX_default_instance_;
+class Value_GFX_Loop_In_Out;
+class Value_GFX_Loop_In_OutDefaultTypeInternal;
+extern Value_GFX_Loop_In_OutDefaultTypeInternal _Value_GFX_Loop_In_Out_default_instance_;
+class Value_GFX_Loop_In_Out_GFXLoopInOut;
+class Value_GFX_Loop_In_Out_GFXLoopInOutDefaultTypeInternal;
+extern Value_GFX_Loop_In_Out_GFXLoopInOutDefaultTypeInternal _Value_GFX_Loop_In_Out_GFXLoopInOut_default_instance_;
+class Value_GFX_Loop_In_Out_PGMGFX;
+class Value_GFX_Loop_In_Out_PGMGFXDefaultTypeInternal;
+extern Value_GFX_Loop_In_Out_PGMGFXDefaultTypeInternal _Value_GFX_Loop_In_Out_PGMGFX_default_instance_;
+class Value_GFX_Position;
+class Value_GFX_PositionDefaultTypeInternal;
+extern Value_GFX_PositionDefaultTypeInternal _Value_GFX_Position_default_instance_;
+class Value_GFX_Position_GFXPosition;
+class Value_GFX_Position_GFXPositionDefaultTypeInternal;
+extern Value_GFX_Position_GFXPositionDefaultTypeInternal _Value_GFX_Position_GFXPosition_default_instance_;
+class Value_GFX_Position_PGMGFX;
+class Value_GFX_Position_PGMGFXDefaultTypeInternal;
+extern Value_GFX_Position_PGMGFXDefaultTypeInternal _Value_GFX_Position_PGMGFX_default_instance_;
+class Value_GFX_Preload_Status;
+class Value_GFX_Preload_StatusDefaultTypeInternal;
+extern Value_GFX_Preload_StatusDefaultTypeInternal _Value_GFX_Preload_Status_default_instance_;
+class Value_GFX_Preload_Status_GFXPreloadStatus;
+class Value_GFX_Preload_Status_GFXPreloadStatusDefaultTypeInternal;
+extern Value_GFX_Preload_Status_GFXPreloadStatusDefaultTypeInternal _Value_GFX_Preload_Status_GFXPreloadStatus_default_instance_;
+class Value_GFX_Status;
+class Value_GFX_StatusDefaultTypeInternal;
+extern Value_GFX_StatusDefaultTypeInternal _Value_GFX_Status_default_instance_;
+class Value_GFX_Status_GFXStatus;
+class Value_GFX_Status_GFXStatusDefaultTypeInternal;
+extern Value_GFX_Status_GFXStatusDefaultTypeInternal _Value_GFX_Status_GFXStatus_default_instance_;
+class Value_GFX_Status_PGMGFX;
+class Value_GFX_Status_PGMGFXDefaultTypeInternal;
+extern Value_GFX_Status_PGMGFXDefaultTypeInternal _Value_GFX_Status_PGMGFX_default_instance_;
+class Value_HealthInfo_AJA_Status;
+class Value_HealthInfo_AJA_StatusDefaultTypeInternal;
+extern Value_HealthInfo_AJA_StatusDefaultTypeInternal _Value_HealthInfo_AJA_Status_default_instance_;
+class Value_HealthInfo_AJA_Status_InfoAJA;
+class Value_HealthInfo_AJA_Status_InfoAJADefaultTypeInternal;
+extern Value_HealthInfo_AJA_Status_InfoAJADefaultTypeInternal _Value_HealthInfo_AJA_Status_InfoAJA_default_instance_;
+class Value_HealthInfo_ASIO_Status;
+class Value_HealthInfo_ASIO_StatusDefaultTypeInternal;
+extern Value_HealthInfo_ASIO_StatusDefaultTypeInternal _Value_HealthInfo_ASIO_Status_default_instance_;
+class Value_HealthInfo_ASIO_Status_AsioStatus;
+class Value_HealthInfo_ASIO_Status_AsioStatusDefaultTypeInternal;
+extern Value_HealthInfo_ASIO_Status_AsioStatusDefaultTypeInternal _Value_HealthInfo_ASIO_Status_AsioStatus_default_instance_;
+class Value_HealthInfo_ASIO_Status_ValueStatusPair;
+class Value_HealthInfo_ASIO_Status_ValueStatusPairDefaultTypeInternal;
+extern Value_HealthInfo_ASIO_Status_ValueStatusPairDefaultTypeInternal _Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_;
+class Value_HealthInfo_External_TimeCode;
+class Value_HealthInfo_External_TimeCodeDefaultTypeInternal;
+extern Value_HealthInfo_External_TimeCodeDefaultTypeInternal _Value_HealthInfo_External_TimeCode_default_instance_;
+class Value_HealthInfo_GPU_Temperature;
+class Value_HealthInfo_GPU_TemperatureDefaultTypeInternal;
+extern Value_HealthInfo_GPU_TemperatureDefaultTypeInternal _Value_HealthInfo_GPU_Temperature_default_instance_;
+class Value_HealthInfo_HDD_Status;
+class Value_HealthInfo_HDD_StatusDefaultTypeInternal;
+extern Value_HealthInfo_HDD_StatusDefaultTypeInternal _Value_HealthInfo_HDD_Status_default_instance_;
+class Value_HealthInfo_Mixer_Status;
+class Value_HealthInfo_Mixer_StatusDefaultTypeInternal;
+extern Value_HealthInfo_Mixer_StatusDefaultTypeInternal _Value_HealthInfo_Mixer_Status_default_instance_;
+class Value_HealthInfo_Network_Bandwidth;
+class Value_HealthInfo_Network_BandwidthDefaultTypeInternal;
+extern Value_HealthInfo_Network_BandwidthDefaultTypeInternal _Value_HealthInfo_Network_Bandwidth_default_instance_;
+class Value_HealthInfo_ReferenceStatus;
+class Value_HealthInfo_ReferenceStatusDefaultTypeInternal;
+extern Value_HealthInfo_ReferenceStatusDefaultTypeInternal _Value_HealthInfo_ReferenceStatus_default_instance_;
+class Value_HealthInfo_RemainingTimePerCam;
+class Value_HealthInfo_RemainingTimePerCamDefaultTypeInternal;
+extern Value_HealthInfo_RemainingTimePerCamDefaultTypeInternal _Value_HealthInfo_RemainingTimePerCam_default_instance_;
+class Value_HealthInfo_RemainingTimePerCam_RemainingTime;
+class Value_HealthInfo_RemainingTimePerCam_RemainingTimeDefaultTypeInternal;
+extern Value_HealthInfo_RemainingTimePerCam_RemainingTimeDefaultTypeInternal _Value_HealthInfo_RemainingTimePerCam_RemainingTime_default_instance_;
+class Value_HealthInfo_SerialNumber;
+class Value_HealthInfo_SerialNumberDefaultTypeInternal;
+extern Value_HealthInfo_SerialNumberDefaultTypeInternal _Value_HealthInfo_SerialNumber_default_instance_;
+class Value_HealthInfo_SerialNumber_ServerInfo;
+class Value_HealthInfo_SerialNumber_ServerInfoDefaultTypeInternal;
+extern Value_HealthInfo_SerialNumber_ServerInfoDefaultTypeInternal _Value_HealthInfo_SerialNumber_ServerInfo_default_instance_;
+class Value_HealthInfo_Version;
+class Value_HealthInfo_VersionDefaultTypeInternal;
+extern Value_HealthInfo_VersionDefaultTypeInternal _Value_HealthInfo_Version_default_instance_;
+class Value_PiP_Status;
+class Value_PiP_StatusDefaultTypeInternal;
+extern Value_PiP_StatusDefaultTypeInternal _Value_PiP_Status_default_instance_;
+class Value_PiP_Status_PGMPiP;
+class Value_PiP_Status_PGMPiPDefaultTypeInternal;
+extern Value_PiP_Status_PGMPiPDefaultTypeInternal _Value_PiP_Status_PGMPiP_default_instance_;
+class Value_PiP_Status_PiPStatus;
+class Value_PiP_Status_PiPStatusDefaultTypeInternal;
+extern Value_PiP_Status_PiPStatusDefaultTypeInternal _Value_PiP_Status_PiPStatus_default_instance_;
+class Value_Player_AudioPresetId;
+class Value_Player_AudioPresetIdDefaultTypeInternal;
+extern Value_Player_AudioPresetIdDefaultTypeInternal _Value_Player_AudioPresetId_default_instance_;
+class Value_Player_AudioPresetId_TypeInfo;
+class Value_Player_AudioPresetId_TypeInfoDefaultTypeInternal;
+extern Value_Player_AudioPresetId_TypeInfoDefaultTypeInternal _Value_Player_AudioPresetId_TypeInfo_default_instance_;
+class Value_Player_Camera;
+class Value_Player_CameraDefaultTypeInternal;
+extern Value_Player_CameraDefaultTypeInternal _Value_Player_Camera_default_instance_;
+class Value_Player_Camera_CameraInfo;
+class Value_Player_Camera_CameraInfoDefaultTypeInternal;
+extern Value_Player_Camera_CameraInfoDefaultTypeInternal _Value_Player_Camera_CameraInfo_default_instance_;
 class Value_Player_ClosedCaption;
 class Value_Player_ClosedCaptionDefaultTypeInternal;
 extern Value_Player_ClosedCaptionDefaultTypeInternal _Value_Player_ClosedCaption_default_instance_;
 class Value_Player_ClosedCaption_ItemInfo;
 class Value_Player_ClosedCaption_ItemInfoDefaultTypeInternal;
 extern Value_Player_ClosedCaption_ItemInfoDefaultTypeInternal _Value_Player_ClosedCaption_ItemInfo_default_instance_;
+class Value_Player_Consigne;
+class Value_Player_ConsigneDefaultTypeInternal;
+extern Value_Player_ConsigneDefaultTypeInternal _Value_Player_Consigne_default_instance_;
+class Value_Player_Consigne_ConsigneInfo;
+class Value_Player_Consigne_ConsigneInfoDefaultTypeInternal;
+extern Value_Player_Consigne_ConsigneInfoDefaultTypeInternal _Value_Player_Consigne_ConsigneInfo_default_instance_;
+class Value_Player_Extend_Playlist;
+class Value_Player_Extend_PlaylistDefaultTypeInternal;
+extern Value_Player_Extend_PlaylistDefaultTypeInternal _Value_Player_Extend_Playlist_default_instance_;
+class Value_Player_Extend_Playlist_ExtendPlaylistInfo;
+class Value_Player_Extend_Playlist_ExtendPlaylistInfoDefaultTypeInternal;
+extern Value_Player_Extend_Playlist_ExtendPlaylistInfoDefaultTypeInternal _Value_Player_Extend_Playlist_ExtendPlaylistInfo_default_instance_;
+class Value_Player_Group;
+class Value_Player_GroupDefaultTypeInternal;
+extern Value_Player_GroupDefaultTypeInternal _Value_Player_Group_default_instance_;
+class Value_Player_Group_GroupInfo;
+class Value_Player_Group_GroupInfoDefaultTypeInternal;
+extern Value_Player_Group_GroupInfoDefaultTypeInternal _Value_Player_Group_GroupInfo_default_instance_;
+class Value_Player_Limit_In_Out;
+class Value_Player_Limit_In_OutDefaultTypeInternal;
+extern Value_Player_Limit_In_OutDefaultTypeInternal _Value_Player_Limit_In_Out_default_instance_;
+class Value_Player_Limit_In_Out_LimitInfo;
+class Value_Player_Limit_In_Out_LimitInfoDefaultTypeInternal;
+extern Value_Player_Limit_In_Out_LimitInfoDefaultTypeInternal _Value_Player_Limit_In_Out_LimitInfo_default_instance_;
+class Value_Player_Loop_Count;
+class Value_Player_Loop_CountDefaultTypeInternal;
+extern Value_Player_Loop_CountDefaultTypeInternal _Value_Player_Loop_Count_default_instance_;
+class Value_Player_Loop_Count_LoopCountInfo;
+class Value_Player_Loop_Count_LoopCountInfoDefaultTypeInternal;
+extern Value_Player_Loop_Count_LoopCountInfoDefaultTypeInternal _Value_Player_Loop_Count_LoopCountInfo_default_instance_;
+class Value_Player_Loop_Mode;
+class Value_Player_Loop_ModeDefaultTypeInternal;
+extern Value_Player_Loop_ModeDefaultTypeInternal _Value_Player_Loop_Mode_default_instance_;
+class Value_Player_Loop_Mode_LoopModeInfo;
+class Value_Player_Loop_Mode_LoopModeInfoDefaultTypeInternal;
+extern Value_Player_Loop_Mode_LoopModeInfoDefaultTypeInternal _Value_Player_Loop_Mode_LoopModeInfo_default_instance_;
+class Value_Player_Mode;
+class Value_Player_ModeDefaultTypeInternal;
+extern Value_Player_ModeDefaultTypeInternal _Value_Player_Mode_default_instance_;
+class Value_Player_Mode_ModeInfo;
+class Value_Player_Mode_ModeInfoDefaultTypeInternal;
+extern Value_Player_Mode_ModeInfoDefaultTypeInternal _Value_Player_Mode_ModeInfo_default_instance_;
+class Value_Player_Playlist_Element_ID;
+class Value_Player_Playlist_Element_IDDefaultTypeInternal;
+extern Value_Player_Playlist_Element_IDDefaultTypeInternal _Value_Player_Playlist_Element_ID_default_instance_;
+class Value_Player_Playlist_Element_ID_ElementIDInfo;
+class Value_Player_Playlist_Element_ID_ElementIDInfoDefaultTypeInternal;
+extern Value_Player_Playlist_Element_ID_ElementIDInfoDefaultTypeInternal _Value_Player_Playlist_Element_ID_ElementIDInfo_default_instance_;
+class Value_Player_Playlist_ID;
+class Value_Player_Playlist_IDDefaultTypeInternal;
+extern Value_Player_Playlist_IDDefaultTypeInternal _Value_Player_Playlist_ID_default_instance_;
+class Value_Player_Playlist_ID_PlaylistIDInfo;
+class Value_Player_Playlist_ID_PlaylistIDInfoDefaultTypeInternal;
+extern Value_Player_Playlist_ID_PlaylistIDInfoDefaultTypeInternal _Value_Player_Playlist_ID_PlaylistIDInfo_default_instance_;
+class Value_Player_Speed;
+class Value_Player_SpeedDefaultTypeInternal;
+extern Value_Player_SpeedDefaultTypeInternal _Value_Player_Speed_default_instance_;
+class Value_Player_Speed_SpeedInfo;
+class Value_Player_Speed_SpeedInfoDefaultTypeInternal;
+extern Value_Player_Speed_SpeedInfoDefaultTypeInternal _Value_Player_Speed_SpeedInfo_default_instance_;
 class Value_Player_Status;
 class Value_Player_StatusDefaultTypeInternal;
 extern Value_Player_StatusDefaultTypeInternal _Value_Player_Status_default_instance_;
 class Value_Player_Status_StatusInfo;
 class Value_Player_Status_StatusInfoDefaultTypeInternal;
 extern Value_Player_Status_StatusInfoDefaultTypeInternal _Value_Player_Status_StatusInfo_default_instance_;
+class Value_Player_Type;
+class Value_Player_TypeDefaultTypeInternal;
+extern Value_Player_TypeDefaultTypeInternal _Value_Player_Type_default_instance_;
+class Value_Player_Type_TypeInfo;
+class Value_Player_Type_TypeInfoDefaultTypeInternal;
+extern Value_Player_Type_TypeInfoDefaultTypeInternal _Value_Player_Type_TypeInfo_default_instance_;
+class Value_RTD_Position;
+class Value_RTD_PositionDefaultTypeInternal;
+extern Value_RTD_PositionDefaultTypeInternal _Value_RTD_Position_default_instance_;
+class Value_RTD_Position_RTDPositionInfo;
+class Value_RTD_Position_RTDPositionInfoDefaultTypeInternal;
+extern Value_RTD_Position_RTDPositionInfoDefaultTypeInternal _Value_RTD_Position_RTDPositionInfo_default_instance_;
+class Value_RTD_Status;
+class Value_RTD_StatusDefaultTypeInternal;
+extern Value_RTD_StatusDefaultTypeInternal _Value_RTD_Status_default_instance_;
+class Value_RTD_Status_RTDStatusInfo;
+class Value_RTD_Status_RTDStatusInfoDefaultTypeInternal;
+extern Value_RTD_Status_RTDStatusInfoDefaultTypeInternal _Value_RTD_Status_RTDStatusInfo_default_instance_;
+class Value_RTD_Type;
+class Value_RTD_TypeDefaultTypeInternal;
+extern Value_RTD_TypeDefaultTypeInternal _Value_RTD_Type_default_instance_;
+class Value_RTD_Type_RTDTypeInfo;
+class Value_RTD_Type_RTDTypeInfoDefaultTypeInternal;
+extern Value_RTD_Type_RTDTypeInfoDefaultTypeInternal _Value_RTD_Type_RTDTypeInfo_default_instance_;
 class Value_Recorder_ClosedCaption;
 class Value_Recorder_ClosedCaptionDefaultTypeInternal;
 extern Value_Recorder_ClosedCaptionDefaultTypeInternal _Value_Recorder_ClosedCaption_default_instance_;
@@ -77,23 +347,241 @@ extern Value_Recorder_ClosedCaption_ItemInfoDefaultTypeInternal _Value_Recorder_
 class Value_Recorder_Train_In_Out;
 class Value_Recorder_Train_In_OutDefaultTypeInternal;
 extern Value_Recorder_Train_In_OutDefaultTypeInternal _Value_Recorder_Train_In_Out_default_instance_;
+class Value_Server_Memory;
+class Value_Server_MemoryDefaultTypeInternal;
+extern Value_Server_MemoryDefaultTypeInternal _Value_Server_Memory_default_instance_;
+class Value_Storage_Capacity;
+class Value_Storage_CapacityDefaultTypeInternal;
+extern Value_Storage_CapacityDefaultTypeInternal _Value_Storage_Capacity_default_instance_;
+class Value_VuMeter_Live_Mixer_PGM;
+class Value_VuMeter_Live_Mixer_PGMDefaultTypeInternal;
+extern Value_VuMeter_Live_Mixer_PGMDefaultTypeInternal _Value_VuMeter_Live_Mixer_PGM_default_instance_;
+class Value_VuMeter_Live_Mixer_PGM_PGMUV;
+class Value_VuMeter_Live_Mixer_PGM_PGMUVDefaultTypeInternal;
+extern Value_VuMeter_Live_Mixer_PGM_PGMUVDefaultTypeInternal _Value_VuMeter_Live_Mixer_PGM_PGMUV_default_instance_;
+class Value_VuMeter_Live_Mixer_PGM_VuMeter;
+class Value_VuMeter_Live_Mixer_PGM_VuMeterDefaultTypeInternal;
+extern Value_VuMeter_Live_Mixer_PGM_VuMeterDefaultTypeInternal _Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_;
 }  // namespace GoogleProtoBB
 namespace google {
 namespace protobuf {
 template<> ::GoogleProtoBB::BroadCastData* Arena::CreateMaybeMessage<::GoogleProtoBB::BroadCastData>(Arena*);
+template<> ::GoogleProtoBB::Value_BMR_Setting* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_BMR_Setting>(Arena*);
+template<> ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio>(Arena*);
+template<> ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range>(Arena*);
+template<> ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo>(Arena*);
+template<> ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range>(Arena*);
 template<> ::GoogleProtoBB::Value_Camera_Type* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Camera_Type>(Arena*);
 template<> ::GoogleProtoBB::Value_Camera_Type_ItemInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Camera_Type_ItemInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Common_TimeReference* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Common_TimeReference>(Arena*);
+template<> ::GoogleProtoBB::Value_CustomInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_CustomInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_CustomInfo_InfoPair* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_CustomInfo_InfoPair>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Channel* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Channel>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Custom_Transparency* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Custom_Transparency>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_CutThreshold* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_CutThreshold>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Den* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Den>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Den_DVEDenInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Mode* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Mode>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Num* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Num>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Num_DVENumInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Num_DVENumInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Type* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Type>(Arena*);
+template<> ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Type_DVETypeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Film_Effect_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Film_Effect_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_Count* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_Count>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_In_Out* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_In_Out>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Position* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Position>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Position_GFXPosition* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Position_GFXPosition>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Position_PGMGFX* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Position_PGMGFX>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Preload_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Preload_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Status_GFXStatus* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Status_GFXStatus>(Arena*);
+template<> ::GoogleProtoBB::Value_GFX_Status_PGMGFX* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Status_PGMGFX>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_AJA_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_AJA_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_External_TimeCode>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_GPU_Temperature>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_HDD_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_HDD_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Mixer_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ReferenceStatus>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_SerialNumber* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_SerialNumber>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_HealthInfo_Version* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Version>(Arena*);
+template<> ::GoogleProtoBB::Value_PiP_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_PiP_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_PiP_Status_PGMPiP* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_PiP_Status_PGMPiP>(Arena*);
+template<> ::GoogleProtoBB::Value_PiP_Status_PiPStatus* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_PiP_Status_PiPStatus>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_AudioPresetId* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_AudioPresetId>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Camera* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Camera>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Camera_CameraInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Camera_CameraInfo>(Arena*);
 template<> ::GoogleProtoBB::Value_Player_ClosedCaption* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_ClosedCaption>(Arena*);
 template<> ::GoogleProtoBB::Value_Player_ClosedCaption_ItemInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_ClosedCaption_ItemInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Consigne* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Consigne>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Extend_Playlist* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Extend_Playlist>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Group* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Group>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Group_GroupInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Group_GroupInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Limit_In_Out* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Limit_In_Out>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Loop_Count* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Count>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Loop_Mode* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Mode>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Mode* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Mode>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Mode_ModeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Mode_ModeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Playlist_Element_ID* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_Element_ID>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Playlist_ID* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_ID>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Speed* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Speed>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Speed_SpeedInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Speed_SpeedInfo>(Arena*);
 template<> ::GoogleProtoBB::Value_Player_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Status>(Arena*);
 template<> ::GoogleProtoBB::Value_Player_Status_StatusInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Status_StatusInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Type* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Type>(Arena*);
+template<> ::GoogleProtoBB::Value_Player_Type_TypeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Player_Type_TypeInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Position* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Position>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Status* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Status>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Type* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Type>(Arena*);
+template<> ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo>(Arena*);
 template<> ::GoogleProtoBB::Value_Recorder_ClosedCaption* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Recorder_ClosedCaption>(Arena*);
 template<> ::GoogleProtoBB::Value_Recorder_ClosedCaption_ItemInfo* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Recorder_ClosedCaption_ItemInfo>(Arena*);
 template<> ::GoogleProtoBB::Value_Recorder_Train_In_Out* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Recorder_Train_In_Out>(Arena*);
+template<> ::GoogleProtoBB::Value_Server_Memory* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Server_Memory>(Arena*);
+template<> ::GoogleProtoBB::Value_Storage_Capacity* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_Storage_Capacity>(Arena*);
+template<> ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM>(Arena*);
+template<> ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV>(Arena*);
+template<> ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Arena::CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace GoogleProtoBB {
 
+enum Value_Player_Type_PlayerType {
+  Value_Player_Type_PlayerType_PLAYER_TYPE_REPLAY = 0,
+  Value_Player_Type_PlayerType_PLAYER_TYPE_LIVE = 1,
+  Value_Player_Type_PlayerType_Value_Player_Type_PlayerType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  Value_Player_Type_PlayerType_Value_Player_Type_PlayerType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool Value_Player_Type_PlayerType_IsValid(int value);
+const Value_Player_Type_PlayerType Value_Player_Type_PlayerType_PlayerType_MIN = Value_Player_Type_PlayerType_PLAYER_TYPE_REPLAY;
+const Value_Player_Type_PlayerType Value_Player_Type_PlayerType_PlayerType_MAX = Value_Player_Type_PlayerType_PLAYER_TYPE_LIVE;
+const int Value_Player_Type_PlayerType_PlayerType_ARRAYSIZE = Value_Player_Type_PlayerType_PlayerType_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* Value_Player_Type_PlayerType_descriptor();
+inline const ::std::string& Value_Player_Type_PlayerType_Name(Value_Player_Type_PlayerType value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    Value_Player_Type_PlayerType_descriptor(), value);
+}
+inline bool Value_Player_Type_PlayerType_Parse(
+    const ::std::string& name, Value_Player_Type_PlayerType* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<Value_Player_Type_PlayerType>(
+    Value_Player_Type_PlayerType_descriptor(), name, value);
+}
+enum Value_Player_Mode_PlayerMode {
+  Value_Player_Mode_PlayerMode_clipMode = 0,
+  Value_Player_Mode_PlayerMode_playlistMode = 1,
+  Value_Player_Mode_PlayerMode_Value_Player_Mode_PlayerMode_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  Value_Player_Mode_PlayerMode_Value_Player_Mode_PlayerMode_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool Value_Player_Mode_PlayerMode_IsValid(int value);
+const Value_Player_Mode_PlayerMode Value_Player_Mode_PlayerMode_PlayerMode_MIN = Value_Player_Mode_PlayerMode_clipMode;
+const Value_Player_Mode_PlayerMode Value_Player_Mode_PlayerMode_PlayerMode_MAX = Value_Player_Mode_PlayerMode_playlistMode;
+const int Value_Player_Mode_PlayerMode_PlayerMode_ARRAYSIZE = Value_Player_Mode_PlayerMode_PlayerMode_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* Value_Player_Mode_PlayerMode_descriptor();
+inline const ::std::string& Value_Player_Mode_PlayerMode_Name(Value_Player_Mode_PlayerMode value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    Value_Player_Mode_PlayerMode_descriptor(), value);
+}
+inline bool Value_Player_Mode_PlayerMode_Parse(
+    const ::std::string& name, Value_Player_Mode_PlayerMode* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<Value_Player_Mode_PlayerMode>(
+    Value_Player_Mode_PlayerMode_descriptor(), name, value);
+}
+enum Value_Player_Loop_Mode_PlayerLoopMode {
+  Value_Player_Loop_Mode_PlayerLoopMode_OFF = 0,
+  Value_Player_Loop_Mode_PlayerLoopMode_STD = 1,
+  Value_Player_Loop_Mode_PlayerLoopMode_PING_PONG = 2,
+  Value_Player_Loop_Mode_PlayerLoopMode_Value_Player_Loop_Mode_PlayerLoopMode_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  Value_Player_Loop_Mode_PlayerLoopMode_Value_Player_Loop_Mode_PlayerLoopMode_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool Value_Player_Loop_Mode_PlayerLoopMode_IsValid(int value);
+const Value_Player_Loop_Mode_PlayerLoopMode Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_MIN = Value_Player_Loop_Mode_PlayerLoopMode_OFF;
+const Value_Player_Loop_Mode_PlayerLoopMode Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_MAX = Value_Player_Loop_Mode_PlayerLoopMode_PING_PONG;
+const int Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_ARRAYSIZE = Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* Value_Player_Loop_Mode_PlayerLoopMode_descriptor();
+inline const ::std::string& Value_Player_Loop_Mode_PlayerLoopMode_Name(Value_Player_Loop_Mode_PlayerLoopMode value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    Value_Player_Loop_Mode_PlayerLoopMode_descriptor(), value);
+}
+inline bool Value_Player_Loop_Mode_PlayerLoopMode_Parse(
+    const ::std::string& name, Value_Player_Loop_Mode_PlayerLoopMode* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<Value_Player_Loop_Mode_PlayerLoopMode>(
+    Value_Player_Loop_Mode_PlayerLoopMode_descriptor(), name, value);
+}
+enum Value_DVE_Mode_DVEMode {
+  Value_DVE_Mode_DVEMode_offMode = 0,
+  Value_DVE_Mode_DVEMode_autoMode = 1,
+  Value_DVE_Mode_DVEMode_manualMode = 2,
+  Value_DVE_Mode_DVEMode_Value_DVE_Mode_DVEMode_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  Value_DVE_Mode_DVEMode_Value_DVE_Mode_DVEMode_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool Value_DVE_Mode_DVEMode_IsValid(int value);
+const Value_DVE_Mode_DVEMode Value_DVE_Mode_DVEMode_DVEMode_MIN = Value_DVE_Mode_DVEMode_offMode;
+const Value_DVE_Mode_DVEMode Value_DVE_Mode_DVEMode_DVEMode_MAX = Value_DVE_Mode_DVEMode_manualMode;
+const int Value_DVE_Mode_DVEMode_DVEMode_ARRAYSIZE = Value_DVE_Mode_DVEMode_DVEMode_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* Value_DVE_Mode_DVEMode_descriptor();
+inline const ::std::string& Value_DVE_Mode_DVEMode_Name(Value_DVE_Mode_DVEMode value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    Value_DVE_Mode_DVEMode_descriptor(), value);
+}
+inline bool Value_DVE_Mode_DVEMode_Parse(
+    const ::std::string& name, Value_DVE_Mode_DVEMode* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<Value_DVE_Mode_DVEMode>(
+    Value_DVE_Mode_DVEMode_descriptor(), name, value);
+}
+enum Value_DVE_Type_DVEType {
+  Value_DVE_Type_DVEType_dve_MIX = 0,
+  Value_DVE_Type_DVEType_dve_WIPE_LR = 1,
+  Value_DVE_Type_DVEType_dve_WIPE_RL = 2,
+  Value_DVE_Type_DVEType_Value_DVE_Type_DVEType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  Value_DVE_Type_DVEType_Value_DVE_Type_DVEType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool Value_DVE_Type_DVEType_IsValid(int value);
+const Value_DVE_Type_DVEType Value_DVE_Type_DVEType_DVEType_MIN = Value_DVE_Type_DVEType_dve_MIX;
+const Value_DVE_Type_DVEType Value_DVE_Type_DVEType_DVEType_MAX = Value_DVE_Type_DVEType_dve_WIPE_RL;
+const int Value_DVE_Type_DVEType_DVEType_ARRAYSIZE = Value_DVE_Type_DVEType_DVEType_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* Value_DVE_Type_DVEType_descriptor();
+inline const ::std::string& Value_DVE_Type_DVEType_Name(Value_DVE_Type_DVEType value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    Value_DVE_Type_DVEType_descriptor(), value);
+}
+inline bool Value_DVE_Type_DVEType_Parse(
+    const ::std::string& name, Value_DVE_Type_DVEType* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<Value_DVE_Type_DVEType>(
+    Value_DVE_Type_DVEType_descriptor(), name, value);
+}
 enum BroadcastInfoKey {
   Recorder_Train_In_Out = 0,
   CommonTimeReference = 1,
@@ -253,6 +741,172 @@ inline bool CnlID_Parse(
     const ::std::string& name, CnlID* value) {
   return ::google::protobuf::internal::ParseNamedEnum<CnlID>(
     CnlID_descriptor(), name, value);
+}
+enum CamID {
+  ID_Cam_0 = 0,
+  CamID_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  CamID_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool CamID_IsValid(int value);
+const CamID CamID_MIN = ID_Cam_0;
+const CamID CamID_MAX = ID_Cam_0;
+const int CamID_ARRAYSIZE = CamID_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* CamID_descriptor();
+inline const ::std::string& CamID_Name(CamID value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    CamID_descriptor(), value);
+}
+inline bool CamID_Parse(
+    const ::std::string& name, CamID* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<CamID>(
+    CamID_descriptor(), name, value);
+}
+enum RTDType {
+  rtd1 = 0,
+  rtd2 = 1,
+  rtd3 = 2,
+  rtd4 = 3,
+  rtd5 = 4,
+  rtd6 = 5,
+  rtd7 = 6,
+  rtd_Max = 7,
+  RTDType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  RTDType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool RTDType_IsValid(int value);
+const RTDType RTDType_MIN = rtd1;
+const RTDType RTDType_MAX = rtd_Max;
+const int RTDType_ARRAYSIZE = RTDType_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* RTDType_descriptor();
+inline const ::std::string& RTDType_Name(RTDType value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    RTDType_descriptor(), value);
+}
+inline bool RTDType_Parse(
+    const ::std::string& name, RTDType* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<RTDType>(
+    RTDType_descriptor(), name, value);
+}
+enum GFxCnl {
+  a = 0,
+  GFxCnl_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  GFxCnl_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool GFxCnl_IsValid(int value);
+const GFxCnl GFxCnl_MIN = a;
+const GFxCnl GFxCnl_MAX = a;
+const int GFxCnl_ARRAYSIZE = GFxCnl_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* GFxCnl_descriptor();
+inline const ::std::string& GFxCnl_Name(GFxCnl value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    GFxCnl_descriptor(), value);
+}
+inline bool GFxCnl_Parse(
+    const ::std::string& name, GFxCnl* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<GFxCnl>(
+    GFxCnl_descriptor(), name, value);
+}
+enum TGAChannel {
+  TGAChannel_gfx1 = 0,
+  TGAChannel_gfx2 = 1,
+  TGAChannel_gfx3 = 2,
+  TGAChannel_rtd1 = 3,
+  TGAChannel_rtd2 = 4,
+  TGAChannel_PiP_PGM = 5,
+  TGAChannel_PiP_PRV = 6,
+  TGAChannel_rtd3 = 7,
+  TGAChannel_rtd4 = 8,
+  TGAChannel_rtd5 = 9,
+  TGAChannel_rtd6 = 10,
+  TGAChannel_rtd7 = 11,
+  TGAChannel_max = 12,
+  TGAChannel_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  TGAChannel_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool TGAChannel_IsValid(int value);
+const TGAChannel TGAChannel_MIN = TGAChannel_gfx1;
+const TGAChannel TGAChannel_MAX = TGAChannel_max;
+const int TGAChannel_ARRAYSIZE = TGAChannel_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* TGAChannel_descriptor();
+inline const ::std::string& TGAChannel_Name(TGAChannel value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    TGAChannel_descriptor(), value);
+}
+inline bool TGAChannel_Parse(
+    const ::std::string& name, TGAChannel* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<TGAChannel>(
+    TGAChannel_descriptor(), name, value);
+}
+enum TGAChannelStatus {
+  TGAChannelStatus_None = 0,
+  TGAChannelStatus_PreloadingSecure = 1,
+  TGAChannelStatus_Preloaded = 2,
+  TGAChannelStatus_PreloadingNotSecure = 3,
+  TGAChannelStatus_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  TGAChannelStatus_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool TGAChannelStatus_IsValid(int value);
+const TGAChannelStatus TGAChannelStatus_MIN = TGAChannelStatus_None;
+const TGAChannelStatus TGAChannelStatus_MAX = TGAChannelStatus_PreloadingNotSecure;
+const int TGAChannelStatus_ARRAYSIZE = TGAChannelStatus_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* TGAChannelStatus_descriptor();
+inline const ::std::string& TGAChannelStatus_Name(TGAChannelStatus value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    TGAChannelStatus_descriptor(), value);
+}
+inline bool TGAChannelStatus_Parse(
+    const ::std::string& name, TGAChannelStatus* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<TGAChannelStatus>(
+    TGAChannelStatus_descriptor(), name, value);
+}
+enum PiPType {
+  PiP_PGM = 0,
+  PiP_PRV = 1,
+  PiP_Max = 2,
+  PiPType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  PiPType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool PiPType_IsValid(int value);
+const PiPType PiPType_MIN = PiP_PGM;
+const PiPType PiPType_MAX = PiP_Max;
+const int PiPType_ARRAYSIZE = PiPType_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* PiPType_descriptor();
+inline const ::std::string& PiPType_Name(PiPType value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    PiPType_descriptor(), value);
+}
+inline bool PiPType_Parse(
+    const ::std::string& name, PiPType* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<PiPType>(
+    PiPType_descriptor(), name, value);
+}
+enum ReferenceStatus {
+  None = 0,
+  InvalidGenlock = 1,
+  ValidGenlock = 2,
+  ReferenceStatus_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  ReferenceStatus_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+};
+bool ReferenceStatus_IsValid(int value);
+const ReferenceStatus ReferenceStatus_MIN = None;
+const ReferenceStatus ReferenceStatus_MAX = ValidGenlock;
+const int ReferenceStatus_ARRAYSIZE = ReferenceStatus_MAX + 1;
+
+const ::google::protobuf::EnumDescriptor* ReferenceStatus_descriptor();
+inline const ::std::string& ReferenceStatus_Name(ReferenceStatus value) {
+  return ::google::protobuf::internal::NameOfEnum(
+    ReferenceStatus_descriptor(), value);
+}
+inline bool ReferenceStatus_Parse(
+    const ::std::string& name, ReferenceStatus* value) {
+  return ::google::protobuf::internal::ParseNamedEnum<ReferenceStatus>(
+    ReferenceStatus_descriptor(), name, value);
 }
 // ===================================================================
 
@@ -1299,6 +1953,11298 @@ class Value_Player_ClosedCaption : public ::google::protobuf::Message /* @@proto
 };
 // -------------------------------------------------------------------
 
+class Value_Player_Group_GroupInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Group.GroupInfo) */ {
+ public:
+  Value_Player_Group_GroupInfo();
+  virtual ~Value_Player_Group_GroupInfo();
+
+  Value_Player_Group_GroupInfo(const Value_Player_Group_GroupInfo& from);
+
+  inline Value_Player_Group_GroupInfo& operator=(const Value_Player_Group_GroupInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Group_GroupInfo(Value_Player_Group_GroupInfo&& from) noexcept
+    : Value_Player_Group_GroupInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Group_GroupInfo& operator=(Value_Player_Group_GroupInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Group_GroupInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Group_GroupInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Group_GroupInfo*>(
+               &_Value_Player_Group_GroupInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    9;
+
+  void Swap(Value_Player_Group_GroupInfo* other);
+  friend void swap(Value_Player_Group_GroupInfo& a, Value_Player_Group_GroupInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Group_GroupInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Group_GroupInfo>(NULL);
+  }
+
+  Value_Player_Group_GroupInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Group_GroupInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Group_GroupInfo& from);
+  void MergeFrom(const Value_Player_Group_GroupInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Group_GroupInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 group = 2;
+  void clear_group();
+  static const int kGroupFieldNumber = 2;
+  ::google::protobuf::uint32 group() const;
+  void set_group(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Group.GroupInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::uint32 group_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Group : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Group) */ {
+ public:
+  Value_Player_Group();
+  virtual ~Value_Player_Group();
+
+  Value_Player_Group(const Value_Player_Group& from);
+
+  inline Value_Player_Group& operator=(const Value_Player_Group& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Group(Value_Player_Group&& from) noexcept
+    : Value_Player_Group() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Group& operator=(Value_Player_Group&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Group& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Group* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Group*>(
+               &_Value_Player_Group_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    10;
+
+  void Swap(Value_Player_Group* other);
+  friend void swap(Value_Player_Group& a, Value_Player_Group& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Group* New() const final {
+    return CreateMaybeMessage<Value_Player_Group>(NULL);
+  }
+
+  Value_Player_Group* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Group>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Group& from);
+  void MergeFrom(const Value_Player_Group& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Group* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Group_GroupInfo GroupInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Group.GroupInfo groupInfo = 2;
+  int groupinfo_size() const;
+  void clear_groupinfo();
+  static const int kGroupInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Group_GroupInfo* mutable_groupinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Group_GroupInfo >*
+      mutable_groupinfo();
+  const ::GoogleProtoBB::Value_Player_Group_GroupInfo& groupinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Group_GroupInfo* add_groupinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Group_GroupInfo >&
+      groupinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Group)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Group_GroupInfo > groupinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Camera_CameraInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Camera.CameraInfo) */ {
+ public:
+  Value_Player_Camera_CameraInfo();
+  virtual ~Value_Player_Camera_CameraInfo();
+
+  Value_Player_Camera_CameraInfo(const Value_Player_Camera_CameraInfo& from);
+
+  inline Value_Player_Camera_CameraInfo& operator=(const Value_Player_Camera_CameraInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Camera_CameraInfo(Value_Player_Camera_CameraInfo&& from) noexcept
+    : Value_Player_Camera_CameraInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Camera_CameraInfo& operator=(Value_Player_Camera_CameraInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Camera_CameraInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Camera_CameraInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Camera_CameraInfo*>(
+               &_Value_Player_Camera_CameraInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    11;
+
+  void Swap(Value_Player_Camera_CameraInfo* other);
+  friend void swap(Value_Player_Camera_CameraInfo& a, Value_Player_Camera_CameraInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Camera_CameraInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Camera_CameraInfo>(NULL);
+  }
+
+  Value_Player_Camera_CameraInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Camera_CameraInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Camera_CameraInfo& from);
+  void MergeFrom(const Value_Player_Camera_CameraInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Camera_CameraInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.CamID camera = 2;
+  void clear_camera();
+  static const int kCameraFieldNumber = 2;
+  ::GoogleProtoBB::CamID camera() const;
+  void set_camera(::GoogleProtoBB::CamID value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Camera.CameraInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int camera_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Camera : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Camera) */ {
+ public:
+  Value_Player_Camera();
+  virtual ~Value_Player_Camera();
+
+  Value_Player_Camera(const Value_Player_Camera& from);
+
+  inline Value_Player_Camera& operator=(const Value_Player_Camera& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Camera(Value_Player_Camera&& from) noexcept
+    : Value_Player_Camera() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Camera& operator=(Value_Player_Camera&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Camera& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Camera* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Camera*>(
+               &_Value_Player_Camera_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    12;
+
+  void Swap(Value_Player_Camera* other);
+  friend void swap(Value_Player_Camera& a, Value_Player_Camera& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Camera* New() const final {
+    return CreateMaybeMessage<Value_Player_Camera>(NULL);
+  }
+
+  Value_Player_Camera* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Camera>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Camera& from);
+  void MergeFrom(const Value_Player_Camera& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Camera* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Camera_CameraInfo CameraInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Camera.CameraInfo cameraInfo = 2;
+  int camerainfo_size() const;
+  void clear_camerainfo();
+  static const int kCameraInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Camera_CameraInfo* mutable_camerainfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Camera_CameraInfo >*
+      mutable_camerainfo();
+  const ::GoogleProtoBB::Value_Player_Camera_CameraInfo& camerainfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Camera_CameraInfo* add_camerainfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Camera_CameraInfo >&
+      camerainfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Camera)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Camera_CameraInfo > camerainfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Type_TypeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Type.TypeInfo) */ {
+ public:
+  Value_Player_Type_TypeInfo();
+  virtual ~Value_Player_Type_TypeInfo();
+
+  Value_Player_Type_TypeInfo(const Value_Player_Type_TypeInfo& from);
+
+  inline Value_Player_Type_TypeInfo& operator=(const Value_Player_Type_TypeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Type_TypeInfo(Value_Player_Type_TypeInfo&& from) noexcept
+    : Value_Player_Type_TypeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Type_TypeInfo& operator=(Value_Player_Type_TypeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Type_TypeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Type_TypeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Type_TypeInfo*>(
+               &_Value_Player_Type_TypeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    13;
+
+  void Swap(Value_Player_Type_TypeInfo* other);
+  friend void swap(Value_Player_Type_TypeInfo& a, Value_Player_Type_TypeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Type_TypeInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Type_TypeInfo>(NULL);
+  }
+
+  Value_Player_Type_TypeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Type_TypeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Type_TypeInfo& from);
+  void MergeFrom(const Value_Player_Type_TypeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Type_TypeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.Value_Player_Type.PlayerType type = 2;
+  void clear_type();
+  static const int kTypeFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Type_PlayerType type() const;
+  void set_type(::GoogleProtoBB::Value_Player_Type_PlayerType value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Type.TypeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int type_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Type : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Type) */ {
+ public:
+  Value_Player_Type();
+  virtual ~Value_Player_Type();
+
+  Value_Player_Type(const Value_Player_Type& from);
+
+  inline Value_Player_Type& operator=(const Value_Player_Type& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Type(Value_Player_Type&& from) noexcept
+    : Value_Player_Type() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Type& operator=(Value_Player_Type&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Type& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Type* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Type*>(
+               &_Value_Player_Type_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    14;
+
+  void Swap(Value_Player_Type* other);
+  friend void swap(Value_Player_Type& a, Value_Player_Type& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Type* New() const final {
+    return CreateMaybeMessage<Value_Player_Type>(NULL);
+  }
+
+  Value_Player_Type* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Type>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Type& from);
+  void MergeFrom(const Value_Player_Type& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Type* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Type_TypeInfo TypeInfo;
+
+  typedef Value_Player_Type_PlayerType PlayerType;
+  static const PlayerType PLAYER_TYPE_REPLAY =
+    Value_Player_Type_PlayerType_PLAYER_TYPE_REPLAY;
+  static const PlayerType PLAYER_TYPE_LIVE =
+    Value_Player_Type_PlayerType_PLAYER_TYPE_LIVE;
+  static inline bool PlayerType_IsValid(int value) {
+    return Value_Player_Type_PlayerType_IsValid(value);
+  }
+  static const PlayerType PlayerType_MIN =
+    Value_Player_Type_PlayerType_PlayerType_MIN;
+  static const PlayerType PlayerType_MAX =
+    Value_Player_Type_PlayerType_PlayerType_MAX;
+  static const int PlayerType_ARRAYSIZE =
+    Value_Player_Type_PlayerType_PlayerType_ARRAYSIZE;
+  static inline const ::google::protobuf::EnumDescriptor*
+  PlayerType_descriptor() {
+    return Value_Player_Type_PlayerType_descriptor();
+  }
+  static inline const ::std::string& PlayerType_Name(PlayerType value) {
+    return Value_Player_Type_PlayerType_Name(value);
+  }
+  static inline bool PlayerType_Parse(const ::std::string& name,
+      PlayerType* value) {
+    return Value_Player_Type_PlayerType_Parse(name, value);
+  }
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Type.TypeInfo typeInfo = 2;
+  int typeinfo_size() const;
+  void clear_typeinfo();
+  static const int kTypeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Type_TypeInfo* mutable_typeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Type_TypeInfo >*
+      mutable_typeinfo();
+  const ::GoogleProtoBB::Value_Player_Type_TypeInfo& typeinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Type_TypeInfo* add_typeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Type_TypeInfo >&
+      typeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Type)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Type_TypeInfo > typeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_AudioPresetId_TypeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo) */ {
+ public:
+  Value_Player_AudioPresetId_TypeInfo();
+  virtual ~Value_Player_AudioPresetId_TypeInfo();
+
+  Value_Player_AudioPresetId_TypeInfo(const Value_Player_AudioPresetId_TypeInfo& from);
+
+  inline Value_Player_AudioPresetId_TypeInfo& operator=(const Value_Player_AudioPresetId_TypeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_AudioPresetId_TypeInfo(Value_Player_AudioPresetId_TypeInfo&& from) noexcept
+    : Value_Player_AudioPresetId_TypeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_AudioPresetId_TypeInfo& operator=(Value_Player_AudioPresetId_TypeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_AudioPresetId_TypeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_AudioPresetId_TypeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_AudioPresetId_TypeInfo*>(
+               &_Value_Player_AudioPresetId_TypeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    15;
+
+  void Swap(Value_Player_AudioPresetId_TypeInfo* other);
+  friend void swap(Value_Player_AudioPresetId_TypeInfo& a, Value_Player_AudioPresetId_TypeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_AudioPresetId_TypeInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_AudioPresetId_TypeInfo>(NULL);
+  }
+
+  Value_Player_AudioPresetId_TypeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_AudioPresetId_TypeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_AudioPresetId_TypeInfo& from);
+  void MergeFrom(const Value_Player_AudioPresetId_TypeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_AudioPresetId_TypeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 audioPresetId = 2;
+  void clear_audiopresetid();
+  static const int kAudioPresetIdFieldNumber = 2;
+  ::google::protobuf::uint32 audiopresetid() const;
+  void set_audiopresetid(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::uint32 audiopresetid_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_AudioPresetId : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_AudioPresetId) */ {
+ public:
+  Value_Player_AudioPresetId();
+  virtual ~Value_Player_AudioPresetId();
+
+  Value_Player_AudioPresetId(const Value_Player_AudioPresetId& from);
+
+  inline Value_Player_AudioPresetId& operator=(const Value_Player_AudioPresetId& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_AudioPresetId(Value_Player_AudioPresetId&& from) noexcept
+    : Value_Player_AudioPresetId() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_AudioPresetId& operator=(Value_Player_AudioPresetId&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_AudioPresetId& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_AudioPresetId* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_AudioPresetId*>(
+               &_Value_Player_AudioPresetId_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    16;
+
+  void Swap(Value_Player_AudioPresetId* other);
+  friend void swap(Value_Player_AudioPresetId& a, Value_Player_AudioPresetId& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_AudioPresetId* New() const final {
+    return CreateMaybeMessage<Value_Player_AudioPresetId>(NULL);
+  }
+
+  Value_Player_AudioPresetId* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_AudioPresetId>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_AudioPresetId& from);
+  void MergeFrom(const Value_Player_AudioPresetId& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_AudioPresetId* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_AudioPresetId_TypeInfo TypeInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo typeInfo = 2;
+  int typeinfo_size() const;
+  void clear_typeinfo();
+  static const int kTypeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo* mutable_typeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo >*
+      mutable_typeinfo();
+  const ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo& typeinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo* add_typeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo >&
+      typeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_AudioPresetId)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo > typeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Speed_SpeedInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Speed.SpeedInfo) */ {
+ public:
+  Value_Player_Speed_SpeedInfo();
+  virtual ~Value_Player_Speed_SpeedInfo();
+
+  Value_Player_Speed_SpeedInfo(const Value_Player_Speed_SpeedInfo& from);
+
+  inline Value_Player_Speed_SpeedInfo& operator=(const Value_Player_Speed_SpeedInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Speed_SpeedInfo(Value_Player_Speed_SpeedInfo&& from) noexcept
+    : Value_Player_Speed_SpeedInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Speed_SpeedInfo& operator=(Value_Player_Speed_SpeedInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Speed_SpeedInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Speed_SpeedInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Speed_SpeedInfo*>(
+               &_Value_Player_Speed_SpeedInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    17;
+
+  void Swap(Value_Player_Speed_SpeedInfo* other);
+  friend void swap(Value_Player_Speed_SpeedInfo& a, Value_Player_Speed_SpeedInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Speed_SpeedInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Speed_SpeedInfo>(NULL);
+  }
+
+  Value_Player_Speed_SpeedInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Speed_SpeedInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Speed_SpeedInfo& from);
+  void MergeFrom(const Value_Player_Speed_SpeedInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Speed_SpeedInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // int32 speedN = 2;
+  void clear_speedn();
+  static const int kSpeedNFieldNumber = 2;
+  ::google::protobuf::int32 speedn() const;
+  void set_speedn(::google::protobuf::int32 value);
+
+  // int32 speedD = 3;
+  void clear_speedd();
+  static const int kSpeedDFieldNumber = 3;
+  ::google::protobuf::int32 speedd() const;
+  void set_speedd(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Speed.SpeedInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::int32 speedn_;
+  ::google::protobuf::int32 speedd_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Speed : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Speed) */ {
+ public:
+  Value_Player_Speed();
+  virtual ~Value_Player_Speed();
+
+  Value_Player_Speed(const Value_Player_Speed& from);
+
+  inline Value_Player_Speed& operator=(const Value_Player_Speed& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Speed(Value_Player_Speed&& from) noexcept
+    : Value_Player_Speed() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Speed& operator=(Value_Player_Speed&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Speed& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Speed* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Speed*>(
+               &_Value_Player_Speed_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    18;
+
+  void Swap(Value_Player_Speed* other);
+  friend void swap(Value_Player_Speed& a, Value_Player_Speed& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Speed* New() const final {
+    return CreateMaybeMessage<Value_Player_Speed>(NULL);
+  }
+
+  Value_Player_Speed* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Speed>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Speed& from);
+  void MergeFrom(const Value_Player_Speed& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Speed* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Speed_SpeedInfo SpeedInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Speed.SpeedInfo speedInfo = 2;
+  int speedinfo_size() const;
+  void clear_speedinfo();
+  static const int kSpeedInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Speed_SpeedInfo* mutable_speedinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Speed_SpeedInfo >*
+      mutable_speedinfo();
+  const ::GoogleProtoBB::Value_Player_Speed_SpeedInfo& speedinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Speed_SpeedInfo* add_speedinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Speed_SpeedInfo >&
+      speedinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Speed)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Speed_SpeedInfo > speedinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Consigne_ConsigneInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo) */ {
+ public:
+  Value_Player_Consigne_ConsigneInfo();
+  virtual ~Value_Player_Consigne_ConsigneInfo();
+
+  Value_Player_Consigne_ConsigneInfo(const Value_Player_Consigne_ConsigneInfo& from);
+
+  inline Value_Player_Consigne_ConsigneInfo& operator=(const Value_Player_Consigne_ConsigneInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Consigne_ConsigneInfo(Value_Player_Consigne_ConsigneInfo&& from) noexcept
+    : Value_Player_Consigne_ConsigneInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Consigne_ConsigneInfo& operator=(Value_Player_Consigne_ConsigneInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Consigne_ConsigneInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Consigne_ConsigneInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Consigne_ConsigneInfo*>(
+               &_Value_Player_Consigne_ConsigneInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    19;
+
+  void Swap(Value_Player_Consigne_ConsigneInfo* other);
+  friend void swap(Value_Player_Consigne_ConsigneInfo& a, Value_Player_Consigne_ConsigneInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Consigne_ConsigneInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Consigne_ConsigneInfo>(NULL);
+  }
+
+  Value_Player_Consigne_ConsigneInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Consigne_ConsigneInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Consigne_ConsigneInfo& from);
+  void MergeFrom(const Value_Player_Consigne_ConsigneInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Consigne_ConsigneInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint64 consigne = 2;
+  void clear_consigne();
+  static const int kConsigneFieldNumber = 2;
+  ::google::protobuf::uint64 consigne() const;
+  void set_consigne(::google::protobuf::uint64 value);
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint64 consigne_;
+  int id_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Consigne : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Consigne) */ {
+ public:
+  Value_Player_Consigne();
+  virtual ~Value_Player_Consigne();
+
+  Value_Player_Consigne(const Value_Player_Consigne& from);
+
+  inline Value_Player_Consigne& operator=(const Value_Player_Consigne& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Consigne(Value_Player_Consigne&& from) noexcept
+    : Value_Player_Consigne() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Consigne& operator=(Value_Player_Consigne&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Consigne& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Consigne* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Consigne*>(
+               &_Value_Player_Consigne_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    20;
+
+  void Swap(Value_Player_Consigne* other);
+  friend void swap(Value_Player_Consigne& a, Value_Player_Consigne& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Consigne* New() const final {
+    return CreateMaybeMessage<Value_Player_Consigne>(NULL);
+  }
+
+  Value_Player_Consigne* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Consigne>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Consigne& from);
+  void MergeFrom(const Value_Player_Consigne& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Consigne* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Consigne_ConsigneInfo ConsigneInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Consigne.ConsigneInfo consigneInfo = 2;
+  int consigneinfo_size() const;
+  void clear_consigneinfo();
+  static const int kConsigneInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo* mutable_consigneinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo >*
+      mutable_consigneinfo();
+  const ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo& consigneinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo* add_consigneinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo >&
+      consigneinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Consigne)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo > consigneinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Mode_ModeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Mode.ModeInfo) */ {
+ public:
+  Value_Player_Mode_ModeInfo();
+  virtual ~Value_Player_Mode_ModeInfo();
+
+  Value_Player_Mode_ModeInfo(const Value_Player_Mode_ModeInfo& from);
+
+  inline Value_Player_Mode_ModeInfo& operator=(const Value_Player_Mode_ModeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Mode_ModeInfo(Value_Player_Mode_ModeInfo&& from) noexcept
+    : Value_Player_Mode_ModeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Mode_ModeInfo& operator=(Value_Player_Mode_ModeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Mode_ModeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Mode_ModeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Mode_ModeInfo*>(
+               &_Value_Player_Mode_ModeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    21;
+
+  void Swap(Value_Player_Mode_ModeInfo* other);
+  friend void swap(Value_Player_Mode_ModeInfo& a, Value_Player_Mode_ModeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Mode_ModeInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Mode_ModeInfo>(NULL);
+  }
+
+  Value_Player_Mode_ModeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Mode_ModeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Mode_ModeInfo& from);
+  void MergeFrom(const Value_Player_Mode_ModeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Mode_ModeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.Value_Player_Mode.PlayerMode playerMode = 2;
+  void clear_playermode();
+  static const int kPlayerModeFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Mode_PlayerMode playermode() const;
+  void set_playermode(::GoogleProtoBB::Value_Player_Mode_PlayerMode value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Mode.ModeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int playermode_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Mode : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Mode) */ {
+ public:
+  Value_Player_Mode();
+  virtual ~Value_Player_Mode();
+
+  Value_Player_Mode(const Value_Player_Mode& from);
+
+  inline Value_Player_Mode& operator=(const Value_Player_Mode& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Mode(Value_Player_Mode&& from) noexcept
+    : Value_Player_Mode() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Mode& operator=(Value_Player_Mode&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Mode& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Mode* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Mode*>(
+               &_Value_Player_Mode_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    22;
+
+  void Swap(Value_Player_Mode* other);
+  friend void swap(Value_Player_Mode& a, Value_Player_Mode& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Mode* New() const final {
+    return CreateMaybeMessage<Value_Player_Mode>(NULL);
+  }
+
+  Value_Player_Mode* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Mode>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Mode& from);
+  void MergeFrom(const Value_Player_Mode& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Mode* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Mode_ModeInfo ModeInfo;
+
+  typedef Value_Player_Mode_PlayerMode PlayerMode;
+  static const PlayerMode clipMode =
+    Value_Player_Mode_PlayerMode_clipMode;
+  static const PlayerMode playlistMode =
+    Value_Player_Mode_PlayerMode_playlistMode;
+  static inline bool PlayerMode_IsValid(int value) {
+    return Value_Player_Mode_PlayerMode_IsValid(value);
+  }
+  static const PlayerMode PlayerMode_MIN =
+    Value_Player_Mode_PlayerMode_PlayerMode_MIN;
+  static const PlayerMode PlayerMode_MAX =
+    Value_Player_Mode_PlayerMode_PlayerMode_MAX;
+  static const int PlayerMode_ARRAYSIZE =
+    Value_Player_Mode_PlayerMode_PlayerMode_ARRAYSIZE;
+  static inline const ::google::protobuf::EnumDescriptor*
+  PlayerMode_descriptor() {
+    return Value_Player_Mode_PlayerMode_descriptor();
+  }
+  static inline const ::std::string& PlayerMode_Name(PlayerMode value) {
+    return Value_Player_Mode_PlayerMode_Name(value);
+  }
+  static inline bool PlayerMode_Parse(const ::std::string& name,
+      PlayerMode* value) {
+    return Value_Player_Mode_PlayerMode_Parse(name, value);
+  }
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Mode.ModeInfo modeInfo = 2;
+  int modeinfo_size() const;
+  void clear_modeinfo();
+  static const int kModeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Mode_ModeInfo* mutable_modeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Mode_ModeInfo >*
+      mutable_modeinfo();
+  const ::GoogleProtoBB::Value_Player_Mode_ModeInfo& modeinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Mode_ModeInfo* add_modeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Mode_ModeInfo >&
+      modeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Mode)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Mode_ModeInfo > modeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Extend_Playlist_ExtendPlaylistInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo) */ {
+ public:
+  Value_Player_Extend_Playlist_ExtendPlaylistInfo();
+  virtual ~Value_Player_Extend_Playlist_ExtendPlaylistInfo();
+
+  Value_Player_Extend_Playlist_ExtendPlaylistInfo(const Value_Player_Extend_Playlist_ExtendPlaylistInfo& from);
+
+  inline Value_Player_Extend_Playlist_ExtendPlaylistInfo& operator=(const Value_Player_Extend_Playlist_ExtendPlaylistInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Extend_Playlist_ExtendPlaylistInfo(Value_Player_Extend_Playlist_ExtendPlaylistInfo&& from) noexcept
+    : Value_Player_Extend_Playlist_ExtendPlaylistInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Extend_Playlist_ExtendPlaylistInfo& operator=(Value_Player_Extend_Playlist_ExtendPlaylistInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Extend_Playlist_ExtendPlaylistInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Extend_Playlist_ExtendPlaylistInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Extend_Playlist_ExtendPlaylistInfo*>(
+               &_Value_Player_Extend_Playlist_ExtendPlaylistInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    23;
+
+  void Swap(Value_Player_Extend_Playlist_ExtendPlaylistInfo* other);
+  friend void swap(Value_Player_Extend_Playlist_ExtendPlaylistInfo& a, Value_Player_Extend_Playlist_ExtendPlaylistInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Extend_Playlist_ExtendPlaylistInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Extend_Playlist_ExtendPlaylistInfo>(NULL);
+  }
+
+  Value_Player_Extend_Playlist_ExtendPlaylistInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Extend_Playlist_ExtendPlaylistInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Extend_Playlist_ExtendPlaylistInfo& from);
+  void MergeFrom(const Value_Player_Extend_Playlist_ExtendPlaylistInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Extend_Playlist_ExtendPlaylistInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // bool bExtendPlaylist = 2;
+  void clear_bextendplaylist();
+  static const int kBExtendPlaylistFieldNumber = 2;
+  bool bextendplaylist() const;
+  void set_bextendplaylist(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  bool bextendplaylist_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Extend_Playlist : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Extend_Playlist) */ {
+ public:
+  Value_Player_Extend_Playlist();
+  virtual ~Value_Player_Extend_Playlist();
+
+  Value_Player_Extend_Playlist(const Value_Player_Extend_Playlist& from);
+
+  inline Value_Player_Extend_Playlist& operator=(const Value_Player_Extend_Playlist& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Extend_Playlist(Value_Player_Extend_Playlist&& from) noexcept
+    : Value_Player_Extend_Playlist() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Extend_Playlist& operator=(Value_Player_Extend_Playlist&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Extend_Playlist& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Extend_Playlist* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Extend_Playlist*>(
+               &_Value_Player_Extend_Playlist_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    24;
+
+  void Swap(Value_Player_Extend_Playlist* other);
+  friend void swap(Value_Player_Extend_Playlist& a, Value_Player_Extend_Playlist& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Extend_Playlist* New() const final {
+    return CreateMaybeMessage<Value_Player_Extend_Playlist>(NULL);
+  }
+
+  Value_Player_Extend_Playlist* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Extend_Playlist>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Extend_Playlist& from);
+  void MergeFrom(const Value_Player_Extend_Playlist& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Extend_Playlist* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Extend_Playlist_ExtendPlaylistInfo ExtendPlaylistInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo extendPlaylistInfo = 2;
+  int extendplaylistinfo_size() const;
+  void clear_extendplaylistinfo();
+  static const int kExtendPlaylistInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo* mutable_extendplaylistinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo >*
+      mutable_extendplaylistinfo();
+  const ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo& extendplaylistinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo* add_extendplaylistinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo >&
+      extendplaylistinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Extend_Playlist)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo > extendplaylistinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Limit_In_Out_LimitInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo) */ {
+ public:
+  Value_Player_Limit_In_Out_LimitInfo();
+  virtual ~Value_Player_Limit_In_Out_LimitInfo();
+
+  Value_Player_Limit_In_Out_LimitInfo(const Value_Player_Limit_In_Out_LimitInfo& from);
+
+  inline Value_Player_Limit_In_Out_LimitInfo& operator=(const Value_Player_Limit_In_Out_LimitInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Limit_In_Out_LimitInfo(Value_Player_Limit_In_Out_LimitInfo&& from) noexcept
+    : Value_Player_Limit_In_Out_LimitInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Limit_In_Out_LimitInfo& operator=(Value_Player_Limit_In_Out_LimitInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Limit_In_Out_LimitInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Limit_In_Out_LimitInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Limit_In_Out_LimitInfo*>(
+               &_Value_Player_Limit_In_Out_LimitInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    25;
+
+  void Swap(Value_Player_Limit_In_Out_LimitInfo* other);
+  friend void swap(Value_Player_Limit_In_Out_LimitInfo& a, Value_Player_Limit_In_Out_LimitInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Limit_In_Out_LimitInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Limit_In_Out_LimitInfo>(NULL);
+  }
+
+  Value_Player_Limit_In_Out_LimitInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Limit_In_Out_LimitInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Limit_In_Out_LimitInfo& from);
+  void MergeFrom(const Value_Player_Limit_In_Out_LimitInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Limit_In_Out_LimitInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // bool isLimitInRelative = 2;
+  void clear_islimitinrelative();
+  static const int kIsLimitInRelativeFieldNumber = 2;
+  bool islimitinrelative() const;
+  void set_islimitinrelative(bool value);
+
+  // bool isLimitOutRelative = 3;
+  void clear_islimitoutrelative();
+  static const int kIsLimitOutRelativeFieldNumber = 3;
+  bool islimitoutrelative() const;
+  void set_islimitoutrelative(bool value);
+
+  // uint64 limitIn = 4;
+  void clear_limitin();
+  static const int kLimitInFieldNumber = 4;
+  ::google::protobuf::uint64 limitin() const;
+  void set_limitin(::google::protobuf::uint64 value);
+
+  // uint64 limitOut = 5;
+  void clear_limitout();
+  static const int kLimitOutFieldNumber = 5;
+  ::google::protobuf::uint64 limitout() const;
+  void set_limitout(::google::protobuf::uint64 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  bool islimitinrelative_;
+  bool islimitoutrelative_;
+  ::google::protobuf::uint64 limitin_;
+  ::google::protobuf::uint64 limitout_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Limit_In_Out : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Limit_In_Out) */ {
+ public:
+  Value_Player_Limit_In_Out();
+  virtual ~Value_Player_Limit_In_Out();
+
+  Value_Player_Limit_In_Out(const Value_Player_Limit_In_Out& from);
+
+  inline Value_Player_Limit_In_Out& operator=(const Value_Player_Limit_In_Out& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Limit_In_Out(Value_Player_Limit_In_Out&& from) noexcept
+    : Value_Player_Limit_In_Out() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Limit_In_Out& operator=(Value_Player_Limit_In_Out&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Limit_In_Out& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Limit_In_Out* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Limit_In_Out*>(
+               &_Value_Player_Limit_In_Out_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    26;
+
+  void Swap(Value_Player_Limit_In_Out* other);
+  friend void swap(Value_Player_Limit_In_Out& a, Value_Player_Limit_In_Out& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Limit_In_Out* New() const final {
+    return CreateMaybeMessage<Value_Player_Limit_In_Out>(NULL);
+  }
+
+  Value_Player_Limit_In_Out* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Limit_In_Out>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Limit_In_Out& from);
+  void MergeFrom(const Value_Player_Limit_In_Out& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Limit_In_Out* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Limit_In_Out_LimitInfo LimitInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo limitInfo = 2;
+  int limitinfo_size() const;
+  void clear_limitinfo();
+  static const int kLimitInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo* mutable_limitinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo >*
+      mutable_limitinfo();
+  const ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo& limitinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo* add_limitinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo >&
+      limitinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Limit_In_Out)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo > limitinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Loop_Mode_LoopModeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo) */ {
+ public:
+  Value_Player_Loop_Mode_LoopModeInfo();
+  virtual ~Value_Player_Loop_Mode_LoopModeInfo();
+
+  Value_Player_Loop_Mode_LoopModeInfo(const Value_Player_Loop_Mode_LoopModeInfo& from);
+
+  inline Value_Player_Loop_Mode_LoopModeInfo& operator=(const Value_Player_Loop_Mode_LoopModeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Loop_Mode_LoopModeInfo(Value_Player_Loop_Mode_LoopModeInfo&& from) noexcept
+    : Value_Player_Loop_Mode_LoopModeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Loop_Mode_LoopModeInfo& operator=(Value_Player_Loop_Mode_LoopModeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Loop_Mode_LoopModeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Loop_Mode_LoopModeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Loop_Mode_LoopModeInfo*>(
+               &_Value_Player_Loop_Mode_LoopModeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    27;
+
+  void Swap(Value_Player_Loop_Mode_LoopModeInfo* other);
+  friend void swap(Value_Player_Loop_Mode_LoopModeInfo& a, Value_Player_Loop_Mode_LoopModeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Loop_Mode_LoopModeInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Loop_Mode_LoopModeInfo>(NULL);
+  }
+
+  Value_Player_Loop_Mode_LoopModeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Loop_Mode_LoopModeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Loop_Mode_LoopModeInfo& from);
+  void MergeFrom(const Value_Player_Loop_Mode_LoopModeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Loop_Mode_LoopModeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.Value_Player_Loop_Mode.PlayerLoopMode loopMode = 2;
+  void clear_loopmode();
+  static const int kLoopModeFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode loopmode() const;
+  void set_loopmode(::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int loopmode_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Loop_Mode : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Loop_Mode) */ {
+ public:
+  Value_Player_Loop_Mode();
+  virtual ~Value_Player_Loop_Mode();
+
+  Value_Player_Loop_Mode(const Value_Player_Loop_Mode& from);
+
+  inline Value_Player_Loop_Mode& operator=(const Value_Player_Loop_Mode& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Loop_Mode(Value_Player_Loop_Mode&& from) noexcept
+    : Value_Player_Loop_Mode() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Loop_Mode& operator=(Value_Player_Loop_Mode&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Loop_Mode& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Loop_Mode* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Loop_Mode*>(
+               &_Value_Player_Loop_Mode_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    28;
+
+  void Swap(Value_Player_Loop_Mode* other);
+  friend void swap(Value_Player_Loop_Mode& a, Value_Player_Loop_Mode& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Loop_Mode* New() const final {
+    return CreateMaybeMessage<Value_Player_Loop_Mode>(NULL);
+  }
+
+  Value_Player_Loop_Mode* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Loop_Mode>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Loop_Mode& from);
+  void MergeFrom(const Value_Player_Loop_Mode& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Loop_Mode* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Loop_Mode_LoopModeInfo LoopModeInfo;
+
+  typedef Value_Player_Loop_Mode_PlayerLoopMode PlayerLoopMode;
+  static const PlayerLoopMode OFF =
+    Value_Player_Loop_Mode_PlayerLoopMode_OFF;
+  static const PlayerLoopMode STD =
+    Value_Player_Loop_Mode_PlayerLoopMode_STD;
+  static const PlayerLoopMode PING_PONG =
+    Value_Player_Loop_Mode_PlayerLoopMode_PING_PONG;
+  static inline bool PlayerLoopMode_IsValid(int value) {
+    return Value_Player_Loop_Mode_PlayerLoopMode_IsValid(value);
+  }
+  static const PlayerLoopMode PlayerLoopMode_MIN =
+    Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_MIN;
+  static const PlayerLoopMode PlayerLoopMode_MAX =
+    Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_MAX;
+  static const int PlayerLoopMode_ARRAYSIZE =
+    Value_Player_Loop_Mode_PlayerLoopMode_PlayerLoopMode_ARRAYSIZE;
+  static inline const ::google::protobuf::EnumDescriptor*
+  PlayerLoopMode_descriptor() {
+    return Value_Player_Loop_Mode_PlayerLoopMode_descriptor();
+  }
+  static inline const ::std::string& PlayerLoopMode_Name(PlayerLoopMode value) {
+    return Value_Player_Loop_Mode_PlayerLoopMode_Name(value);
+  }
+  static inline bool PlayerLoopMode_Parse(const ::std::string& name,
+      PlayerLoopMode* value) {
+    return Value_Player_Loop_Mode_PlayerLoopMode_Parse(name, value);
+  }
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo loopModeInfo = 2;
+  int loopmodeinfo_size() const;
+  void clear_loopmodeinfo();
+  static const int kLoopModeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo* mutable_loopmodeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo >*
+      mutable_loopmodeinfo();
+  const ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo& loopmodeinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo* add_loopmodeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo >&
+      loopmodeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Mode)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo > loopmodeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Loop_Count_LoopCountInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo) */ {
+ public:
+  Value_Player_Loop_Count_LoopCountInfo();
+  virtual ~Value_Player_Loop_Count_LoopCountInfo();
+
+  Value_Player_Loop_Count_LoopCountInfo(const Value_Player_Loop_Count_LoopCountInfo& from);
+
+  inline Value_Player_Loop_Count_LoopCountInfo& operator=(const Value_Player_Loop_Count_LoopCountInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Loop_Count_LoopCountInfo(Value_Player_Loop_Count_LoopCountInfo&& from) noexcept
+    : Value_Player_Loop_Count_LoopCountInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Loop_Count_LoopCountInfo& operator=(Value_Player_Loop_Count_LoopCountInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Loop_Count_LoopCountInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Loop_Count_LoopCountInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Loop_Count_LoopCountInfo*>(
+               &_Value_Player_Loop_Count_LoopCountInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    29;
+
+  void Swap(Value_Player_Loop_Count_LoopCountInfo* other);
+  friend void swap(Value_Player_Loop_Count_LoopCountInfo& a, Value_Player_Loop_Count_LoopCountInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Loop_Count_LoopCountInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Loop_Count_LoopCountInfo>(NULL);
+  }
+
+  Value_Player_Loop_Count_LoopCountInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Loop_Count_LoopCountInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Loop_Count_LoopCountInfo& from);
+  void MergeFrom(const Value_Player_Loop_Count_LoopCountInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Loop_Count_LoopCountInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 loopCount = 2;
+  void clear_loopcount();
+  static const int kLoopCountFieldNumber = 2;
+  ::google::protobuf::uint32 loopcount() const;
+  void set_loopcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::uint32 loopcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Loop_Count : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Loop_Count) */ {
+ public:
+  Value_Player_Loop_Count();
+  virtual ~Value_Player_Loop_Count();
+
+  Value_Player_Loop_Count(const Value_Player_Loop_Count& from);
+
+  inline Value_Player_Loop_Count& operator=(const Value_Player_Loop_Count& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Loop_Count(Value_Player_Loop_Count&& from) noexcept
+    : Value_Player_Loop_Count() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Loop_Count& operator=(Value_Player_Loop_Count&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Loop_Count& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Loop_Count* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Loop_Count*>(
+               &_Value_Player_Loop_Count_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    30;
+
+  void Swap(Value_Player_Loop_Count* other);
+  friend void swap(Value_Player_Loop_Count& a, Value_Player_Loop_Count& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Loop_Count* New() const final {
+    return CreateMaybeMessage<Value_Player_Loop_Count>(NULL);
+  }
+
+  Value_Player_Loop_Count* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Loop_Count>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Loop_Count& from);
+  void MergeFrom(const Value_Player_Loop_Count& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Loop_Count* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Loop_Count_LoopCountInfo LoopCountInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo loopCountInfo = 2;
+  int loopcountinfo_size() const;
+  void clear_loopcountinfo();
+  static const int kLoopCountInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo* mutable_loopcountinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo >*
+      mutable_loopcountinfo();
+  const ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo& loopcountinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo* add_loopcountinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo >&
+      loopcountinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Loop_Count)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo > loopcountinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Playlist_ID_PlaylistIDInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo) */ {
+ public:
+  Value_Player_Playlist_ID_PlaylistIDInfo();
+  virtual ~Value_Player_Playlist_ID_PlaylistIDInfo();
+
+  Value_Player_Playlist_ID_PlaylistIDInfo(const Value_Player_Playlist_ID_PlaylistIDInfo& from);
+
+  inline Value_Player_Playlist_ID_PlaylistIDInfo& operator=(const Value_Player_Playlist_ID_PlaylistIDInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Playlist_ID_PlaylistIDInfo(Value_Player_Playlist_ID_PlaylistIDInfo&& from) noexcept
+    : Value_Player_Playlist_ID_PlaylistIDInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Playlist_ID_PlaylistIDInfo& operator=(Value_Player_Playlist_ID_PlaylistIDInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Playlist_ID_PlaylistIDInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Playlist_ID_PlaylistIDInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Playlist_ID_PlaylistIDInfo*>(
+               &_Value_Player_Playlist_ID_PlaylistIDInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    31;
+
+  void Swap(Value_Player_Playlist_ID_PlaylistIDInfo* other);
+  friend void swap(Value_Player_Playlist_ID_PlaylistIDInfo& a, Value_Player_Playlist_ID_PlaylistIDInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Playlist_ID_PlaylistIDInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Playlist_ID_PlaylistIDInfo>(NULL);
+  }
+
+  Value_Player_Playlist_ID_PlaylistIDInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Playlist_ID_PlaylistIDInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Playlist_ID_PlaylistIDInfo& from);
+  void MergeFrom(const Value_Player_Playlist_ID_PlaylistIDInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Playlist_ID_PlaylistIDInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes playlistID = 3;
+  void clear_playlistid();
+  static const int kPlaylistIDFieldNumber = 3;
+  const ::std::string& playlistid() const;
+  void set_playlistid(const ::std::string& value);
+  #if LANG_CXX11
+  void set_playlistid(::std::string&& value);
+  #endif
+  void set_playlistid(const char* value);
+  void set_playlistid(const void* value, size_t size);
+  ::std::string* mutable_playlistid();
+  ::std::string* release_playlistid();
+  void set_allocated_playlistid(::std::string* playlistid);
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 idSize = 2;
+  void clear_idsize();
+  static const int kIdSizeFieldNumber = 2;
+  ::google::protobuf::uint32 idsize() const;
+  void set_idsize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr playlistid_;
+  int id_;
+  ::google::protobuf::uint32 idsize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Playlist_ID : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Playlist_ID) */ {
+ public:
+  Value_Player_Playlist_ID();
+  virtual ~Value_Player_Playlist_ID();
+
+  Value_Player_Playlist_ID(const Value_Player_Playlist_ID& from);
+
+  inline Value_Player_Playlist_ID& operator=(const Value_Player_Playlist_ID& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Playlist_ID(Value_Player_Playlist_ID&& from) noexcept
+    : Value_Player_Playlist_ID() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Playlist_ID& operator=(Value_Player_Playlist_ID&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Playlist_ID& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Playlist_ID* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Playlist_ID*>(
+               &_Value_Player_Playlist_ID_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    32;
+
+  void Swap(Value_Player_Playlist_ID* other);
+  friend void swap(Value_Player_Playlist_ID& a, Value_Player_Playlist_ID& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Playlist_ID* New() const final {
+    return CreateMaybeMessage<Value_Player_Playlist_ID>(NULL);
+  }
+
+  Value_Player_Playlist_ID* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Playlist_ID>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Playlist_ID& from);
+  void MergeFrom(const Value_Player_Playlist_ID& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Playlist_ID* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Playlist_ID_PlaylistIDInfo PlaylistIDInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo playlistIDInfo = 2;
+  int playlistidinfo_size() const;
+  void clear_playlistidinfo();
+  static const int kPlaylistIDInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo* mutable_playlistidinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo >*
+      mutable_playlistidinfo();
+  const ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo& playlistidinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo* add_playlistidinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo >&
+      playlistidinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_ID)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo > playlistidinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Playlist_Element_ID_ElementIDInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo) */ {
+ public:
+  Value_Player_Playlist_Element_ID_ElementIDInfo();
+  virtual ~Value_Player_Playlist_Element_ID_ElementIDInfo();
+
+  Value_Player_Playlist_Element_ID_ElementIDInfo(const Value_Player_Playlist_Element_ID_ElementIDInfo& from);
+
+  inline Value_Player_Playlist_Element_ID_ElementIDInfo& operator=(const Value_Player_Playlist_Element_ID_ElementIDInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Playlist_Element_ID_ElementIDInfo(Value_Player_Playlist_Element_ID_ElementIDInfo&& from) noexcept
+    : Value_Player_Playlist_Element_ID_ElementIDInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Playlist_Element_ID_ElementIDInfo& operator=(Value_Player_Playlist_Element_ID_ElementIDInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Playlist_Element_ID_ElementIDInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Playlist_Element_ID_ElementIDInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Playlist_Element_ID_ElementIDInfo*>(
+               &_Value_Player_Playlist_Element_ID_ElementIDInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    33;
+
+  void Swap(Value_Player_Playlist_Element_ID_ElementIDInfo* other);
+  friend void swap(Value_Player_Playlist_Element_ID_ElementIDInfo& a, Value_Player_Playlist_Element_ID_ElementIDInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Playlist_Element_ID_ElementIDInfo* New() const final {
+    return CreateMaybeMessage<Value_Player_Playlist_Element_ID_ElementIDInfo>(NULL);
+  }
+
+  Value_Player_Playlist_Element_ID_ElementIDInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Playlist_Element_ID_ElementIDInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Playlist_Element_ID_ElementIDInfo& from);
+  void MergeFrom(const Value_Player_Playlist_Element_ID_ElementIDInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Playlist_Element_ID_ElementIDInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes elementID = 3;
+  void clear_elementid();
+  static const int kElementIDFieldNumber = 3;
+  const ::std::string& elementid() const;
+  void set_elementid(const ::std::string& value);
+  #if LANG_CXX11
+  void set_elementid(::std::string&& value);
+  #endif
+  void set_elementid(const char* value);
+  void set_elementid(const void* value, size_t size);
+  ::std::string* mutable_elementid();
+  ::std::string* release_elementid();
+  void set_allocated_elementid(::std::string* elementid);
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 idSize = 2;
+  void clear_idsize();
+  static const int kIdSizeFieldNumber = 2;
+  ::google::protobuf::uint32 idsize() const;
+  void set_idsize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr elementid_;
+  int id_;
+  ::google::protobuf::uint32 idsize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Player_Playlist_Element_ID : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Player_Playlist_Element_ID) */ {
+ public:
+  Value_Player_Playlist_Element_ID();
+  virtual ~Value_Player_Playlist_Element_ID();
+
+  Value_Player_Playlist_Element_ID(const Value_Player_Playlist_Element_ID& from);
+
+  inline Value_Player_Playlist_Element_ID& operator=(const Value_Player_Playlist_Element_ID& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Player_Playlist_Element_ID(Value_Player_Playlist_Element_ID&& from) noexcept
+    : Value_Player_Playlist_Element_ID() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Player_Playlist_Element_ID& operator=(Value_Player_Playlist_Element_ID&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Player_Playlist_Element_ID& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Player_Playlist_Element_ID* internal_default_instance() {
+    return reinterpret_cast<const Value_Player_Playlist_Element_ID*>(
+               &_Value_Player_Playlist_Element_ID_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    34;
+
+  void Swap(Value_Player_Playlist_Element_ID* other);
+  friend void swap(Value_Player_Playlist_Element_ID& a, Value_Player_Playlist_Element_ID& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Player_Playlist_Element_ID* New() const final {
+    return CreateMaybeMessage<Value_Player_Playlist_Element_ID>(NULL);
+  }
+
+  Value_Player_Playlist_Element_ID* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Player_Playlist_Element_ID>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Player_Playlist_Element_ID& from);
+  void MergeFrom(const Value_Player_Playlist_Element_ID& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Player_Playlist_Element_ID* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Player_Playlist_Element_ID_ElementIDInfo ElementIDInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo elementIDInfo = 2;
+  int elementidinfo_size() const;
+  void clear_elementidinfo();
+  static const int kElementIDInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo* mutable_elementidinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo >*
+      mutable_elementidinfo();
+  const ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo& elementidinfo(int index) const;
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo* add_elementidinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo >&
+      elementidinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Player_Playlist_Element_ID)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo > elementidinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Mode_DVEModeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo) */ {
+ public:
+  Value_DVE_Mode_DVEModeInfo();
+  virtual ~Value_DVE_Mode_DVEModeInfo();
+
+  Value_DVE_Mode_DVEModeInfo(const Value_DVE_Mode_DVEModeInfo& from);
+
+  inline Value_DVE_Mode_DVEModeInfo& operator=(const Value_DVE_Mode_DVEModeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Mode_DVEModeInfo(Value_DVE_Mode_DVEModeInfo&& from) noexcept
+    : Value_DVE_Mode_DVEModeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Mode_DVEModeInfo& operator=(Value_DVE_Mode_DVEModeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Mode_DVEModeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Mode_DVEModeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Mode_DVEModeInfo*>(
+               &_Value_DVE_Mode_DVEModeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    35;
+
+  void Swap(Value_DVE_Mode_DVEModeInfo* other);
+  friend void swap(Value_DVE_Mode_DVEModeInfo& a, Value_DVE_Mode_DVEModeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Mode_DVEModeInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_Mode_DVEModeInfo>(NULL);
+  }
+
+  Value_DVE_Mode_DVEModeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Mode_DVEModeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Mode_DVEModeInfo& from);
+  void MergeFrom(const Value_DVE_Mode_DVEModeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Mode_DVEModeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.Value_DVE_Mode.DVEMode mode = 2;
+  void clear_mode();
+  static const int kModeFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Mode_DVEMode mode() const;
+  void set_mode(::GoogleProtoBB::Value_DVE_Mode_DVEMode value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int mode_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Mode : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Mode) */ {
+ public:
+  Value_DVE_Mode();
+  virtual ~Value_DVE_Mode();
+
+  Value_DVE_Mode(const Value_DVE_Mode& from);
+
+  inline Value_DVE_Mode& operator=(const Value_DVE_Mode& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Mode(Value_DVE_Mode&& from) noexcept
+    : Value_DVE_Mode() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Mode& operator=(Value_DVE_Mode&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Mode& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Mode* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Mode*>(
+               &_Value_DVE_Mode_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    36;
+
+  void Swap(Value_DVE_Mode* other);
+  friend void swap(Value_DVE_Mode& a, Value_DVE_Mode& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Mode* New() const final {
+    return CreateMaybeMessage<Value_DVE_Mode>(NULL);
+  }
+
+  Value_DVE_Mode* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Mode>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Mode& from);
+  void MergeFrom(const Value_DVE_Mode& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Mode* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_Mode_DVEModeInfo DVEModeInfo;
+
+  typedef Value_DVE_Mode_DVEMode DVEMode;
+  static const DVEMode offMode =
+    Value_DVE_Mode_DVEMode_offMode;
+  static const DVEMode autoMode =
+    Value_DVE_Mode_DVEMode_autoMode;
+  static const DVEMode manualMode =
+    Value_DVE_Mode_DVEMode_manualMode;
+  static inline bool DVEMode_IsValid(int value) {
+    return Value_DVE_Mode_DVEMode_IsValid(value);
+  }
+  static const DVEMode DVEMode_MIN =
+    Value_DVE_Mode_DVEMode_DVEMode_MIN;
+  static const DVEMode DVEMode_MAX =
+    Value_DVE_Mode_DVEMode_DVEMode_MAX;
+  static const int DVEMode_ARRAYSIZE =
+    Value_DVE_Mode_DVEMode_DVEMode_ARRAYSIZE;
+  static inline const ::google::protobuf::EnumDescriptor*
+  DVEMode_descriptor() {
+    return Value_DVE_Mode_DVEMode_descriptor();
+  }
+  static inline const ::std::string& DVEMode_Name(DVEMode value) {
+    return Value_DVE_Mode_DVEMode_Name(value);
+  }
+  static inline bool DVEMode_Parse(const ::std::string& name,
+      DVEMode* value) {
+    return Value_DVE_Mode_DVEMode_Parse(name, value);
+  }
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_Mode.DVEModeInfo modeInfo = 2;
+  int modeinfo_size() const;
+  void clear_modeinfo();
+  static const int kModeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo* mutable_modeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo >*
+      mutable_modeinfo();
+  const ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo& modeinfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo* add_modeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo >&
+      modeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Mode)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo > modeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Type_DVETypeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Type.DVETypeInfo) */ {
+ public:
+  Value_DVE_Type_DVETypeInfo();
+  virtual ~Value_DVE_Type_DVETypeInfo();
+
+  Value_DVE_Type_DVETypeInfo(const Value_DVE_Type_DVETypeInfo& from);
+
+  inline Value_DVE_Type_DVETypeInfo& operator=(const Value_DVE_Type_DVETypeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Type_DVETypeInfo(Value_DVE_Type_DVETypeInfo&& from) noexcept
+    : Value_DVE_Type_DVETypeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Type_DVETypeInfo& operator=(Value_DVE_Type_DVETypeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Type_DVETypeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Type_DVETypeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Type_DVETypeInfo*>(
+               &_Value_DVE_Type_DVETypeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    37;
+
+  void Swap(Value_DVE_Type_DVETypeInfo* other);
+  friend void swap(Value_DVE_Type_DVETypeInfo& a, Value_DVE_Type_DVETypeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Type_DVETypeInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_Type_DVETypeInfo>(NULL);
+  }
+
+  Value_DVE_Type_DVETypeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Type_DVETypeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Type_DVETypeInfo& from);
+  void MergeFrom(const Value_DVE_Type_DVETypeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Type_DVETypeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.Value_DVE_Type.DVEType type = 2;
+  void clear_type();
+  static const int kTypeFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Type_DVEType type() const;
+  void set_type(::GoogleProtoBB::Value_DVE_Type_DVEType value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Type.DVETypeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int type_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Type : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Type) */ {
+ public:
+  Value_DVE_Type();
+  virtual ~Value_DVE_Type();
+
+  Value_DVE_Type(const Value_DVE_Type& from);
+
+  inline Value_DVE_Type& operator=(const Value_DVE_Type& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Type(Value_DVE_Type&& from) noexcept
+    : Value_DVE_Type() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Type& operator=(Value_DVE_Type&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Type& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Type* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Type*>(
+               &_Value_DVE_Type_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    38;
+
+  void Swap(Value_DVE_Type* other);
+  friend void swap(Value_DVE_Type& a, Value_DVE_Type& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Type* New() const final {
+    return CreateMaybeMessage<Value_DVE_Type>(NULL);
+  }
+
+  Value_DVE_Type* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Type>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Type& from);
+  void MergeFrom(const Value_DVE_Type& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Type* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_Type_DVETypeInfo DVETypeInfo;
+
+  typedef Value_DVE_Type_DVEType DVEType;
+  static const DVEType dve_MIX =
+    Value_DVE_Type_DVEType_dve_MIX;
+  static const DVEType dve_WIPE_LR =
+    Value_DVE_Type_DVEType_dve_WIPE_LR;
+  static const DVEType dve_WIPE_RL =
+    Value_DVE_Type_DVEType_dve_WIPE_RL;
+  static inline bool DVEType_IsValid(int value) {
+    return Value_DVE_Type_DVEType_IsValid(value);
+  }
+  static const DVEType DVEType_MIN =
+    Value_DVE_Type_DVEType_DVEType_MIN;
+  static const DVEType DVEType_MAX =
+    Value_DVE_Type_DVEType_DVEType_MAX;
+  static const int DVEType_ARRAYSIZE =
+    Value_DVE_Type_DVEType_DVEType_ARRAYSIZE;
+  static inline const ::google::protobuf::EnumDescriptor*
+  DVEType_descriptor() {
+    return Value_DVE_Type_DVEType_descriptor();
+  }
+  static inline const ::std::string& DVEType_Name(DVEType value) {
+    return Value_DVE_Type_DVEType_Name(value);
+  }
+  static inline bool DVEType_Parse(const ::std::string& name,
+      DVEType* value) {
+    return Value_DVE_Type_DVEType_Parse(name, value);
+  }
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_Type.DVETypeInfo typeInfo = 2;
+  int typeinfo_size() const;
+  void clear_typeinfo();
+  static const int kTypeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo* mutable_typeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo >*
+      mutable_typeinfo();
+  const ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo& typeinfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo* add_typeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo >&
+      typeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Type)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo > typeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Channel : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Channel) */ {
+ public:
+  Value_DVE_Channel();
+  virtual ~Value_DVE_Channel();
+
+  Value_DVE_Channel(const Value_DVE_Channel& from);
+
+  inline Value_DVE_Channel& operator=(const Value_DVE_Channel& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Channel(Value_DVE_Channel&& from) noexcept
+    : Value_DVE_Channel() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Channel& operator=(Value_DVE_Channel&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Channel& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Channel* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Channel*>(
+               &_Value_DVE_Channel_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    39;
+
+  void Swap(Value_DVE_Channel* other);
+  friend void swap(Value_DVE_Channel& a, Value_DVE_Channel& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Channel* New() const final {
+    return CreateMaybeMessage<Value_DVE_Channel>(NULL);
+  }
+
+  Value_DVE_Channel* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Channel>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Channel& from);
+  void MergeFrom(const Value_DVE_Channel& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Channel* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.CnlID cnl = 2;
+  int cnl_size() const;
+  void clear_cnl();
+  static const int kCnlFieldNumber = 2;
+  ::GoogleProtoBB::CnlID cnl(int index) const;
+  void set_cnl(int index, ::GoogleProtoBB::CnlID value);
+  void add_cnl(::GoogleProtoBB::CnlID value);
+  const ::google::protobuf::RepeatedField<int>& cnl() const;
+  ::google::protobuf::RepeatedField<int>* mutable_cnl();
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Channel)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedField<int> cnl_;
+  mutable int _cnl_cached_byte_size_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Num_DVENumInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Num.DVENumInfo) */ {
+ public:
+  Value_DVE_Num_DVENumInfo();
+  virtual ~Value_DVE_Num_DVENumInfo();
+
+  Value_DVE_Num_DVENumInfo(const Value_DVE_Num_DVENumInfo& from);
+
+  inline Value_DVE_Num_DVENumInfo& operator=(const Value_DVE_Num_DVENumInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Num_DVENumInfo(Value_DVE_Num_DVENumInfo&& from) noexcept
+    : Value_DVE_Num_DVENumInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Num_DVENumInfo& operator=(Value_DVE_Num_DVENumInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Num_DVENumInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Num_DVENumInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Num_DVENumInfo*>(
+               &_Value_DVE_Num_DVENumInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    40;
+
+  void Swap(Value_DVE_Num_DVENumInfo* other);
+  friend void swap(Value_DVE_Num_DVENumInfo& a, Value_DVE_Num_DVENumInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Num_DVENumInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_Num_DVENumInfo>(NULL);
+  }
+
+  Value_DVE_Num_DVENumInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Num_DVENumInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Num_DVENumInfo& from);
+  void MergeFrom(const Value_DVE_Num_DVENumInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Num_DVENumInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // int32 num = 2;
+  void clear_num();
+  static const int kNumFieldNumber = 2;
+  ::google::protobuf::int32 num() const;
+  void set_num(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Num.DVENumInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::int32 num_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Num : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Num) */ {
+ public:
+  Value_DVE_Num();
+  virtual ~Value_DVE_Num();
+
+  Value_DVE_Num(const Value_DVE_Num& from);
+
+  inline Value_DVE_Num& operator=(const Value_DVE_Num& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Num(Value_DVE_Num&& from) noexcept
+    : Value_DVE_Num() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Num& operator=(Value_DVE_Num&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Num& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Num* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Num*>(
+               &_Value_DVE_Num_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    41;
+
+  void Swap(Value_DVE_Num* other);
+  friend void swap(Value_DVE_Num& a, Value_DVE_Num& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Num* New() const final {
+    return CreateMaybeMessage<Value_DVE_Num>(NULL);
+  }
+
+  Value_DVE_Num* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Num>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Num& from);
+  void MergeFrom(const Value_DVE_Num& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Num* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_Num_DVENumInfo DVENumInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_Num.DVENumInfo numInfo = 2;
+  int numinfo_size() const;
+  void clear_numinfo();
+  static const int kNumInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Num_DVENumInfo* mutable_numinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Num_DVENumInfo >*
+      mutable_numinfo();
+  const ::GoogleProtoBB::Value_DVE_Num_DVENumInfo& numinfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_Num_DVENumInfo* add_numinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Num_DVENumInfo >&
+      numinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Num)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Num_DVENumInfo > numinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Den_DVEDenInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Den.DVEDenInfo) */ {
+ public:
+  Value_DVE_Den_DVEDenInfo();
+  virtual ~Value_DVE_Den_DVEDenInfo();
+
+  Value_DVE_Den_DVEDenInfo(const Value_DVE_Den_DVEDenInfo& from);
+
+  inline Value_DVE_Den_DVEDenInfo& operator=(const Value_DVE_Den_DVEDenInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Den_DVEDenInfo(Value_DVE_Den_DVEDenInfo&& from) noexcept
+    : Value_DVE_Den_DVEDenInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Den_DVEDenInfo& operator=(Value_DVE_Den_DVEDenInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Den_DVEDenInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Den_DVEDenInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Den_DVEDenInfo*>(
+               &_Value_DVE_Den_DVEDenInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    42;
+
+  void Swap(Value_DVE_Den_DVEDenInfo* other);
+  friend void swap(Value_DVE_Den_DVEDenInfo& a, Value_DVE_Den_DVEDenInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Den_DVEDenInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_Den_DVEDenInfo>(NULL);
+  }
+
+  Value_DVE_Den_DVEDenInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Den_DVEDenInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Den_DVEDenInfo& from);
+  void MergeFrom(const Value_DVE_Den_DVEDenInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Den_DVEDenInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // int32 den = 2;
+  void clear_den();
+  static const int kDenFieldNumber = 2;
+  ::google::protobuf::int32 den() const;
+  void set_den(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Den.DVEDenInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::int32 den_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Den : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Den) */ {
+ public:
+  Value_DVE_Den();
+  virtual ~Value_DVE_Den();
+
+  Value_DVE_Den(const Value_DVE_Den& from);
+
+  inline Value_DVE_Den& operator=(const Value_DVE_Den& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Den(Value_DVE_Den&& from) noexcept
+    : Value_DVE_Den() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Den& operator=(Value_DVE_Den&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Den& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Den* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Den*>(
+               &_Value_DVE_Den_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    43;
+
+  void Swap(Value_DVE_Den* other);
+  friend void swap(Value_DVE_Den& a, Value_DVE_Den& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Den* New() const final {
+    return CreateMaybeMessage<Value_DVE_Den>(NULL);
+  }
+
+  Value_DVE_Den* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Den>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Den& from);
+  void MergeFrom(const Value_DVE_Den& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Den* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_Den_DVEDenInfo DVEDenInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_Den.DVEDenInfo denInfo = 2;
+  int deninfo_size() const;
+  void clear_deninfo();
+  static const int kDenInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo* mutable_deninfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo >*
+      mutable_deninfo();
+  const ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo& deninfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo* add_deninfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo >&
+      deninfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Den)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo > deninfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_CutThreshold_DVEThresholdInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo) */ {
+ public:
+  Value_DVE_CutThreshold_DVEThresholdInfo();
+  virtual ~Value_DVE_CutThreshold_DVEThresholdInfo();
+
+  Value_DVE_CutThreshold_DVEThresholdInfo(const Value_DVE_CutThreshold_DVEThresholdInfo& from);
+
+  inline Value_DVE_CutThreshold_DVEThresholdInfo& operator=(const Value_DVE_CutThreshold_DVEThresholdInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_CutThreshold_DVEThresholdInfo(Value_DVE_CutThreshold_DVEThresholdInfo&& from) noexcept
+    : Value_DVE_CutThreshold_DVEThresholdInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_CutThreshold_DVEThresholdInfo& operator=(Value_DVE_CutThreshold_DVEThresholdInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_CutThreshold_DVEThresholdInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_CutThreshold_DVEThresholdInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_CutThreshold_DVEThresholdInfo*>(
+               &_Value_DVE_CutThreshold_DVEThresholdInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    44;
+
+  void Swap(Value_DVE_CutThreshold_DVEThresholdInfo* other);
+  friend void swap(Value_DVE_CutThreshold_DVEThresholdInfo& a, Value_DVE_CutThreshold_DVEThresholdInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_CutThreshold_DVEThresholdInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_CutThreshold_DVEThresholdInfo>(NULL);
+  }
+
+  Value_DVE_CutThreshold_DVEThresholdInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_CutThreshold_DVEThresholdInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_CutThreshold_DVEThresholdInfo& from);
+  void MergeFrom(const Value_DVE_CutThreshold_DVEThresholdInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_CutThreshold_DVEThresholdInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // int32 threshold = 2;
+  void clear_threshold();
+  static const int kThresholdFieldNumber = 2;
+  ::google::protobuf::int32 threshold() const;
+  void set_threshold(::google::protobuf::int32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::int32 threshold_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_CutThreshold : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_CutThreshold) */ {
+ public:
+  Value_DVE_CutThreshold();
+  virtual ~Value_DVE_CutThreshold();
+
+  Value_DVE_CutThreshold(const Value_DVE_CutThreshold& from);
+
+  inline Value_DVE_CutThreshold& operator=(const Value_DVE_CutThreshold& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_CutThreshold(Value_DVE_CutThreshold&& from) noexcept
+    : Value_DVE_CutThreshold() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_CutThreshold& operator=(Value_DVE_CutThreshold&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_CutThreshold& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_CutThreshold* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_CutThreshold*>(
+               &_Value_DVE_CutThreshold_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    45;
+
+  void Swap(Value_DVE_CutThreshold* other);
+  friend void swap(Value_DVE_CutThreshold& a, Value_DVE_CutThreshold& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_CutThreshold* New() const final {
+    return CreateMaybeMessage<Value_DVE_CutThreshold>(NULL);
+  }
+
+  Value_DVE_CutThreshold* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_CutThreshold>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_CutThreshold& from);
+  void MergeFrom(const Value_DVE_CutThreshold& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_CutThreshold* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_CutThreshold_DVEThresholdInfo DVEThresholdInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo thresholdInfo = 2;
+  int thresholdinfo_size() const;
+  void clear_thresholdinfo();
+  static const int kThresholdInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo* mutable_thresholdinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo >*
+      mutable_thresholdinfo();
+  const ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo& thresholdinfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo* add_thresholdinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo >&
+      thresholdinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_CutThreshold)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo > thresholdinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Custom_Transparency_DVECustomTransparencyInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo) */ {
+ public:
+  Value_DVE_Custom_Transparency_DVECustomTransparencyInfo();
+  virtual ~Value_DVE_Custom_Transparency_DVECustomTransparencyInfo();
+
+  Value_DVE_Custom_Transparency_DVECustomTransparencyInfo(const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& from);
+
+  inline Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& operator=(const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Custom_Transparency_DVECustomTransparencyInfo(Value_DVE_Custom_Transparency_DVECustomTransparencyInfo&& from) noexcept
+    : Value_DVE_Custom_Transparency_DVECustomTransparencyInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& operator=(Value_DVE_Custom_Transparency_DVECustomTransparencyInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo*>(
+               &_Value_DVE_Custom_Transparency_DVECustomTransparencyInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    46;
+
+  void Swap(Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* other);
+  friend void swap(Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& a, Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* New() const final {
+    return CreateMaybeMessage<Value_DVE_Custom_Transparency_DVECustomTransparencyInfo>(NULL);
+  }
+
+  Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Custom_Transparency_DVECustomTransparencyInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& from);
+  void MergeFrom(const Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // bool bCustom = 2;
+  void clear_bcustom();
+  static const int kBCustomFieldNumber = 2;
+  bool bcustom() const;
+  void set_bcustom(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  bool bcustom_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_DVE_Custom_Transparency : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_DVE_Custom_Transparency) */ {
+ public:
+  Value_DVE_Custom_Transparency();
+  virtual ~Value_DVE_Custom_Transparency();
+
+  Value_DVE_Custom_Transparency(const Value_DVE_Custom_Transparency& from);
+
+  inline Value_DVE_Custom_Transparency& operator=(const Value_DVE_Custom_Transparency& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_DVE_Custom_Transparency(Value_DVE_Custom_Transparency&& from) noexcept
+    : Value_DVE_Custom_Transparency() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_DVE_Custom_Transparency& operator=(Value_DVE_Custom_Transparency&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_DVE_Custom_Transparency& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_DVE_Custom_Transparency* internal_default_instance() {
+    return reinterpret_cast<const Value_DVE_Custom_Transparency*>(
+               &_Value_DVE_Custom_Transparency_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    47;
+
+  void Swap(Value_DVE_Custom_Transparency* other);
+  friend void swap(Value_DVE_Custom_Transparency& a, Value_DVE_Custom_Transparency& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_DVE_Custom_Transparency* New() const final {
+    return CreateMaybeMessage<Value_DVE_Custom_Transparency>(NULL);
+  }
+
+  Value_DVE_Custom_Transparency* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_DVE_Custom_Transparency>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_DVE_Custom_Transparency& from);
+  void MergeFrom(const Value_DVE_Custom_Transparency& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_DVE_Custom_Transparency* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_DVE_Custom_Transparency_DVECustomTransparencyInfo DVECustomTransparencyInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo customInfo = 2;
+  int custominfo_size() const;
+  void clear_custominfo();
+  static const int kCustomInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* mutable_custominfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo >*
+      mutable_custominfo();
+  const ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& custominfo(int index) const;
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* add_custominfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo >&
+      custominfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_DVE_Custom_Transparency)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo > custominfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Status_RTDStatusInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo) */ {
+ public:
+  Value_RTD_Status_RTDStatusInfo();
+  virtual ~Value_RTD_Status_RTDStatusInfo();
+
+  Value_RTD_Status_RTDStatusInfo(const Value_RTD_Status_RTDStatusInfo& from);
+
+  inline Value_RTD_Status_RTDStatusInfo& operator=(const Value_RTD_Status_RTDStatusInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Status_RTDStatusInfo(Value_RTD_Status_RTDStatusInfo&& from) noexcept
+    : Value_RTD_Status_RTDStatusInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Status_RTDStatusInfo& operator=(Value_RTD_Status_RTDStatusInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Status_RTDStatusInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Status_RTDStatusInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Status_RTDStatusInfo*>(
+               &_Value_RTD_Status_RTDStatusInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    48;
+
+  void Swap(Value_RTD_Status_RTDStatusInfo* other);
+  friend void swap(Value_RTD_Status_RTDStatusInfo& a, Value_RTD_Status_RTDStatusInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Status_RTDStatusInfo* New() const final {
+    return CreateMaybeMessage<Value_RTD_Status_RTDStatusInfo>(NULL);
+  }
+
+  Value_RTD_Status_RTDStatusInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Status_RTDStatusInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Status_RTDStatusInfo& from);
+  void MergeFrom(const Value_RTD_Status_RTDStatusInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Status_RTDStatusInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // bool enable = 2;
+  void clear_enable();
+  static const int kEnableFieldNumber = 2;
+  bool enable() const;
+  void set_enable(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  bool enable_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Status) */ {
+ public:
+  Value_RTD_Status();
+  virtual ~Value_RTD_Status();
+
+  Value_RTD_Status(const Value_RTD_Status& from);
+
+  inline Value_RTD_Status& operator=(const Value_RTD_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Status(Value_RTD_Status&& from) noexcept
+    : Value_RTD_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Status& operator=(Value_RTD_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Status*>(
+               &_Value_RTD_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    49;
+
+  void Swap(Value_RTD_Status* other);
+  friend void swap(Value_RTD_Status& a, Value_RTD_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Status* New() const final {
+    return CreateMaybeMessage<Value_RTD_Status>(NULL);
+  }
+
+  Value_RTD_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Status& from);
+  void MergeFrom(const Value_RTD_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_RTD_Status_RTDStatusInfo RTDStatusInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_RTD_Status.RTDStatusInfo statusInfo = 2;
+  int statusinfo_size() const;
+  void clear_statusinfo();
+  static const int kStatusInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo* mutable_statusinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo >*
+      mutable_statusinfo();
+  const ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo& statusinfo(int index) const;
+  ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo* add_statusinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo >&
+      statusinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo > statusinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Type_RTDTypeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo) */ {
+ public:
+  Value_RTD_Type_RTDTypeInfo();
+  virtual ~Value_RTD_Type_RTDTypeInfo();
+
+  Value_RTD_Type_RTDTypeInfo(const Value_RTD_Type_RTDTypeInfo& from);
+
+  inline Value_RTD_Type_RTDTypeInfo& operator=(const Value_RTD_Type_RTDTypeInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Type_RTDTypeInfo(Value_RTD_Type_RTDTypeInfo&& from) noexcept
+    : Value_RTD_Type_RTDTypeInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Type_RTDTypeInfo& operator=(Value_RTD_Type_RTDTypeInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Type_RTDTypeInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Type_RTDTypeInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Type_RTDTypeInfo*>(
+               &_Value_RTD_Type_RTDTypeInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    50;
+
+  void Swap(Value_RTD_Type_RTDTypeInfo* other);
+  friend void swap(Value_RTD_Type_RTDTypeInfo& a, Value_RTD_Type_RTDTypeInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Type_RTDTypeInfo* New() const final {
+    return CreateMaybeMessage<Value_RTD_Type_RTDTypeInfo>(NULL);
+  }
+
+  Value_RTD_Type_RTDTypeInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Type_RTDTypeInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Type_RTDTypeInfo& from);
+  void MergeFrom(const Value_RTD_Type_RTDTypeInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Type_RTDTypeInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.RTDType type = 2;
+  void clear_type();
+  static const int kTypeFieldNumber = 2;
+  ::GoogleProtoBB::RTDType type() const;
+  void set_type(::GoogleProtoBB::RTDType value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  int type_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Type : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Type) */ {
+ public:
+  Value_RTD_Type();
+  virtual ~Value_RTD_Type();
+
+  Value_RTD_Type(const Value_RTD_Type& from);
+
+  inline Value_RTD_Type& operator=(const Value_RTD_Type& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Type(Value_RTD_Type&& from) noexcept
+    : Value_RTD_Type() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Type& operator=(Value_RTD_Type&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Type& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Type* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Type*>(
+               &_Value_RTD_Type_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    51;
+
+  void Swap(Value_RTD_Type* other);
+  friend void swap(Value_RTD_Type& a, Value_RTD_Type& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Type* New() const final {
+    return CreateMaybeMessage<Value_RTD_Type>(NULL);
+  }
+
+  Value_RTD_Type* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Type>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Type& from);
+  void MergeFrom(const Value_RTD_Type& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Type* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_RTD_Type_RTDTypeInfo RTDTypeInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_RTD_Type.RTDTypeInfo typeInfo = 2;
+  int typeinfo_size() const;
+  void clear_typeinfo();
+  static const int kTypeInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo* mutable_typeinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo >*
+      mutable_typeinfo();
+  const ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo& typeinfo(int index) const;
+  ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo* add_typeinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo >&
+      typeinfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Type)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo > typeinfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Position_RTDPositionInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo) */ {
+ public:
+  Value_RTD_Position_RTDPositionInfo();
+  virtual ~Value_RTD_Position_RTDPositionInfo();
+
+  Value_RTD_Position_RTDPositionInfo(const Value_RTD_Position_RTDPositionInfo& from);
+
+  inline Value_RTD_Position_RTDPositionInfo& operator=(const Value_RTD_Position_RTDPositionInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Position_RTDPositionInfo(Value_RTD_Position_RTDPositionInfo&& from) noexcept
+    : Value_RTD_Position_RTDPositionInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Position_RTDPositionInfo& operator=(Value_RTD_Position_RTDPositionInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Position_RTDPositionInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Position_RTDPositionInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Position_RTDPositionInfo*>(
+               &_Value_RTD_Position_RTDPositionInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    52;
+
+  void Swap(Value_RTD_Position_RTDPositionInfo* other);
+  friend void swap(Value_RTD_Position_RTDPositionInfo& a, Value_RTD_Position_RTDPositionInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Position_RTDPositionInfo* New() const final {
+    return CreateMaybeMessage<Value_RTD_Position_RTDPositionInfo>(NULL);
+  }
+
+  Value_RTD_Position_RTDPositionInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Position_RTDPositionInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Position_RTDPositionInfo& from);
+  void MergeFrom(const Value_RTD_Position_RTDPositionInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Position_RTDPositionInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID id = 1;
+  void clear_id();
+  static const int kIdFieldNumber = 1;
+  ::GoogleProtoBB::CnlID id() const;
+  void set_id(::GoogleProtoBB::CnlID value);
+
+  // uint32 position = 2;
+  void clear_position();
+  static const int kPositionFieldNumber = 2;
+  ::google::protobuf::uint32 position() const;
+  void set_position(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int id_;
+  ::google::protobuf::uint32 position_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_RTD_Position : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_RTD_Position) */ {
+ public:
+  Value_RTD_Position();
+  virtual ~Value_RTD_Position();
+
+  Value_RTD_Position(const Value_RTD_Position& from);
+
+  inline Value_RTD_Position& operator=(const Value_RTD_Position& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_RTD_Position(Value_RTD_Position&& from) noexcept
+    : Value_RTD_Position() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_RTD_Position& operator=(Value_RTD_Position&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_RTD_Position& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_RTD_Position* internal_default_instance() {
+    return reinterpret_cast<const Value_RTD_Position*>(
+               &_Value_RTD_Position_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    53;
+
+  void Swap(Value_RTD_Position* other);
+  friend void swap(Value_RTD_Position& a, Value_RTD_Position& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_RTD_Position* New() const final {
+    return CreateMaybeMessage<Value_RTD_Position>(NULL);
+  }
+
+  Value_RTD_Position* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_RTD_Position>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_RTD_Position& from);
+  void MergeFrom(const Value_RTD_Position& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_RTD_Position* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_RTD_Position_RTDPositionInfo RTDPositionInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_RTD_Position.RTDPositionInfo positionInfo = 2;
+  int positioninfo_size() const;
+  void clear_positioninfo();
+  static const int kPositionInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo* mutable_positioninfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo >*
+      mutable_positioninfo();
+  const ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo& positioninfo(int index) const;
+  ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo* add_positioninfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo >&
+      positioninfo() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_RTD_Position)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo > positioninfo_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Status_GFXStatus : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Status.GFXStatus) */ {
+ public:
+  Value_GFX_Status_GFXStatus();
+  virtual ~Value_GFX_Status_GFXStatus();
+
+  Value_GFX_Status_GFXStatus(const Value_GFX_Status_GFXStatus& from);
+
+  inline Value_GFX_Status_GFXStatus& operator=(const Value_GFX_Status_GFXStatus& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Status_GFXStatus(Value_GFX_Status_GFXStatus&& from) noexcept
+    : Value_GFX_Status_GFXStatus() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Status_GFXStatus& operator=(Value_GFX_Status_GFXStatus&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Status_GFXStatus& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Status_GFXStatus* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Status_GFXStatus*>(
+               &_Value_GFX_Status_GFXStatus_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    54;
+
+  void Swap(Value_GFX_Status_GFXStatus* other);
+  friend void swap(Value_GFX_Status_GFXStatus& a, Value_GFX_Status_GFXStatus& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Status_GFXStatus* New() const final {
+    return CreateMaybeMessage<Value_GFX_Status_GFXStatus>(NULL);
+  }
+
+  Value_GFX_Status_GFXStatus* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Status_GFXStatus>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Status_GFXStatus& from);
+  void MergeFrom(const Value_GFX_Status_GFXStatus& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Status_GFXStatus* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.GFxCnl gfxCnl = 2;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 2;
+  ::GoogleProtoBB::GFxCnl gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::GFxCnl value);
+
+  // bool enable = 3;
+  void clear_enable();
+  static const int kEnableFieldNumber = 3;
+  bool enable() const;
+  void set_enable(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status.GFXStatus)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int gfxcnl_;
+  bool enable_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Status_PGMGFX : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Status.PGMGFX) */ {
+ public:
+  Value_GFX_Status_PGMGFX();
+  virtual ~Value_GFX_Status_PGMGFX();
+
+  Value_GFX_Status_PGMGFX(const Value_GFX_Status_PGMGFX& from);
+
+  inline Value_GFX_Status_PGMGFX& operator=(const Value_GFX_Status_PGMGFX& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Status_PGMGFX(Value_GFX_Status_PGMGFX&& from) noexcept
+    : Value_GFX_Status_PGMGFX() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Status_PGMGFX& operator=(Value_GFX_Status_PGMGFX&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Status_PGMGFX& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Status_PGMGFX* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Status_PGMGFX*>(
+               &_Value_GFX_Status_PGMGFX_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    55;
+
+  void Swap(Value_GFX_Status_PGMGFX* other);
+  friend void swap(Value_GFX_Status_PGMGFX& a, Value_GFX_Status_PGMGFX& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Status_PGMGFX* New() const final {
+    return CreateMaybeMessage<Value_GFX_Status_PGMGFX>(NULL);
+  }
+
+  Value_GFX_Status_PGMGFX* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Status_PGMGFX>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Status_PGMGFX& from);
+  void MergeFrom(const Value_GFX_Status_PGMGFX& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Status_PGMGFX* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Status.GFXStatus gfxStatus = 2;
+  int gfxstatus_size() const;
+  void clear_gfxstatus();
+  static const int kGfxStatusFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Status_GFXStatus* mutable_gfxstatus(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_GFXStatus >*
+      mutable_gfxstatus();
+  const ::GoogleProtoBB::Value_GFX_Status_GFXStatus& gfxstatus(int index) const;
+  ::GoogleProtoBB::Value_GFX_Status_GFXStatus* add_gfxstatus();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_GFXStatus >&
+      gfxstatus() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status.PGMGFX)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_GFXStatus > gfxstatus_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Status) */ {
+ public:
+  Value_GFX_Status();
+  virtual ~Value_GFX_Status();
+
+  Value_GFX_Status(const Value_GFX_Status& from);
+
+  inline Value_GFX_Status& operator=(const Value_GFX_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Status(Value_GFX_Status&& from) noexcept
+    : Value_GFX_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Status& operator=(Value_GFX_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Status*>(
+               &_Value_GFX_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    56;
+
+  void Swap(Value_GFX_Status* other);
+  friend void swap(Value_GFX_Status& a, Value_GFX_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Status* New() const final {
+    return CreateMaybeMessage<Value_GFX_Status>(NULL);
+  }
+
+  Value_GFX_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Status& from);
+  void MergeFrom(const Value_GFX_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Status_GFXStatus GFXStatus;
+  typedef Value_GFX_Status_PGMGFX PGMGFX;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Status.PGMGFX pgmGfx = 2;
+  int pgmgfx_size() const;
+  void clear_pgmgfx();
+  static const int kPgmGfxFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Status_PGMGFX* mutable_pgmgfx(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_PGMGFX >*
+      mutable_pgmgfx();
+  const ::GoogleProtoBB::Value_GFX_Status_PGMGFX& pgmgfx(int index) const;
+  ::GoogleProtoBB::Value_GFX_Status_PGMGFX* add_pgmgfx();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_PGMGFX >&
+      pgmgfx() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_PGMGFX > pgmgfx_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Position_GFXPosition : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Position.GFXPosition) */ {
+ public:
+  Value_GFX_Position_GFXPosition();
+  virtual ~Value_GFX_Position_GFXPosition();
+
+  Value_GFX_Position_GFXPosition(const Value_GFX_Position_GFXPosition& from);
+
+  inline Value_GFX_Position_GFXPosition& operator=(const Value_GFX_Position_GFXPosition& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Position_GFXPosition(Value_GFX_Position_GFXPosition&& from) noexcept
+    : Value_GFX_Position_GFXPosition() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Position_GFXPosition& operator=(Value_GFX_Position_GFXPosition&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Position_GFXPosition& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Position_GFXPosition* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Position_GFXPosition*>(
+               &_Value_GFX_Position_GFXPosition_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    57;
+
+  void Swap(Value_GFX_Position_GFXPosition* other);
+  friend void swap(Value_GFX_Position_GFXPosition& a, Value_GFX_Position_GFXPosition& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Position_GFXPosition* New() const final {
+    return CreateMaybeMessage<Value_GFX_Position_GFXPosition>(NULL);
+  }
+
+  Value_GFX_Position_GFXPosition* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Position_GFXPosition>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Position_GFXPosition& from);
+  void MergeFrom(const Value_GFX_Position_GFXPosition& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Position_GFXPosition* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.GFxCnl gfxCnl = 2;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 2;
+  ::GoogleProtoBB::GFxCnl gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::GFxCnl value);
+
+  // uint32 position = 3;
+  void clear_position();
+  static const int kPositionFieldNumber = 3;
+  ::google::protobuf::uint32 position() const;
+  void set_position(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position.GFXPosition)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int gfxcnl_;
+  ::google::protobuf::uint32 position_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Position_PGMGFX : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Position.PGMGFX) */ {
+ public:
+  Value_GFX_Position_PGMGFX();
+  virtual ~Value_GFX_Position_PGMGFX();
+
+  Value_GFX_Position_PGMGFX(const Value_GFX_Position_PGMGFX& from);
+
+  inline Value_GFX_Position_PGMGFX& operator=(const Value_GFX_Position_PGMGFX& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Position_PGMGFX(Value_GFX_Position_PGMGFX&& from) noexcept
+    : Value_GFX_Position_PGMGFX() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Position_PGMGFX& operator=(Value_GFX_Position_PGMGFX&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Position_PGMGFX& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Position_PGMGFX* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Position_PGMGFX*>(
+               &_Value_GFX_Position_PGMGFX_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    58;
+
+  void Swap(Value_GFX_Position_PGMGFX* other);
+  friend void swap(Value_GFX_Position_PGMGFX& a, Value_GFX_Position_PGMGFX& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Position_PGMGFX* New() const final {
+    return CreateMaybeMessage<Value_GFX_Position_PGMGFX>(NULL);
+  }
+
+  Value_GFX_Position_PGMGFX* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Position_PGMGFX>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Position_PGMGFX& from);
+  void MergeFrom(const Value_GFX_Position_PGMGFX& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Position_PGMGFX* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Position.GFXPosition gfxPosition = 2;
+  int gfxposition_size() const;
+  void clear_gfxposition();
+  static const int kGfxPositionFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Position_GFXPosition* mutable_gfxposition(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_GFXPosition >*
+      mutable_gfxposition();
+  const ::GoogleProtoBB::Value_GFX_Position_GFXPosition& gfxposition(int index) const;
+  ::GoogleProtoBB::Value_GFX_Position_GFXPosition* add_gfxposition();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_GFXPosition >&
+      gfxposition() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position.PGMGFX)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_GFXPosition > gfxposition_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Position : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Position) */ {
+ public:
+  Value_GFX_Position();
+  virtual ~Value_GFX_Position();
+
+  Value_GFX_Position(const Value_GFX_Position& from);
+
+  inline Value_GFX_Position& operator=(const Value_GFX_Position& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Position(Value_GFX_Position&& from) noexcept
+    : Value_GFX_Position() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Position& operator=(Value_GFX_Position&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Position& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Position* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Position*>(
+               &_Value_GFX_Position_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    59;
+
+  void Swap(Value_GFX_Position* other);
+  friend void swap(Value_GFX_Position& a, Value_GFX_Position& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Position* New() const final {
+    return CreateMaybeMessage<Value_GFX_Position>(NULL);
+  }
+
+  Value_GFX_Position* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Position>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Position& from);
+  void MergeFrom(const Value_GFX_Position& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Position* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Position_GFXPosition GFXPosition;
+  typedef Value_GFX_Position_PGMGFX PGMGFX;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Position.PGMGFX pgmGfx = 2;
+  int pgmgfx_size() const;
+  void clear_pgmgfx();
+  static const int kPgmGfxFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Position_PGMGFX* mutable_pgmgfx(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_PGMGFX >*
+      mutable_pgmgfx();
+  const ::GoogleProtoBB::Value_GFX_Position_PGMGFX& pgmgfx(int index) const;
+  ::GoogleProtoBB::Value_GFX_Position_PGMGFX* add_pgmgfx();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_PGMGFX >&
+      pgmgfx() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Position)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_PGMGFX > pgmgfx_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Fade_In_Out_Duration_GFXFadeDuration : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration) */ {
+ public:
+  Value_GFX_Fade_In_Out_Duration_GFXFadeDuration();
+  virtual ~Value_GFX_Fade_In_Out_Duration_GFXFadeDuration();
+
+  Value_GFX_Fade_In_Out_Duration_GFXFadeDuration(const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& from);
+
+  inline Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& operator=(const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Fade_In_Out_Duration_GFXFadeDuration(Value_GFX_Fade_In_Out_Duration_GFXFadeDuration&& from) noexcept
+    : Value_GFX_Fade_In_Out_Duration_GFXFadeDuration() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& operator=(Value_GFX_Fade_In_Out_Duration_GFXFadeDuration&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration*>(
+               &_Value_GFX_Fade_In_Out_Duration_GFXFadeDuration_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    60;
+
+  void Swap(Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* other);
+  friend void swap(Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& a, Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* New() const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration_GFXFadeDuration>(NULL);
+  }
+
+  Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration_GFXFadeDuration>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& from);
+  void MergeFrom(const Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.GFxCnl gfxCnl = 2;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 2;
+  ::GoogleProtoBB::GFxCnl gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::GFxCnl value);
+
+  // uint32 fadeInDuration = 3;
+  void clear_fadeinduration();
+  static const int kFadeInDurationFieldNumber = 3;
+  ::google::protobuf::uint32 fadeinduration() const;
+  void set_fadeinduration(::google::protobuf::uint32 value);
+
+  // uint32 fadeOutDuration = 4;
+  void clear_fadeoutduration();
+  static const int kFadeOutDurationFieldNumber = 4;
+  ::google::protobuf::uint32 fadeoutduration() const;
+  void set_fadeoutduration(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int gfxcnl_;
+  ::google::protobuf::uint32 fadeinduration_;
+  ::google::protobuf::uint32 fadeoutduration_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Fade_In_Out_Duration_PGMGFX : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX) */ {
+ public:
+  Value_GFX_Fade_In_Out_Duration_PGMGFX();
+  virtual ~Value_GFX_Fade_In_Out_Duration_PGMGFX();
+
+  Value_GFX_Fade_In_Out_Duration_PGMGFX(const Value_GFX_Fade_In_Out_Duration_PGMGFX& from);
+
+  inline Value_GFX_Fade_In_Out_Duration_PGMGFX& operator=(const Value_GFX_Fade_In_Out_Duration_PGMGFX& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Fade_In_Out_Duration_PGMGFX(Value_GFX_Fade_In_Out_Duration_PGMGFX&& from) noexcept
+    : Value_GFX_Fade_In_Out_Duration_PGMGFX() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Fade_In_Out_Duration_PGMGFX& operator=(Value_GFX_Fade_In_Out_Duration_PGMGFX&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Fade_In_Out_Duration_PGMGFX& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Fade_In_Out_Duration_PGMGFX* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Fade_In_Out_Duration_PGMGFX*>(
+               &_Value_GFX_Fade_In_Out_Duration_PGMGFX_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    61;
+
+  void Swap(Value_GFX_Fade_In_Out_Duration_PGMGFX* other);
+  friend void swap(Value_GFX_Fade_In_Out_Duration_PGMGFX& a, Value_GFX_Fade_In_Out_Duration_PGMGFX& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Fade_In_Out_Duration_PGMGFX* New() const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration_PGMGFX>(NULL);
+  }
+
+  Value_GFX_Fade_In_Out_Duration_PGMGFX* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration_PGMGFX>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Fade_In_Out_Duration_PGMGFX& from);
+  void MergeFrom(const Value_GFX_Fade_In_Out_Duration_PGMGFX& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Fade_In_Out_Duration_PGMGFX* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration gfxFadeDuration = 2;
+  int gfxfadeduration_size() const;
+  void clear_gfxfadeduration();
+  static const int kGfxFadeDurationFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* mutable_gfxfadeduration(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration >*
+      mutable_gfxfadeduration();
+  const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& gfxfadeduration(int index) const;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* add_gfxfadeduration();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration >&
+      gfxfadeduration() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration > gfxfadeduration_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Fade_In_Out_Duration : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration) */ {
+ public:
+  Value_GFX_Fade_In_Out_Duration();
+  virtual ~Value_GFX_Fade_In_Out_Duration();
+
+  Value_GFX_Fade_In_Out_Duration(const Value_GFX_Fade_In_Out_Duration& from);
+
+  inline Value_GFX_Fade_In_Out_Duration& operator=(const Value_GFX_Fade_In_Out_Duration& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Fade_In_Out_Duration(Value_GFX_Fade_In_Out_Duration&& from) noexcept
+    : Value_GFX_Fade_In_Out_Duration() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Fade_In_Out_Duration& operator=(Value_GFX_Fade_In_Out_Duration&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Fade_In_Out_Duration& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Fade_In_Out_Duration* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Fade_In_Out_Duration*>(
+               &_Value_GFX_Fade_In_Out_Duration_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    62;
+
+  void Swap(Value_GFX_Fade_In_Out_Duration* other);
+  friend void swap(Value_GFX_Fade_In_Out_Duration& a, Value_GFX_Fade_In_Out_Duration& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Fade_In_Out_Duration* New() const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration>(NULL);
+  }
+
+  Value_GFX_Fade_In_Out_Duration* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Fade_In_Out_Duration>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Fade_In_Out_Duration& from);
+  void MergeFrom(const Value_GFX_Fade_In_Out_Duration& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Fade_In_Out_Duration* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Fade_In_Out_Duration_GFXFadeDuration GFXFadeDuration;
+  typedef Value_GFX_Fade_In_Out_Duration_PGMGFX PGMGFX;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX pgmGfx = 2;
+  int pgmgfx_size() const;
+  void clear_pgmgfx();
+  static const int kPgmGfxFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX* mutable_pgmgfx(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX >*
+      mutable_pgmgfx();
+  const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX& pgmgfx(int index) const;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX* add_pgmgfx();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX >&
+      pgmgfx() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX > pgmgfx_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_In_Out_GFXLoopInOut : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut) */ {
+ public:
+  Value_GFX_Loop_In_Out_GFXLoopInOut();
+  virtual ~Value_GFX_Loop_In_Out_GFXLoopInOut();
+
+  Value_GFX_Loop_In_Out_GFXLoopInOut(const Value_GFX_Loop_In_Out_GFXLoopInOut& from);
+
+  inline Value_GFX_Loop_In_Out_GFXLoopInOut& operator=(const Value_GFX_Loop_In_Out_GFXLoopInOut& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_In_Out_GFXLoopInOut(Value_GFX_Loop_In_Out_GFXLoopInOut&& from) noexcept
+    : Value_GFX_Loop_In_Out_GFXLoopInOut() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_In_Out_GFXLoopInOut& operator=(Value_GFX_Loop_In_Out_GFXLoopInOut&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_In_Out_GFXLoopInOut& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_In_Out_GFXLoopInOut* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_In_Out_GFXLoopInOut*>(
+               &_Value_GFX_Loop_In_Out_GFXLoopInOut_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    63;
+
+  void Swap(Value_GFX_Loop_In_Out_GFXLoopInOut* other);
+  friend void swap(Value_GFX_Loop_In_Out_GFXLoopInOut& a, Value_GFX_Loop_In_Out_GFXLoopInOut& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_In_Out_GFXLoopInOut* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out_GFXLoopInOut>(NULL);
+  }
+
+  Value_GFX_Loop_In_Out_GFXLoopInOut* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out_GFXLoopInOut>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_In_Out_GFXLoopInOut& from);
+  void MergeFrom(const Value_GFX_Loop_In_Out_GFXLoopInOut& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_In_Out_GFXLoopInOut* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.GFxCnl gfxCnl = 2;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 2;
+  ::GoogleProtoBB::GFxCnl gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::GFxCnl value);
+
+  // uint32 loopIn = 3;
+  void clear_loopin();
+  static const int kLoopInFieldNumber = 3;
+  ::google::protobuf::uint32 loopin() const;
+  void set_loopin(::google::protobuf::uint32 value);
+
+  // uint32 loopOut = 4;
+  void clear_loopout();
+  static const int kLoopOutFieldNumber = 4;
+  ::google::protobuf::uint32 loopout() const;
+  void set_loopout(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int gfxcnl_;
+  ::google::protobuf::uint32 loopin_;
+  ::google::protobuf::uint32 loopout_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_In_Out_PGMGFX : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX) */ {
+ public:
+  Value_GFX_Loop_In_Out_PGMGFX();
+  virtual ~Value_GFX_Loop_In_Out_PGMGFX();
+
+  Value_GFX_Loop_In_Out_PGMGFX(const Value_GFX_Loop_In_Out_PGMGFX& from);
+
+  inline Value_GFX_Loop_In_Out_PGMGFX& operator=(const Value_GFX_Loop_In_Out_PGMGFX& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_In_Out_PGMGFX(Value_GFX_Loop_In_Out_PGMGFX&& from) noexcept
+    : Value_GFX_Loop_In_Out_PGMGFX() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_In_Out_PGMGFX& operator=(Value_GFX_Loop_In_Out_PGMGFX&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_In_Out_PGMGFX& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_In_Out_PGMGFX* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_In_Out_PGMGFX*>(
+               &_Value_GFX_Loop_In_Out_PGMGFX_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    64;
+
+  void Swap(Value_GFX_Loop_In_Out_PGMGFX* other);
+  friend void swap(Value_GFX_Loop_In_Out_PGMGFX& a, Value_GFX_Loop_In_Out_PGMGFX& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_In_Out_PGMGFX* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out_PGMGFX>(NULL);
+  }
+
+  Value_GFX_Loop_In_Out_PGMGFX* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out_PGMGFX>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_In_Out_PGMGFX& from);
+  void MergeFrom(const Value_GFX_Loop_In_Out_PGMGFX& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_In_Out_PGMGFX* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut gfxLoopInOut = 2;
+  int gfxloopinout_size() const;
+  void clear_gfxloopinout();
+  static const int kGfxLoopInOutFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut* mutable_gfxloopinout(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut >*
+      mutable_gfxloopinout();
+  const ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut& gfxloopinout(int index) const;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut* add_gfxloopinout();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut >&
+      gfxloopinout() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut > gfxloopinout_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_In_Out : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_In_Out) */ {
+ public:
+  Value_GFX_Loop_In_Out();
+  virtual ~Value_GFX_Loop_In_Out();
+
+  Value_GFX_Loop_In_Out(const Value_GFX_Loop_In_Out& from);
+
+  inline Value_GFX_Loop_In_Out& operator=(const Value_GFX_Loop_In_Out& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_In_Out(Value_GFX_Loop_In_Out&& from) noexcept
+    : Value_GFX_Loop_In_Out() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_In_Out& operator=(Value_GFX_Loop_In_Out&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_In_Out& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_In_Out* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_In_Out*>(
+               &_Value_GFX_Loop_In_Out_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    65;
+
+  void Swap(Value_GFX_Loop_In_Out* other);
+  friend void swap(Value_GFX_Loop_In_Out& a, Value_GFX_Loop_In_Out& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_In_Out* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out>(NULL);
+  }
+
+  Value_GFX_Loop_In_Out* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_In_Out>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_In_Out& from);
+  void MergeFrom(const Value_GFX_Loop_In_Out& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_In_Out* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Loop_In_Out_GFXLoopInOut GFXLoopInOut;
+  typedef Value_GFX_Loop_In_Out_PGMGFX PGMGFX;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX pgmGfx = 2;
+  int pgmgfx_size() const;
+  void clear_pgmgfx();
+  static const int kPgmGfxFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX* mutable_pgmgfx(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX >*
+      mutable_pgmgfx();
+  const ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX& pgmgfx(int index) const;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX* add_pgmgfx();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX >&
+      pgmgfx() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_In_Out)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX > pgmgfx_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_Count_GFXLoopCnt : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt) */ {
+ public:
+  Value_GFX_Loop_Count_GFXLoopCnt();
+  virtual ~Value_GFX_Loop_Count_GFXLoopCnt();
+
+  Value_GFX_Loop_Count_GFXLoopCnt(const Value_GFX_Loop_Count_GFXLoopCnt& from);
+
+  inline Value_GFX_Loop_Count_GFXLoopCnt& operator=(const Value_GFX_Loop_Count_GFXLoopCnt& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_Count_GFXLoopCnt(Value_GFX_Loop_Count_GFXLoopCnt&& from) noexcept
+    : Value_GFX_Loop_Count_GFXLoopCnt() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_Count_GFXLoopCnt& operator=(Value_GFX_Loop_Count_GFXLoopCnt&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_Count_GFXLoopCnt& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_Count_GFXLoopCnt* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_Count_GFXLoopCnt*>(
+               &_Value_GFX_Loop_Count_GFXLoopCnt_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    66;
+
+  void Swap(Value_GFX_Loop_Count_GFXLoopCnt* other);
+  friend void swap(Value_GFX_Loop_Count_GFXLoopCnt& a, Value_GFX_Loop_Count_GFXLoopCnt& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_Count_GFXLoopCnt* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count_GFXLoopCnt>(NULL);
+  }
+
+  Value_GFX_Loop_Count_GFXLoopCnt* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count_GFXLoopCnt>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_Count_GFXLoopCnt& from);
+  void MergeFrom(const Value_GFX_Loop_Count_GFXLoopCnt& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_Count_GFXLoopCnt* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.GFxCnl gfxCnl = 2;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 2;
+  ::GoogleProtoBB::GFxCnl gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::GFxCnl value);
+
+  // uint32 loopCnt = 3;
+  void clear_loopcnt();
+  static const int kLoopCntFieldNumber = 3;
+  ::google::protobuf::uint32 loopcnt() const;
+  void set_loopcnt(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int gfxcnl_;
+  ::google::protobuf::uint32 loopcnt_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_Count_PGMGFX : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX) */ {
+ public:
+  Value_GFX_Loop_Count_PGMGFX();
+  virtual ~Value_GFX_Loop_Count_PGMGFX();
+
+  Value_GFX_Loop_Count_PGMGFX(const Value_GFX_Loop_Count_PGMGFX& from);
+
+  inline Value_GFX_Loop_Count_PGMGFX& operator=(const Value_GFX_Loop_Count_PGMGFX& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_Count_PGMGFX(Value_GFX_Loop_Count_PGMGFX&& from) noexcept
+    : Value_GFX_Loop_Count_PGMGFX() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_Count_PGMGFX& operator=(Value_GFX_Loop_Count_PGMGFX&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_Count_PGMGFX& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_Count_PGMGFX* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_Count_PGMGFX*>(
+               &_Value_GFX_Loop_Count_PGMGFX_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    67;
+
+  void Swap(Value_GFX_Loop_Count_PGMGFX* other);
+  friend void swap(Value_GFX_Loop_Count_PGMGFX& a, Value_GFX_Loop_Count_PGMGFX& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_Count_PGMGFX* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count_PGMGFX>(NULL);
+  }
+
+  Value_GFX_Loop_Count_PGMGFX* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count_PGMGFX>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_Count_PGMGFX& from);
+  void MergeFrom(const Value_GFX_Loop_Count_PGMGFX& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_Count_PGMGFX* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt gfxLoopCnt = 2;
+  int gfxloopcnt_size() const;
+  void clear_gfxloopcnt();
+  static const int kGfxLoopCntFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt* mutable_gfxloopcnt(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt >*
+      mutable_gfxloopcnt();
+  const ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt& gfxloopcnt(int index) const;
+  ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt* add_gfxloopcnt();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt >&
+      gfxloopcnt() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt > gfxloopcnt_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Loop_Count : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Loop_Count) */ {
+ public:
+  Value_GFX_Loop_Count();
+  virtual ~Value_GFX_Loop_Count();
+
+  Value_GFX_Loop_Count(const Value_GFX_Loop_Count& from);
+
+  inline Value_GFX_Loop_Count& operator=(const Value_GFX_Loop_Count& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Loop_Count(Value_GFX_Loop_Count&& from) noexcept
+    : Value_GFX_Loop_Count() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Loop_Count& operator=(Value_GFX_Loop_Count&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Loop_Count& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Loop_Count* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Loop_Count*>(
+               &_Value_GFX_Loop_Count_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    68;
+
+  void Swap(Value_GFX_Loop_Count* other);
+  friend void swap(Value_GFX_Loop_Count& a, Value_GFX_Loop_Count& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Loop_Count* New() const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count>(NULL);
+  }
+
+  Value_GFX_Loop_Count* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Loop_Count>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Loop_Count& from);
+  void MergeFrom(const Value_GFX_Loop_Count& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Loop_Count* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Loop_Count_GFXLoopCnt GFXLoopCnt;
+  typedef Value_GFX_Loop_Count_PGMGFX PGMGFX;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX pgmGfx = 2;
+  int pgmgfx_size() const;
+  void clear_pgmgfx();
+  static const int kPgmGfxFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX* mutable_pgmgfx(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX >*
+      mutable_pgmgfx();
+  const ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX& pgmgfx(int index) const;
+  ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX* add_pgmgfx();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX >&
+      pgmgfx() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Loop_Count)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX > pgmgfx_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Preload_Status_GFXPreloadStatus : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus) */ {
+ public:
+  Value_GFX_Preload_Status_GFXPreloadStatus();
+  virtual ~Value_GFX_Preload_Status_GFXPreloadStatus();
+
+  Value_GFX_Preload_Status_GFXPreloadStatus(const Value_GFX_Preload_Status_GFXPreloadStatus& from);
+
+  inline Value_GFX_Preload_Status_GFXPreloadStatus& operator=(const Value_GFX_Preload_Status_GFXPreloadStatus& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Preload_Status_GFXPreloadStatus(Value_GFX_Preload_Status_GFXPreloadStatus&& from) noexcept
+    : Value_GFX_Preload_Status_GFXPreloadStatus() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Preload_Status_GFXPreloadStatus& operator=(Value_GFX_Preload_Status_GFXPreloadStatus&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Preload_Status_GFXPreloadStatus& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Preload_Status_GFXPreloadStatus* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Preload_Status_GFXPreloadStatus*>(
+               &_Value_GFX_Preload_Status_GFXPreloadStatus_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    69;
+
+  void Swap(Value_GFX_Preload_Status_GFXPreloadStatus* other);
+  friend void swap(Value_GFX_Preload_Status_GFXPreloadStatus& a, Value_GFX_Preload_Status_GFXPreloadStatus& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Preload_Status_GFXPreloadStatus* New() const final {
+    return CreateMaybeMessage<Value_GFX_Preload_Status_GFXPreloadStatus>(NULL);
+  }
+
+  Value_GFX_Preload_Status_GFXPreloadStatus* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Preload_Status_GFXPreloadStatus>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Preload_Status_GFXPreloadStatus& from);
+  void MergeFrom(const Value_GFX_Preload_Status_GFXPreloadStatus& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Preload_Status_GFXPreloadStatus* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes id = 6;
+  void clear_id();
+  static const int kIdFieldNumber = 6;
+  const ::std::string& id() const;
+  void set_id(const ::std::string& value);
+  #if LANG_CXX11
+  void set_id(::std::string&& value);
+  #endif
+  void set_id(const char* value);
+  void set_id(const void* value, size_t size);
+  ::std::string* mutable_id();
+  ::std::string* release_id();
+  void set_allocated_id(::std::string* id);
+
+  // .GoogleProtoBB.TGAChannel gfxCnl = 1;
+  void clear_gfxcnl();
+  static const int kGfxCnlFieldNumber = 1;
+  ::GoogleProtoBB::TGAChannel gfxcnl() const;
+  void set_gfxcnl(::GoogleProtoBB::TGAChannel value);
+
+  // .GoogleProtoBB.TGAChannelStatus preloadingStatus = 2;
+  void clear_preloadingstatus();
+  static const int kPreloadingStatusFieldNumber = 2;
+  ::GoogleProtoBB::TGAChannelStatus preloadingstatus() const;
+  void set_preloadingstatus(::GoogleProtoBB::TGAChannelStatus value);
+
+  // uint32 preloadNum = 3;
+  void clear_preloadnum();
+  static const int kPreloadNumFieldNumber = 3;
+  ::google::protobuf::uint32 preloadnum() const;
+  void set_preloadnum(::google::protobuf::uint32 value);
+
+  // uint32 preloadDen = 4;
+  void clear_preloadden();
+  static const int kPreloadDenFieldNumber = 4;
+  ::google::protobuf::uint32 preloadden() const;
+  void set_preloadden(::google::protobuf::uint32 value);
+
+  // uint32 idSize = 5;
+  void clear_idsize();
+  static const int kIdSizeFieldNumber = 5;
+  ::google::protobuf::uint32 idsize() const;
+  void set_idsize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr id_;
+  int gfxcnl_;
+  int preloadingstatus_;
+  ::google::protobuf::uint32 preloadnum_;
+  ::google::protobuf::uint32 preloadden_;
+  ::google::protobuf::uint32 idsize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_GFX_Preload_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_GFX_Preload_Status) */ {
+ public:
+  Value_GFX_Preload_Status();
+  virtual ~Value_GFX_Preload_Status();
+
+  Value_GFX_Preload_Status(const Value_GFX_Preload_Status& from);
+
+  inline Value_GFX_Preload_Status& operator=(const Value_GFX_Preload_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_GFX_Preload_Status(Value_GFX_Preload_Status&& from) noexcept
+    : Value_GFX_Preload_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_GFX_Preload_Status& operator=(Value_GFX_Preload_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_GFX_Preload_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_GFX_Preload_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_GFX_Preload_Status*>(
+               &_Value_GFX_Preload_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    70;
+
+  void Swap(Value_GFX_Preload_Status* other);
+  friend void swap(Value_GFX_Preload_Status& a, Value_GFX_Preload_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_GFX_Preload_Status* New() const final {
+    return CreateMaybeMessage<Value_GFX_Preload_Status>(NULL);
+  }
+
+  Value_GFX_Preload_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_GFX_Preload_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_GFX_Preload_Status& from);
+  void MergeFrom(const Value_GFX_Preload_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_GFX_Preload_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_GFX_Preload_Status_GFXPreloadStatus GFXPreloadStatus;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus gfxPreloadStatus = 2;
+  int gfxpreloadstatus_size() const;
+  void clear_gfxpreloadstatus();
+  static const int kGfxPreloadStatusFieldNumber = 2;
+  ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus* mutable_gfxpreloadstatus(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus >*
+      mutable_gfxpreloadstatus();
+  const ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus& gfxpreloadstatus(int index) const;
+  ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus* add_gfxpreloadstatus();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus >&
+      gfxpreloadstatus() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_GFX_Preload_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus > gfxpreloadstatus_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_Version : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_Version) */ {
+ public:
+  Value_HealthInfo_Version();
+  virtual ~Value_HealthInfo_Version();
+
+  Value_HealthInfo_Version(const Value_HealthInfo_Version& from);
+
+  inline Value_HealthInfo_Version& operator=(const Value_HealthInfo_Version& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_Version(Value_HealthInfo_Version&& from) noexcept
+    : Value_HealthInfo_Version() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_Version& operator=(Value_HealthInfo_Version&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_Version& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_Version* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_Version*>(
+               &_Value_HealthInfo_Version_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    71;
+
+  void Swap(Value_HealthInfo_Version* other);
+  friend void swap(Value_HealthInfo_Version& a, Value_HealthInfo_Version& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_Version* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_Version>(NULL);
+  }
+
+  Value_HealthInfo_Version* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_Version>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_Version& from);
+  void MergeFrom(const Value_HealthInfo_Version& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_Version* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 version0 = 1;
+  void clear_version0();
+  static const int kVersion0FieldNumber = 1;
+  ::google::protobuf::uint32 version0() const;
+  void set_version0(::google::protobuf::uint32 value);
+
+  // uint32 version1 = 2;
+  void clear_version1();
+  static const int kVersion1FieldNumber = 2;
+  ::google::protobuf::uint32 version1() const;
+  void set_version1(::google::protobuf::uint32 value);
+
+  // uint32 version2 = 3;
+  void clear_version2();
+  static const int kVersion2FieldNumber = 3;
+  ::google::protobuf::uint32 version2() const;
+  void set_version2(::google::protobuf::uint32 value);
+
+  // uint32 version3 = 4;
+  void clear_version3();
+  static const int kVersion3FieldNumber = 4;
+  ::google::protobuf::uint32 version3() const;
+  void set_version3(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Version)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 version0_;
+  ::google::protobuf::uint32 version1_;
+  ::google::protobuf::uint32 version2_;
+  ::google::protobuf::uint32 version3_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_Mixer_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_Mixer_Status) */ {
+ public:
+  Value_HealthInfo_Mixer_Status();
+  virtual ~Value_HealthInfo_Mixer_Status();
+
+  Value_HealthInfo_Mixer_Status(const Value_HealthInfo_Mixer_Status& from);
+
+  inline Value_HealthInfo_Mixer_Status& operator=(const Value_HealthInfo_Mixer_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_Mixer_Status(Value_HealthInfo_Mixer_Status&& from) noexcept
+    : Value_HealthInfo_Mixer_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_Mixer_Status& operator=(Value_HealthInfo_Mixer_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_Mixer_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_Mixer_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_Mixer_Status*>(
+               &_Value_HealthInfo_Mixer_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    72;
+
+  void Swap(Value_HealthInfo_Mixer_Status* other);
+  friend void swap(Value_HealthInfo_Mixer_Status& a, Value_HealthInfo_Mixer_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_Mixer_Status* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_Mixer_Status>(NULL);
+  }
+
+  Value_HealthInfo_Mixer_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_Mixer_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_Mixer_Status& from);
+  void MergeFrom(const Value_HealthInfo_Mixer_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_Mixer_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bool hasConnectedAudioMixer = 1;
+  void clear_hasconnectedaudiomixer();
+  static const int kHasConnectedAudioMixerFieldNumber = 1;
+  bool hasconnectedaudiomixer() const;
+  void set_hasconnectedaudiomixer(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Mixer_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool hasconnectedaudiomixer_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_Network_Bandwidth : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_Network_Bandwidth) */ {
+ public:
+  Value_HealthInfo_Network_Bandwidth();
+  virtual ~Value_HealthInfo_Network_Bandwidth();
+
+  Value_HealthInfo_Network_Bandwidth(const Value_HealthInfo_Network_Bandwidth& from);
+
+  inline Value_HealthInfo_Network_Bandwidth& operator=(const Value_HealthInfo_Network_Bandwidth& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_Network_Bandwidth(Value_HealthInfo_Network_Bandwidth&& from) noexcept
+    : Value_HealthInfo_Network_Bandwidth() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_Network_Bandwidth& operator=(Value_HealthInfo_Network_Bandwidth&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_Network_Bandwidth& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_Network_Bandwidth* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_Network_Bandwidth*>(
+               &_Value_HealthInfo_Network_Bandwidth_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    73;
+
+  void Swap(Value_HealthInfo_Network_Bandwidth* other);
+  friend void swap(Value_HealthInfo_Network_Bandwidth& a, Value_HealthInfo_Network_Bandwidth& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_Network_Bandwidth* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_Network_Bandwidth>(NULL);
+  }
+
+  Value_HealthInfo_Network_Bandwidth* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_Network_Bandwidth>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_Network_Bandwidth& from);
+  void MergeFrom(const Value_HealthInfo_Network_Bandwidth& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_Network_Bandwidth* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 networkBandwidth = 1;
+  void clear_networkbandwidth();
+  static const int kNetworkBandwidthFieldNumber = 1;
+  ::google::protobuf::uint32 networkbandwidth() const;
+  void set_networkbandwidth(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_Network_Bandwidth)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 networkbandwidth_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_GPU_Temperature : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_GPU_Temperature) */ {
+ public:
+  Value_HealthInfo_GPU_Temperature();
+  virtual ~Value_HealthInfo_GPU_Temperature();
+
+  Value_HealthInfo_GPU_Temperature(const Value_HealthInfo_GPU_Temperature& from);
+
+  inline Value_HealthInfo_GPU_Temperature& operator=(const Value_HealthInfo_GPU_Temperature& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_GPU_Temperature(Value_HealthInfo_GPU_Temperature&& from) noexcept
+    : Value_HealthInfo_GPU_Temperature() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_GPU_Temperature& operator=(Value_HealthInfo_GPU_Temperature&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_GPU_Temperature& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_GPU_Temperature* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_GPU_Temperature*>(
+               &_Value_HealthInfo_GPU_Temperature_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    74;
+
+  void Swap(Value_HealthInfo_GPU_Temperature* other);
+  friend void swap(Value_HealthInfo_GPU_Temperature& a, Value_HealthInfo_GPU_Temperature& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_GPU_Temperature* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_GPU_Temperature>(NULL);
+  }
+
+  Value_HealthInfo_GPU_Temperature* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_GPU_Temperature>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_GPU_Temperature& from);
+  void MergeFrom(const Value_HealthInfo_GPU_Temperature& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_GPU_Temperature* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated int32 temperatureGPU = 2;
+  int temperaturegpu_size() const;
+  void clear_temperaturegpu();
+  static const int kTemperatureGPUFieldNumber = 2;
+  ::google::protobuf::int32 temperaturegpu(int index) const;
+  void set_temperaturegpu(int index, ::google::protobuf::int32 value);
+  void add_temperaturegpu(::google::protobuf::int32 value);
+  const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+      temperaturegpu() const;
+  ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+      mutable_temperaturegpu();
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_GPU_Temperature)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > temperaturegpu_;
+  mutable int _temperaturegpu_cached_byte_size_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_AJA_Status_InfoAJA : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA) */ {
+ public:
+  Value_HealthInfo_AJA_Status_InfoAJA();
+  virtual ~Value_HealthInfo_AJA_Status_InfoAJA();
+
+  Value_HealthInfo_AJA_Status_InfoAJA(const Value_HealthInfo_AJA_Status_InfoAJA& from);
+
+  inline Value_HealthInfo_AJA_Status_InfoAJA& operator=(const Value_HealthInfo_AJA_Status_InfoAJA& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_AJA_Status_InfoAJA(Value_HealthInfo_AJA_Status_InfoAJA&& from) noexcept
+    : Value_HealthInfo_AJA_Status_InfoAJA() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_AJA_Status_InfoAJA& operator=(Value_HealthInfo_AJA_Status_InfoAJA&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_AJA_Status_InfoAJA& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_AJA_Status_InfoAJA* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_AJA_Status_InfoAJA*>(
+               &_Value_HealthInfo_AJA_Status_InfoAJA_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    75;
+
+  void Swap(Value_HealthInfo_AJA_Status_InfoAJA* other);
+  friend void swap(Value_HealthInfo_AJA_Status_InfoAJA& a, Value_HealthInfo_AJA_Status_InfoAJA& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_AJA_Status_InfoAJA* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_AJA_Status_InfoAJA>(NULL);
+  }
+
+  Value_HealthInfo_AJA_Status_InfoAJA* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_AJA_Status_InfoAJA>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_AJA_Status_InfoAJA& from);
+  void MergeFrom(const Value_HealthInfo_AJA_Status_InfoAJA& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_AJA_Status_InfoAJA* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // int32 temperatureAJA = 1;
+  void clear_temperatureaja();
+  static const int kTemperatureAJAFieldNumber = 1;
+  ::google::protobuf::int32 temperatureaja() const;
+  void set_temperatureaja(::google::protobuf::int32 value);
+
+  // bool lostAJA = 2;
+  void clear_lostaja();
+  static const int kLostAJAFieldNumber = 2;
+  bool lostaja() const;
+  void set_lostaja(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::int32 temperatureaja_;
+  bool lostaja_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_AJA_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_AJA_Status) */ {
+ public:
+  Value_HealthInfo_AJA_Status();
+  virtual ~Value_HealthInfo_AJA_Status();
+
+  Value_HealthInfo_AJA_Status(const Value_HealthInfo_AJA_Status& from);
+
+  inline Value_HealthInfo_AJA_Status& operator=(const Value_HealthInfo_AJA_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_AJA_Status(Value_HealthInfo_AJA_Status&& from) noexcept
+    : Value_HealthInfo_AJA_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_AJA_Status& operator=(Value_HealthInfo_AJA_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_AJA_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_AJA_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_AJA_Status*>(
+               &_Value_HealthInfo_AJA_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    76;
+
+  void Swap(Value_HealthInfo_AJA_Status* other);
+  friend void swap(Value_HealthInfo_AJA_Status& a, Value_HealthInfo_AJA_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_AJA_Status* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_AJA_Status>(NULL);
+  }
+
+  Value_HealthInfo_AJA_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_AJA_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_AJA_Status& from);
+  void MergeFrom(const Value_HealthInfo_AJA_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_AJA_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_HealthInfo_AJA_Status_InfoAJA InfoAJA;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA status = 2;
+  int status_size() const;
+  void clear_status();
+  static const int kStatusFieldNumber = 2;
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA* mutable_status(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA >*
+      mutable_status();
+  const ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA& status(int index) const;
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA* add_status();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA >&
+      status() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_AJA_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA > status_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_HDD_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_HDD_Status) */ {
+ public:
+  Value_HealthInfo_HDD_Status();
+  virtual ~Value_HealthInfo_HDD_Status();
+
+  Value_HealthInfo_HDD_Status(const Value_HealthInfo_HDD_Status& from);
+
+  inline Value_HealthInfo_HDD_Status& operator=(const Value_HealthInfo_HDD_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_HDD_Status(Value_HealthInfo_HDD_Status&& from) noexcept
+    : Value_HealthInfo_HDD_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_HDD_Status& operator=(Value_HealthInfo_HDD_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_HDD_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_HDD_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_HDD_Status*>(
+               &_Value_HealthInfo_HDD_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    77;
+
+  void Swap(Value_HealthInfo_HDD_Status* other);
+  friend void swap(Value_HealthInfo_HDD_Status& a, Value_HealthInfo_HDD_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_HDD_Status* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_HDD_Status>(NULL);
+  }
+
+  Value_HealthInfo_HDD_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_HDD_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_HDD_Status& from);
+  void MergeFrom(const Value_HealthInfo_HDD_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_HDD_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 hddFaulty = 1;
+  void clear_hddfaulty();
+  static const int kHddFaultyFieldNumber = 1;
+  ::google::protobuf::uint32 hddfaulty() const;
+  void set_hddfaulty(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_HDD_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 hddfaulty_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_ASIO_Status_ValueStatusPair : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair) */ {
+ public:
+  Value_HealthInfo_ASIO_Status_ValueStatusPair();
+  virtual ~Value_HealthInfo_ASIO_Status_ValueStatusPair();
+
+  Value_HealthInfo_ASIO_Status_ValueStatusPair(const Value_HealthInfo_ASIO_Status_ValueStatusPair& from);
+
+  inline Value_HealthInfo_ASIO_Status_ValueStatusPair& operator=(const Value_HealthInfo_ASIO_Status_ValueStatusPair& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_ASIO_Status_ValueStatusPair(Value_HealthInfo_ASIO_Status_ValueStatusPair&& from) noexcept
+    : Value_HealthInfo_ASIO_Status_ValueStatusPair() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_ASIO_Status_ValueStatusPair& operator=(Value_HealthInfo_ASIO_Status_ValueStatusPair&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_ASIO_Status_ValueStatusPair& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_ASIO_Status_ValueStatusPair* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_ASIO_Status_ValueStatusPair*>(
+               &_Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    78;
+
+  void Swap(Value_HealthInfo_ASIO_Status_ValueStatusPair* other);
+  friend void swap(Value_HealthInfo_ASIO_Status_ValueStatusPair& a, Value_HealthInfo_ASIO_Status_ValueStatusPair& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_ASIO_Status_ValueStatusPair* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status_ValueStatusPair>(NULL);
+  }
+
+  Value_HealthInfo_ASIO_Status_ValueStatusPair* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status_ValueStatusPair>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_ASIO_Status_ValueStatusPair& from);
+  void MergeFrom(const Value_HealthInfo_ASIO_Status_ValueStatusPair& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_ASIO_Status_ValueStatusPair* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 val = 1;
+  void clear_val();
+  static const int kValFieldNumber = 1;
+  ::google::protobuf::uint32 val() const;
+  void set_val(::google::protobuf::uint32 value);
+
+  // bool isGood = 2;
+  void clear_isgood();
+  static const int kIsGoodFieldNumber = 2;
+  bool isgood() const;
+  void set_isgood(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 val_;
+  bool isgood_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_ASIO_Status_AsioStatus : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus) */ {
+ public:
+  Value_HealthInfo_ASIO_Status_AsioStatus();
+  virtual ~Value_HealthInfo_ASIO_Status_AsioStatus();
+
+  Value_HealthInfo_ASIO_Status_AsioStatus(const Value_HealthInfo_ASIO_Status_AsioStatus& from);
+
+  inline Value_HealthInfo_ASIO_Status_AsioStatus& operator=(const Value_HealthInfo_ASIO_Status_AsioStatus& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_ASIO_Status_AsioStatus(Value_HealthInfo_ASIO_Status_AsioStatus&& from) noexcept
+    : Value_HealthInfo_ASIO_Status_AsioStatus() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_ASIO_Status_AsioStatus& operator=(Value_HealthInfo_ASIO_Status_AsioStatus&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_ASIO_Status_AsioStatus& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_ASIO_Status_AsioStatus* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_ASIO_Status_AsioStatus*>(
+               &_Value_HealthInfo_ASIO_Status_AsioStatus_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    79;
+
+  void Swap(Value_HealthInfo_ASIO_Status_AsioStatus* other);
+  friend void swap(Value_HealthInfo_ASIO_Status_AsioStatus& a, Value_HealthInfo_ASIO_Status_AsioStatus& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_ASIO_Status_AsioStatus* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status_AsioStatus>(NULL);
+  }
+
+  Value_HealthInfo_ASIO_Status_AsioStatus* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status_AsioStatus>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_ASIO_Status_AsioStatus& from);
+  void MergeFrom(const Value_HealthInfo_ASIO_Status_AsioStatus& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_ASIO_Status_AsioStatus* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair sampleRate = 1;
+  bool has_samplerate() const;
+  void clear_samplerate();
+  static const int kSampleRateFieldNumber = 1;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& _internal_samplerate() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& samplerate() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* release_samplerate();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* mutable_samplerate();
+  void set_allocated_samplerate(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* samplerate);
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair bufferSize = 2;
+  bool has_buffersize() const;
+  void clear_buffersize();
+  static const int kBufferSizeFieldNumber = 2;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& _internal_buffersize() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& buffersize() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* release_buffersize();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* mutable_buffersize();
+  void set_allocated_buffersize(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* buffersize);
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair inputLatency = 3;
+  bool has_inputlatency() const;
+  void clear_inputlatency();
+  static const int kInputLatencyFieldNumber = 3;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& _internal_inputlatency() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& inputlatency() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* release_inputlatency();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* mutable_inputlatency();
+  void set_allocated_inputlatency(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* inputlatency);
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair outputLatency = 4;
+  bool has_outputlatency() const;
+  void clear_outputlatency();
+  static const int kOutputLatencyFieldNumber = 4;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& _internal_outputlatency() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& outputlatency() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* release_outputlatency();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* mutable_outputlatency();
+  void set_allocated_outputlatency(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* outputlatency);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* samplerate_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* buffersize_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* inputlatency_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* outputlatency_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_ASIO_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_ASIO_Status) */ {
+ public:
+  Value_HealthInfo_ASIO_Status();
+  virtual ~Value_HealthInfo_ASIO_Status();
+
+  Value_HealthInfo_ASIO_Status(const Value_HealthInfo_ASIO_Status& from);
+
+  inline Value_HealthInfo_ASIO_Status& operator=(const Value_HealthInfo_ASIO_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_ASIO_Status(Value_HealthInfo_ASIO_Status&& from) noexcept
+    : Value_HealthInfo_ASIO_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_ASIO_Status& operator=(Value_HealthInfo_ASIO_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_ASIO_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_ASIO_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_ASIO_Status*>(
+               &_Value_HealthInfo_ASIO_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    80;
+
+  void Swap(Value_HealthInfo_ASIO_Status* other);
+  friend void swap(Value_HealthInfo_ASIO_Status& a, Value_HealthInfo_ASIO_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_ASIO_Status* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status>(NULL);
+  }
+
+  Value_HealthInfo_ASIO_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_ASIO_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_ASIO_Status& from);
+  void MergeFrom(const Value_HealthInfo_ASIO_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_ASIO_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_HealthInfo_ASIO_Status_ValueStatusPair ValueStatusPair;
+  typedef Value_HealthInfo_ASIO_Status_AsioStatus AsioStatus;
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus status = 1;
+  bool has_status() const;
+  void clear_status();
+  static const int kStatusFieldNumber = 1;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus& _internal_status() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus& status() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* release_status();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* mutable_status();
+  void set_allocated_status(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* status);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ASIO_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* status_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_External_TimeCode : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_External_TimeCode) */ {
+ public:
+  Value_HealthInfo_External_TimeCode();
+  virtual ~Value_HealthInfo_External_TimeCode();
+
+  Value_HealthInfo_External_TimeCode(const Value_HealthInfo_External_TimeCode& from);
+
+  inline Value_HealthInfo_External_TimeCode& operator=(const Value_HealthInfo_External_TimeCode& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_External_TimeCode(Value_HealthInfo_External_TimeCode&& from) noexcept
+    : Value_HealthInfo_External_TimeCode() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_External_TimeCode& operator=(Value_HealthInfo_External_TimeCode&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_External_TimeCode& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_External_TimeCode* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_External_TimeCode*>(
+               &_Value_HealthInfo_External_TimeCode_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    81;
+
+  void Swap(Value_HealthInfo_External_TimeCode* other);
+  friend void swap(Value_HealthInfo_External_TimeCode& a, Value_HealthInfo_External_TimeCode& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_External_TimeCode* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_External_TimeCode>(NULL);
+  }
+
+  Value_HealthInfo_External_TimeCode* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_External_TimeCode>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_External_TimeCode& from);
+  void MergeFrom(const Value_HealthInfo_External_TimeCode& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_External_TimeCode* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bool isExternalTC = 1;
+  void clear_isexternaltc();
+  static const int kIsExternalTCFieldNumber = 1;
+  bool isexternaltc() const;
+  void set_isexternaltc(bool value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_External_TimeCode)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  bool isexternaltc_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_CustomInfo_InfoPair : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_CustomInfo.InfoPair) */ {
+ public:
+  Value_CustomInfo_InfoPair();
+  virtual ~Value_CustomInfo_InfoPair();
+
+  Value_CustomInfo_InfoPair(const Value_CustomInfo_InfoPair& from);
+
+  inline Value_CustomInfo_InfoPair& operator=(const Value_CustomInfo_InfoPair& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_CustomInfo_InfoPair(Value_CustomInfo_InfoPair&& from) noexcept
+    : Value_CustomInfo_InfoPair() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_CustomInfo_InfoPair& operator=(Value_CustomInfo_InfoPair&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_CustomInfo_InfoPair& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_CustomInfo_InfoPair* internal_default_instance() {
+    return reinterpret_cast<const Value_CustomInfo_InfoPair*>(
+               &_Value_CustomInfo_InfoPair_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    82;
+
+  void Swap(Value_CustomInfo_InfoPair* other);
+  friend void swap(Value_CustomInfo_InfoPair& a, Value_CustomInfo_InfoPair& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_CustomInfo_InfoPair* New() const final {
+    return CreateMaybeMessage<Value_CustomInfo_InfoPair>(NULL);
+  }
+
+  Value_CustomInfo_InfoPair* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_CustomInfo_InfoPair>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_CustomInfo_InfoPair& from);
+  void MergeFrom(const Value_CustomInfo_InfoPair& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_CustomInfo_InfoPair* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes key = 3;
+  void clear_key();
+  static const int kKeyFieldNumber = 3;
+  const ::std::string& key() const;
+  void set_key(const ::std::string& value);
+  #if LANG_CXX11
+  void set_key(::std::string&& value);
+  #endif
+  void set_key(const char* value);
+  void set_key(const void* value, size_t size);
+  ::std::string* mutable_key();
+  ::std::string* release_key();
+  void set_allocated_key(::std::string* key);
+
+  // bytes value = 4;
+  void clear_value();
+  static const int kValueFieldNumber = 4;
+  const ::std::string& value() const;
+  void set_value(const ::std::string& value);
+  #if LANG_CXX11
+  void set_value(::std::string&& value);
+  #endif
+  void set_value(const char* value);
+  void set_value(const void* value, size_t size);
+  ::std::string* mutable_value();
+  ::std::string* release_value();
+  void set_allocated_value(::std::string* value);
+
+  // uint32 keySize = 1;
+  void clear_keysize();
+  static const int kKeySizeFieldNumber = 1;
+  ::google::protobuf::uint32 keysize() const;
+  void set_keysize(::google::protobuf::uint32 value);
+
+  // uint32 valueSize = 2;
+  void clear_valuesize();
+  static const int kValueSizeFieldNumber = 2;
+  ::google::protobuf::uint32 valuesize() const;
+  void set_valuesize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_CustomInfo.InfoPair)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr key_;
+  ::google::protobuf::internal::ArenaStringPtr value_;
+  ::google::protobuf::uint32 keysize_;
+  ::google::protobuf::uint32 valuesize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_CustomInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_CustomInfo) */ {
+ public:
+  Value_CustomInfo();
+  virtual ~Value_CustomInfo();
+
+  Value_CustomInfo(const Value_CustomInfo& from);
+
+  inline Value_CustomInfo& operator=(const Value_CustomInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_CustomInfo(Value_CustomInfo&& from) noexcept
+    : Value_CustomInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_CustomInfo& operator=(Value_CustomInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_CustomInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_CustomInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_CustomInfo*>(
+               &_Value_CustomInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    83;
+
+  void Swap(Value_CustomInfo* other);
+  friend void swap(Value_CustomInfo& a, Value_CustomInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_CustomInfo* New() const final {
+    return CreateMaybeMessage<Value_CustomInfo>(NULL);
+  }
+
+  Value_CustomInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_CustomInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_CustomInfo& from);
+  void MergeFrom(const Value_CustomInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_CustomInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_CustomInfo_InfoPair InfoPair;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_CustomInfo.InfoPair infoArray = 2;
+  int infoarray_size() const;
+  void clear_infoarray();
+  static const int kInfoArrayFieldNumber = 2;
+  ::GoogleProtoBB::Value_CustomInfo_InfoPair* mutable_infoarray(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_CustomInfo_InfoPair >*
+      mutable_infoarray();
+  const ::GoogleProtoBB::Value_CustomInfo_InfoPair& infoarray(int index) const;
+  ::GoogleProtoBB::Value_CustomInfo_InfoPair* add_infoarray();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_CustomInfo_InfoPair >&
+      infoarray() const;
+
+  // uint32 nbCustomInfo = 1;
+  void clear_nbcustominfo();
+  static const int kNbCustomInfoFieldNumber = 1;
+  ::google::protobuf::uint32 nbcustominfo() const;
+  void set_nbcustominfo(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_CustomInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_CustomInfo_InfoPair > infoarray_;
+  ::google::protobuf::uint32 nbcustominfo_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_BMR_Setting : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_BMR_Setting) */ {
+ public:
+  Value_BMR_Setting();
+  virtual ~Value_BMR_Setting();
+
+  Value_BMR_Setting(const Value_BMR_Setting& from);
+
+  inline Value_BMR_Setting& operator=(const Value_BMR_Setting& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_BMR_Setting(Value_BMR_Setting&& from) noexcept
+    : Value_BMR_Setting() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_BMR_Setting& operator=(Value_BMR_Setting&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_BMR_Setting& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_BMR_Setting* internal_default_instance() {
+    return reinterpret_cast<const Value_BMR_Setting*>(
+               &_Value_BMR_Setting_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    84;
+
+  void Swap(Value_BMR_Setting* other);
+  friend void swap(Value_BMR_Setting& a, Value_BMR_Setting& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_BMR_Setting* New() const final {
+    return CreateMaybeMessage<Value_BMR_Setting>(NULL);
+  }
+
+  Value_BMR_Setting* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_BMR_Setting>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_BMR_Setting& from);
+  void MergeFrom(const Value_BMR_Setting& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_BMR_Setting* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes buf = 3;
+  void clear_buf();
+  static const int kBufFieldNumber = 3;
+  const ::std::string& buf() const;
+  void set_buf(const ::std::string& value);
+  #if LANG_CXX11
+  void set_buf(::std::string&& value);
+  #endif
+  void set_buf(const char* value);
+  void set_buf(const void* value, size_t size);
+  ::std::string* mutable_buf();
+  ::std::string* release_buf();
+  void set_allocated_buf(::std::string* buf);
+
+  // uint32 type = 1;
+  void clear_type();
+  static const int kTypeFieldNumber = 1;
+  ::google::protobuf::uint32 type() const;
+  void set_type(::google::protobuf::uint32 value);
+
+  // uint32 bufSize = 2;
+  void clear_bufsize();
+  static const int kBufSizeFieldNumber = 2;
+  ::google::protobuf::uint32 bufsize() const;
+  void set_bufsize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_BMR_Setting)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr buf_;
+  ::google::protobuf::uint32 type_;
+  ::google::protobuf::uint32 bufsize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_VuMeter_Live_Mixer_PGM_VuMeter : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter) */ {
+ public:
+  Value_VuMeter_Live_Mixer_PGM_VuMeter();
+  virtual ~Value_VuMeter_Live_Mixer_PGM_VuMeter();
+
+  Value_VuMeter_Live_Mixer_PGM_VuMeter(const Value_VuMeter_Live_Mixer_PGM_VuMeter& from);
+
+  inline Value_VuMeter_Live_Mixer_PGM_VuMeter& operator=(const Value_VuMeter_Live_Mixer_PGM_VuMeter& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_VuMeter_Live_Mixer_PGM_VuMeter(Value_VuMeter_Live_Mixer_PGM_VuMeter&& from) noexcept
+    : Value_VuMeter_Live_Mixer_PGM_VuMeter() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_VuMeter_Live_Mixer_PGM_VuMeter& operator=(Value_VuMeter_Live_Mixer_PGM_VuMeter&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_VuMeter_Live_Mixer_PGM_VuMeter& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_VuMeter_Live_Mixer_PGM_VuMeter* internal_default_instance() {
+    return reinterpret_cast<const Value_VuMeter_Live_Mixer_PGM_VuMeter*>(
+               &_Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    85;
+
+  void Swap(Value_VuMeter_Live_Mixer_PGM_VuMeter* other);
+  friend void swap(Value_VuMeter_Live_Mixer_PGM_VuMeter& a, Value_VuMeter_Live_Mixer_PGM_VuMeter& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_VuMeter_Live_Mixer_PGM_VuMeter* New() const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM_VuMeter>(NULL);
+  }
+
+  Value_VuMeter_Live_Mixer_PGM_VuMeter* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM_VuMeter>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_VuMeter_Live_Mixer_PGM_VuMeter& from);
+  void MergeFrom(const Value_VuMeter_Live_Mixer_PGM_VuMeter& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_VuMeter_Live_Mixer_PGM_VuMeter* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated float dbTbl = 2;
+  int dbtbl_size() const;
+  void clear_dbtbl();
+  static const int kDbTblFieldNumber = 2;
+  float dbtbl(int index) const;
+  void set_dbtbl(int index, float value);
+  void add_dbtbl(float value);
+  const ::google::protobuf::RepeatedField< float >&
+      dbtbl() const;
+  ::google::protobuf::RepeatedField< float >*
+      mutable_dbtbl();
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedField< float > dbtbl_;
+  mutable int _dbtbl_cached_byte_size_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_VuMeter_Live_Mixer_PGM_PGMUV : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV) */ {
+ public:
+  Value_VuMeter_Live_Mixer_PGM_PGMUV();
+  virtual ~Value_VuMeter_Live_Mixer_PGM_PGMUV();
+
+  Value_VuMeter_Live_Mixer_PGM_PGMUV(const Value_VuMeter_Live_Mixer_PGM_PGMUV& from);
+
+  inline Value_VuMeter_Live_Mixer_PGM_PGMUV& operator=(const Value_VuMeter_Live_Mixer_PGM_PGMUV& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_VuMeter_Live_Mixer_PGM_PGMUV(Value_VuMeter_Live_Mixer_PGM_PGMUV&& from) noexcept
+    : Value_VuMeter_Live_Mixer_PGM_PGMUV() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_VuMeter_Live_Mixer_PGM_PGMUV& operator=(Value_VuMeter_Live_Mixer_PGM_PGMUV&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_VuMeter_Live_Mixer_PGM_PGMUV& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_VuMeter_Live_Mixer_PGM_PGMUV* internal_default_instance() {
+    return reinterpret_cast<const Value_VuMeter_Live_Mixer_PGM_PGMUV*>(
+               &_Value_VuMeter_Live_Mixer_PGM_PGMUV_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    86;
+
+  void Swap(Value_VuMeter_Live_Mixer_PGM_PGMUV* other);
+  friend void swap(Value_VuMeter_Live_Mixer_PGM_PGMUV& a, Value_VuMeter_Live_Mixer_PGM_PGMUV& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_VuMeter_Live_Mixer_PGM_PGMUV* New() const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM_PGMUV>(NULL);
+  }
+
+  Value_VuMeter_Live_Mixer_PGM_PGMUV* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM_PGMUV>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_VuMeter_Live_Mixer_PGM_PGMUV& from);
+  void MergeFrom(const Value_VuMeter_Live_Mixer_PGM_PGMUV& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_VuMeter_Live_Mixer_PGM_PGMUV* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter uvClean = 1;
+  bool has_uvclean() const;
+  void clear_uvclean();
+  static const int kUvCleanFieldNumber = 1;
+  private:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& _internal_uvclean() const;
+  public:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& uvclean() const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* release_uvclean();
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_uvclean();
+  void set_allocated_uvclean(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* uvclean);
+
+  // .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter dirty = 2;
+  bool has_dirty() const;
+  void clear_dirty();
+  static const int kDirtyFieldNumber = 2;
+  private:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& _internal_dirty() const;
+  public:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& dirty() const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* release_dirty();
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_dirty();
+  void set_allocated_dirty(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* dirty);
+
+  // .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter player = 3;
+  bool has_player() const;
+  void clear_player();
+  static const int kPlayerFieldNumber = 3;
+  private:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& _internal_player() const;
+  public:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& player() const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* release_player();
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_player();
+  void set_allocated_player(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* player);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* uvclean_;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* dirty_;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* player_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_VuMeter_Live_Mixer_PGM : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM) */ {
+ public:
+  Value_VuMeter_Live_Mixer_PGM();
+  virtual ~Value_VuMeter_Live_Mixer_PGM();
+
+  Value_VuMeter_Live_Mixer_PGM(const Value_VuMeter_Live_Mixer_PGM& from);
+
+  inline Value_VuMeter_Live_Mixer_PGM& operator=(const Value_VuMeter_Live_Mixer_PGM& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_VuMeter_Live_Mixer_PGM(Value_VuMeter_Live_Mixer_PGM&& from) noexcept
+    : Value_VuMeter_Live_Mixer_PGM() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_VuMeter_Live_Mixer_PGM& operator=(Value_VuMeter_Live_Mixer_PGM&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_VuMeter_Live_Mixer_PGM& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_VuMeter_Live_Mixer_PGM* internal_default_instance() {
+    return reinterpret_cast<const Value_VuMeter_Live_Mixer_PGM*>(
+               &_Value_VuMeter_Live_Mixer_PGM_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    87;
+
+  void Swap(Value_VuMeter_Live_Mixer_PGM* other);
+  friend void swap(Value_VuMeter_Live_Mixer_PGM& a, Value_VuMeter_Live_Mixer_PGM& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_VuMeter_Live_Mixer_PGM* New() const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM>(NULL);
+  }
+
+  Value_VuMeter_Live_Mixer_PGM* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_VuMeter_Live_Mixer_PGM>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_VuMeter_Live_Mixer_PGM& from);
+  void MergeFrom(const Value_VuMeter_Live_Mixer_PGM& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_VuMeter_Live_Mixer_PGM* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_VuMeter_Live_Mixer_PGM_VuMeter VuMeter;
+  typedef Value_VuMeter_Live_Mixer_PGM_PGMUV PGMUV;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter liveMeter = 3;
+  int livemeter_size() const;
+  void clear_livemeter();
+  static const int kLiveMeterFieldNumber = 3;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_livemeter(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >*
+      mutable_livemeter();
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& livemeter(int index) const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* add_livemeter();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >&
+      livemeter() const;
+
+  // repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter prvMeter = 5;
+  int prvmeter_size() const;
+  void clear_prvmeter();
+  static const int kPrvMeterFieldNumber = 5;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_prvmeter(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >*
+      mutable_prvmeter();
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& prvmeter(int index) const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* add_prvmeter();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >&
+      prvmeter() const;
+
+  // repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV pgmMeter = 7;
+  int pgmmeter_size() const;
+  void clear_pgmmeter();
+  static const int kPgmMeterFieldNumber = 7;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV* mutable_pgmmeter(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV >*
+      mutable_pgmmeter();
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV& pgmmeter(int index) const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV* add_pgmmeter();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV >&
+      pgmmeter() const;
+
+  // .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter mixerMeter = 1;
+  bool has_mixermeter() const;
+  void clear_mixermeter();
+  static const int kMixerMeterFieldNumber = 1;
+  private:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& _internal_mixermeter() const;
+  public:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& mixermeter() const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* release_mixermeter();
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mutable_mixermeter();
+  void set_allocated_mixermeter(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mixermeter);
+
+  // uint32 countofLiveMeter = 2;
+  void clear_countoflivemeter();
+  static const int kCountofLiveMeterFieldNumber = 2;
+  ::google::protobuf::uint32 countoflivemeter() const;
+  void set_countoflivemeter(::google::protobuf::uint32 value);
+
+  // uint32 countofPRV = 4;
+  void clear_countofprv();
+  static const int kCountofPRVFieldNumber = 4;
+  ::google::protobuf::uint32 countofprv() const;
+  void set_countofprv(::google::protobuf::uint32 value);
+
+  // uint32 countofPGM = 6;
+  void clear_countofpgm();
+  static const int kCountofPGMFieldNumber = 6;
+  ::google::protobuf::uint32 countofpgm() const;
+  void set_countofpgm(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter > livemeter_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter > prvmeter_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV > pgmmeter_;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mixermeter_;
+  ::google::protobuf::uint32 countoflivemeter_;
+  ::google::protobuf::uint32 countofprv_;
+  ::google::protobuf::uint32 countofpgm_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_PiP_Status_PiPStatus : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_PiP_Status.PiPStatus) */ {
+ public:
+  Value_PiP_Status_PiPStatus();
+  virtual ~Value_PiP_Status_PiPStatus();
+
+  Value_PiP_Status_PiPStatus(const Value_PiP_Status_PiPStatus& from);
+
+  inline Value_PiP_Status_PiPStatus& operator=(const Value_PiP_Status_PiPStatus& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_PiP_Status_PiPStatus(Value_PiP_Status_PiPStatus&& from) noexcept
+    : Value_PiP_Status_PiPStatus() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_PiP_Status_PiPStatus& operator=(Value_PiP_Status_PiPStatus&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_PiP_Status_PiPStatus& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_PiP_Status_PiPStatus* internal_default_instance() {
+    return reinterpret_cast<const Value_PiP_Status_PiPStatus*>(
+               &_Value_PiP_Status_PiPStatus_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    88;
+
+  void Swap(Value_PiP_Status_PiPStatus* other);
+  friend void swap(Value_PiP_Status_PiPStatus& a, Value_PiP_Status_PiPStatus& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_PiP_Status_PiPStatus* New() const final {
+    return CreateMaybeMessage<Value_PiP_Status_PiPStatus>(NULL);
+  }
+
+  Value_PiP_Status_PiPStatus* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_PiP_Status_PiPStatus>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_PiP_Status_PiPStatus& from);
+  void MergeFrom(const Value_PiP_Status_PiPStatus& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_PiP_Status_PiPStatus* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CnlID targetCnlID = 1;
+  void clear_targetcnlid();
+  static const int kTargetCnlIDFieldNumber = 1;
+  ::GoogleProtoBB::CnlID targetcnlid() const;
+  void set_targetcnlid(::GoogleProtoBB::CnlID value);
+
+  // .GoogleProtoBB.PiPType pipCnl = 2;
+  void clear_pipcnl();
+  static const int kPipCnlFieldNumber = 2;
+  ::GoogleProtoBB::PiPType pipcnl() const;
+  void set_pipcnl(::GoogleProtoBB::PiPType value);
+
+  // bool enable = 3;
+  void clear_enable();
+  static const int kEnableFieldNumber = 3;
+  bool enable() const;
+  void set_enable(bool value);
+
+  // uint32 bgFadeInDuration = 4;
+  void clear_bgfadeinduration();
+  static const int kBgFadeInDurationFieldNumber = 4;
+  ::google::protobuf::uint32 bgfadeinduration() const;
+  void set_bgfadeinduration(::google::protobuf::uint32 value);
+
+  // uint32 bgFadeOutDuration = 5;
+  void clear_bgfadeoutduration();
+  static const int kBgFadeOutDurationFieldNumber = 5;
+  ::google::protobuf::uint32 bgfadeoutduration() const;
+  void set_bgfadeoutduration(::google::protobuf::uint32 value);
+
+  // uint32 bgLoopIn = 6;
+  void clear_bgloopin();
+  static const int kBgLoopInFieldNumber = 6;
+  ::google::protobuf::uint32 bgloopin() const;
+  void set_bgloopin(::google::protobuf::uint32 value);
+
+  // uint32 bgLoopOut = 7;
+  void clear_bgloopout();
+  static const int kBgLoopOutFieldNumber = 7;
+  ::google::protobuf::uint32 bgloopout() const;
+  void set_bgloopout(::google::protobuf::uint32 value);
+
+  // uint32 bgLoopCnt = 8;
+  void clear_bgloopcnt();
+  static const int kBgLoopCntFieldNumber = 8;
+  ::google::protobuf::uint32 bgloopcnt() const;
+  void set_bgloopcnt(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status.PiPStatus)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int targetcnlid_;
+  int pipcnl_;
+  bool enable_;
+  ::google::protobuf::uint32 bgfadeinduration_;
+  ::google::protobuf::uint32 bgfadeoutduration_;
+  ::google::protobuf::uint32 bgloopin_;
+  ::google::protobuf::uint32 bgloopout_;
+  ::google::protobuf::uint32 bgloopcnt_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_PiP_Status_PGMPiP : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_PiP_Status.PGMPiP) */ {
+ public:
+  Value_PiP_Status_PGMPiP();
+  virtual ~Value_PiP_Status_PGMPiP();
+
+  Value_PiP_Status_PGMPiP(const Value_PiP_Status_PGMPiP& from);
+
+  inline Value_PiP_Status_PGMPiP& operator=(const Value_PiP_Status_PGMPiP& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_PiP_Status_PGMPiP(Value_PiP_Status_PGMPiP&& from) noexcept
+    : Value_PiP_Status_PGMPiP() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_PiP_Status_PGMPiP& operator=(Value_PiP_Status_PGMPiP&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_PiP_Status_PGMPiP& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_PiP_Status_PGMPiP* internal_default_instance() {
+    return reinterpret_cast<const Value_PiP_Status_PGMPiP*>(
+               &_Value_PiP_Status_PGMPiP_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    89;
+
+  void Swap(Value_PiP_Status_PGMPiP* other);
+  friend void swap(Value_PiP_Status_PGMPiP& a, Value_PiP_Status_PGMPiP& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_PiP_Status_PGMPiP* New() const final {
+    return CreateMaybeMessage<Value_PiP_Status_PGMPiP>(NULL);
+  }
+
+  Value_PiP_Status_PGMPiP* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_PiP_Status_PGMPiP>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_PiP_Status_PGMPiP& from);
+  void MergeFrom(const Value_PiP_Status_PGMPiP& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_PiP_Status_PGMPiP* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_PiP_Status.PiPStatus gfxStatus = 2;
+  int gfxstatus_size() const;
+  void clear_gfxstatus();
+  static const int kGfxStatusFieldNumber = 2;
+  ::GoogleProtoBB::Value_PiP_Status_PiPStatus* mutable_gfxstatus(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PiPStatus >*
+      mutable_gfxstatus();
+  const ::GoogleProtoBB::Value_PiP_Status_PiPStatus& gfxstatus(int index) const;
+  ::GoogleProtoBB::Value_PiP_Status_PiPStatus* add_gfxstatus();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PiPStatus >&
+      gfxstatus() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status.PGMPiP)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PiPStatus > gfxstatus_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_PiP_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_PiP_Status) */ {
+ public:
+  Value_PiP_Status();
+  virtual ~Value_PiP_Status();
+
+  Value_PiP_Status(const Value_PiP_Status& from);
+
+  inline Value_PiP_Status& operator=(const Value_PiP_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_PiP_Status(Value_PiP_Status&& from) noexcept
+    : Value_PiP_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_PiP_Status& operator=(Value_PiP_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_PiP_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_PiP_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_PiP_Status*>(
+               &_Value_PiP_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    90;
+
+  void Swap(Value_PiP_Status* other);
+  friend void swap(Value_PiP_Status& a, Value_PiP_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_PiP_Status* New() const final {
+    return CreateMaybeMessage<Value_PiP_Status>(NULL);
+  }
+
+  Value_PiP_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_PiP_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_PiP_Status& from);
+  void MergeFrom(const Value_PiP_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_PiP_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_PiP_Status_PiPStatus PiPStatus;
+  typedef Value_PiP_Status_PGMPiP PGMPiP;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_PiP_Status.PGMPiP pgmPiP = 2;
+  int pgmpip_size() const;
+  void clear_pgmpip();
+  static const int kPgmPiPFieldNumber = 2;
+  ::GoogleProtoBB::Value_PiP_Status_PGMPiP* mutable_pgmpip(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PGMPiP >*
+      mutable_pgmpip();
+  const ::GoogleProtoBB::Value_PiP_Status_PGMPiP& pgmpip(int index) const;
+  ::GoogleProtoBB::Value_PiP_Status_PGMPiP* add_pgmpip();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PGMPiP >&
+      pgmpip() const;
+
+  // uint32 pgmCount = 1;
+  void clear_pgmcount();
+  static const int kPgmCountFieldNumber = 1;
+  ::google::protobuf::uint32 pgmcount() const;
+  void set_pgmcount(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_PiP_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PGMPiP > pgmpip_;
+  ::google::protobuf::uint32 pgmcount_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Server_Memory : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Server_Memory) */ {
+ public:
+  Value_Server_Memory();
+  virtual ~Value_Server_Memory();
+
+  Value_Server_Memory(const Value_Server_Memory& from);
+
+  inline Value_Server_Memory& operator=(const Value_Server_Memory& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Server_Memory(Value_Server_Memory&& from) noexcept
+    : Value_Server_Memory() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Server_Memory& operator=(Value_Server_Memory&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Server_Memory& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Server_Memory* internal_default_instance() {
+    return reinterpret_cast<const Value_Server_Memory*>(
+               &_Value_Server_Memory_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    91;
+
+  void Swap(Value_Server_Memory* other);
+  friend void swap(Value_Server_Memory& a, Value_Server_Memory& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Server_Memory* New() const final {
+    return CreateMaybeMessage<Value_Server_Memory>(NULL);
+  }
+
+  Value_Server_Memory* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Server_Memory>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Server_Memory& from);
+  void MergeFrom(const Value_Server_Memory& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Server_Memory* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 currentMemory_GB = 1;
+  void clear_currentmemory_gb();
+  static const int kCurrentMemoryGBFieldNumber = 1;
+  ::google::protobuf::uint32 currentmemory_gb() const;
+  void set_currentmemory_gb(::google::protobuf::uint32 value);
+
+  // uint32 expectedMemory_GB = 2;
+  void clear_expectedmemory_gb();
+  static const int kExpectedMemoryGBFieldNumber = 2;
+  ::google::protobuf::uint32 expectedmemory_gb() const;
+  void set_expectedmemory_gb(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Server_Memory)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 currentmemory_gb_;
+  ::google::protobuf::uint32 expectedmemory_gb_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Cache_ReplayPlayer_HighResVideo_Range : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range) */ {
+ public:
+  Value_Cache_ReplayPlayer_HighResVideo_Range();
+  virtual ~Value_Cache_ReplayPlayer_HighResVideo_Range();
+
+  Value_Cache_ReplayPlayer_HighResVideo_Range(const Value_Cache_ReplayPlayer_HighResVideo_Range& from);
+
+  inline Value_Cache_ReplayPlayer_HighResVideo_Range& operator=(const Value_Cache_ReplayPlayer_HighResVideo_Range& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Cache_ReplayPlayer_HighResVideo_Range(Value_Cache_ReplayPlayer_HighResVideo_Range&& from) noexcept
+    : Value_Cache_ReplayPlayer_HighResVideo_Range() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Cache_ReplayPlayer_HighResVideo_Range& operator=(Value_Cache_ReplayPlayer_HighResVideo_Range&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Cache_ReplayPlayer_HighResVideo_Range& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Cache_ReplayPlayer_HighResVideo_Range* internal_default_instance() {
+    return reinterpret_cast<const Value_Cache_ReplayPlayer_HighResVideo_Range*>(
+               &_Value_Cache_ReplayPlayer_HighResVideo_Range_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    92;
+
+  void Swap(Value_Cache_ReplayPlayer_HighResVideo_Range* other);
+  friend void swap(Value_Cache_ReplayPlayer_HighResVideo_Range& a, Value_Cache_ReplayPlayer_HighResVideo_Range& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Cache_ReplayPlayer_HighResVideo_Range* New() const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_HighResVideo_Range>(NULL);
+  }
+
+  Value_Cache_ReplayPlayer_HighResVideo_Range* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_HighResVideo_Range>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Cache_ReplayPlayer_HighResVideo_Range& from);
+  void MergeFrom(const Value_Cache_ReplayPlayer_HighResVideo_Range& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Cache_ReplayPlayer_HighResVideo_Range* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint64 currentFrameID = 1;
+  void clear_currentframeid();
+  static const int kCurrentFrameIDFieldNumber = 1;
+  ::google::protobuf::uint64 currentframeid() const;
+  void set_currentframeid(::google::protobuf::uint64 value);
+
+  // uint64 out = 2;
+  void clear_out();
+  static const int kOutFieldNumber = 2;
+  ::google::protobuf::uint64 out() const;
+  void set_out(::google::protobuf::uint64 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint64 currentframeid_;
+  ::google::protobuf::uint64 out_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Cache_ReplayPlayer_HighResVideo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo) */ {
+ public:
+  Value_Cache_ReplayPlayer_HighResVideo();
+  virtual ~Value_Cache_ReplayPlayer_HighResVideo();
+
+  Value_Cache_ReplayPlayer_HighResVideo(const Value_Cache_ReplayPlayer_HighResVideo& from);
+
+  inline Value_Cache_ReplayPlayer_HighResVideo& operator=(const Value_Cache_ReplayPlayer_HighResVideo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Cache_ReplayPlayer_HighResVideo(Value_Cache_ReplayPlayer_HighResVideo&& from) noexcept
+    : Value_Cache_ReplayPlayer_HighResVideo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Cache_ReplayPlayer_HighResVideo& operator=(Value_Cache_ReplayPlayer_HighResVideo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Cache_ReplayPlayer_HighResVideo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Cache_ReplayPlayer_HighResVideo* internal_default_instance() {
+    return reinterpret_cast<const Value_Cache_ReplayPlayer_HighResVideo*>(
+               &_Value_Cache_ReplayPlayer_HighResVideo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    93;
+
+  void Swap(Value_Cache_ReplayPlayer_HighResVideo* other);
+  friend void swap(Value_Cache_ReplayPlayer_HighResVideo& a, Value_Cache_ReplayPlayer_HighResVideo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Cache_ReplayPlayer_HighResVideo* New() const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_HighResVideo>(NULL);
+  }
+
+  Value_Cache_ReplayPlayer_HighResVideo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_HighResVideo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Cache_ReplayPlayer_HighResVideo& from);
+  void MergeFrom(const Value_Cache_ReplayPlayer_HighResVideo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Cache_ReplayPlayer_HighResVideo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Cache_ReplayPlayer_HighResVideo_Range Range;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range range = 2;
+  int range_size() const;
+  void clear_range();
+  static const int kRangeFieldNumber = 2;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range* mutable_range(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range >*
+      mutable_range();
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range& range(int index) const;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range* add_range();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range >&
+      range() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range > range_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Cache_ReplayPlayer_ExternalAudio_Range : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range) */ {
+ public:
+  Value_Cache_ReplayPlayer_ExternalAudio_Range();
+  virtual ~Value_Cache_ReplayPlayer_ExternalAudio_Range();
+
+  Value_Cache_ReplayPlayer_ExternalAudio_Range(const Value_Cache_ReplayPlayer_ExternalAudio_Range& from);
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio_Range& operator=(const Value_Cache_ReplayPlayer_ExternalAudio_Range& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Cache_ReplayPlayer_ExternalAudio_Range(Value_Cache_ReplayPlayer_ExternalAudio_Range&& from) noexcept
+    : Value_Cache_ReplayPlayer_ExternalAudio_Range() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio_Range& operator=(Value_Cache_ReplayPlayer_ExternalAudio_Range&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Cache_ReplayPlayer_ExternalAudio_Range& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Cache_ReplayPlayer_ExternalAudio_Range* internal_default_instance() {
+    return reinterpret_cast<const Value_Cache_ReplayPlayer_ExternalAudio_Range*>(
+               &_Value_Cache_ReplayPlayer_ExternalAudio_Range_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    94;
+
+  void Swap(Value_Cache_ReplayPlayer_ExternalAudio_Range* other);
+  friend void swap(Value_Cache_ReplayPlayer_ExternalAudio_Range& a, Value_Cache_ReplayPlayer_ExternalAudio_Range& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio_Range* New() const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_ExternalAudio_Range>(NULL);
+  }
+
+  Value_Cache_ReplayPlayer_ExternalAudio_Range* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_ExternalAudio_Range>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Cache_ReplayPlayer_ExternalAudio_Range& from);
+  void MergeFrom(const Value_Cache_ReplayPlayer_ExternalAudio_Range& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Cache_ReplayPlayer_ExternalAudio_Range* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint64 currentFrameID = 1;
+  void clear_currentframeid();
+  static const int kCurrentFrameIDFieldNumber = 1;
+  ::google::protobuf::uint64 currentframeid() const;
+  void set_currentframeid(::google::protobuf::uint64 value);
+
+  // uint64 out = 2;
+  void clear_out();
+  static const int kOutFieldNumber = 2;
+  ::google::protobuf::uint64 out() const;
+  void set_out(::google::protobuf::uint64 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint64 currentframeid_;
+  ::google::protobuf::uint64 out_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Cache_ReplayPlayer_ExternalAudio : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio) */ {
+ public:
+  Value_Cache_ReplayPlayer_ExternalAudio();
+  virtual ~Value_Cache_ReplayPlayer_ExternalAudio();
+
+  Value_Cache_ReplayPlayer_ExternalAudio(const Value_Cache_ReplayPlayer_ExternalAudio& from);
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio& operator=(const Value_Cache_ReplayPlayer_ExternalAudio& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Cache_ReplayPlayer_ExternalAudio(Value_Cache_ReplayPlayer_ExternalAudio&& from) noexcept
+    : Value_Cache_ReplayPlayer_ExternalAudio() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio& operator=(Value_Cache_ReplayPlayer_ExternalAudio&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Cache_ReplayPlayer_ExternalAudio& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Cache_ReplayPlayer_ExternalAudio* internal_default_instance() {
+    return reinterpret_cast<const Value_Cache_ReplayPlayer_ExternalAudio*>(
+               &_Value_Cache_ReplayPlayer_ExternalAudio_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    95;
+
+  void Swap(Value_Cache_ReplayPlayer_ExternalAudio* other);
+  friend void swap(Value_Cache_ReplayPlayer_ExternalAudio& a, Value_Cache_ReplayPlayer_ExternalAudio& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Cache_ReplayPlayer_ExternalAudio* New() const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_ExternalAudio>(NULL);
+  }
+
+  Value_Cache_ReplayPlayer_ExternalAudio* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Cache_ReplayPlayer_ExternalAudio>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Cache_ReplayPlayer_ExternalAudio& from);
+  void MergeFrom(const Value_Cache_ReplayPlayer_ExternalAudio& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Cache_ReplayPlayer_ExternalAudio* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_Cache_ReplayPlayer_ExternalAudio_Range Range;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range range = 2;
+  int range_size() const;
+  void clear_range();
+  static const int kRangeFieldNumber = 2;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range* mutable_range(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range >*
+      mutable_range();
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range& range(int index) const;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range* add_range();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range >&
+      range() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range > range_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Storage_Capacity : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Storage_Capacity) */ {
+ public:
+  Value_Storage_Capacity();
+  virtual ~Value_Storage_Capacity();
+
+  Value_Storage_Capacity(const Value_Storage_Capacity& from);
+
+  inline Value_Storage_Capacity& operator=(const Value_Storage_Capacity& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Storage_Capacity(Value_Storage_Capacity&& from) noexcept
+    : Value_Storage_Capacity() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Storage_Capacity& operator=(Value_Storage_Capacity&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Storage_Capacity& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Storage_Capacity* internal_default_instance() {
+    return reinterpret_cast<const Value_Storage_Capacity*>(
+               &_Value_Storage_Capacity_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    96;
+
+  void Swap(Value_Storage_Capacity* other);
+  friend void swap(Value_Storage_Capacity& a, Value_Storage_Capacity& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Storage_Capacity* New() const final {
+    return CreateMaybeMessage<Value_Storage_Capacity>(NULL);
+  }
+
+  Value_Storage_Capacity* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Storage_Capacity>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Storage_Capacity& from);
+  void MergeFrom(const Value_Storage_Capacity& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Storage_Capacity* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint32 blockSize_MB = 1;
+  void clear_blocksize_mb();
+  static const int kBlockSizeMBFieldNumber = 1;
+  ::google::protobuf::uint32 blocksize_mb() const;
+  void set_blocksize_mb(::google::protobuf::uint32 value);
+
+  // uint32 nbBlockUsed = 2;
+  void clear_nbblockused();
+  static const int kNbBlockUsedFieldNumber = 2;
+  ::google::protobuf::uint32 nbblockused() const;
+  void set_nbblockused(::google::protobuf::uint32 value);
+
+  // uint32 nbBlockTotal = 3;
+  void clear_nbblocktotal();
+  static const int kNbBlockTotalFieldNumber = 3;
+  ::google::protobuf::uint32 nbblocktotal() const;
+  void set_nbblocktotal(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Storage_Capacity)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint32 blocksize_mb_;
+  ::google::protobuf::uint32 nbblockused_;
+  ::google::protobuf::uint32 nbblocktotal_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_ReferenceStatus : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_ReferenceStatus) */ {
+ public:
+  Value_HealthInfo_ReferenceStatus();
+  virtual ~Value_HealthInfo_ReferenceStatus();
+
+  Value_HealthInfo_ReferenceStatus(const Value_HealthInfo_ReferenceStatus& from);
+
+  inline Value_HealthInfo_ReferenceStatus& operator=(const Value_HealthInfo_ReferenceStatus& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_ReferenceStatus(Value_HealthInfo_ReferenceStatus&& from) noexcept
+    : Value_HealthInfo_ReferenceStatus() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_ReferenceStatus& operator=(Value_HealthInfo_ReferenceStatus&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_ReferenceStatus& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_ReferenceStatus* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_ReferenceStatus*>(
+               &_Value_HealthInfo_ReferenceStatus_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    97;
+
+  void Swap(Value_HealthInfo_ReferenceStatus* other);
+  friend void swap(Value_HealthInfo_ReferenceStatus& a, Value_HealthInfo_ReferenceStatus& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_ReferenceStatus* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_ReferenceStatus>(NULL);
+  }
+
+  Value_HealthInfo_ReferenceStatus* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_ReferenceStatus>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_ReferenceStatus& from);
+  void MergeFrom(const Value_HealthInfo_ReferenceStatus& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_ReferenceStatus* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.ReferenceStatus referenceStatus = 1;
+  void clear_referencestatus();
+  static const int kReferenceStatusFieldNumber = 1;
+  ::GoogleProtoBB::ReferenceStatus referencestatus() const;
+  void set_referencestatus(::GoogleProtoBB::ReferenceStatus value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_ReferenceStatus)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int referencestatus_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_SerialNumber_ServerInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo) */ {
+ public:
+  Value_HealthInfo_SerialNumber_ServerInfo();
+  virtual ~Value_HealthInfo_SerialNumber_ServerInfo();
+
+  Value_HealthInfo_SerialNumber_ServerInfo(const Value_HealthInfo_SerialNumber_ServerInfo& from);
+
+  inline Value_HealthInfo_SerialNumber_ServerInfo& operator=(const Value_HealthInfo_SerialNumber_ServerInfo& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_SerialNumber_ServerInfo(Value_HealthInfo_SerialNumber_ServerInfo&& from) noexcept
+    : Value_HealthInfo_SerialNumber_ServerInfo() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_SerialNumber_ServerInfo& operator=(Value_HealthInfo_SerialNumber_ServerInfo&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_SerialNumber_ServerInfo& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_SerialNumber_ServerInfo* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_SerialNumber_ServerInfo*>(
+               &_Value_HealthInfo_SerialNumber_ServerInfo_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    98;
+
+  void Swap(Value_HealthInfo_SerialNumber_ServerInfo* other);
+  friend void swap(Value_HealthInfo_SerialNumber_ServerInfo& a, Value_HealthInfo_SerialNumber_ServerInfo& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_SerialNumber_ServerInfo* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_SerialNumber_ServerInfo>(NULL);
+  }
+
+  Value_HealthInfo_SerialNumber_ServerInfo* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_SerialNumber_ServerInfo>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_SerialNumber_ServerInfo& from);
+  void MergeFrom(const Value_HealthInfo_SerialNumber_ServerInfo& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_SerialNumber_ServerInfo* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // bytes sn = 3;
+  void clear_sn();
+  static const int kSnFieldNumber = 3;
+  const ::std::string& sn() const;
+  void set_sn(const ::std::string& value);
+  #if LANG_CXX11
+  void set_sn(::std::string&& value);
+  #endif
+  void set_sn(const char* value);
+  void set_sn(const void* value, size_t size);
+  ::std::string* mutable_sn();
+  ::std::string* release_sn();
+  void set_allocated_sn(::std::string* sn);
+
+  // int32 ip = 1;
+  void clear_ip();
+  static const int kIpFieldNumber = 1;
+  ::google::protobuf::int32 ip() const;
+  void set_ip(::google::protobuf::int32 value);
+
+  // uint32 snSize = 2;
+  void clear_snsize();
+  static const int kSnSizeFieldNumber = 2;
+  ::google::protobuf::uint32 snsize() const;
+  void set_snsize(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr sn_;
+  ::google::protobuf::int32 ip_;
+  ::google::protobuf::uint32 snsize_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_SerialNumber : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_SerialNumber) */ {
+ public:
+  Value_HealthInfo_SerialNumber();
+  virtual ~Value_HealthInfo_SerialNumber();
+
+  Value_HealthInfo_SerialNumber(const Value_HealthInfo_SerialNumber& from);
+
+  inline Value_HealthInfo_SerialNumber& operator=(const Value_HealthInfo_SerialNumber& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_SerialNumber(Value_HealthInfo_SerialNumber&& from) noexcept
+    : Value_HealthInfo_SerialNumber() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_SerialNumber& operator=(Value_HealthInfo_SerialNumber&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_SerialNumber& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_SerialNumber* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_SerialNumber*>(
+               &_Value_HealthInfo_SerialNumber_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    99;
+
+  void Swap(Value_HealthInfo_SerialNumber* other);
+  friend void swap(Value_HealthInfo_SerialNumber& a, Value_HealthInfo_SerialNumber& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_SerialNumber* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_SerialNumber>(NULL);
+  }
+
+  Value_HealthInfo_SerialNumber* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_SerialNumber>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_SerialNumber& from);
+  void MergeFrom(const Value_HealthInfo_SerialNumber& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_SerialNumber* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_HealthInfo_SerialNumber_ServerInfo ServerInfo;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo serverInfo = 2;
+  int serverinfo_size() const;
+  void clear_serverinfo();
+  static const int kServerInfoFieldNumber = 2;
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo* mutable_serverinfo(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo >*
+      mutable_serverinfo();
+  const ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo& serverinfo(int index) const;
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo* add_serverinfo();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo >&
+      serverinfo() const;
+
+  // uint32 nbServer = 1;
+  void clear_nbserver();
+  static const int kNbServerFieldNumber = 1;
+  ::google::protobuf::uint32 nbserver() const;
+  void set_nbserver(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_SerialNumber)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo > serverinfo_;
+  ::google::protobuf::uint32 nbserver_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_RemainingTimePerCam_RemainingTime : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime) */ {
+ public:
+  Value_HealthInfo_RemainingTimePerCam_RemainingTime();
+  virtual ~Value_HealthInfo_RemainingTimePerCam_RemainingTime();
+
+  Value_HealthInfo_RemainingTimePerCam_RemainingTime(const Value_HealthInfo_RemainingTimePerCam_RemainingTime& from);
+
+  inline Value_HealthInfo_RemainingTimePerCam_RemainingTime& operator=(const Value_HealthInfo_RemainingTimePerCam_RemainingTime& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_RemainingTimePerCam_RemainingTime(Value_HealthInfo_RemainingTimePerCam_RemainingTime&& from) noexcept
+    : Value_HealthInfo_RemainingTimePerCam_RemainingTime() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_RemainingTimePerCam_RemainingTime& operator=(Value_HealthInfo_RemainingTimePerCam_RemainingTime&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_RemainingTimePerCam_RemainingTime& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_RemainingTimePerCam_RemainingTime* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_RemainingTimePerCam_RemainingTime*>(
+               &_Value_HealthInfo_RemainingTimePerCam_RemainingTime_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    100;
+
+  void Swap(Value_HealthInfo_RemainingTimePerCam_RemainingTime* other);
+  friend void swap(Value_HealthInfo_RemainingTimePerCam_RemainingTime& a, Value_HealthInfo_RemainingTimePerCam_RemainingTime& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_RemainingTimePerCam_RemainingTime* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_RemainingTimePerCam_RemainingTime>(NULL);
+  }
+
+  Value_HealthInfo_RemainingTimePerCam_RemainingTime* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_RemainingTimePerCam_RemainingTime>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_RemainingTimePerCam_RemainingTime& from);
+  void MergeFrom(const Value_HealthInfo_RemainingTimePerCam_RemainingTime& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_RemainingTimePerCam_RemainingTime* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // .GoogleProtoBB.CamID cam = 1;
+  void clear_cam();
+  static const int kCamFieldNumber = 1;
+  ::GoogleProtoBB::CamID cam() const;
+  void set_cam(::GoogleProtoBB::CamID value);
+
+  // uint32 remainingSecond = 2;
+  void clear_remainingsecond();
+  static const int kRemainingSecondFieldNumber = 2;
+  ::google::protobuf::uint32 remainingsecond() const;
+  void set_remainingsecond(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  int cam_;
+  ::google::protobuf::uint32 remainingsecond_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_HealthInfo_RemainingTimePerCam : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam) */ {
+ public:
+  Value_HealthInfo_RemainingTimePerCam();
+  virtual ~Value_HealthInfo_RemainingTimePerCam();
+
+  Value_HealthInfo_RemainingTimePerCam(const Value_HealthInfo_RemainingTimePerCam& from);
+
+  inline Value_HealthInfo_RemainingTimePerCam& operator=(const Value_HealthInfo_RemainingTimePerCam& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_HealthInfo_RemainingTimePerCam(Value_HealthInfo_RemainingTimePerCam&& from) noexcept
+    : Value_HealthInfo_RemainingTimePerCam() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_HealthInfo_RemainingTimePerCam& operator=(Value_HealthInfo_RemainingTimePerCam&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_HealthInfo_RemainingTimePerCam& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_HealthInfo_RemainingTimePerCam* internal_default_instance() {
+    return reinterpret_cast<const Value_HealthInfo_RemainingTimePerCam*>(
+               &_Value_HealthInfo_RemainingTimePerCam_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    101;
+
+  void Swap(Value_HealthInfo_RemainingTimePerCam* other);
+  friend void swap(Value_HealthInfo_RemainingTimePerCam& a, Value_HealthInfo_RemainingTimePerCam& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_HealthInfo_RemainingTimePerCam* New() const final {
+    return CreateMaybeMessage<Value_HealthInfo_RemainingTimePerCam>(NULL);
+  }
+
+  Value_HealthInfo_RemainingTimePerCam* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_HealthInfo_RemainingTimePerCam>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_HealthInfo_RemainingTimePerCam& from);
+  void MergeFrom(const Value_HealthInfo_RemainingTimePerCam& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_HealthInfo_RemainingTimePerCam* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  typedef Value_HealthInfo_RemainingTimePerCam_RemainingTime RemainingTime;
+
+  // accessors -------------------------------------------------------
+
+  // repeated .GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime remainingTime = 2;
+  int remainingtime_size() const;
+  void clear_remainingtime();
+  static const int kRemainingTimeFieldNumber = 2;
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime* mutable_remainingtime(int index);
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime >*
+      mutable_remainingtime();
+  const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime& remainingtime(int index) const;
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime* add_remainingtime();
+  const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime >&
+      remainingtime() const;
+
+  // uint32 count = 1;
+  void clear_count();
+  static const int kCountFieldNumber = 1;
+  ::google::protobuf::uint32 count() const;
+  void set_count(::google::protobuf::uint32 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime > remainingtime_;
+  ::google::protobuf::uint32 count_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Film_Effect_Status : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Film_Effect_Status) */ {
+ public:
+  Value_Film_Effect_Status();
+  virtual ~Value_Film_Effect_Status();
+
+  Value_Film_Effect_Status(const Value_Film_Effect_Status& from);
+
+  inline Value_Film_Effect_Status& operator=(const Value_Film_Effect_Status& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Film_Effect_Status(Value_Film_Effect_Status&& from) noexcept
+    : Value_Film_Effect_Status() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Film_Effect_Status& operator=(Value_Film_Effect_Status&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Film_Effect_Status& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Film_Effect_Status* internal_default_instance() {
+    return reinterpret_cast<const Value_Film_Effect_Status*>(
+               &_Value_Film_Effect_Status_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    102;
+
+  void Swap(Value_Film_Effect_Status* other);
+  friend void swap(Value_Film_Effect_Status& a, Value_Film_Effect_Status& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Film_Effect_Status* New() const final {
+    return CreateMaybeMessage<Value_Film_Effect_Status>(NULL);
+  }
+
+  Value_Film_Effect_Status* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Film_Effect_Status>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Film_Effect_Status& from);
+  void MergeFrom(const Value_Film_Effect_Status& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Film_Effect_Status* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // repeated bool PGM_enabled = 1;
+  int pgm_enabled_size() const;
+  void clear_pgm_enabled();
+  static const int kPGMEnabledFieldNumber = 1;
+  bool pgm_enabled(int index) const;
+  void set_pgm_enabled(int index, bool value);
+  void add_pgm_enabled(bool value);
+  const ::google::protobuf::RepeatedField< bool >&
+      pgm_enabled() const;
+  ::google::protobuf::RepeatedField< bool >*
+      mutable_pgm_enabled();
+
+  // repeated bool PRV_enabled = 2;
+  int prv_enabled_size() const;
+  void clear_prv_enabled();
+  static const int kPRVEnabledFieldNumber = 2;
+  bool prv_enabled(int index) const;
+  void set_prv_enabled(int index, bool value);
+  void add_prv_enabled(bool value);
+  const ::google::protobuf::RepeatedField< bool >&
+      prv_enabled() const;
+  ::google::protobuf::RepeatedField< bool >*
+      mutable_prv_enabled();
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Film_Effect_Status)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::RepeatedField< bool > pgm_enabled_;
+  mutable int _pgm_enabled_cached_byte_size_;
+  ::google::protobuf::RepeatedField< bool > prv_enabled_;
+  mutable int _prv_enabled_cached_byte_size_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
+class Value_Common_TimeReference : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.Value_Common_TimeReference) */ {
+ public:
+  Value_Common_TimeReference();
+  virtual ~Value_Common_TimeReference();
+
+  Value_Common_TimeReference(const Value_Common_TimeReference& from);
+
+  inline Value_Common_TimeReference& operator=(const Value_Common_TimeReference& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  Value_Common_TimeReference(Value_Common_TimeReference&& from) noexcept
+    : Value_Common_TimeReference() {
+    *this = ::std::move(from);
+  }
+
+  inline Value_Common_TimeReference& operator=(Value_Common_TimeReference&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const Value_Common_TimeReference& default_instance();
+
+  static void InitAsDefaultInstance();  // FOR INTERNAL USE ONLY
+  static inline const Value_Common_TimeReference* internal_default_instance() {
+    return reinterpret_cast<const Value_Common_TimeReference*>(
+               &_Value_Common_TimeReference_default_instance_);
+  }
+  static constexpr int kIndexInFileMessages =
+    103;
+
+  void Swap(Value_Common_TimeReference* other);
+  friend void swap(Value_Common_TimeReference& a, Value_Common_TimeReference& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline Value_Common_TimeReference* New() const final {
+    return CreateMaybeMessage<Value_Common_TimeReference>(NULL);
+  }
+
+  Value_Common_TimeReference* New(::google::protobuf::Arena* arena) const final {
+    return CreateMaybeMessage<Value_Common_TimeReference>(arena);
+  }
+  void CopyFrom(const ::google::protobuf::Message& from) final;
+  void MergeFrom(const ::google::protobuf::Message& from) final;
+  void CopyFrom(const Value_Common_TimeReference& from);
+  void MergeFrom(const Value_Common_TimeReference& from);
+  void Clear() final;
+  bool IsInitialized() const final;
+
+  size_t ByteSizeLong() const final;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) final;
+  void SerializeWithCachedSizes(
+      ::google::protobuf::io::CodedOutputStream* output) const final;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+      bool deterministic, ::google::protobuf::uint8* target) const final;
+  int GetCachedSize() const final { return _cached_size_.Get(); }
+
+  private:
+  void SharedCtor();
+  void SharedDtor();
+  void SetCachedSize(int size) const final;
+  void InternalSwap(Value_Common_TimeReference* other);
+  private:
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+    return NULL;
+  }
+  inline void* MaybeArenaPtr() const {
+    return NULL;
+  }
+  public:
+
+  ::google::protobuf::Metadata GetMetadata() const final;
+
+  // nested types ----------------------------------------------------
+
+  // accessors -------------------------------------------------------
+
+  // uint64 timeReference = 1;
+  void clear_timereference();
+  static const int kTimeReferenceFieldNumber = 1;
+  ::google::protobuf::uint64 timereference() const;
+  void set_timereference(::google::protobuf::uint64 value);
+
+  // @@protoc_insertion_point(class_scope:GoogleProtoBB.Value_Common_TimeReference)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::uint64 timereference_;
+  mutable ::google::protobuf::internal::CachedSize _cached_size_;
+  friend struct ::protobuf_broadcast_2eproto::TableStruct;
+};
+// -------------------------------------------------------------------
+
 class BroadCastData : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:GoogleProtoBB.BroadCastData) */ {
  public:
   BroadCastData();
@@ -1334,7 +13280,7 @@ class BroadCastData : public ::google::protobuf::Message /* @@protoc_insertion_p
                &_BroadCastData_default_instance_);
   }
   static constexpr int kIndexInFileMessages =
-    9;
+    104;
 
   void Swap(BroadCastData* other);
   friend void swap(BroadCastData& a, BroadCastData& b) {
@@ -1386,75 +13332,725 @@ class BroadCastData : public ::google::protobuf::Message /* @@protoc_insertion_p
 
   // accessors -------------------------------------------------------
 
-  // .GoogleProtoBB.Value_Recorder_Train_In_Out Recorder_Train_In_Out = 1;
-  bool has_recorder_train_in_out() const;
-  void clear_recorder_train_in_out();
-  static const int kRecorderTrainInOutFieldNumber = 1;
+  // .GoogleProtoBB.Value_Recorder_Train_In_Out value_Recorder_Train_In_Out = 1;
+  bool has_value_recorder_train_in_out() const;
+  void clear_value_recorder_train_in_out();
+  static const int kValueRecorderTrainInOutFieldNumber = 1;
   private:
-  const ::GoogleProtoBB::Value_Recorder_Train_In_Out& _internal_recorder_train_in_out() const;
+  const ::GoogleProtoBB::Value_Recorder_Train_In_Out& _internal_value_recorder_train_in_out() const;
   public:
-  const ::GoogleProtoBB::Value_Recorder_Train_In_Out& recorder_train_in_out() const;
-  ::GoogleProtoBB::Value_Recorder_Train_In_Out* release_recorder_train_in_out();
-  ::GoogleProtoBB::Value_Recorder_Train_In_Out* mutable_recorder_train_in_out();
-  void set_allocated_recorder_train_in_out(::GoogleProtoBB::Value_Recorder_Train_In_Out* recorder_train_in_out);
+  const ::GoogleProtoBB::Value_Recorder_Train_In_Out& value_recorder_train_in_out() const;
+  ::GoogleProtoBB::Value_Recorder_Train_In_Out* release_value_recorder_train_in_out();
+  ::GoogleProtoBB::Value_Recorder_Train_In_Out* mutable_value_recorder_train_in_out();
+  void set_allocated_value_recorder_train_in_out(::GoogleProtoBB::Value_Recorder_Train_In_Out* value_recorder_train_in_out);
 
-  // .GoogleProtoBB.Value_Player_Status Player_Status = 2;
-  bool has_player_status() const;
-  void clear_player_status();
-  static const int kPlayerStatusFieldNumber = 2;
+  // .GoogleProtoBB.Value_Player_Status value_Player_Status = 2;
+  bool has_value_player_status() const;
+  void clear_value_player_status();
+  static const int kValuePlayerStatusFieldNumber = 2;
   private:
-  const ::GoogleProtoBB::Value_Player_Status& _internal_player_status() const;
+  const ::GoogleProtoBB::Value_Player_Status& _internal_value_player_status() const;
   public:
-  const ::GoogleProtoBB::Value_Player_Status& player_status() const;
-  ::GoogleProtoBB::Value_Player_Status* release_player_status();
-  ::GoogleProtoBB::Value_Player_Status* mutable_player_status();
-  void set_allocated_player_status(::GoogleProtoBB::Value_Player_Status* player_status);
+  const ::GoogleProtoBB::Value_Player_Status& value_player_status() const;
+  ::GoogleProtoBB::Value_Player_Status* release_value_player_status();
+  ::GoogleProtoBB::Value_Player_Status* mutable_value_player_status();
+  void set_allocated_value_player_status(::GoogleProtoBB::Value_Player_Status* value_player_status);
 
-  // .GoogleProtoBB.Value_Camera_Type camera_type = 3;
-  bool has_camera_type() const;
-  void clear_camera_type();
-  static const int kCameraTypeFieldNumber = 3;
+  // .GoogleProtoBB.Value_Camera_Type value_Camera_Type = 3;
+  bool has_value_camera_type() const;
+  void clear_value_camera_type();
+  static const int kValueCameraTypeFieldNumber = 3;
   private:
-  const ::GoogleProtoBB::Value_Camera_Type& _internal_camera_type() const;
+  const ::GoogleProtoBB::Value_Camera_Type& _internal_value_camera_type() const;
   public:
-  const ::GoogleProtoBB::Value_Camera_Type& camera_type() const;
-  ::GoogleProtoBB::Value_Camera_Type* release_camera_type();
-  ::GoogleProtoBB::Value_Camera_Type* mutable_camera_type();
-  void set_allocated_camera_type(::GoogleProtoBB::Value_Camera_Type* camera_type);
+  const ::GoogleProtoBB::Value_Camera_Type& value_camera_type() const;
+  ::GoogleProtoBB::Value_Camera_Type* release_value_camera_type();
+  ::GoogleProtoBB::Value_Camera_Type* mutable_value_camera_type();
+  void set_allocated_value_camera_type(::GoogleProtoBB::Value_Camera_Type* value_camera_type);
 
-  // .GoogleProtoBB.Value_Recorder_ClosedCaption Recorder_ClosedCaption = 4;
-  bool has_recorder_closedcaption() const;
-  void clear_recorder_closedcaption();
-  static const int kRecorderClosedCaptionFieldNumber = 4;
+  // .GoogleProtoBB.Value_Recorder_ClosedCaption value_Recorder_ClosedCaption = 4;
+  bool has_value_recorder_closedcaption() const;
+  void clear_value_recorder_closedcaption();
+  static const int kValueRecorderClosedCaptionFieldNumber = 4;
   private:
-  const ::GoogleProtoBB::Value_Recorder_ClosedCaption& _internal_recorder_closedcaption() const;
+  const ::GoogleProtoBB::Value_Recorder_ClosedCaption& _internal_value_recorder_closedcaption() const;
   public:
-  const ::GoogleProtoBB::Value_Recorder_ClosedCaption& recorder_closedcaption() const;
-  ::GoogleProtoBB::Value_Recorder_ClosedCaption* release_recorder_closedcaption();
-  ::GoogleProtoBB::Value_Recorder_ClosedCaption* mutable_recorder_closedcaption();
-  void set_allocated_recorder_closedcaption(::GoogleProtoBB::Value_Recorder_ClosedCaption* recorder_closedcaption);
+  const ::GoogleProtoBB::Value_Recorder_ClosedCaption& value_recorder_closedcaption() const;
+  ::GoogleProtoBB::Value_Recorder_ClosedCaption* release_value_recorder_closedcaption();
+  ::GoogleProtoBB::Value_Recorder_ClosedCaption* mutable_value_recorder_closedcaption();
+  void set_allocated_value_recorder_closedcaption(::GoogleProtoBB::Value_Recorder_ClosedCaption* value_recorder_closedcaption);
 
-  // .GoogleProtoBB.Value_Player_ClosedCaption Player_ClosedCaption = 5;
-  bool has_player_closedcaption() const;
-  void clear_player_closedcaption();
-  static const int kPlayerClosedCaptionFieldNumber = 5;
+  // .GoogleProtoBB.Value_Player_ClosedCaption value_Player_ClosedCaption = 5;
+  bool has_value_player_closedcaption() const;
+  void clear_value_player_closedcaption();
+  static const int kValuePlayerClosedCaptionFieldNumber = 5;
   private:
-  const ::GoogleProtoBB::Value_Player_ClosedCaption& _internal_player_closedcaption() const;
+  const ::GoogleProtoBB::Value_Player_ClosedCaption& _internal_value_player_closedcaption() const;
   public:
-  const ::GoogleProtoBB::Value_Player_ClosedCaption& player_closedcaption() const;
-  ::GoogleProtoBB::Value_Player_ClosedCaption* release_player_closedcaption();
-  ::GoogleProtoBB::Value_Player_ClosedCaption* mutable_player_closedcaption();
-  void set_allocated_player_closedcaption(::GoogleProtoBB::Value_Player_ClosedCaption* player_closedcaption);
+  const ::GoogleProtoBB::Value_Player_ClosedCaption& value_player_closedcaption() const;
+  ::GoogleProtoBB::Value_Player_ClosedCaption* release_value_player_closedcaption();
+  ::GoogleProtoBB::Value_Player_ClosedCaption* mutable_value_player_closedcaption();
+  void set_allocated_value_player_closedcaption(::GoogleProtoBB::Value_Player_ClosedCaption* value_player_closedcaption);
+
+  // .GoogleProtoBB.Value_Player_Group value_Player_Group = 6;
+  bool has_value_player_group() const;
+  void clear_value_player_group();
+  static const int kValuePlayerGroupFieldNumber = 6;
+  private:
+  const ::GoogleProtoBB::Value_Player_Group& _internal_value_player_group() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Group& value_player_group() const;
+  ::GoogleProtoBB::Value_Player_Group* release_value_player_group();
+  ::GoogleProtoBB::Value_Player_Group* mutable_value_player_group();
+  void set_allocated_value_player_group(::GoogleProtoBB::Value_Player_Group* value_player_group);
+
+  // .GoogleProtoBB.Value_Player_Camera value_Player_Camera = 7;
+  bool has_value_player_camera() const;
+  void clear_value_player_camera();
+  static const int kValuePlayerCameraFieldNumber = 7;
+  private:
+  const ::GoogleProtoBB::Value_Player_Camera& _internal_value_player_camera() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Camera& value_player_camera() const;
+  ::GoogleProtoBB::Value_Player_Camera* release_value_player_camera();
+  ::GoogleProtoBB::Value_Player_Camera* mutable_value_player_camera();
+  void set_allocated_value_player_camera(::GoogleProtoBB::Value_Player_Camera* value_player_camera);
+
+  // .GoogleProtoBB.Value_Player_Type value_Player_Type = 8;
+  bool has_value_player_type() const;
+  void clear_value_player_type();
+  static const int kValuePlayerTypeFieldNumber = 8;
+  private:
+  const ::GoogleProtoBB::Value_Player_Type& _internal_value_player_type() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Type& value_player_type() const;
+  ::GoogleProtoBB::Value_Player_Type* release_value_player_type();
+  ::GoogleProtoBB::Value_Player_Type* mutable_value_player_type();
+  void set_allocated_value_player_type(::GoogleProtoBB::Value_Player_Type* value_player_type);
+
+  // .GoogleProtoBB.Value_Player_AudioPresetId value_Player_AudioPresetId = 9;
+  bool has_value_player_audiopresetid() const;
+  void clear_value_player_audiopresetid();
+  static const int kValuePlayerAudioPresetIdFieldNumber = 9;
+  private:
+  const ::GoogleProtoBB::Value_Player_AudioPresetId& _internal_value_player_audiopresetid() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_AudioPresetId& value_player_audiopresetid() const;
+  ::GoogleProtoBB::Value_Player_AudioPresetId* release_value_player_audiopresetid();
+  ::GoogleProtoBB::Value_Player_AudioPresetId* mutable_value_player_audiopresetid();
+  void set_allocated_value_player_audiopresetid(::GoogleProtoBB::Value_Player_AudioPresetId* value_player_audiopresetid);
+
+  // .GoogleProtoBB.Value_Player_Speed value_Player_Speed = 10;
+  bool has_value_player_speed() const;
+  void clear_value_player_speed();
+  static const int kValuePlayerSpeedFieldNumber = 10;
+  private:
+  const ::GoogleProtoBB::Value_Player_Speed& _internal_value_player_speed() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Speed& value_player_speed() const;
+  ::GoogleProtoBB::Value_Player_Speed* release_value_player_speed();
+  ::GoogleProtoBB::Value_Player_Speed* mutable_value_player_speed();
+  void set_allocated_value_player_speed(::GoogleProtoBB::Value_Player_Speed* value_player_speed);
+
+  // .GoogleProtoBB.Value_Player_Consigne value_Player_Consigne = 11;
+  bool has_value_player_consigne() const;
+  void clear_value_player_consigne();
+  static const int kValuePlayerConsigneFieldNumber = 11;
+  private:
+  const ::GoogleProtoBB::Value_Player_Consigne& _internal_value_player_consigne() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Consigne& value_player_consigne() const;
+  ::GoogleProtoBB::Value_Player_Consigne* release_value_player_consigne();
+  ::GoogleProtoBB::Value_Player_Consigne* mutable_value_player_consigne();
+  void set_allocated_value_player_consigne(::GoogleProtoBB::Value_Player_Consigne* value_player_consigne);
+
+  // .GoogleProtoBB.Value_Player_Mode value_Player_Mode = 12;
+  bool has_value_player_mode() const;
+  void clear_value_player_mode();
+  static const int kValuePlayerModeFieldNumber = 12;
+  private:
+  const ::GoogleProtoBB::Value_Player_Mode& _internal_value_player_mode() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Mode& value_player_mode() const;
+  ::GoogleProtoBB::Value_Player_Mode* release_value_player_mode();
+  ::GoogleProtoBB::Value_Player_Mode* mutable_value_player_mode();
+  void set_allocated_value_player_mode(::GoogleProtoBB::Value_Player_Mode* value_player_mode);
+
+  // .GoogleProtoBB.Value_Player_Extend_Playlist value_Player_Extend_Playlist = 13;
+  bool has_value_player_extend_playlist() const;
+  void clear_value_player_extend_playlist();
+  static const int kValuePlayerExtendPlaylistFieldNumber = 13;
+  private:
+  const ::GoogleProtoBB::Value_Player_Extend_Playlist& _internal_value_player_extend_playlist() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Extend_Playlist& value_player_extend_playlist() const;
+  ::GoogleProtoBB::Value_Player_Extend_Playlist* release_value_player_extend_playlist();
+  ::GoogleProtoBB::Value_Player_Extend_Playlist* mutable_value_player_extend_playlist();
+  void set_allocated_value_player_extend_playlist(::GoogleProtoBB::Value_Player_Extend_Playlist* value_player_extend_playlist);
+
+  // .GoogleProtoBB.Value_Player_Limit_In_Out value_Player_Limit_In_Out = 14;
+  bool has_value_player_limit_in_out() const;
+  void clear_value_player_limit_in_out();
+  static const int kValuePlayerLimitInOutFieldNumber = 14;
+  private:
+  const ::GoogleProtoBB::Value_Player_Limit_In_Out& _internal_value_player_limit_in_out() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Limit_In_Out& value_player_limit_in_out() const;
+  ::GoogleProtoBB::Value_Player_Limit_In_Out* release_value_player_limit_in_out();
+  ::GoogleProtoBB::Value_Player_Limit_In_Out* mutable_value_player_limit_in_out();
+  void set_allocated_value_player_limit_in_out(::GoogleProtoBB::Value_Player_Limit_In_Out* value_player_limit_in_out);
+
+  // .GoogleProtoBB.Value_Player_Loop_Mode value_Player_Loop_Mode = 15;
+  bool has_value_player_loop_mode() const;
+  void clear_value_player_loop_mode();
+  static const int kValuePlayerLoopModeFieldNumber = 15;
+  private:
+  const ::GoogleProtoBB::Value_Player_Loop_Mode& _internal_value_player_loop_mode() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Loop_Mode& value_player_loop_mode() const;
+  ::GoogleProtoBB::Value_Player_Loop_Mode* release_value_player_loop_mode();
+  ::GoogleProtoBB::Value_Player_Loop_Mode* mutable_value_player_loop_mode();
+  void set_allocated_value_player_loop_mode(::GoogleProtoBB::Value_Player_Loop_Mode* value_player_loop_mode);
+
+  // .GoogleProtoBB.Value_Player_Loop_Count value_Player_Loop_Count = 16;
+  bool has_value_player_loop_count() const;
+  void clear_value_player_loop_count();
+  static const int kValuePlayerLoopCountFieldNumber = 16;
+  private:
+  const ::GoogleProtoBB::Value_Player_Loop_Count& _internal_value_player_loop_count() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Loop_Count& value_player_loop_count() const;
+  ::GoogleProtoBB::Value_Player_Loop_Count* release_value_player_loop_count();
+  ::GoogleProtoBB::Value_Player_Loop_Count* mutable_value_player_loop_count();
+  void set_allocated_value_player_loop_count(::GoogleProtoBB::Value_Player_Loop_Count* value_player_loop_count);
+
+  // .GoogleProtoBB.Value_Player_Playlist_ID value_Player_Playlist_ID = 17;
+  bool has_value_player_playlist_id() const;
+  void clear_value_player_playlist_id();
+  static const int kValuePlayerPlaylistIDFieldNumber = 17;
+  private:
+  const ::GoogleProtoBB::Value_Player_Playlist_ID& _internal_value_player_playlist_id() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Playlist_ID& value_player_playlist_id() const;
+  ::GoogleProtoBB::Value_Player_Playlist_ID* release_value_player_playlist_id();
+  ::GoogleProtoBB::Value_Player_Playlist_ID* mutable_value_player_playlist_id();
+  void set_allocated_value_player_playlist_id(::GoogleProtoBB::Value_Player_Playlist_ID* value_player_playlist_id);
+
+  // .GoogleProtoBB.Value_Player_Playlist_Element_ID value_Player_Playlist_Element_ID = 18;
+  bool has_value_player_playlist_element_id() const;
+  void clear_value_player_playlist_element_id();
+  static const int kValuePlayerPlaylistElementIDFieldNumber = 18;
+  private:
+  const ::GoogleProtoBB::Value_Player_Playlist_Element_ID& _internal_value_player_playlist_element_id() const;
+  public:
+  const ::GoogleProtoBB::Value_Player_Playlist_Element_ID& value_player_playlist_element_id() const;
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID* release_value_player_playlist_element_id();
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID* mutable_value_player_playlist_element_id();
+  void set_allocated_value_player_playlist_element_id(::GoogleProtoBB::Value_Player_Playlist_Element_ID* value_player_playlist_element_id);
+
+  // .GoogleProtoBB.Value_DVE_Mode value_DVE_Mode = 19;
+  bool has_value_dve_mode() const;
+  void clear_value_dve_mode();
+  static const int kValueDVEModeFieldNumber = 19;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Mode& _internal_value_dve_mode() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Mode& value_dve_mode() const;
+  ::GoogleProtoBB::Value_DVE_Mode* release_value_dve_mode();
+  ::GoogleProtoBB::Value_DVE_Mode* mutable_value_dve_mode();
+  void set_allocated_value_dve_mode(::GoogleProtoBB::Value_DVE_Mode* value_dve_mode);
+
+  // .GoogleProtoBB.Value_DVE_Type value_DVE_Type = 20;
+  bool has_value_dve_type() const;
+  void clear_value_dve_type();
+  static const int kValueDVETypeFieldNumber = 20;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Type& _internal_value_dve_type() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Type& value_dve_type() const;
+  ::GoogleProtoBB::Value_DVE_Type* release_value_dve_type();
+  ::GoogleProtoBB::Value_DVE_Type* mutable_value_dve_type();
+  void set_allocated_value_dve_type(::GoogleProtoBB::Value_DVE_Type* value_dve_type);
+
+  // .GoogleProtoBB.Value_DVE_Channel value_DVE_Channel = 21;
+  bool has_value_dve_channel() const;
+  void clear_value_dve_channel();
+  static const int kValueDVEChannelFieldNumber = 21;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Channel& _internal_value_dve_channel() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Channel& value_dve_channel() const;
+  ::GoogleProtoBB::Value_DVE_Channel* release_value_dve_channel();
+  ::GoogleProtoBB::Value_DVE_Channel* mutable_value_dve_channel();
+  void set_allocated_value_dve_channel(::GoogleProtoBB::Value_DVE_Channel* value_dve_channel);
+
+  // .GoogleProtoBB.Value_DVE_Num value_DVE_Num = 22;
+  bool has_value_dve_num() const;
+  void clear_value_dve_num();
+  static const int kValueDVENumFieldNumber = 22;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Num& _internal_value_dve_num() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Num& value_dve_num() const;
+  ::GoogleProtoBB::Value_DVE_Num* release_value_dve_num();
+  ::GoogleProtoBB::Value_DVE_Num* mutable_value_dve_num();
+  void set_allocated_value_dve_num(::GoogleProtoBB::Value_DVE_Num* value_dve_num);
+
+  // .GoogleProtoBB.Value_DVE_Den value_DVE_Den = 23;
+  bool has_value_dve_den() const;
+  void clear_value_dve_den();
+  static const int kValueDVEDenFieldNumber = 23;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Den& _internal_value_dve_den() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Den& value_dve_den() const;
+  ::GoogleProtoBB::Value_DVE_Den* release_value_dve_den();
+  ::GoogleProtoBB::Value_DVE_Den* mutable_value_dve_den();
+  void set_allocated_value_dve_den(::GoogleProtoBB::Value_DVE_Den* value_dve_den);
+
+  // .GoogleProtoBB.Value_DVE_CutThreshold value_DVE_CutThreshold = 24;
+  bool has_value_dve_cutthreshold() const;
+  void clear_value_dve_cutthreshold();
+  static const int kValueDVECutThresholdFieldNumber = 24;
+  private:
+  const ::GoogleProtoBB::Value_DVE_CutThreshold& _internal_value_dve_cutthreshold() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_CutThreshold& value_dve_cutthreshold() const;
+  ::GoogleProtoBB::Value_DVE_CutThreshold* release_value_dve_cutthreshold();
+  ::GoogleProtoBB::Value_DVE_CutThreshold* mutable_value_dve_cutthreshold();
+  void set_allocated_value_dve_cutthreshold(::GoogleProtoBB::Value_DVE_CutThreshold* value_dve_cutthreshold);
+
+  // .GoogleProtoBB.Value_DVE_Custom_Transparency value_DVE_Custom_Transparency = 25;
+  bool has_value_dve_custom_transparency() const;
+  void clear_value_dve_custom_transparency();
+  static const int kValueDVECustomTransparencyFieldNumber = 25;
+  private:
+  const ::GoogleProtoBB::Value_DVE_Custom_Transparency& _internal_value_dve_custom_transparency() const;
+  public:
+  const ::GoogleProtoBB::Value_DVE_Custom_Transparency& value_dve_custom_transparency() const;
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency* release_value_dve_custom_transparency();
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency* mutable_value_dve_custom_transparency();
+  void set_allocated_value_dve_custom_transparency(::GoogleProtoBB::Value_DVE_Custom_Transparency* value_dve_custom_transparency);
+
+  // .GoogleProtoBB.Value_RTD_Status value_RTD_Status = 26;
+  bool has_value_rtd_status() const;
+  void clear_value_rtd_status();
+  static const int kValueRTDStatusFieldNumber = 26;
+  private:
+  const ::GoogleProtoBB::Value_RTD_Status& _internal_value_rtd_status() const;
+  public:
+  const ::GoogleProtoBB::Value_RTD_Status& value_rtd_status() const;
+  ::GoogleProtoBB::Value_RTD_Status* release_value_rtd_status();
+  ::GoogleProtoBB::Value_RTD_Status* mutable_value_rtd_status();
+  void set_allocated_value_rtd_status(::GoogleProtoBB::Value_RTD_Status* value_rtd_status);
+
+  // .GoogleProtoBB.Value_RTD_Type value_RTD_Type = 27;
+  bool has_value_rtd_type() const;
+  void clear_value_rtd_type();
+  static const int kValueRTDTypeFieldNumber = 27;
+  private:
+  const ::GoogleProtoBB::Value_RTD_Type& _internal_value_rtd_type() const;
+  public:
+  const ::GoogleProtoBB::Value_RTD_Type& value_rtd_type() const;
+  ::GoogleProtoBB::Value_RTD_Type* release_value_rtd_type();
+  ::GoogleProtoBB::Value_RTD_Type* mutable_value_rtd_type();
+  void set_allocated_value_rtd_type(::GoogleProtoBB::Value_RTD_Type* value_rtd_type);
+
+  // .GoogleProtoBB.Value_RTD_Position value_RTD_Position = 28;
+  bool has_value_rtd_position() const;
+  void clear_value_rtd_position();
+  static const int kValueRTDPositionFieldNumber = 28;
+  private:
+  const ::GoogleProtoBB::Value_RTD_Position& _internal_value_rtd_position() const;
+  public:
+  const ::GoogleProtoBB::Value_RTD_Position& value_rtd_position() const;
+  ::GoogleProtoBB::Value_RTD_Position* release_value_rtd_position();
+  ::GoogleProtoBB::Value_RTD_Position* mutable_value_rtd_position();
+  void set_allocated_value_rtd_position(::GoogleProtoBB::Value_RTD_Position* value_rtd_position);
+
+  // .GoogleProtoBB.Value_GFX_Status value_GFX_Status = 29;
+  bool has_value_gfx_status() const;
+  void clear_value_gfx_status();
+  static const int kValueGFXStatusFieldNumber = 29;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Status& _internal_value_gfx_status() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Status& value_gfx_status() const;
+  ::GoogleProtoBB::Value_GFX_Status* release_value_gfx_status();
+  ::GoogleProtoBB::Value_GFX_Status* mutable_value_gfx_status();
+  void set_allocated_value_gfx_status(::GoogleProtoBB::Value_GFX_Status* value_gfx_status);
+
+  // .GoogleProtoBB.Value_GFX_Position value_GFX_Position = 30;
+  bool has_value_gfx_position() const;
+  void clear_value_gfx_position();
+  static const int kValueGFXPositionFieldNumber = 30;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Position& _internal_value_gfx_position() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Position& value_gfx_position() const;
+  ::GoogleProtoBB::Value_GFX_Position* release_value_gfx_position();
+  ::GoogleProtoBB::Value_GFX_Position* mutable_value_gfx_position();
+  void set_allocated_value_gfx_position(::GoogleProtoBB::Value_GFX_Position* value_gfx_position);
+
+  // .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration value_GFX_Fade_In_Out_Duration = 31;
+  bool has_value_gfx_fade_in_out_duration() const;
+  void clear_value_gfx_fade_in_out_duration();
+  static const int kValueGFXFadeInOutDurationFieldNumber = 31;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration& _internal_value_gfx_fade_in_out_duration() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration& value_gfx_fade_in_out_duration() const;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* release_value_gfx_fade_in_out_duration();
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* mutable_value_gfx_fade_in_out_duration();
+  void set_allocated_value_gfx_fade_in_out_duration(::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* value_gfx_fade_in_out_duration);
+
+  // .GoogleProtoBB.Value_GFX_Loop_In_Out value_GFX_Loop_In_Out = 32;
+  bool has_value_gfx_loop_in_out() const;
+  void clear_value_gfx_loop_in_out();
+  static const int kValueGFXLoopInOutFieldNumber = 32;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Loop_In_Out& _internal_value_gfx_loop_in_out() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Loop_In_Out& value_gfx_loop_in_out() const;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out* release_value_gfx_loop_in_out();
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out* mutable_value_gfx_loop_in_out();
+  void set_allocated_value_gfx_loop_in_out(::GoogleProtoBB::Value_GFX_Loop_In_Out* value_gfx_loop_in_out);
+
+  // .GoogleProtoBB.Value_GFX_Loop_Count value_GFX_Loop_Count = 33;
+  bool has_value_gfx_loop_count() const;
+  void clear_value_gfx_loop_count();
+  static const int kValueGFXLoopCountFieldNumber = 33;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Loop_Count& _internal_value_gfx_loop_count() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Loop_Count& value_gfx_loop_count() const;
+  ::GoogleProtoBB::Value_GFX_Loop_Count* release_value_gfx_loop_count();
+  ::GoogleProtoBB::Value_GFX_Loop_Count* mutable_value_gfx_loop_count();
+  void set_allocated_value_gfx_loop_count(::GoogleProtoBB::Value_GFX_Loop_Count* value_gfx_loop_count);
+
+  // .GoogleProtoBB.Value_GFX_Preload_Status value_GFX_Preload_Status = 34;
+  bool has_value_gfx_preload_status() const;
+  void clear_value_gfx_preload_status();
+  static const int kValueGFXPreloadStatusFieldNumber = 34;
+  private:
+  const ::GoogleProtoBB::Value_GFX_Preload_Status& _internal_value_gfx_preload_status() const;
+  public:
+  const ::GoogleProtoBB::Value_GFX_Preload_Status& value_gfx_preload_status() const;
+  ::GoogleProtoBB::Value_GFX_Preload_Status* release_value_gfx_preload_status();
+  ::GoogleProtoBB::Value_GFX_Preload_Status* mutable_value_gfx_preload_status();
+  void set_allocated_value_gfx_preload_status(::GoogleProtoBB::Value_GFX_Preload_Status* value_gfx_preload_status);
+
+  // .GoogleProtoBB.Value_HealthInfo_Version value_HealthInfo_Version = 35;
+  bool has_value_healthinfo_version() const;
+  void clear_value_healthinfo_version();
+  static const int kValueHealthInfoVersionFieldNumber = 35;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_Version& _internal_value_healthinfo_version() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_Version& value_healthinfo_version() const;
+  ::GoogleProtoBB::Value_HealthInfo_Version* release_value_healthinfo_version();
+  ::GoogleProtoBB::Value_HealthInfo_Version* mutable_value_healthinfo_version();
+  void set_allocated_value_healthinfo_version(::GoogleProtoBB::Value_HealthInfo_Version* value_healthinfo_version);
+
+  // .GoogleProtoBB.Value_HealthInfo_Mixer_Status value_HealthInfo_Mixer_Status = 36;
+  bool has_value_healthinfo_mixer_status() const;
+  void clear_value_healthinfo_mixer_status();
+  static const int kValueHealthInfoMixerStatusFieldNumber = 36;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status& _internal_value_healthinfo_mixer_status() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status& value_healthinfo_mixer_status() const;
+  ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* release_value_healthinfo_mixer_status();
+  ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* mutable_value_healthinfo_mixer_status();
+  void set_allocated_value_healthinfo_mixer_status(::GoogleProtoBB::Value_HealthInfo_Mixer_Status* value_healthinfo_mixer_status);
+
+  // .GoogleProtoBB.Value_HealthInfo_Network_Bandwidth value_HealthInfo_Network_Bandwidth = 37;
+  bool has_value_healthinfo_network_bandwidth() const;
+  void clear_value_healthinfo_network_bandwidth();
+  static const int kValueHealthInfoNetworkBandwidthFieldNumber = 37;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth& _internal_value_healthinfo_network_bandwidth() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth& value_healthinfo_network_bandwidth() const;
+  ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* release_value_healthinfo_network_bandwidth();
+  ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* mutable_value_healthinfo_network_bandwidth();
+  void set_allocated_value_healthinfo_network_bandwidth(::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* value_healthinfo_network_bandwidth);
+
+  // .GoogleProtoBB.Value_HealthInfo_GPU_Temperature value_HealthInfo_GPU_Temperature = 38;
+  bool has_value_healthinfo_gpu_temperature() const;
+  void clear_value_healthinfo_gpu_temperature();
+  static const int kValueHealthInfoGPUTemperatureFieldNumber = 38;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature& _internal_value_healthinfo_gpu_temperature() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature& value_healthinfo_gpu_temperature() const;
+  ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* release_value_healthinfo_gpu_temperature();
+  ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* mutable_value_healthinfo_gpu_temperature();
+  void set_allocated_value_healthinfo_gpu_temperature(::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* value_healthinfo_gpu_temperature);
+
+  // .GoogleProtoBB.Value_HealthInfo_AJA_Status value_HealthInfo_AJA_Status = 39;
+  bool has_value_healthinfo_aja_status() const;
+  void clear_value_healthinfo_aja_status();
+  static const int kValueHealthInfoAJAStatusFieldNumber = 39;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_AJA_Status& _internal_value_healthinfo_aja_status() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_AJA_Status& value_healthinfo_aja_status() const;
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status* release_value_healthinfo_aja_status();
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status* mutable_value_healthinfo_aja_status();
+  void set_allocated_value_healthinfo_aja_status(::GoogleProtoBB::Value_HealthInfo_AJA_Status* value_healthinfo_aja_status);
+
+  // .GoogleProtoBB.Value_HealthInfo_HDD_Status value_HealthInfo_HDD_Status = 40;
+  bool has_value_healthinfo_hdd_status() const;
+  void clear_value_healthinfo_hdd_status();
+  static const int kValueHealthInfoHDDStatusFieldNumber = 40;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_HDD_Status& _internal_value_healthinfo_hdd_status() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_HDD_Status& value_healthinfo_hdd_status() const;
+  ::GoogleProtoBB::Value_HealthInfo_HDD_Status* release_value_healthinfo_hdd_status();
+  ::GoogleProtoBB::Value_HealthInfo_HDD_Status* mutable_value_healthinfo_hdd_status();
+  void set_allocated_value_healthinfo_hdd_status(::GoogleProtoBB::Value_HealthInfo_HDD_Status* value_healthinfo_hdd_status);
+
+  // .GoogleProtoBB.Value_HealthInfo_ASIO_Status value_HealthInfo_ASIO_Status = 41;
+  bool has_value_healthinfo_asio_status() const;
+  void clear_value_healthinfo_asio_status();
+  static const int kValueHealthInfoASIOStatusFieldNumber = 41;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status& _internal_value_healthinfo_asio_status() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status& value_healthinfo_asio_status() const;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* release_value_healthinfo_asio_status();
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* mutable_value_healthinfo_asio_status();
+  void set_allocated_value_healthinfo_asio_status(::GoogleProtoBB::Value_HealthInfo_ASIO_Status* value_healthinfo_asio_status);
+
+  // .GoogleProtoBB.Value_HealthInfo_External_TimeCode value_HealthInfo_External_TimeCode = 42;
+  bool has_value_healthinfo_external_timecode() const;
+  void clear_value_healthinfo_external_timecode();
+  static const int kValueHealthInfoExternalTimeCodeFieldNumber = 42;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode& _internal_value_healthinfo_external_timecode() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode& value_healthinfo_external_timecode() const;
+  ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* release_value_healthinfo_external_timecode();
+  ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* mutable_value_healthinfo_external_timecode();
+  void set_allocated_value_healthinfo_external_timecode(::GoogleProtoBB::Value_HealthInfo_External_TimeCode* value_healthinfo_external_timecode);
+
+  // .GoogleProtoBB.Value_CustomInfo value_CustomInfo = 43;
+  bool has_value_custominfo() const;
+  void clear_value_custominfo();
+  static const int kValueCustomInfoFieldNumber = 43;
+  private:
+  const ::GoogleProtoBB::Value_CustomInfo& _internal_value_custominfo() const;
+  public:
+  const ::GoogleProtoBB::Value_CustomInfo& value_custominfo() const;
+  ::GoogleProtoBB::Value_CustomInfo* release_value_custominfo();
+  ::GoogleProtoBB::Value_CustomInfo* mutable_value_custominfo();
+  void set_allocated_value_custominfo(::GoogleProtoBB::Value_CustomInfo* value_custominfo);
+
+  // .GoogleProtoBB.Value_BMR_Setting value_BMR_Setting = 44;
+  bool has_value_bmr_setting() const;
+  void clear_value_bmr_setting();
+  static const int kValueBMRSettingFieldNumber = 44;
+  private:
+  const ::GoogleProtoBB::Value_BMR_Setting& _internal_value_bmr_setting() const;
+  public:
+  const ::GoogleProtoBB::Value_BMR_Setting& value_bmr_setting() const;
+  ::GoogleProtoBB::Value_BMR_Setting* release_value_bmr_setting();
+  ::GoogleProtoBB::Value_BMR_Setting* mutable_value_bmr_setting();
+  void set_allocated_value_bmr_setting(::GoogleProtoBB::Value_BMR_Setting* value_bmr_setting);
+
+  // .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM value_VuMeter_Live_Mixer_PGM = 45;
+  bool has_value_vumeter_live_mixer_pgm() const;
+  void clear_value_vumeter_live_mixer_pgm();
+  static const int kValueVuMeterLiveMixerPGMFieldNumber = 45;
+  private:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM& _internal_value_vumeter_live_mixer_pgm() const;
+  public:
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM& value_vumeter_live_mixer_pgm() const;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* release_value_vumeter_live_mixer_pgm();
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* mutable_value_vumeter_live_mixer_pgm();
+  void set_allocated_value_vumeter_live_mixer_pgm(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* value_vumeter_live_mixer_pgm);
+
+  // .GoogleProtoBB.Value_PiP_Status value_PiP_Status = 46;
+  bool has_value_pip_status() const;
+  void clear_value_pip_status();
+  static const int kValuePiPStatusFieldNumber = 46;
+  private:
+  const ::GoogleProtoBB::Value_PiP_Status& _internal_value_pip_status() const;
+  public:
+  const ::GoogleProtoBB::Value_PiP_Status& value_pip_status() const;
+  ::GoogleProtoBB::Value_PiP_Status* release_value_pip_status();
+  ::GoogleProtoBB::Value_PiP_Status* mutable_value_pip_status();
+  void set_allocated_value_pip_status(::GoogleProtoBB::Value_PiP_Status* value_pip_status);
+
+  // .GoogleProtoBB.Value_Server_Memory value_Server_Memory = 47;
+  bool has_value_server_memory() const;
+  void clear_value_server_memory();
+  static const int kValueServerMemoryFieldNumber = 47;
+  private:
+  const ::GoogleProtoBB::Value_Server_Memory& _internal_value_server_memory() const;
+  public:
+  const ::GoogleProtoBB::Value_Server_Memory& value_server_memory() const;
+  ::GoogleProtoBB::Value_Server_Memory* release_value_server_memory();
+  ::GoogleProtoBB::Value_Server_Memory* mutable_value_server_memory();
+  void set_allocated_value_server_memory(::GoogleProtoBB::Value_Server_Memory* value_server_memory);
+
+  // .GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo value_Cache_ReplayPlayer_HighResVideo = 48;
+  bool has_value_cache_replayplayer_highresvideo() const;
+  void clear_value_cache_replayplayer_highresvideo();
+  static const int kValueCacheReplayPlayerHighResVideoFieldNumber = 48;
+  private:
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo& _internal_value_cache_replayplayer_highresvideo() const;
+  public:
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo& value_cache_replayplayer_highresvideo() const;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* release_value_cache_replayplayer_highresvideo();
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* mutable_value_cache_replayplayer_highresvideo();
+  void set_allocated_value_cache_replayplayer_highresvideo(::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* value_cache_replayplayer_highresvideo);
+
+  // .GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio value_Cache_ReplayPlayer_ExternalAudio = 49;
+  bool has_value_cache_replayplayer_externalaudio() const;
+  void clear_value_cache_replayplayer_externalaudio();
+  static const int kValueCacheReplayPlayerExternalAudioFieldNumber = 49;
+  private:
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio& _internal_value_cache_replayplayer_externalaudio() const;
+  public:
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio& value_cache_replayplayer_externalaudio() const;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* release_value_cache_replayplayer_externalaudio();
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* mutable_value_cache_replayplayer_externalaudio();
+  void set_allocated_value_cache_replayplayer_externalaudio(::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* value_cache_replayplayer_externalaudio);
+
+  // .GoogleProtoBB.Value_Storage_Capacity value_Storage_Capacity = 50;
+  bool has_value_storage_capacity() const;
+  void clear_value_storage_capacity();
+  static const int kValueStorageCapacityFieldNumber = 50;
+  private:
+  const ::GoogleProtoBB::Value_Storage_Capacity& _internal_value_storage_capacity() const;
+  public:
+  const ::GoogleProtoBB::Value_Storage_Capacity& value_storage_capacity() const;
+  ::GoogleProtoBB::Value_Storage_Capacity* release_value_storage_capacity();
+  ::GoogleProtoBB::Value_Storage_Capacity* mutable_value_storage_capacity();
+  void set_allocated_value_storage_capacity(::GoogleProtoBB::Value_Storage_Capacity* value_storage_capacity);
+
+  // .GoogleProtoBB.Value_HealthInfo_ReferenceStatus value_HealthInfo_ReferenceStatus = 51;
+  bool has_value_healthinfo_referencestatus() const;
+  void clear_value_healthinfo_referencestatus();
+  static const int kValueHealthInfoReferenceStatusFieldNumber = 51;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus& _internal_value_healthinfo_referencestatus() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus& value_healthinfo_referencestatus() const;
+  ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* release_value_healthinfo_referencestatus();
+  ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* mutable_value_healthinfo_referencestatus();
+  void set_allocated_value_healthinfo_referencestatus(::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* value_healthinfo_referencestatus);
+
+  // .GoogleProtoBB.Value_HealthInfo_SerialNumber value_HealthInfo_SerialNumber = 52;
+  bool has_value_healthinfo_serialnumber() const;
+  void clear_value_healthinfo_serialnumber();
+  static const int kValueHealthInfoSerialNumberFieldNumber = 52;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_SerialNumber& _internal_value_healthinfo_serialnumber() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_SerialNumber& value_healthinfo_serialnumber() const;
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber* release_value_healthinfo_serialnumber();
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber* mutable_value_healthinfo_serialnumber();
+  void set_allocated_value_healthinfo_serialnumber(::GoogleProtoBB::Value_HealthInfo_SerialNumber* value_healthinfo_serialnumber);
+
+  // .GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam value_HealthInfo_RemainingTimePerCam = 53;
+  bool has_value_healthinfo_remainingtimepercam() const;
+  void clear_value_healthinfo_remainingtimepercam();
+  static const int kValueHealthInfoRemainingTimePerCamFieldNumber = 53;
+  private:
+  const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam& _internal_value_healthinfo_remainingtimepercam() const;
+  public:
+  const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam& value_healthinfo_remainingtimepercam() const;
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* release_value_healthinfo_remainingtimepercam();
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* mutable_value_healthinfo_remainingtimepercam();
+  void set_allocated_value_healthinfo_remainingtimepercam(::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* value_healthinfo_remainingtimepercam);
+
+  // .GoogleProtoBB.Value_Film_Effect_Status value_Film_Effect_Status = 54;
+  bool has_value_film_effect_status() const;
+  void clear_value_film_effect_status();
+  static const int kValueFilmEffectStatusFieldNumber = 54;
+  private:
+  const ::GoogleProtoBB::Value_Film_Effect_Status& _internal_value_film_effect_status() const;
+  public:
+  const ::GoogleProtoBB::Value_Film_Effect_Status& value_film_effect_status() const;
+  ::GoogleProtoBB::Value_Film_Effect_Status* release_value_film_effect_status();
+  ::GoogleProtoBB::Value_Film_Effect_Status* mutable_value_film_effect_status();
+  void set_allocated_value_film_effect_status(::GoogleProtoBB::Value_Film_Effect_Status* value_film_effect_status);
+
+  // .GoogleProtoBB.Value_Common_TimeReference value_Common_TimeReference = 55;
+  bool has_value_common_timereference() const;
+  void clear_value_common_timereference();
+  static const int kValueCommonTimeReferenceFieldNumber = 55;
+  private:
+  const ::GoogleProtoBB::Value_Common_TimeReference& _internal_value_common_timereference() const;
+  public:
+  const ::GoogleProtoBB::Value_Common_TimeReference& value_common_timereference() const;
+  ::GoogleProtoBB::Value_Common_TimeReference* release_value_common_timereference();
+  ::GoogleProtoBB::Value_Common_TimeReference* mutable_value_common_timereference();
+  void set_allocated_value_common_timereference(::GoogleProtoBB::Value_Common_TimeReference* value_common_timereference);
 
   // @@protoc_insertion_point(class_scope:GoogleProtoBB.BroadCastData)
  private:
 
   ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
-  ::GoogleProtoBB::Value_Recorder_Train_In_Out* recorder_train_in_out_;
-  ::GoogleProtoBB::Value_Player_Status* player_status_;
-  ::GoogleProtoBB::Value_Camera_Type* camera_type_;
-  ::GoogleProtoBB::Value_Recorder_ClosedCaption* recorder_closedcaption_;
-  ::GoogleProtoBB::Value_Player_ClosedCaption* player_closedcaption_;
+  ::GoogleProtoBB::Value_Recorder_Train_In_Out* value_recorder_train_in_out_;
+  ::GoogleProtoBB::Value_Player_Status* value_player_status_;
+  ::GoogleProtoBB::Value_Camera_Type* value_camera_type_;
+  ::GoogleProtoBB::Value_Recorder_ClosedCaption* value_recorder_closedcaption_;
+  ::GoogleProtoBB::Value_Player_ClosedCaption* value_player_closedcaption_;
+  ::GoogleProtoBB::Value_Player_Group* value_player_group_;
+  ::GoogleProtoBB::Value_Player_Camera* value_player_camera_;
+  ::GoogleProtoBB::Value_Player_Type* value_player_type_;
+  ::GoogleProtoBB::Value_Player_AudioPresetId* value_player_audiopresetid_;
+  ::GoogleProtoBB::Value_Player_Speed* value_player_speed_;
+  ::GoogleProtoBB::Value_Player_Consigne* value_player_consigne_;
+  ::GoogleProtoBB::Value_Player_Mode* value_player_mode_;
+  ::GoogleProtoBB::Value_Player_Extend_Playlist* value_player_extend_playlist_;
+  ::GoogleProtoBB::Value_Player_Limit_In_Out* value_player_limit_in_out_;
+  ::GoogleProtoBB::Value_Player_Loop_Mode* value_player_loop_mode_;
+  ::GoogleProtoBB::Value_Player_Loop_Count* value_player_loop_count_;
+  ::GoogleProtoBB::Value_Player_Playlist_ID* value_player_playlist_id_;
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID* value_player_playlist_element_id_;
+  ::GoogleProtoBB::Value_DVE_Mode* value_dve_mode_;
+  ::GoogleProtoBB::Value_DVE_Type* value_dve_type_;
+  ::GoogleProtoBB::Value_DVE_Channel* value_dve_channel_;
+  ::GoogleProtoBB::Value_DVE_Num* value_dve_num_;
+  ::GoogleProtoBB::Value_DVE_Den* value_dve_den_;
+  ::GoogleProtoBB::Value_DVE_CutThreshold* value_dve_cutthreshold_;
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency* value_dve_custom_transparency_;
+  ::GoogleProtoBB::Value_RTD_Status* value_rtd_status_;
+  ::GoogleProtoBB::Value_RTD_Type* value_rtd_type_;
+  ::GoogleProtoBB::Value_RTD_Position* value_rtd_position_;
+  ::GoogleProtoBB::Value_GFX_Status* value_gfx_status_;
+  ::GoogleProtoBB::Value_GFX_Position* value_gfx_position_;
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* value_gfx_fade_in_out_duration_;
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out* value_gfx_loop_in_out_;
+  ::GoogleProtoBB::Value_GFX_Loop_Count* value_gfx_loop_count_;
+  ::GoogleProtoBB::Value_GFX_Preload_Status* value_gfx_preload_status_;
+  ::GoogleProtoBB::Value_HealthInfo_Version* value_healthinfo_version_;
+  ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* value_healthinfo_mixer_status_;
+  ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* value_healthinfo_network_bandwidth_;
+  ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* value_healthinfo_gpu_temperature_;
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status* value_healthinfo_aja_status_;
+  ::GoogleProtoBB::Value_HealthInfo_HDD_Status* value_healthinfo_hdd_status_;
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* value_healthinfo_asio_status_;
+  ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* value_healthinfo_external_timecode_;
+  ::GoogleProtoBB::Value_CustomInfo* value_custominfo_;
+  ::GoogleProtoBB::Value_BMR_Setting* value_bmr_setting_;
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* value_vumeter_live_mixer_pgm_;
+  ::GoogleProtoBB::Value_PiP_Status* value_pip_status_;
+  ::GoogleProtoBB::Value_Server_Memory* value_server_memory_;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* value_cache_replayplayer_highresvideo_;
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* value_cache_replayplayer_externalaudio_;
+  ::GoogleProtoBB::Value_Storage_Capacity* value_storage_capacity_;
+  ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* value_healthinfo_referencestatus_;
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber* value_healthinfo_serialnumber_;
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* value_healthinfo_remainingtimepercam_;
+  ::GoogleProtoBB::Value_Film_Effect_Status* value_film_effect_status_;
+  ::GoogleProtoBB::Value_Common_TimeReference* value_common_timereference_;
   mutable ::google::protobuf::internal::CachedSize _cached_size_;
   friend struct ::protobuf_broadcast_2eproto::TableStruct;
 };
@@ -1865,281 +14461,8062 @@ Value_Player_ClosedCaption::items() const {
 
 // -------------------------------------------------------------------
 
+// Value_Player_Group_GroupInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Group_GroupInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Group_GroupInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Group.GroupInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Group_GroupInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Group.GroupInfo.id)
+}
+
+// uint32 group = 2;
+inline void Value_Player_Group_GroupInfo::clear_group() {
+  group_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Group_GroupInfo::group() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Group.GroupInfo.group)
+  return group_;
+}
+inline void Value_Player_Group_GroupInfo::set_group(::google::protobuf::uint32 value) {
+  
+  group_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Group.GroupInfo.group)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Group
+
+// uint32 count = 1;
+inline void Value_Player_Group::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Group::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Group.count)
+  return count_;
+}
+inline void Value_Player_Group::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Group.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Group.GroupInfo groupInfo = 2;
+inline int Value_Player_Group::groupinfo_size() const {
+  return groupinfo_.size();
+}
+inline void Value_Player_Group::clear_groupinfo() {
+  groupinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Group_GroupInfo* Value_Player_Group::mutable_groupinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Group.groupInfo)
+  return groupinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Group_GroupInfo >*
+Value_Player_Group::mutable_groupinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Group.groupInfo)
+  return &groupinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Group_GroupInfo& Value_Player_Group::groupinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Group.groupInfo)
+  return groupinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Group_GroupInfo* Value_Player_Group::add_groupinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Group.groupInfo)
+  return groupinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Group_GroupInfo >&
+Value_Player_Group::groupinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Group.groupInfo)
+  return groupinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Camera_CameraInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Camera_CameraInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Camera_CameraInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Camera.CameraInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Camera_CameraInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Camera.CameraInfo.id)
+}
+
+// .GoogleProtoBB.CamID camera = 2;
+inline void Value_Player_Camera_CameraInfo::clear_camera() {
+  camera_ = 0;
+}
+inline ::GoogleProtoBB::CamID Value_Player_Camera_CameraInfo::camera() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Camera.CameraInfo.camera)
+  return static_cast< ::GoogleProtoBB::CamID >(camera_);
+}
+inline void Value_Player_Camera_CameraInfo::set_camera(::GoogleProtoBB::CamID value) {
+  
+  camera_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Camera.CameraInfo.camera)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Camera
+
+// uint32 count = 1;
+inline void Value_Player_Camera::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Camera::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Camera.count)
+  return count_;
+}
+inline void Value_Player_Camera::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Camera.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Camera.CameraInfo cameraInfo = 2;
+inline int Value_Player_Camera::camerainfo_size() const {
+  return camerainfo_.size();
+}
+inline void Value_Player_Camera::clear_camerainfo() {
+  camerainfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Camera_CameraInfo* Value_Player_Camera::mutable_camerainfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Camera.cameraInfo)
+  return camerainfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Camera_CameraInfo >*
+Value_Player_Camera::mutable_camerainfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Camera.cameraInfo)
+  return &camerainfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Camera_CameraInfo& Value_Player_Camera::camerainfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Camera.cameraInfo)
+  return camerainfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Camera_CameraInfo* Value_Player_Camera::add_camerainfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Camera.cameraInfo)
+  return camerainfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Camera_CameraInfo >&
+Value_Player_Camera::camerainfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Camera.cameraInfo)
+  return camerainfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Type_TypeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Type_TypeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Type_TypeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Type.TypeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Type_TypeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Type.TypeInfo.id)
+}
+
+// .GoogleProtoBB.Value_Player_Type.PlayerType type = 2;
+inline void Value_Player_Type_TypeInfo::clear_type() {
+  type_ = 0;
+}
+inline ::GoogleProtoBB::Value_Player_Type_PlayerType Value_Player_Type_TypeInfo::type() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Type.TypeInfo.type)
+  return static_cast< ::GoogleProtoBB::Value_Player_Type_PlayerType >(type_);
+}
+inline void Value_Player_Type_TypeInfo::set_type(::GoogleProtoBB::Value_Player_Type_PlayerType value) {
+  
+  type_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Type.TypeInfo.type)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Type
+
+// uint32 count = 1;
+inline void Value_Player_Type::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Type::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Type.count)
+  return count_;
+}
+inline void Value_Player_Type::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Type.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Type.TypeInfo typeInfo = 2;
+inline int Value_Player_Type::typeinfo_size() const {
+  return typeinfo_.size();
+}
+inline void Value_Player_Type::clear_typeinfo() {
+  typeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Type_TypeInfo* Value_Player_Type::mutable_typeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Type.typeInfo)
+  return typeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Type_TypeInfo >*
+Value_Player_Type::mutable_typeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Type.typeInfo)
+  return &typeinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Type_TypeInfo& Value_Player_Type::typeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Type.typeInfo)
+  return typeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Type_TypeInfo* Value_Player_Type::add_typeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Type.typeInfo)
+  return typeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Type_TypeInfo >&
+Value_Player_Type::typeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Type.typeInfo)
+  return typeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_AudioPresetId_TypeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_AudioPresetId_TypeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_AudioPresetId_TypeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_AudioPresetId_TypeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.id)
+}
+
+// uint32 audioPresetId = 2;
+inline void Value_Player_AudioPresetId_TypeInfo::clear_audiopresetid() {
+  audiopresetid_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_AudioPresetId_TypeInfo::audiopresetid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.audioPresetId)
+  return audiopresetid_;
+}
+inline void Value_Player_AudioPresetId_TypeInfo::set_audiopresetid(::google::protobuf::uint32 value) {
+  
+  audiopresetid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo.audioPresetId)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_AudioPresetId
+
+// uint32 count = 1;
+inline void Value_Player_AudioPresetId::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_AudioPresetId::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_AudioPresetId.count)
+  return count_;
+}
+inline void Value_Player_AudioPresetId::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_AudioPresetId.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_AudioPresetId.TypeInfo typeInfo = 2;
+inline int Value_Player_AudioPresetId::typeinfo_size() const {
+  return typeinfo_.size();
+}
+inline void Value_Player_AudioPresetId::clear_typeinfo() {
+  typeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo* Value_Player_AudioPresetId::mutable_typeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_AudioPresetId.typeInfo)
+  return typeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo >*
+Value_Player_AudioPresetId::mutable_typeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_AudioPresetId.typeInfo)
+  return &typeinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo& Value_Player_AudioPresetId::typeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_AudioPresetId.typeInfo)
+  return typeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo* Value_Player_AudioPresetId::add_typeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_AudioPresetId.typeInfo)
+  return typeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_AudioPresetId_TypeInfo >&
+Value_Player_AudioPresetId::typeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_AudioPresetId.typeInfo)
+  return typeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Speed_SpeedInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Speed_SpeedInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Speed_SpeedInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Speed.SpeedInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Speed_SpeedInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Speed.SpeedInfo.id)
+}
+
+// int32 speedN = 2;
+inline void Value_Player_Speed_SpeedInfo::clear_speedn() {
+  speedn_ = 0;
+}
+inline ::google::protobuf::int32 Value_Player_Speed_SpeedInfo::speedn() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedN)
+  return speedn_;
+}
+inline void Value_Player_Speed_SpeedInfo::set_speedn(::google::protobuf::int32 value) {
+  
+  speedn_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedN)
+}
+
+// int32 speedD = 3;
+inline void Value_Player_Speed_SpeedInfo::clear_speedd() {
+  speedd_ = 0;
+}
+inline ::google::protobuf::int32 Value_Player_Speed_SpeedInfo::speedd() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedD)
+  return speedd_;
+}
+inline void Value_Player_Speed_SpeedInfo::set_speedd(::google::protobuf::int32 value) {
+  
+  speedd_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Speed.SpeedInfo.speedD)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Speed
+
+// uint32 count = 1;
+inline void Value_Player_Speed::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Speed::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Speed.count)
+  return count_;
+}
+inline void Value_Player_Speed::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Speed.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Speed.SpeedInfo speedInfo = 2;
+inline int Value_Player_Speed::speedinfo_size() const {
+  return speedinfo_.size();
+}
+inline void Value_Player_Speed::clear_speedinfo() {
+  speedinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Speed_SpeedInfo* Value_Player_Speed::mutable_speedinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Speed.speedInfo)
+  return speedinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Speed_SpeedInfo >*
+Value_Player_Speed::mutable_speedinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Speed.speedInfo)
+  return &speedinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Speed_SpeedInfo& Value_Player_Speed::speedinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Speed.speedInfo)
+  return speedinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Speed_SpeedInfo* Value_Player_Speed::add_speedinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Speed.speedInfo)
+  return speedinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Speed_SpeedInfo >&
+Value_Player_Speed::speedinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Speed.speedInfo)
+  return speedinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Consigne_ConsigneInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Consigne_ConsigneInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Consigne_ConsigneInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Consigne_ConsigneInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.id)
+}
+
+// uint64 consigne = 2;
+inline void Value_Player_Consigne_ConsigneInfo::clear_consigne() {
+  consigne_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Player_Consigne_ConsigneInfo::consigne() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.consigne)
+  return consigne_;
+}
+inline void Value_Player_Consigne_ConsigneInfo::set_consigne(::google::protobuf::uint64 value) {
+  
+  consigne_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Consigne.ConsigneInfo.consigne)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Consigne
+
+// uint32 count = 1;
+inline void Value_Player_Consigne::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Consigne::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Consigne.count)
+  return count_;
+}
+inline void Value_Player_Consigne::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Consigne.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Consigne.ConsigneInfo consigneInfo = 2;
+inline int Value_Player_Consigne::consigneinfo_size() const {
+  return consigneinfo_.size();
+}
+inline void Value_Player_Consigne::clear_consigneinfo() {
+  consigneinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo* Value_Player_Consigne::mutable_consigneinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Consigne.consigneInfo)
+  return consigneinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo >*
+Value_Player_Consigne::mutable_consigneinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Consigne.consigneInfo)
+  return &consigneinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo& Value_Player_Consigne::consigneinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Consigne.consigneInfo)
+  return consigneinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo* Value_Player_Consigne::add_consigneinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Consigne.consigneInfo)
+  return consigneinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Consigne_ConsigneInfo >&
+Value_Player_Consigne::consigneinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Consigne.consigneInfo)
+  return consigneinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Mode_ModeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Mode_ModeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Mode_ModeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Mode.ModeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Mode_ModeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Mode.ModeInfo.id)
+}
+
+// .GoogleProtoBB.Value_Player_Mode.PlayerMode playerMode = 2;
+inline void Value_Player_Mode_ModeInfo::clear_playermode() {
+  playermode_ = 0;
+}
+inline ::GoogleProtoBB::Value_Player_Mode_PlayerMode Value_Player_Mode_ModeInfo::playermode() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Mode.ModeInfo.playerMode)
+  return static_cast< ::GoogleProtoBB::Value_Player_Mode_PlayerMode >(playermode_);
+}
+inline void Value_Player_Mode_ModeInfo::set_playermode(::GoogleProtoBB::Value_Player_Mode_PlayerMode value) {
+  
+  playermode_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Mode.ModeInfo.playerMode)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Mode
+
+// uint32 count = 1;
+inline void Value_Player_Mode::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Mode::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Mode.count)
+  return count_;
+}
+inline void Value_Player_Mode::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Mode.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Mode.ModeInfo modeInfo = 2;
+inline int Value_Player_Mode::modeinfo_size() const {
+  return modeinfo_.size();
+}
+inline void Value_Player_Mode::clear_modeinfo() {
+  modeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Mode_ModeInfo* Value_Player_Mode::mutable_modeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Mode.modeInfo)
+  return modeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Mode_ModeInfo >*
+Value_Player_Mode::mutable_modeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Mode.modeInfo)
+  return &modeinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Mode_ModeInfo& Value_Player_Mode::modeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Mode.modeInfo)
+  return modeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Mode_ModeInfo* Value_Player_Mode::add_modeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Mode.modeInfo)
+  return modeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Mode_ModeInfo >&
+Value_Player_Mode::modeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Mode.modeInfo)
+  return modeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Extend_Playlist_ExtendPlaylistInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Extend_Playlist_ExtendPlaylistInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Extend_Playlist_ExtendPlaylistInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Extend_Playlist_ExtendPlaylistInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.id)
+}
+
+// bool bExtendPlaylist = 2;
+inline void Value_Player_Extend_Playlist_ExtendPlaylistInfo::clear_bextendplaylist() {
+  bextendplaylist_ = false;
+}
+inline bool Value_Player_Extend_Playlist_ExtendPlaylistInfo::bextendplaylist() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.bExtendPlaylist)
+  return bextendplaylist_;
+}
+inline void Value_Player_Extend_Playlist_ExtendPlaylistInfo::set_bextendplaylist(bool value) {
+  
+  bextendplaylist_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo.bExtendPlaylist)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Extend_Playlist
+
+// uint32 count = 1;
+inline void Value_Player_Extend_Playlist::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Extend_Playlist::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Extend_Playlist.count)
+  return count_;
+}
+inline void Value_Player_Extend_Playlist::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Extend_Playlist.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Extend_Playlist.ExtendPlaylistInfo extendPlaylistInfo = 2;
+inline int Value_Player_Extend_Playlist::extendplaylistinfo_size() const {
+  return extendplaylistinfo_.size();
+}
+inline void Value_Player_Extend_Playlist::clear_extendplaylistinfo() {
+  extendplaylistinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo* Value_Player_Extend_Playlist::mutable_extendplaylistinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo)
+  return extendplaylistinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo >*
+Value_Player_Extend_Playlist::mutable_extendplaylistinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo)
+  return &extendplaylistinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo& Value_Player_Extend_Playlist::extendplaylistinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo)
+  return extendplaylistinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo* Value_Player_Extend_Playlist::add_extendplaylistinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo)
+  return extendplaylistinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Extend_Playlist_ExtendPlaylistInfo >&
+Value_Player_Extend_Playlist::extendplaylistinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Extend_Playlist.extendPlaylistInfo)
+  return extendplaylistinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Limit_In_Out_LimitInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Limit_In_Out_LimitInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Limit_In_Out_LimitInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Limit_In_Out_LimitInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.id)
+}
+
+// bool isLimitInRelative = 2;
+inline void Value_Player_Limit_In_Out_LimitInfo::clear_islimitinrelative() {
+  islimitinrelative_ = false;
+}
+inline bool Value_Player_Limit_In_Out_LimitInfo::islimitinrelative() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitInRelative)
+  return islimitinrelative_;
+}
+inline void Value_Player_Limit_In_Out_LimitInfo::set_islimitinrelative(bool value) {
+  
+  islimitinrelative_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitInRelative)
+}
+
+// bool isLimitOutRelative = 3;
+inline void Value_Player_Limit_In_Out_LimitInfo::clear_islimitoutrelative() {
+  islimitoutrelative_ = false;
+}
+inline bool Value_Player_Limit_In_Out_LimitInfo::islimitoutrelative() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitOutRelative)
+  return islimitoutrelative_;
+}
+inline void Value_Player_Limit_In_Out_LimitInfo::set_islimitoutrelative(bool value) {
+  
+  islimitoutrelative_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.isLimitOutRelative)
+}
+
+// uint64 limitIn = 4;
+inline void Value_Player_Limit_In_Out_LimitInfo::clear_limitin() {
+  limitin_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Player_Limit_In_Out_LimitInfo::limitin() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitIn)
+  return limitin_;
+}
+inline void Value_Player_Limit_In_Out_LimitInfo::set_limitin(::google::protobuf::uint64 value) {
+  
+  limitin_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitIn)
+}
+
+// uint64 limitOut = 5;
+inline void Value_Player_Limit_In_Out_LimitInfo::clear_limitout() {
+  limitout_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Player_Limit_In_Out_LimitInfo::limitout() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitOut)
+  return limitout_;
+}
+inline void Value_Player_Limit_In_Out_LimitInfo::set_limitout(::google::protobuf::uint64 value) {
+  
+  limitout_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo.limitOut)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Limit_In_Out
+
+// uint32 count = 1;
+inline void Value_Player_Limit_In_Out::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Limit_In_Out::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.count)
+  return count_;
+}
+inline void Value_Player_Limit_In_Out::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Limit_In_Out.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Limit_In_Out.LimitInfo limitInfo = 2;
+inline int Value_Player_Limit_In_Out::limitinfo_size() const {
+  return limitinfo_.size();
+}
+inline void Value_Player_Limit_In_Out::clear_limitinfo() {
+  limitinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo* Value_Player_Limit_In_Out::mutable_limitinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo)
+  return limitinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo >*
+Value_Player_Limit_In_Out::mutable_limitinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo)
+  return &limitinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo& Value_Player_Limit_In_Out::limitinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo)
+  return limitinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo* Value_Player_Limit_In_Out::add_limitinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo)
+  return limitinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Limit_In_Out_LimitInfo >&
+Value_Player_Limit_In_Out::limitinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Limit_In_Out.limitInfo)
+  return limitinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Loop_Mode_LoopModeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Loop_Mode_LoopModeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Loop_Mode_LoopModeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Loop_Mode_LoopModeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.id)
+}
+
+// .GoogleProtoBB.Value_Player_Loop_Mode.PlayerLoopMode loopMode = 2;
+inline void Value_Player_Loop_Mode_LoopModeInfo::clear_loopmode() {
+  loopmode_ = 0;
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode Value_Player_Loop_Mode_LoopModeInfo::loopmode() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.loopMode)
+  return static_cast< ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode >(loopmode_);
+}
+inline void Value_Player_Loop_Mode_LoopModeInfo::set_loopmode(::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode value) {
+  
+  loopmode_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo.loopMode)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Loop_Mode
+
+// uint32 count = 1;
+inline void Value_Player_Loop_Mode::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Loop_Mode::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Mode.count)
+  return count_;
+}
+inline void Value_Player_Loop_Mode::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Mode.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Loop_Mode.LoopModeInfo loopModeInfo = 2;
+inline int Value_Player_Loop_Mode::loopmodeinfo_size() const {
+  return loopmodeinfo_.size();
+}
+inline void Value_Player_Loop_Mode::clear_loopmodeinfo() {
+  loopmodeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo* Value_Player_Loop_Mode::mutable_loopmodeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo)
+  return loopmodeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo >*
+Value_Player_Loop_Mode::mutable_loopmodeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo)
+  return &loopmodeinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo& Value_Player_Loop_Mode::loopmodeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo)
+  return loopmodeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo* Value_Player_Loop_Mode::add_loopmodeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo)
+  return loopmodeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Mode_LoopModeInfo >&
+Value_Player_Loop_Mode::loopmodeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Loop_Mode.loopModeInfo)
+  return loopmodeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Loop_Count_LoopCountInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Loop_Count_LoopCountInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Loop_Count_LoopCountInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Loop_Count_LoopCountInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.id)
+}
+
+// uint32 loopCount = 2;
+inline void Value_Player_Loop_Count_LoopCountInfo::clear_loopcount() {
+  loopcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Loop_Count_LoopCountInfo::loopcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.loopCount)
+  return loopcount_;
+}
+inline void Value_Player_Loop_Count_LoopCountInfo::set_loopcount(::google::protobuf::uint32 value) {
+  
+  loopcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo.loopCount)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Loop_Count
+
+// uint32 count = 1;
+inline void Value_Player_Loop_Count::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Loop_Count::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Count.count)
+  return count_;
+}
+inline void Value_Player_Loop_Count::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Loop_Count.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Loop_Count.LoopCountInfo loopCountInfo = 2;
+inline int Value_Player_Loop_Count::loopcountinfo_size() const {
+  return loopcountinfo_.size();
+}
+inline void Value_Player_Loop_Count::clear_loopcountinfo() {
+  loopcountinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo* Value_Player_Loop_Count::mutable_loopcountinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo)
+  return loopcountinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo >*
+Value_Player_Loop_Count::mutable_loopcountinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo)
+  return &loopcountinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo& Value_Player_Loop_Count::loopcountinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo)
+  return loopcountinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo* Value_Player_Loop_Count::add_loopcountinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo)
+  return loopcountinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Loop_Count_LoopCountInfo >&
+Value_Player_Loop_Count::loopcountinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Loop_Count.loopCountInfo)
+  return loopcountinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Playlist_ID_PlaylistIDInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Playlist_ID_PlaylistIDInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.id)
+}
+
+// uint32 idSize = 2;
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::clear_idsize() {
+  idsize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Playlist_ID_PlaylistIDInfo::idsize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.idSize)
+  return idsize_;
+}
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_idsize(::google::protobuf::uint32 value) {
+  
+  idsize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.idSize)
+}
+
+// bytes playlistID = 3;
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::clear_playlistid() {
+  playlistid_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_Player_Playlist_ID_PlaylistIDInfo::playlistid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+  return playlistid_.GetNoArena();
+}
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_playlistid(const ::std::string& value) {
+  
+  playlistid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+}
+#if LANG_CXX11
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_playlistid(::std::string&& value) {
+  
+  playlistid_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+}
+#endif
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_playlistid(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  playlistid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+}
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_playlistid(const void* value, size_t size) {
+  
+  playlistid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+}
+inline ::std::string* Value_Player_Playlist_ID_PlaylistIDInfo::mutable_playlistid() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+  return playlistid_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_Player_Playlist_ID_PlaylistIDInfo::release_playlistid() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+  
+  return playlistid_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_Player_Playlist_ID_PlaylistIDInfo::set_allocated_playlistid(::std::string* playlistid) {
+  if (playlistid != NULL) {
+    
+  } else {
+    
+  }
+  playlistid_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), playlistid);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo.playlistID)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Playlist_ID
+
+// uint32 count = 1;
+inline void Value_Player_Playlist_ID::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Playlist_ID::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_ID.count)
+  return count_;
+}
+inline void Value_Player_Playlist_ID::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_ID.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Playlist_ID.PlaylistIDInfo playlistIDInfo = 2;
+inline int Value_Player_Playlist_ID::playlistidinfo_size() const {
+  return playlistidinfo_.size();
+}
+inline void Value_Player_Playlist_ID::clear_playlistidinfo() {
+  playlistidinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo* Value_Player_Playlist_ID::mutable_playlistidinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo)
+  return playlistidinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo >*
+Value_Player_Playlist_ID::mutable_playlistidinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo)
+  return &playlistidinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo& Value_Player_Playlist_ID::playlistidinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo)
+  return playlistidinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo* Value_Player_Playlist_ID::add_playlistidinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo)
+  return playlistidinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_ID_PlaylistIDInfo >&
+Value_Player_Playlist_ID::playlistidinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Playlist_ID.playlistIDInfo)
+  return playlistidinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Playlist_Element_ID_ElementIDInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_Player_Playlist_Element_ID_ElementIDInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.id)
+}
+
+// uint32 idSize = 2;
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::clear_idsize() {
+  idsize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Playlist_Element_ID_ElementIDInfo::idsize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.idSize)
+  return idsize_;
+}
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_idsize(::google::protobuf::uint32 value) {
+  
+  idsize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.idSize)
+}
+
+// bytes elementID = 3;
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::clear_elementid() {
+  elementid_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_Player_Playlist_Element_ID_ElementIDInfo::elementid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+  return elementid_.GetNoArena();
+}
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_elementid(const ::std::string& value) {
+  
+  elementid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+}
+#if LANG_CXX11
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_elementid(::std::string&& value) {
+  
+  elementid_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+}
+#endif
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_elementid(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  elementid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+}
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_elementid(const void* value, size_t size) {
+  
+  elementid_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+}
+inline ::std::string* Value_Player_Playlist_Element_ID_ElementIDInfo::mutable_elementid() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+  return elementid_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_Player_Playlist_Element_ID_ElementIDInfo::release_elementid() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+  
+  return elementid_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_Player_Playlist_Element_ID_ElementIDInfo::set_allocated_elementid(::std::string* elementid) {
+  if (elementid != NULL) {
+    
+  } else {
+    
+  }
+  elementid_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), elementid);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo.elementID)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Player_Playlist_Element_ID
+
+// uint32 count = 1;
+inline void Value_Player_Playlist_Element_ID::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Player_Playlist_Element_ID::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_Element_ID.count)
+  return count_;
+}
+inline void Value_Player_Playlist_Element_ID::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Player_Playlist_Element_ID.count)
+}
+
+// repeated .GoogleProtoBB.Value_Player_Playlist_Element_ID.ElementIDInfo elementIDInfo = 2;
+inline int Value_Player_Playlist_Element_ID::elementidinfo_size() const {
+  return elementidinfo_.size();
+}
+inline void Value_Player_Playlist_Element_ID::clear_elementidinfo() {
+  elementidinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo* Value_Player_Playlist_Element_ID::mutable_elementidinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo)
+  return elementidinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo >*
+Value_Player_Playlist_Element_ID::mutable_elementidinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo)
+  return &elementidinfo_;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo& Value_Player_Playlist_Element_ID::elementidinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo)
+  return elementidinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo* Value_Player_Playlist_Element_ID::add_elementidinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo)
+  return elementidinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Player_Playlist_Element_ID_ElementIDInfo >&
+Value_Player_Playlist_Element_ID::elementidinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Player_Playlist_Element_ID.elementIDInfo)
+  return elementidinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Mode_DVEModeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_Mode_DVEModeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Mode_DVEModeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_Mode_DVEModeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.id)
+}
+
+// .GoogleProtoBB.Value_DVE_Mode.DVEMode mode = 2;
+inline void Value_DVE_Mode_DVEModeInfo::clear_mode() {
+  mode_ = 0;
+}
+inline ::GoogleProtoBB::Value_DVE_Mode_DVEMode Value_DVE_Mode_DVEModeInfo::mode() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.mode)
+  return static_cast< ::GoogleProtoBB::Value_DVE_Mode_DVEMode >(mode_);
+}
+inline void Value_DVE_Mode_DVEModeInfo::set_mode(::GoogleProtoBB::Value_DVE_Mode_DVEMode value) {
+  
+  mode_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Mode.DVEModeInfo.mode)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Mode
+
+// uint32 count = 1;
+inline void Value_DVE_Mode::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Mode::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Mode.count)
+  return count_;
+}
+inline void Value_DVE_Mode::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Mode.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_Mode.DVEModeInfo modeInfo = 2;
+inline int Value_DVE_Mode::modeinfo_size() const {
+  return modeinfo_.size();
+}
+inline void Value_DVE_Mode::clear_modeinfo() {
+  modeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo* Value_DVE_Mode::mutable_modeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_Mode.modeInfo)
+  return modeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo >*
+Value_DVE_Mode::mutable_modeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Mode.modeInfo)
+  return &modeinfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo& Value_DVE_Mode::modeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Mode.modeInfo)
+  return modeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo* Value_DVE_Mode::add_modeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Mode.modeInfo)
+  return modeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Mode_DVEModeInfo >&
+Value_DVE_Mode::modeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Mode.modeInfo)
+  return modeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Type_DVETypeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_Type_DVETypeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Type_DVETypeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Type.DVETypeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_Type_DVETypeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Type.DVETypeInfo.id)
+}
+
+// .GoogleProtoBB.Value_DVE_Type.DVEType type = 2;
+inline void Value_DVE_Type_DVETypeInfo::clear_type() {
+  type_ = 0;
+}
+inline ::GoogleProtoBB::Value_DVE_Type_DVEType Value_DVE_Type_DVETypeInfo::type() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Type.DVETypeInfo.type)
+  return static_cast< ::GoogleProtoBB::Value_DVE_Type_DVEType >(type_);
+}
+inline void Value_DVE_Type_DVETypeInfo::set_type(::GoogleProtoBB::Value_DVE_Type_DVEType value) {
+  
+  type_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Type.DVETypeInfo.type)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Type
+
+// uint32 count = 1;
+inline void Value_DVE_Type::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Type::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Type.count)
+  return count_;
+}
+inline void Value_DVE_Type::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Type.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_Type.DVETypeInfo typeInfo = 2;
+inline int Value_DVE_Type::typeinfo_size() const {
+  return typeinfo_.size();
+}
+inline void Value_DVE_Type::clear_typeinfo() {
+  typeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo* Value_DVE_Type::mutable_typeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_Type.typeInfo)
+  return typeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo >*
+Value_DVE_Type::mutable_typeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Type.typeInfo)
+  return &typeinfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo& Value_DVE_Type::typeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Type.typeInfo)
+  return typeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo* Value_DVE_Type::add_typeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Type.typeInfo)
+  return typeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Type_DVETypeInfo >&
+Value_DVE_Type::typeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Type.typeInfo)
+  return typeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Channel
+
+// uint32 count = 1;
+inline void Value_DVE_Channel::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Channel::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Channel.count)
+  return count_;
+}
+inline void Value_DVE_Channel::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Channel.count)
+}
+
+// repeated .GoogleProtoBB.CnlID cnl = 2;
+inline int Value_DVE_Channel::cnl_size() const {
+  return cnl_.size();
+}
+inline void Value_DVE_Channel::clear_cnl() {
+  cnl_.Clear();
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Channel::cnl(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Channel.cnl)
+  return static_cast< ::GoogleProtoBB::CnlID >(cnl_.Get(index));
+}
+inline void Value_DVE_Channel::set_cnl(int index, ::GoogleProtoBB::CnlID value) {
+  cnl_.Set(index, value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Channel.cnl)
+}
+inline void Value_DVE_Channel::add_cnl(::GoogleProtoBB::CnlID value) {
+  cnl_.Add(value);
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Channel.cnl)
+}
+inline const ::google::protobuf::RepeatedField<int>&
+Value_DVE_Channel::cnl() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Channel.cnl)
+  return cnl_;
+}
+inline ::google::protobuf::RepeatedField<int>*
+Value_DVE_Channel::mutable_cnl() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Channel.cnl)
+  return &cnl_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Num_DVENumInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_Num_DVENumInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Num_DVENumInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Num.DVENumInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_Num_DVENumInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Num.DVENumInfo.id)
+}
+
+// int32 num = 2;
+inline void Value_DVE_Num_DVENumInfo::clear_num() {
+  num_ = 0;
+}
+inline ::google::protobuf::int32 Value_DVE_Num_DVENumInfo::num() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Num.DVENumInfo.num)
+  return num_;
+}
+inline void Value_DVE_Num_DVENumInfo::set_num(::google::protobuf::int32 value) {
+  
+  num_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Num.DVENumInfo.num)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Num
+
+// uint32 count = 1;
+inline void Value_DVE_Num::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Num::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Num.count)
+  return count_;
+}
+inline void Value_DVE_Num::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Num.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_Num.DVENumInfo numInfo = 2;
+inline int Value_DVE_Num::numinfo_size() const {
+  return numinfo_.size();
+}
+inline void Value_DVE_Num::clear_numinfo() {
+  numinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_Num_DVENumInfo* Value_DVE_Num::mutable_numinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_Num.numInfo)
+  return numinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Num_DVENumInfo >*
+Value_DVE_Num::mutable_numinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Num.numInfo)
+  return &numinfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Num_DVENumInfo& Value_DVE_Num::numinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Num.numInfo)
+  return numinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_Num_DVENumInfo* Value_DVE_Num::add_numinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Num.numInfo)
+  return numinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Num_DVENumInfo >&
+Value_DVE_Num::numinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Num.numInfo)
+  return numinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Den_DVEDenInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_Den_DVEDenInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Den_DVEDenInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Den.DVEDenInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_Den_DVEDenInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Den.DVEDenInfo.id)
+}
+
+// int32 den = 2;
+inline void Value_DVE_Den_DVEDenInfo::clear_den() {
+  den_ = 0;
+}
+inline ::google::protobuf::int32 Value_DVE_Den_DVEDenInfo::den() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Den.DVEDenInfo.den)
+  return den_;
+}
+inline void Value_DVE_Den_DVEDenInfo::set_den(::google::protobuf::int32 value) {
+  
+  den_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Den.DVEDenInfo.den)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Den
+
+// uint32 count = 1;
+inline void Value_DVE_Den::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Den::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Den.count)
+  return count_;
+}
+inline void Value_DVE_Den::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Den.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_Den.DVEDenInfo denInfo = 2;
+inline int Value_DVE_Den::deninfo_size() const {
+  return deninfo_.size();
+}
+inline void Value_DVE_Den::clear_deninfo() {
+  deninfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo* Value_DVE_Den::mutable_deninfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_Den.denInfo)
+  return deninfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo >*
+Value_DVE_Den::mutable_deninfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Den.denInfo)
+  return &deninfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo& Value_DVE_Den::deninfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Den.denInfo)
+  return deninfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo* Value_DVE_Den::add_deninfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Den.denInfo)
+  return deninfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Den_DVEDenInfo >&
+Value_DVE_Den::deninfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Den.denInfo)
+  return deninfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_CutThreshold_DVEThresholdInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_CutThreshold_DVEThresholdInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_CutThreshold_DVEThresholdInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_CutThreshold_DVEThresholdInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.id)
+}
+
+// int32 threshold = 2;
+inline void Value_DVE_CutThreshold_DVEThresholdInfo::clear_threshold() {
+  threshold_ = 0;
+}
+inline ::google::protobuf::int32 Value_DVE_CutThreshold_DVEThresholdInfo::threshold() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.threshold)
+  return threshold_;
+}
+inline void Value_DVE_CutThreshold_DVEThresholdInfo::set_threshold(::google::protobuf::int32 value) {
+  
+  threshold_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo.threshold)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_CutThreshold
+
+// uint32 count = 1;
+inline void Value_DVE_CutThreshold::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_CutThreshold::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_CutThreshold.count)
+  return count_;
+}
+inline void Value_DVE_CutThreshold::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_CutThreshold.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_CutThreshold.DVEThresholdInfo thresholdInfo = 2;
+inline int Value_DVE_CutThreshold::thresholdinfo_size() const {
+  return thresholdinfo_.size();
+}
+inline void Value_DVE_CutThreshold::clear_thresholdinfo() {
+  thresholdinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo* Value_DVE_CutThreshold::mutable_thresholdinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo)
+  return thresholdinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo >*
+Value_DVE_CutThreshold::mutable_thresholdinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo)
+  return &thresholdinfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo& Value_DVE_CutThreshold::thresholdinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo)
+  return thresholdinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo* Value_DVE_CutThreshold::add_thresholdinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo)
+  return thresholdinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_CutThreshold_DVEThresholdInfo >&
+Value_DVE_CutThreshold::thresholdinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_CutThreshold.thresholdInfo)
+  return thresholdinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Custom_Transparency_DVECustomTransparencyInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.id)
+}
+
+// bool bCustom = 2;
+inline void Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::clear_bcustom() {
+  bcustom_ = false;
+}
+inline bool Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::bcustom() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.bCustom)
+  return bcustom_;
+}
+inline void Value_DVE_Custom_Transparency_DVECustomTransparencyInfo::set_bcustom(bool value) {
+  
+  bcustom_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo.bCustom)
+}
+
+// -------------------------------------------------------------------
+
+// Value_DVE_Custom_Transparency
+
+// uint32 count = 1;
+inline void Value_DVE_Custom_Transparency::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_DVE_Custom_Transparency::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Custom_Transparency.count)
+  return count_;
+}
+inline void Value_DVE_Custom_Transparency::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_DVE_Custom_Transparency.count)
+}
+
+// repeated .GoogleProtoBB.Value_DVE_Custom_Transparency.DVECustomTransparencyInfo customInfo = 2;
+inline int Value_DVE_Custom_Transparency::custominfo_size() const {
+  return custominfo_.size();
+}
+inline void Value_DVE_Custom_Transparency::clear_custominfo() {
+  custominfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* Value_DVE_Custom_Transparency::mutable_custominfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo)
+  return custominfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo >*
+Value_DVE_Custom_Transparency::mutable_custominfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo)
+  return &custominfo_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo& Value_DVE_Custom_Transparency::custominfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo)
+  return custominfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo* Value_DVE_Custom_Transparency::add_custominfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo)
+  return custominfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_DVE_Custom_Transparency_DVECustomTransparencyInfo >&
+Value_DVE_Custom_Transparency::custominfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_DVE_Custom_Transparency.customInfo)
+  return custominfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Status_RTDStatusInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_RTD_Status_RTDStatusInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_RTD_Status_RTDStatusInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_RTD_Status_RTDStatusInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.id)
+}
+
+// bool enable = 2;
+inline void Value_RTD_Status_RTDStatusInfo::clear_enable() {
+  enable_ = false;
+}
+inline bool Value_RTD_Status_RTDStatusInfo::enable() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.enable)
+  return enable_;
+}
+inline void Value_RTD_Status_RTDStatusInfo::set_enable(bool value) {
+  
+  enable_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Status.RTDStatusInfo.enable)
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Status
+
+// uint32 count = 1;
+inline void Value_RTD_Status::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_RTD_Status::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Status.count)
+  return count_;
+}
+inline void Value_RTD_Status::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Status.count)
+}
+
+// repeated .GoogleProtoBB.Value_RTD_Status.RTDStatusInfo statusInfo = 2;
+inline int Value_RTD_Status::statusinfo_size() const {
+  return statusinfo_.size();
+}
+inline void Value_RTD_Status::clear_statusinfo() {
+  statusinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo* Value_RTD_Status::mutable_statusinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_RTD_Status.statusInfo)
+  return statusinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo >*
+Value_RTD_Status::mutable_statusinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_RTD_Status.statusInfo)
+  return &statusinfo_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo& Value_RTD_Status::statusinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Status.statusInfo)
+  return statusinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo* Value_RTD_Status::add_statusinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_RTD_Status.statusInfo)
+  return statusinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Status_RTDStatusInfo >&
+Value_RTD_Status::statusinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_RTD_Status.statusInfo)
+  return statusinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Type_RTDTypeInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_RTD_Type_RTDTypeInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_RTD_Type_RTDTypeInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_RTD_Type_RTDTypeInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.id)
+}
+
+// .GoogleProtoBB.RTDType type = 2;
+inline void Value_RTD_Type_RTDTypeInfo::clear_type() {
+  type_ = 0;
+}
+inline ::GoogleProtoBB::RTDType Value_RTD_Type_RTDTypeInfo::type() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.type)
+  return static_cast< ::GoogleProtoBB::RTDType >(type_);
+}
+inline void Value_RTD_Type_RTDTypeInfo::set_type(::GoogleProtoBB::RTDType value) {
+  
+  type_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Type.RTDTypeInfo.type)
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Type
+
+// uint32 count = 1;
+inline void Value_RTD_Type::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_RTD_Type::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Type.count)
+  return count_;
+}
+inline void Value_RTD_Type::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Type.count)
+}
+
+// repeated .GoogleProtoBB.Value_RTD_Type.RTDTypeInfo typeInfo = 2;
+inline int Value_RTD_Type::typeinfo_size() const {
+  return typeinfo_.size();
+}
+inline void Value_RTD_Type::clear_typeinfo() {
+  typeinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo* Value_RTD_Type::mutable_typeinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_RTD_Type.typeInfo)
+  return typeinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo >*
+Value_RTD_Type::mutable_typeinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_RTD_Type.typeInfo)
+  return &typeinfo_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo& Value_RTD_Type::typeinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Type.typeInfo)
+  return typeinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo* Value_RTD_Type::add_typeinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_RTD_Type.typeInfo)
+  return typeinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Type_RTDTypeInfo >&
+Value_RTD_Type::typeinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_RTD_Type.typeInfo)
+  return typeinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Position_RTDPositionInfo
+
+// .GoogleProtoBB.CnlID id = 1;
+inline void Value_RTD_Position_RTDPositionInfo::clear_id() {
+  id_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_RTD_Position_RTDPositionInfo::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.id)
+  return static_cast< ::GoogleProtoBB::CnlID >(id_);
+}
+inline void Value_RTD_Position_RTDPositionInfo::set_id(::GoogleProtoBB::CnlID value) {
+  
+  id_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.id)
+}
+
+// uint32 position = 2;
+inline void Value_RTD_Position_RTDPositionInfo::clear_position() {
+  position_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_RTD_Position_RTDPositionInfo::position() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.position)
+  return position_;
+}
+inline void Value_RTD_Position_RTDPositionInfo::set_position(::google::protobuf::uint32 value) {
+  
+  position_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Position.RTDPositionInfo.position)
+}
+
+// -------------------------------------------------------------------
+
+// Value_RTD_Position
+
+// uint32 count = 1;
+inline void Value_RTD_Position::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_RTD_Position::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Position.count)
+  return count_;
+}
+inline void Value_RTD_Position::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_RTD_Position.count)
+}
+
+// repeated .GoogleProtoBB.Value_RTD_Position.RTDPositionInfo positionInfo = 2;
+inline int Value_RTD_Position::positioninfo_size() const {
+  return positioninfo_.size();
+}
+inline void Value_RTD_Position::clear_positioninfo() {
+  positioninfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo* Value_RTD_Position::mutable_positioninfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_RTD_Position.positionInfo)
+  return positioninfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo >*
+Value_RTD_Position::mutable_positioninfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_RTD_Position.positionInfo)
+  return &positioninfo_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo& Value_RTD_Position::positioninfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_RTD_Position.positionInfo)
+  return positioninfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo* Value_RTD_Position::add_positioninfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_RTD_Position.positionInfo)
+  return positioninfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_RTD_Position_RTDPositionInfo >&
+Value_RTD_Position::positioninfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_RTD_Position.positionInfo)
+  return positioninfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Status_GFXStatus
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_GFX_Status_GFXStatus::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_GFX_Status_GFXStatus::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.GFXStatus.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_GFX_Status_GFXStatus::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Status.GFXStatus.targetCnlID)
+}
+
+// .GoogleProtoBB.GFxCnl gfxCnl = 2;
+inline void Value_GFX_Status_GFXStatus::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::GFxCnl Value_GFX_Status_GFXStatus::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.GFXStatus.gfxCnl)
+  return static_cast< ::GoogleProtoBB::GFxCnl >(gfxcnl_);
+}
+inline void Value_GFX_Status_GFXStatus::set_gfxcnl(::GoogleProtoBB::GFxCnl value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Status.GFXStatus.gfxCnl)
+}
+
+// bool enable = 3;
+inline void Value_GFX_Status_GFXStatus::clear_enable() {
+  enable_ = false;
+}
+inline bool Value_GFX_Status_GFXStatus::enable() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.GFXStatus.enable)
+  return enable_;
+}
+inline void Value_GFX_Status_GFXStatus::set_enable(bool value) {
+  
+  enable_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Status.GFXStatus.enable)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Status_PGMGFX
+
+// uint32 count = 1;
+inline void Value_GFX_Status_PGMGFX::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Status_PGMGFX::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.PGMGFX.count)
+  return count_;
+}
+inline void Value_GFX_Status_PGMGFX::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Status.PGMGFX.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Status.GFXStatus gfxStatus = 2;
+inline int Value_GFX_Status_PGMGFX::gfxstatus_size() const {
+  return gfxstatus_.size();
+}
+inline void Value_GFX_Status_PGMGFX::clear_gfxstatus() {
+  gfxstatus_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Status_GFXStatus* Value_GFX_Status_PGMGFX::mutable_gfxstatus(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus)
+  return gfxstatus_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_GFXStatus >*
+Value_GFX_Status_PGMGFX::mutable_gfxstatus() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus)
+  return &gfxstatus_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Status_GFXStatus& Value_GFX_Status_PGMGFX::gfxstatus(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus)
+  return gfxstatus_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Status_GFXStatus* Value_GFX_Status_PGMGFX::add_gfxstatus() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus)
+  return gfxstatus_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_GFXStatus >&
+Value_GFX_Status_PGMGFX::gfxstatus() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Status.PGMGFX.gfxStatus)
+  return gfxstatus_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Status
+
+// uint32 pgmCount = 1;
+inline void Value_GFX_Status::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Status::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.pgmCount)
+  return pgmcount_;
+}
+inline void Value_GFX_Status::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Status.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Status.PGMGFX pgmGfx = 2;
+inline int Value_GFX_Status::pgmgfx_size() const {
+  return pgmgfx_.size();
+}
+inline void Value_GFX_Status::clear_pgmgfx() {
+  pgmgfx_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Status_PGMGFX* Value_GFX_Status::mutable_pgmgfx(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Status.pgmGfx)
+  return pgmgfx_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_PGMGFX >*
+Value_GFX_Status::mutable_pgmgfx() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Status.pgmGfx)
+  return &pgmgfx_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Status_PGMGFX& Value_GFX_Status::pgmgfx(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Status.pgmGfx)
+  return pgmgfx_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Status_PGMGFX* Value_GFX_Status::add_pgmgfx() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Status.pgmGfx)
+  return pgmgfx_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Status_PGMGFX >&
+Value_GFX_Status::pgmgfx() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Status.pgmGfx)
+  return pgmgfx_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Position_GFXPosition
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_GFX_Position_GFXPosition::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_GFX_Position_GFXPosition::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.GFXPosition.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_GFX_Position_GFXPosition::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Position.GFXPosition.targetCnlID)
+}
+
+// .GoogleProtoBB.GFxCnl gfxCnl = 2;
+inline void Value_GFX_Position_GFXPosition::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::GFxCnl Value_GFX_Position_GFXPosition::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.GFXPosition.gfxCnl)
+  return static_cast< ::GoogleProtoBB::GFxCnl >(gfxcnl_);
+}
+inline void Value_GFX_Position_GFXPosition::set_gfxcnl(::GoogleProtoBB::GFxCnl value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Position.GFXPosition.gfxCnl)
+}
+
+// uint32 position = 3;
+inline void Value_GFX_Position_GFXPosition::clear_position() {
+  position_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Position_GFXPosition::position() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.GFXPosition.position)
+  return position_;
+}
+inline void Value_GFX_Position_GFXPosition::set_position(::google::protobuf::uint32 value) {
+  
+  position_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Position.GFXPosition.position)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Position_PGMGFX
+
+// uint32 count = 1;
+inline void Value_GFX_Position_PGMGFX::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Position_PGMGFX::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.PGMGFX.count)
+  return count_;
+}
+inline void Value_GFX_Position_PGMGFX::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Position.PGMGFX.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Position.GFXPosition gfxPosition = 2;
+inline int Value_GFX_Position_PGMGFX::gfxposition_size() const {
+  return gfxposition_.size();
+}
+inline void Value_GFX_Position_PGMGFX::clear_gfxposition() {
+  gfxposition_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Position_GFXPosition* Value_GFX_Position_PGMGFX::mutable_gfxposition(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition)
+  return gfxposition_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_GFXPosition >*
+Value_GFX_Position_PGMGFX::mutable_gfxposition() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition)
+  return &gfxposition_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Position_GFXPosition& Value_GFX_Position_PGMGFX::gfxposition(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition)
+  return gfxposition_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Position_GFXPosition* Value_GFX_Position_PGMGFX::add_gfxposition() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition)
+  return gfxposition_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_GFXPosition >&
+Value_GFX_Position_PGMGFX::gfxposition() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Position.PGMGFX.gfxPosition)
+  return gfxposition_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Position
+
+// uint32 pgmCount = 1;
+inline void Value_GFX_Position::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Position::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.pgmCount)
+  return pgmcount_;
+}
+inline void Value_GFX_Position::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Position.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Position.PGMGFX pgmGfx = 2;
+inline int Value_GFX_Position::pgmgfx_size() const {
+  return pgmgfx_.size();
+}
+inline void Value_GFX_Position::clear_pgmgfx() {
+  pgmgfx_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Position_PGMGFX* Value_GFX_Position::mutable_pgmgfx(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Position.pgmGfx)
+  return pgmgfx_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_PGMGFX >*
+Value_GFX_Position::mutable_pgmgfx() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Position.pgmGfx)
+  return &pgmgfx_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Position_PGMGFX& Value_GFX_Position::pgmgfx(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Position.pgmGfx)
+  return pgmgfx_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Position_PGMGFX* Value_GFX_Position::add_pgmgfx() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Position.pgmGfx)
+  return pgmgfx_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Position_PGMGFX >&
+Value_GFX_Position::pgmgfx() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Position.pgmGfx)
+  return pgmgfx_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Fade_In_Out_Duration_GFXFadeDuration
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.targetCnlID)
+}
+
+// .GoogleProtoBB.GFxCnl gfxCnl = 2;
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::GFxCnl Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.gfxCnl)
+  return static_cast< ::GoogleProtoBB::GFxCnl >(gfxcnl_);
+}
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::set_gfxcnl(::GoogleProtoBB::GFxCnl value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.gfxCnl)
+}
+
+// uint32 fadeInDuration = 3;
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::clear_fadeinduration() {
+  fadeinduration_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::fadeinduration() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeInDuration)
+  return fadeinduration_;
+}
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::set_fadeinduration(::google::protobuf::uint32 value) {
+  
+  fadeinduration_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeInDuration)
+}
+
+// uint32 fadeOutDuration = 4;
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::clear_fadeoutduration() {
+  fadeoutduration_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::fadeoutduration() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeOutDuration)
+  return fadeoutduration_;
+}
+inline void Value_GFX_Fade_In_Out_Duration_GFXFadeDuration::set_fadeoutduration(::google::protobuf::uint32 value) {
+  
+  fadeoutduration_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration.fadeOutDuration)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Fade_In_Out_Duration_PGMGFX
+
+// uint32 count = 1;
+inline void Value_GFX_Fade_In_Out_Duration_PGMGFX::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Fade_In_Out_Duration_PGMGFX::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.count)
+  return count_;
+}
+inline void Value_GFX_Fade_In_Out_Duration_PGMGFX::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.GFXFadeDuration gfxFadeDuration = 2;
+inline int Value_GFX_Fade_In_Out_Duration_PGMGFX::gfxfadeduration_size() const {
+  return gfxfadeduration_.size();
+}
+inline void Value_GFX_Fade_In_Out_Duration_PGMGFX::clear_gfxfadeduration() {
+  gfxfadeduration_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* Value_GFX_Fade_In_Out_Duration_PGMGFX::mutable_gfxfadeduration(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration)
+  return gfxfadeduration_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration >*
+Value_GFX_Fade_In_Out_Duration_PGMGFX::mutable_gfxfadeduration() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration)
+  return &gfxfadeduration_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration& Value_GFX_Fade_In_Out_Duration_PGMGFX::gfxfadeduration(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration)
+  return gfxfadeduration_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration* Value_GFX_Fade_In_Out_Duration_PGMGFX::add_gfxfadeduration() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration)
+  return gfxfadeduration_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_GFXFadeDuration >&
+Value_GFX_Fade_In_Out_Duration_PGMGFX::gfxfadeduration() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX.gfxFadeDuration)
+  return gfxfadeduration_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Fade_In_Out_Duration
+
+// uint32 pgmCount = 1;
+inline void Value_GFX_Fade_In_Out_Duration::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Fade_In_Out_Duration::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmCount)
+  return pgmcount_;
+}
+inline void Value_GFX_Fade_In_Out_Duration::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.PGMGFX pgmGfx = 2;
+inline int Value_GFX_Fade_In_Out_Duration::pgmgfx_size() const {
+  return pgmgfx_.size();
+}
+inline void Value_GFX_Fade_In_Out_Duration::clear_pgmgfx() {
+  pgmgfx_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX* Value_GFX_Fade_In_Out_Duration::mutable_pgmgfx(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx)
+  return pgmgfx_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX >*
+Value_GFX_Fade_In_Out_Duration::mutable_pgmgfx() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx)
+  return &pgmgfx_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX& Value_GFX_Fade_In_Out_Duration::pgmgfx(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx)
+  return pgmgfx_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX* Value_GFX_Fade_In_Out_Duration::add_pgmgfx() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx)
+  return pgmgfx_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration_PGMGFX >&
+Value_GFX_Fade_In_Out_Duration::pgmgfx() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Fade_In_Out_Duration.pgmGfx)
+  return pgmgfx_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_In_Out_GFXLoopInOut
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_GFX_Loop_In_Out_GFXLoopInOut::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.targetCnlID)
+}
+
+// .GoogleProtoBB.GFxCnl gfxCnl = 2;
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::GFxCnl Value_GFX_Loop_In_Out_GFXLoopInOut::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.gfxCnl)
+  return static_cast< ::GoogleProtoBB::GFxCnl >(gfxcnl_);
+}
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::set_gfxcnl(::GoogleProtoBB::GFxCnl value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.gfxCnl)
+}
+
+// uint32 loopIn = 3;
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::clear_loopin() {
+  loopin_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_In_Out_GFXLoopInOut::loopin() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopIn)
+  return loopin_;
+}
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::set_loopin(::google::protobuf::uint32 value) {
+  
+  loopin_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopIn)
+}
+
+// uint32 loopOut = 4;
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::clear_loopout() {
+  loopout_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_In_Out_GFXLoopInOut::loopout() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopOut)
+  return loopout_;
+}
+inline void Value_GFX_Loop_In_Out_GFXLoopInOut::set_loopout(::google::protobuf::uint32 value) {
+  
+  loopout_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut.loopOut)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_In_Out_PGMGFX
+
+// uint32 count = 1;
+inline void Value_GFX_Loop_In_Out_PGMGFX::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_In_Out_PGMGFX::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.count)
+  return count_;
+}
+inline void Value_GFX_Loop_In_Out_PGMGFX::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Loop_In_Out.GFXLoopInOut gfxLoopInOut = 2;
+inline int Value_GFX_Loop_In_Out_PGMGFX::gfxloopinout_size() const {
+  return gfxloopinout_.size();
+}
+inline void Value_GFX_Loop_In_Out_PGMGFX::clear_gfxloopinout() {
+  gfxloopinout_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut* Value_GFX_Loop_In_Out_PGMGFX::mutable_gfxloopinout(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut)
+  return gfxloopinout_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut >*
+Value_GFX_Loop_In_Out_PGMGFX::mutable_gfxloopinout() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut)
+  return &gfxloopinout_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut& Value_GFX_Loop_In_Out_PGMGFX::gfxloopinout(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut)
+  return gfxloopinout_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut* Value_GFX_Loop_In_Out_PGMGFX::add_gfxloopinout() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut)
+  return gfxloopinout_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_GFXLoopInOut >&
+Value_GFX_Loop_In_Out_PGMGFX::gfxloopinout() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX.gfxLoopInOut)
+  return gfxloopinout_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_In_Out
+
+// uint32 pgmCount = 1;
+inline void Value_GFX_Loop_In_Out::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_In_Out::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmCount)
+  return pgmcount_;
+}
+inline void Value_GFX_Loop_In_Out::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Loop_In_Out.PGMGFX pgmGfx = 2;
+inline int Value_GFX_Loop_In_Out::pgmgfx_size() const {
+  return pgmgfx_.size();
+}
+inline void Value_GFX_Loop_In_Out::clear_pgmgfx() {
+  pgmgfx_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX* Value_GFX_Loop_In_Out::mutable_pgmgfx(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx)
+  return pgmgfx_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX >*
+Value_GFX_Loop_In_Out::mutable_pgmgfx() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx)
+  return &pgmgfx_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX& Value_GFX_Loop_In_Out::pgmgfx(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx)
+  return pgmgfx_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX* Value_GFX_Loop_In_Out::add_pgmgfx() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx)
+  return pgmgfx_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_In_Out_PGMGFX >&
+Value_GFX_Loop_In_Out::pgmgfx() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Loop_In_Out.pgmGfx)
+  return pgmgfx_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_Count_GFXLoopCnt
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_GFX_Loop_Count_GFXLoopCnt::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_GFX_Loop_Count_GFXLoopCnt::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_GFX_Loop_Count_GFXLoopCnt::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.targetCnlID)
+}
+
+// .GoogleProtoBB.GFxCnl gfxCnl = 2;
+inline void Value_GFX_Loop_Count_GFXLoopCnt::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::GFxCnl Value_GFX_Loop_Count_GFXLoopCnt::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.gfxCnl)
+  return static_cast< ::GoogleProtoBB::GFxCnl >(gfxcnl_);
+}
+inline void Value_GFX_Loop_Count_GFXLoopCnt::set_gfxcnl(::GoogleProtoBB::GFxCnl value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.gfxCnl)
+}
+
+// uint32 loopCnt = 3;
+inline void Value_GFX_Loop_Count_GFXLoopCnt::clear_loopcnt() {
+  loopcnt_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_Count_GFXLoopCnt::loopcnt() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.loopCnt)
+  return loopcnt_;
+}
+inline void Value_GFX_Loop_Count_GFXLoopCnt::set_loopcnt(::google::protobuf::uint32 value) {
+  
+  loopcnt_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt.loopCnt)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_Count_PGMGFX
+
+// uint32 count = 1;
+inline void Value_GFX_Loop_Count_PGMGFX::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_Count_PGMGFX::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.count)
+  return count_;
+}
+inline void Value_GFX_Loop_Count_PGMGFX::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Loop_Count.GFXLoopCnt gfxLoopCnt = 2;
+inline int Value_GFX_Loop_Count_PGMGFX::gfxloopcnt_size() const {
+  return gfxloopcnt_.size();
+}
+inline void Value_GFX_Loop_Count_PGMGFX::clear_gfxloopcnt() {
+  gfxloopcnt_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt* Value_GFX_Loop_Count_PGMGFX::mutable_gfxloopcnt(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt)
+  return gfxloopcnt_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt >*
+Value_GFX_Loop_Count_PGMGFX::mutable_gfxloopcnt() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt)
+  return &gfxloopcnt_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt& Value_GFX_Loop_Count_PGMGFX::gfxloopcnt(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt)
+  return gfxloopcnt_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt* Value_GFX_Loop_Count_PGMGFX::add_gfxloopcnt() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt)
+  return gfxloopcnt_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_GFXLoopCnt >&
+Value_GFX_Loop_Count_PGMGFX::gfxloopcnt() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX.gfxLoopCnt)
+  return gfxloopcnt_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Loop_Count
+
+// uint32 pgmCount = 1;
+inline void Value_GFX_Loop_Count::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Loop_Count::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.pgmCount)
+  return pgmcount_;
+}
+inline void Value_GFX_Loop_Count::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Loop_Count.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Loop_Count.PGMGFX pgmGfx = 2;
+inline int Value_GFX_Loop_Count::pgmgfx_size() const {
+  return pgmgfx_.size();
+}
+inline void Value_GFX_Loop_Count::clear_pgmgfx() {
+  pgmgfx_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX* Value_GFX_Loop_Count::mutable_pgmgfx(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx)
+  return pgmgfx_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX >*
+Value_GFX_Loop_Count::mutable_pgmgfx() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx)
+  return &pgmgfx_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX& Value_GFX_Loop_Count::pgmgfx(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx)
+  return pgmgfx_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX* Value_GFX_Loop_Count::add_pgmgfx() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx)
+  return pgmgfx_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Loop_Count_PGMGFX >&
+Value_GFX_Loop_Count::pgmgfx() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Loop_Count.pgmGfx)
+  return pgmgfx_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Preload_Status_GFXPreloadStatus
+
+// .GoogleProtoBB.TGAChannel gfxCnl = 1;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_gfxcnl() {
+  gfxcnl_ = 0;
+}
+inline ::GoogleProtoBB::TGAChannel Value_GFX_Preload_Status_GFXPreloadStatus::gfxcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.gfxCnl)
+  return static_cast< ::GoogleProtoBB::TGAChannel >(gfxcnl_);
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_gfxcnl(::GoogleProtoBB::TGAChannel value) {
+  
+  gfxcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.gfxCnl)
+}
+
+// .GoogleProtoBB.TGAChannelStatus preloadingStatus = 2;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_preloadingstatus() {
+  preloadingstatus_ = 0;
+}
+inline ::GoogleProtoBB::TGAChannelStatus Value_GFX_Preload_Status_GFXPreloadStatus::preloadingstatus() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadingStatus)
+  return static_cast< ::GoogleProtoBB::TGAChannelStatus >(preloadingstatus_);
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_preloadingstatus(::GoogleProtoBB::TGAChannelStatus value) {
+  
+  preloadingstatus_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadingStatus)
+}
+
+// uint32 preloadNum = 3;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_preloadnum() {
+  preloadnum_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Preload_Status_GFXPreloadStatus::preloadnum() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadNum)
+  return preloadnum_;
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_preloadnum(::google::protobuf::uint32 value) {
+  
+  preloadnum_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadNum)
+}
+
+// uint32 preloadDen = 4;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_preloadden() {
+  preloadden_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Preload_Status_GFXPreloadStatus::preloadden() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadDen)
+  return preloadden_;
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_preloadden(::google::protobuf::uint32 value) {
+  
+  preloadden_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.preloadDen)
+}
+
+// uint32 idSize = 5;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_idsize() {
+  idsize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Preload_Status_GFXPreloadStatus::idsize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.idSize)
+  return idsize_;
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_idsize(::google::protobuf::uint32 value) {
+  
+  idsize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.idSize)
+}
+
+// bytes id = 6;
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::clear_id() {
+  id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_GFX_Preload_Status_GFXPreloadStatus::id() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+  return id_.GetNoArena();
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_id(const ::std::string& value) {
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+}
+#if LANG_CXX11
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_id(::std::string&& value) {
+  
+  id_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+}
+#endif
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_id(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_id(const void* value, size_t size) {
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+}
+inline ::std::string* Value_GFX_Preload_Status_GFXPreloadStatus::mutable_id() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+  return id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_GFX_Preload_Status_GFXPreloadStatus::release_id() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+  
+  return id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_GFX_Preload_Status_GFXPreloadStatus::set_allocated_id(::std::string* id) {
+  if (id != NULL) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus.id)
+}
+
+// -------------------------------------------------------------------
+
+// Value_GFX_Preload_Status
+
+// uint32 count = 1;
+inline void Value_GFX_Preload_Status::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_GFX_Preload_Status::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.count)
+  return count_;
+}
+inline void Value_GFX_Preload_Status::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_GFX_Preload_Status.count)
+}
+
+// repeated .GoogleProtoBB.Value_GFX_Preload_Status.GFXPreloadStatus gfxPreloadStatus = 2;
+inline int Value_GFX_Preload_Status::gfxpreloadstatus_size() const {
+  return gfxpreloadstatus_.size();
+}
+inline void Value_GFX_Preload_Status::clear_gfxpreloadstatus() {
+  gfxpreloadstatus_.Clear();
+}
+inline ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus* Value_GFX_Preload_Status::mutable_gfxpreloadstatus(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus)
+  return gfxpreloadstatus_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus >*
+Value_GFX_Preload_Status::mutable_gfxpreloadstatus() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus)
+  return &gfxpreloadstatus_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus& Value_GFX_Preload_Status::gfxpreloadstatus(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus)
+  return gfxpreloadstatus_.Get(index);
+}
+inline ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus* Value_GFX_Preload_Status::add_gfxpreloadstatus() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus)
+  return gfxpreloadstatus_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_GFX_Preload_Status_GFXPreloadStatus >&
+Value_GFX_Preload_Status::gfxpreloadstatus() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_GFX_Preload_Status.gfxPreloadStatus)
+  return gfxpreloadstatus_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_Version
+
+// uint32 version0 = 1;
+inline void Value_HealthInfo_Version::clear_version0() {
+  version0_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_Version::version0() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Version.version0)
+  return version0_;
+}
+inline void Value_HealthInfo_Version::set_version0(::google::protobuf::uint32 value) {
+  
+  version0_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Version.version0)
+}
+
+// uint32 version1 = 2;
+inline void Value_HealthInfo_Version::clear_version1() {
+  version1_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_Version::version1() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Version.version1)
+  return version1_;
+}
+inline void Value_HealthInfo_Version::set_version1(::google::protobuf::uint32 value) {
+  
+  version1_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Version.version1)
+}
+
+// uint32 version2 = 3;
+inline void Value_HealthInfo_Version::clear_version2() {
+  version2_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_Version::version2() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Version.version2)
+  return version2_;
+}
+inline void Value_HealthInfo_Version::set_version2(::google::protobuf::uint32 value) {
+  
+  version2_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Version.version2)
+}
+
+// uint32 version3 = 4;
+inline void Value_HealthInfo_Version::clear_version3() {
+  version3_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_Version::version3() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Version.version3)
+  return version3_;
+}
+inline void Value_HealthInfo_Version::set_version3(::google::protobuf::uint32 value) {
+  
+  version3_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Version.version3)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_Mixer_Status
+
+// bool hasConnectedAudioMixer = 1;
+inline void Value_HealthInfo_Mixer_Status::clear_hasconnectedaudiomixer() {
+  hasconnectedaudiomixer_ = false;
+}
+inline bool Value_HealthInfo_Mixer_Status::hasconnectedaudiomixer() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Mixer_Status.hasConnectedAudioMixer)
+  return hasconnectedaudiomixer_;
+}
+inline void Value_HealthInfo_Mixer_Status::set_hasconnectedaudiomixer(bool value) {
+  
+  hasconnectedaudiomixer_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Mixer_Status.hasConnectedAudioMixer)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_Network_Bandwidth
+
+// uint32 networkBandwidth = 1;
+inline void Value_HealthInfo_Network_Bandwidth::clear_networkbandwidth() {
+  networkbandwidth_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_Network_Bandwidth::networkbandwidth() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_Network_Bandwidth.networkBandwidth)
+  return networkbandwidth_;
+}
+inline void Value_HealthInfo_Network_Bandwidth::set_networkbandwidth(::google::protobuf::uint32 value) {
+  
+  networkbandwidth_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_Network_Bandwidth.networkBandwidth)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_GPU_Temperature
+
+// uint32 count = 1;
+inline void Value_HealthInfo_GPU_Temperature::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_GPU_Temperature::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.count)
+  return count_;
+}
+inline void Value_HealthInfo_GPU_Temperature::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.count)
+}
+
+// repeated int32 temperatureGPU = 2;
+inline int Value_HealthInfo_GPU_Temperature::temperaturegpu_size() const {
+  return temperaturegpu_.size();
+}
+inline void Value_HealthInfo_GPU_Temperature::clear_temperaturegpu() {
+  temperaturegpu_.Clear();
+}
+inline ::google::protobuf::int32 Value_HealthInfo_GPU_Temperature::temperaturegpu(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU)
+  return temperaturegpu_.Get(index);
+}
+inline void Value_HealthInfo_GPU_Temperature::set_temperaturegpu(int index, ::google::protobuf::int32 value) {
+  temperaturegpu_.Set(index, value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU)
+}
+inline void Value_HealthInfo_GPU_Temperature::add_temperaturegpu(::google::protobuf::int32 value) {
+  temperaturegpu_.Add(value);
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU)
+}
+inline const ::google::protobuf::RepeatedField< ::google::protobuf::int32 >&
+Value_HealthInfo_GPU_Temperature::temperaturegpu() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU)
+  return temperaturegpu_;
+}
+inline ::google::protobuf::RepeatedField< ::google::protobuf::int32 >*
+Value_HealthInfo_GPU_Temperature::mutable_temperaturegpu() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_HealthInfo_GPU_Temperature.temperatureGPU)
+  return &temperaturegpu_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_AJA_Status_InfoAJA
+
+// int32 temperatureAJA = 1;
+inline void Value_HealthInfo_AJA_Status_InfoAJA::clear_temperatureaja() {
+  temperatureaja_ = 0;
+}
+inline ::google::protobuf::int32 Value_HealthInfo_AJA_Status_InfoAJA::temperatureaja() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.temperatureAJA)
+  return temperatureaja_;
+}
+inline void Value_HealthInfo_AJA_Status_InfoAJA::set_temperatureaja(::google::protobuf::int32 value) {
+  
+  temperatureaja_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.temperatureAJA)
+}
+
+// bool lostAJA = 2;
+inline void Value_HealthInfo_AJA_Status_InfoAJA::clear_lostaja() {
+  lostaja_ = false;
+}
+inline bool Value_HealthInfo_AJA_Status_InfoAJA::lostaja() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.lostAJA)
+  return lostaja_;
+}
+inline void Value_HealthInfo_AJA_Status_InfoAJA::set_lostaja(bool value) {
+  
+  lostaja_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA.lostAJA)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_AJA_Status
+
+// uint32 count = 1;
+inline void Value_HealthInfo_AJA_Status::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_AJA_Status::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_AJA_Status.count)
+  return count_;
+}
+inline void Value_HealthInfo_AJA_Status::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_AJA_Status.count)
+}
+
+// repeated .GoogleProtoBB.Value_HealthInfo_AJA_Status.InfoAJA status = 2;
+inline int Value_HealthInfo_AJA_Status::status_size() const {
+  return status_.size();
+}
+inline void Value_HealthInfo_AJA_Status::clear_status() {
+  status_.Clear();
+}
+inline ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA* Value_HealthInfo_AJA_Status::mutable_status(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_AJA_Status.status)
+  return status_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA >*
+Value_HealthInfo_AJA_Status::mutable_status() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_HealthInfo_AJA_Status.status)
+  return &status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA& Value_HealthInfo_AJA_Status::status(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_AJA_Status.status)
+  return status_.Get(index);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA* Value_HealthInfo_AJA_Status::add_status() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_HealthInfo_AJA_Status.status)
+  return status_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_AJA_Status_InfoAJA >&
+Value_HealthInfo_AJA_Status::status() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_HealthInfo_AJA_Status.status)
+  return status_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_HDD_Status
+
+// uint32 hddFaulty = 1;
+inline void Value_HealthInfo_HDD_Status::clear_hddfaulty() {
+  hddfaulty_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_HDD_Status::hddfaulty() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_HDD_Status.hddFaulty)
+  return hddfaulty_;
+}
+inline void Value_HealthInfo_HDD_Status::set_hddfaulty(::google::protobuf::uint32 value) {
+  
+  hddfaulty_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_HDD_Status.hddFaulty)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_ASIO_Status_ValueStatusPair
+
+// uint32 val = 1;
+inline void Value_HealthInfo_ASIO_Status_ValueStatusPair::clear_val() {
+  val_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_ASIO_Status_ValueStatusPair::val() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.val)
+  return val_;
+}
+inline void Value_HealthInfo_ASIO_Status_ValueStatusPair::set_val(::google::protobuf::uint32 value) {
+  
+  val_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.val)
+}
+
+// bool isGood = 2;
+inline void Value_HealthInfo_ASIO_Status_ValueStatusPair::clear_isgood() {
+  isgood_ = false;
+}
+inline bool Value_HealthInfo_ASIO_Status_ValueStatusPair::isgood() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.isGood)
+  return isgood_;
+}
+inline void Value_HealthInfo_ASIO_Status_ValueStatusPair::set_isgood(bool value) {
+  
+  isgood_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair.isGood)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_ASIO_Status_AsioStatus
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair sampleRate = 1;
+inline bool Value_HealthInfo_ASIO_Status_AsioStatus::has_samplerate() const {
+  return this != internal_default_instance() && samplerate_ != NULL;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::clear_samplerate() {
+  if (GetArenaNoVirtual() == NULL && samplerate_ != NULL) {
+    delete samplerate_;
+  }
+  samplerate_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::_internal_samplerate() const {
+  return *samplerate_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::samplerate() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* p = samplerate_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.sampleRate)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::release_samplerate() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.sampleRate)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* temp = samplerate_;
+  samplerate_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::mutable_samplerate() {
+  
+  if (samplerate_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair>(GetArenaNoVirtual());
+    samplerate_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.sampleRate)
+  return samplerate_;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::set_allocated_samplerate(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* samplerate) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete samplerate_;
+  }
+  if (samplerate) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      samplerate = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, samplerate, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  samplerate_ = samplerate;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.sampleRate)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair bufferSize = 2;
+inline bool Value_HealthInfo_ASIO_Status_AsioStatus::has_buffersize() const {
+  return this != internal_default_instance() && buffersize_ != NULL;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::clear_buffersize() {
+  if (GetArenaNoVirtual() == NULL && buffersize_ != NULL) {
+    delete buffersize_;
+  }
+  buffersize_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::_internal_buffersize() const {
+  return *buffersize_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::buffersize() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* p = buffersize_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.bufferSize)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::release_buffersize() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.bufferSize)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* temp = buffersize_;
+  buffersize_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::mutable_buffersize() {
+  
+  if (buffersize_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair>(GetArenaNoVirtual());
+    buffersize_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.bufferSize)
+  return buffersize_;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::set_allocated_buffersize(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* buffersize) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete buffersize_;
+  }
+  if (buffersize) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      buffersize = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, buffersize, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  buffersize_ = buffersize;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.bufferSize)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair inputLatency = 3;
+inline bool Value_HealthInfo_ASIO_Status_AsioStatus::has_inputlatency() const {
+  return this != internal_default_instance() && inputlatency_ != NULL;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::clear_inputlatency() {
+  if (GetArenaNoVirtual() == NULL && inputlatency_ != NULL) {
+    delete inputlatency_;
+  }
+  inputlatency_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::_internal_inputlatency() const {
+  return *inputlatency_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::inputlatency() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* p = inputlatency_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.inputLatency)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::release_inputlatency() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.inputLatency)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* temp = inputlatency_;
+  inputlatency_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::mutable_inputlatency() {
+  
+  if (inputlatency_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair>(GetArenaNoVirtual());
+    inputlatency_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.inputLatency)
+  return inputlatency_;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::set_allocated_inputlatency(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* inputlatency) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete inputlatency_;
+  }
+  if (inputlatency) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      inputlatency = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, inputlatency, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  inputlatency_ = inputlatency;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.inputLatency)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status.ValueStatusPair outputLatency = 4;
+inline bool Value_HealthInfo_ASIO_Status_AsioStatus::has_outputlatency() const {
+  return this != internal_default_instance() && outputlatency_ != NULL;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::clear_outputlatency() {
+  if (GetArenaNoVirtual() == NULL && outputlatency_ != NULL) {
+    delete outputlatency_;
+  }
+  outputlatency_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::_internal_outputlatency() const {
+  return *outputlatency_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair& Value_HealthInfo_ASIO_Status_AsioStatus::outputlatency() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* p = outputlatency_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.outputLatency)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_ValueStatusPair_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::release_outputlatency() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.outputLatency)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* temp = outputlatency_;
+  outputlatency_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* Value_HealthInfo_ASIO_Status_AsioStatus::mutable_outputlatency() {
+  
+  if (outputlatency_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair>(GetArenaNoVirtual());
+    outputlatency_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.outputLatency)
+  return outputlatency_;
+}
+inline void Value_HealthInfo_ASIO_Status_AsioStatus::set_allocated_outputlatency(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_ValueStatusPair* outputlatency) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete outputlatency_;
+  }
+  if (outputlatency) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      outputlatency = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, outputlatency, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  outputlatency_ = outputlatency;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus.outputLatency)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_ASIO_Status
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status.AsioStatus status = 1;
+inline bool Value_HealthInfo_ASIO_Status::has_status() const {
+  return this != internal_default_instance() && status_ != NULL;
+}
+inline void Value_HealthInfo_ASIO_Status::clear_status() {
+  if (GetArenaNoVirtual() == NULL && status_ != NULL) {
+    delete status_;
+  }
+  status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus& Value_HealthInfo_ASIO_Status::_internal_status() const {
+  return *status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus& Value_HealthInfo_ASIO_Status::status() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* p = status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ASIO_Status.status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_AsioStatus_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* Value_HealthInfo_ASIO_Status::release_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_ASIO_Status.status)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* temp = status_;
+  status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* Value_HealthInfo_ASIO_Status::mutable_status() {
+  
+  if (status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus>(GetArenaNoVirtual());
+    status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_ASIO_Status.status)
+  return status_;
+}
+inline void Value_HealthInfo_ASIO_Status::set_allocated_status(::GoogleProtoBB::Value_HealthInfo_ASIO_Status_AsioStatus* status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete status_;
+  }
+  if (status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  status_ = status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_ASIO_Status.status)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_External_TimeCode
+
+// bool isExternalTC = 1;
+inline void Value_HealthInfo_External_TimeCode::clear_isexternaltc() {
+  isexternaltc_ = false;
+}
+inline bool Value_HealthInfo_External_TimeCode::isexternaltc() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_External_TimeCode.isExternalTC)
+  return isexternaltc_;
+}
+inline void Value_HealthInfo_External_TimeCode::set_isexternaltc(bool value) {
+  
+  isexternaltc_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_External_TimeCode.isExternalTC)
+}
+
+// -------------------------------------------------------------------
+
+// Value_CustomInfo_InfoPair
+
+// uint32 keySize = 1;
+inline void Value_CustomInfo_InfoPair::clear_keysize() {
+  keysize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_CustomInfo_InfoPair::keysize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.InfoPair.keySize)
+  return keysize_;
+}
+inline void Value_CustomInfo_InfoPair::set_keysize(::google::protobuf::uint32 value) {
+  
+  keysize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_CustomInfo.InfoPair.keySize)
+}
+
+// uint32 valueSize = 2;
+inline void Value_CustomInfo_InfoPair::clear_valuesize() {
+  valuesize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_CustomInfo_InfoPair::valuesize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.InfoPair.valueSize)
+  return valuesize_;
+}
+inline void Value_CustomInfo_InfoPair::set_valuesize(::google::protobuf::uint32 value) {
+  
+  valuesize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_CustomInfo.InfoPair.valueSize)
+}
+
+// bytes key = 3;
+inline void Value_CustomInfo_InfoPair::clear_key() {
+  key_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_CustomInfo_InfoPair::key() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+  return key_.GetNoArena();
+}
+inline void Value_CustomInfo_InfoPair::set_key(const ::std::string& value) {
+  
+  key_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+}
+#if LANG_CXX11
+inline void Value_CustomInfo_InfoPair::set_key(::std::string&& value) {
+  
+  key_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+}
+#endif
+inline void Value_CustomInfo_InfoPair::set_key(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  key_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+}
+inline void Value_CustomInfo_InfoPair::set_key(const void* value, size_t size) {
+  
+  key_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+}
+inline ::std::string* Value_CustomInfo_InfoPair::mutable_key() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+  return key_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_CustomInfo_InfoPair::release_key() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+  
+  return key_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_CustomInfo_InfoPair::set_allocated_key(::std::string* key) {
+  if (key != NULL) {
+    
+  } else {
+    
+  }
+  key_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), key);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_CustomInfo.InfoPair.key)
+}
+
+// bytes value = 4;
+inline void Value_CustomInfo_InfoPair::clear_value() {
+  value_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_CustomInfo_InfoPair::value() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+  return value_.GetNoArena();
+}
+inline void Value_CustomInfo_InfoPair::set_value(const ::std::string& value) {
+  
+  value_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+}
+#if LANG_CXX11
+inline void Value_CustomInfo_InfoPair::set_value(::std::string&& value) {
+  
+  value_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+}
+#endif
+inline void Value_CustomInfo_InfoPair::set_value(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  value_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+}
+inline void Value_CustomInfo_InfoPair::set_value(const void* value, size_t size) {
+  
+  value_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+}
+inline ::std::string* Value_CustomInfo_InfoPair::mutable_value() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+  return value_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_CustomInfo_InfoPair::release_value() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+  
+  return value_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_CustomInfo_InfoPair::set_allocated_value(::std::string* value) {
+  if (value != NULL) {
+    
+  } else {
+    
+  }
+  value_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_CustomInfo.InfoPair.value)
+}
+
+// -------------------------------------------------------------------
+
+// Value_CustomInfo
+
+// uint32 nbCustomInfo = 1;
+inline void Value_CustomInfo::clear_nbcustominfo() {
+  nbcustominfo_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_CustomInfo::nbcustominfo() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.nbCustomInfo)
+  return nbcustominfo_;
+}
+inline void Value_CustomInfo::set_nbcustominfo(::google::protobuf::uint32 value) {
+  
+  nbcustominfo_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_CustomInfo.nbCustomInfo)
+}
+
+// repeated .GoogleProtoBB.Value_CustomInfo.InfoPair infoArray = 2;
+inline int Value_CustomInfo::infoarray_size() const {
+  return infoarray_.size();
+}
+inline void Value_CustomInfo::clear_infoarray() {
+  infoarray_.Clear();
+}
+inline ::GoogleProtoBB::Value_CustomInfo_InfoPair* Value_CustomInfo::mutable_infoarray(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_CustomInfo.infoArray)
+  return infoarray_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_CustomInfo_InfoPair >*
+Value_CustomInfo::mutable_infoarray() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_CustomInfo.infoArray)
+  return &infoarray_;
+}
+inline const ::GoogleProtoBB::Value_CustomInfo_InfoPair& Value_CustomInfo::infoarray(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_CustomInfo.infoArray)
+  return infoarray_.Get(index);
+}
+inline ::GoogleProtoBB::Value_CustomInfo_InfoPair* Value_CustomInfo::add_infoarray() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_CustomInfo.infoArray)
+  return infoarray_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_CustomInfo_InfoPair >&
+Value_CustomInfo::infoarray() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_CustomInfo.infoArray)
+  return infoarray_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_BMR_Setting
+
+// uint32 type = 1;
+inline void Value_BMR_Setting::clear_type() {
+  type_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_BMR_Setting::type() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_BMR_Setting.type)
+  return type_;
+}
+inline void Value_BMR_Setting::set_type(::google::protobuf::uint32 value) {
+  
+  type_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_BMR_Setting.type)
+}
+
+// uint32 bufSize = 2;
+inline void Value_BMR_Setting::clear_bufsize() {
+  bufsize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_BMR_Setting::bufsize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_BMR_Setting.bufSize)
+  return bufsize_;
+}
+inline void Value_BMR_Setting::set_bufsize(::google::protobuf::uint32 value) {
+  
+  bufsize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_BMR_Setting.bufSize)
+}
+
+// bytes buf = 3;
+inline void Value_BMR_Setting::clear_buf() {
+  buf_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_BMR_Setting::buf() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_BMR_Setting.buf)
+  return buf_.GetNoArena();
+}
+inline void Value_BMR_Setting::set_buf(const ::std::string& value) {
+  
+  buf_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_BMR_Setting.buf)
+}
+#if LANG_CXX11
+inline void Value_BMR_Setting::set_buf(::std::string&& value) {
+  
+  buf_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_BMR_Setting.buf)
+}
+#endif
+inline void Value_BMR_Setting::set_buf(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  buf_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_BMR_Setting.buf)
+}
+inline void Value_BMR_Setting::set_buf(const void* value, size_t size) {
+  
+  buf_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_BMR_Setting.buf)
+}
+inline ::std::string* Value_BMR_Setting::mutable_buf() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_BMR_Setting.buf)
+  return buf_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_BMR_Setting::release_buf() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_BMR_Setting.buf)
+  
+  return buf_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_BMR_Setting::set_allocated_buf(::std::string* buf) {
+  if (buf != NULL) {
+    
+  } else {
+    
+  }
+  buf_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), buf);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_BMR_Setting.buf)
+}
+
+// -------------------------------------------------------------------
+
+// Value_VuMeter_Live_Mixer_PGM_VuMeter
+
+// uint32 count = 1;
+inline void Value_VuMeter_Live_Mixer_PGM_VuMeter::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_VuMeter_Live_Mixer_PGM_VuMeter::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.count)
+  return count_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_VuMeter::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.count)
+}
+
+// repeated float dbTbl = 2;
+inline int Value_VuMeter_Live_Mixer_PGM_VuMeter::dbtbl_size() const {
+  return dbtbl_.size();
+}
+inline void Value_VuMeter_Live_Mixer_PGM_VuMeter::clear_dbtbl() {
+  dbtbl_.Clear();
+}
+inline float Value_VuMeter_Live_Mixer_PGM_VuMeter::dbtbl(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl)
+  return dbtbl_.Get(index);
+}
+inline void Value_VuMeter_Live_Mixer_PGM_VuMeter::set_dbtbl(int index, float value) {
+  dbtbl_.Set(index, value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl)
+}
+inline void Value_VuMeter_Live_Mixer_PGM_VuMeter::add_dbtbl(float value) {
+  dbtbl_.Add(value);
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl)
+}
+inline const ::google::protobuf::RepeatedField< float >&
+Value_VuMeter_Live_Mixer_PGM_VuMeter::dbtbl() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl)
+  return dbtbl_;
+}
+inline ::google::protobuf::RepeatedField< float >*
+Value_VuMeter_Live_Mixer_PGM_VuMeter::mutable_dbtbl() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter.dbTbl)
+  return &dbtbl_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_VuMeter_Live_Mixer_PGM_PGMUV
+
+// .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter uvClean = 1;
+inline bool Value_VuMeter_Live_Mixer_PGM_PGMUV::has_uvclean() const {
+  return this != internal_default_instance() && uvclean_ != NULL;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::clear_uvclean() {
+  if (GetArenaNoVirtual() == NULL && uvclean_ != NULL) {
+    delete uvclean_;
+  }
+  uvclean_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::_internal_uvclean() const {
+  return *uvclean_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::uvclean() const {
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* p = uvclean_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.uvClean)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter*>(
+      &::GoogleProtoBB::_Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::release_uvclean() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.uvClean)
+  
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* temp = uvclean_;
+  uvclean_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::mutable_uvclean() {
+  
+  if (uvclean_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter>(GetArenaNoVirtual());
+    uvclean_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.uvClean)
+  return uvclean_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::set_allocated_uvclean(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* uvclean) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete uvclean_;
+  }
+  if (uvclean) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      uvclean = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, uvclean, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  uvclean_ = uvclean;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.uvClean)
+}
+
+// .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter dirty = 2;
+inline bool Value_VuMeter_Live_Mixer_PGM_PGMUV::has_dirty() const {
+  return this != internal_default_instance() && dirty_ != NULL;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::clear_dirty() {
+  if (GetArenaNoVirtual() == NULL && dirty_ != NULL) {
+    delete dirty_;
+  }
+  dirty_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::_internal_dirty() const {
+  return *dirty_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::dirty() const {
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* p = dirty_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.dirty)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter*>(
+      &::GoogleProtoBB::_Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::release_dirty() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.dirty)
+  
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* temp = dirty_;
+  dirty_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::mutable_dirty() {
+  
+  if (dirty_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter>(GetArenaNoVirtual());
+    dirty_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.dirty)
+  return dirty_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::set_allocated_dirty(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* dirty) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete dirty_;
+  }
+  if (dirty) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      dirty = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, dirty, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  dirty_ = dirty;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.dirty)
+}
+
+// .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter player = 3;
+inline bool Value_VuMeter_Live_Mixer_PGM_PGMUV::has_player() const {
+  return this != internal_default_instance() && player_ != NULL;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::clear_player() {
+  if (GetArenaNoVirtual() == NULL && player_ != NULL) {
+    delete player_;
+  }
+  player_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::_internal_player() const {
+  return *player_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM_PGMUV::player() const {
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* p = player_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.player)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter*>(
+      &::GoogleProtoBB::_Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::release_player() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.player)
+  
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* temp = player_;
+  player_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM_PGMUV::mutable_player() {
+  
+  if (player_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter>(GetArenaNoVirtual());
+    player_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.player)
+  return player_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM_PGMUV::set_allocated_player(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* player) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete player_;
+  }
+  if (player) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      player = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, player, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  player_ = player;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV.player)
+}
+
+// -------------------------------------------------------------------
+
+// Value_VuMeter_Live_Mixer_PGM
+
+// .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter mixerMeter = 1;
+inline bool Value_VuMeter_Live_Mixer_PGM::has_mixermeter() const {
+  return this != internal_default_instance() && mixermeter_ != NULL;
+}
+inline void Value_VuMeter_Live_Mixer_PGM::clear_mixermeter() {
+  if (GetArenaNoVirtual() == NULL && mixermeter_ != NULL) {
+    delete mixermeter_;
+  }
+  mixermeter_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM::_internal_mixermeter() const {
+  return *mixermeter_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM::mixermeter() const {
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* p = mixermeter_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.mixerMeter)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter*>(
+      &::GoogleProtoBB::_Value_VuMeter_Live_Mixer_PGM_VuMeter_default_instance_);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::release_mixermeter() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.mixerMeter)
+  
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* temp = mixermeter_;
+  mixermeter_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::mutable_mixermeter() {
+  
+  if (mixermeter_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter>(GetArenaNoVirtual());
+    mixermeter_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.mixerMeter)
+  return mixermeter_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM::set_allocated_mixermeter(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* mixermeter) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete mixermeter_;
+  }
+  if (mixermeter) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      mixermeter = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, mixermeter, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  mixermeter_ = mixermeter;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.mixerMeter)
+}
+
+// uint32 countofLiveMeter = 2;
+inline void Value_VuMeter_Live_Mixer_PGM::clear_countoflivemeter() {
+  countoflivemeter_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_VuMeter_Live_Mixer_PGM::countoflivemeter() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofLiveMeter)
+  return countoflivemeter_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM::set_countoflivemeter(::google::protobuf::uint32 value) {
+  
+  countoflivemeter_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofLiveMeter)
+}
+
+// repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter liveMeter = 3;
+inline int Value_VuMeter_Live_Mixer_PGM::livemeter_size() const {
+  return livemeter_.size();
+}
+inline void Value_VuMeter_Live_Mixer_PGM::clear_livemeter() {
+  livemeter_.Clear();
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::mutable_livemeter(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter)
+  return livemeter_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >*
+Value_VuMeter_Live_Mixer_PGM::mutable_livemeter() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter)
+  return &livemeter_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM::livemeter(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter)
+  return livemeter_.Get(index);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::add_livemeter() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter)
+  return livemeter_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >&
+Value_VuMeter_Live_Mixer_PGM::livemeter() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.liveMeter)
+  return livemeter_;
+}
+
+// uint32 countofPRV = 4;
+inline void Value_VuMeter_Live_Mixer_PGM::clear_countofprv() {
+  countofprv_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_VuMeter_Live_Mixer_PGM::countofprv() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPRV)
+  return countofprv_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM::set_countofprv(::google::protobuf::uint32 value) {
+  
+  countofprv_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPRV)
+}
+
+// repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.VuMeter prvMeter = 5;
+inline int Value_VuMeter_Live_Mixer_PGM::prvmeter_size() const {
+  return prvmeter_.size();
+}
+inline void Value_VuMeter_Live_Mixer_PGM::clear_prvmeter() {
+  prvmeter_.Clear();
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::mutable_prvmeter(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter)
+  return prvmeter_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >*
+Value_VuMeter_Live_Mixer_PGM::mutable_prvmeter() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter)
+  return &prvmeter_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter& Value_VuMeter_Live_Mixer_PGM::prvmeter(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter)
+  return prvmeter_.Get(index);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter* Value_VuMeter_Live_Mixer_PGM::add_prvmeter() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter)
+  return prvmeter_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_VuMeter >&
+Value_VuMeter_Live_Mixer_PGM::prvmeter() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.prvMeter)
+  return prvmeter_;
+}
+
+// uint32 countofPGM = 6;
+inline void Value_VuMeter_Live_Mixer_PGM::clear_countofpgm() {
+  countofpgm_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_VuMeter_Live_Mixer_PGM::countofpgm() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPGM)
+  return countofpgm_;
+}
+inline void Value_VuMeter_Live_Mixer_PGM::set_countofpgm(::google::protobuf::uint32 value) {
+  
+  countofpgm_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.countofPGM)
+}
+
+// repeated .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.PGMUV pgmMeter = 7;
+inline int Value_VuMeter_Live_Mixer_PGM::pgmmeter_size() const {
+  return pgmmeter_.size();
+}
+inline void Value_VuMeter_Live_Mixer_PGM::clear_pgmmeter() {
+  pgmmeter_.Clear();
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV* Value_VuMeter_Live_Mixer_PGM::mutable_pgmmeter(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter)
+  return pgmmeter_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV >*
+Value_VuMeter_Live_Mixer_PGM::mutable_pgmmeter() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter)
+  return &pgmmeter_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV& Value_VuMeter_Live_Mixer_PGM::pgmmeter(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter)
+  return pgmmeter_.Get(index);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV* Value_VuMeter_Live_Mixer_PGM::add_pgmmeter() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter)
+  return pgmmeter_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM_PGMUV >&
+Value_VuMeter_Live_Mixer_PGM::pgmmeter() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM.pgmMeter)
+  return pgmmeter_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_PiP_Status_PiPStatus
+
+// .GoogleProtoBB.CnlID targetCnlID = 1;
+inline void Value_PiP_Status_PiPStatus::clear_targetcnlid() {
+  targetcnlid_ = 0;
+}
+inline ::GoogleProtoBB::CnlID Value_PiP_Status_PiPStatus::targetcnlid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.targetCnlID)
+  return static_cast< ::GoogleProtoBB::CnlID >(targetcnlid_);
+}
+inline void Value_PiP_Status_PiPStatus::set_targetcnlid(::GoogleProtoBB::CnlID value) {
+  
+  targetcnlid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.targetCnlID)
+}
+
+// .GoogleProtoBB.PiPType pipCnl = 2;
+inline void Value_PiP_Status_PiPStatus::clear_pipcnl() {
+  pipcnl_ = 0;
+}
+inline ::GoogleProtoBB::PiPType Value_PiP_Status_PiPStatus::pipcnl() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.pipCnl)
+  return static_cast< ::GoogleProtoBB::PiPType >(pipcnl_);
+}
+inline void Value_PiP_Status_PiPStatus::set_pipcnl(::GoogleProtoBB::PiPType value) {
+  
+  pipcnl_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.pipCnl)
+}
+
+// bool enable = 3;
+inline void Value_PiP_Status_PiPStatus::clear_enable() {
+  enable_ = false;
+}
+inline bool Value_PiP_Status_PiPStatus::enable() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.enable)
+  return enable_;
+}
+inline void Value_PiP_Status_PiPStatus::set_enable(bool value) {
+  
+  enable_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.enable)
+}
+
+// uint32 bgFadeInDuration = 4;
+inline void Value_PiP_Status_PiPStatus::clear_bgfadeinduration() {
+  bgfadeinduration_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PiPStatus::bgfadeinduration() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeInDuration)
+  return bgfadeinduration_;
+}
+inline void Value_PiP_Status_PiPStatus::set_bgfadeinduration(::google::protobuf::uint32 value) {
+  
+  bgfadeinduration_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeInDuration)
+}
+
+// uint32 bgFadeOutDuration = 5;
+inline void Value_PiP_Status_PiPStatus::clear_bgfadeoutduration() {
+  bgfadeoutduration_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PiPStatus::bgfadeoutduration() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeOutDuration)
+  return bgfadeoutduration_;
+}
+inline void Value_PiP_Status_PiPStatus::set_bgfadeoutduration(::google::protobuf::uint32 value) {
+  
+  bgfadeoutduration_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgFadeOutDuration)
+}
+
+// uint32 bgLoopIn = 6;
+inline void Value_PiP_Status_PiPStatus::clear_bgloopin() {
+  bgloopin_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PiPStatus::bgloopin() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopIn)
+  return bgloopin_;
+}
+inline void Value_PiP_Status_PiPStatus::set_bgloopin(::google::protobuf::uint32 value) {
+  
+  bgloopin_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopIn)
+}
+
+// uint32 bgLoopOut = 7;
+inline void Value_PiP_Status_PiPStatus::clear_bgloopout() {
+  bgloopout_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PiPStatus::bgloopout() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopOut)
+  return bgloopout_;
+}
+inline void Value_PiP_Status_PiPStatus::set_bgloopout(::google::protobuf::uint32 value) {
+  
+  bgloopout_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopOut)
+}
+
+// uint32 bgLoopCnt = 8;
+inline void Value_PiP_Status_PiPStatus::clear_bgloopcnt() {
+  bgloopcnt_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PiPStatus::bgloopcnt() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopCnt)
+  return bgloopcnt_;
+}
+inline void Value_PiP_Status_PiPStatus::set_bgloopcnt(::google::protobuf::uint32 value) {
+  
+  bgloopcnt_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PiPStatus.bgLoopCnt)
+}
+
+// -------------------------------------------------------------------
+
+// Value_PiP_Status_PGMPiP
+
+// uint32 count = 1;
+inline void Value_PiP_Status_PGMPiP::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status_PGMPiP::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PGMPiP.count)
+  return count_;
+}
+inline void Value_PiP_Status_PGMPiP::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.PGMPiP.count)
+}
+
+// repeated .GoogleProtoBB.Value_PiP_Status.PiPStatus gfxStatus = 2;
+inline int Value_PiP_Status_PGMPiP::gfxstatus_size() const {
+  return gfxstatus_.size();
+}
+inline void Value_PiP_Status_PGMPiP::clear_gfxstatus() {
+  gfxstatus_.Clear();
+}
+inline ::GoogleProtoBB::Value_PiP_Status_PiPStatus* Value_PiP_Status_PGMPiP::mutable_gfxstatus(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus)
+  return gfxstatus_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PiPStatus >*
+Value_PiP_Status_PGMPiP::mutable_gfxstatus() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus)
+  return &gfxstatus_;
+}
+inline const ::GoogleProtoBB::Value_PiP_Status_PiPStatus& Value_PiP_Status_PGMPiP::gfxstatus(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus)
+  return gfxstatus_.Get(index);
+}
+inline ::GoogleProtoBB::Value_PiP_Status_PiPStatus* Value_PiP_Status_PGMPiP::add_gfxstatus() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus)
+  return gfxstatus_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PiPStatus >&
+Value_PiP_Status_PGMPiP::gfxstatus() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_PiP_Status.PGMPiP.gfxStatus)
+  return gfxstatus_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_PiP_Status
+
+// uint32 pgmCount = 1;
+inline void Value_PiP_Status::clear_pgmcount() {
+  pgmcount_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_PiP_Status::pgmcount() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.pgmCount)
+  return pgmcount_;
+}
+inline void Value_PiP_Status::set_pgmcount(::google::protobuf::uint32 value) {
+  
+  pgmcount_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_PiP_Status.pgmCount)
+}
+
+// repeated .GoogleProtoBB.Value_PiP_Status.PGMPiP pgmPiP = 2;
+inline int Value_PiP_Status::pgmpip_size() const {
+  return pgmpip_.size();
+}
+inline void Value_PiP_Status::clear_pgmpip() {
+  pgmpip_.Clear();
+}
+inline ::GoogleProtoBB::Value_PiP_Status_PGMPiP* Value_PiP_Status::mutable_pgmpip(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_PiP_Status.pgmPiP)
+  return pgmpip_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PGMPiP >*
+Value_PiP_Status::mutable_pgmpip() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_PiP_Status.pgmPiP)
+  return &pgmpip_;
+}
+inline const ::GoogleProtoBB::Value_PiP_Status_PGMPiP& Value_PiP_Status::pgmpip(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_PiP_Status.pgmPiP)
+  return pgmpip_.Get(index);
+}
+inline ::GoogleProtoBB::Value_PiP_Status_PGMPiP* Value_PiP_Status::add_pgmpip() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_PiP_Status.pgmPiP)
+  return pgmpip_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_PiP_Status_PGMPiP >&
+Value_PiP_Status::pgmpip() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_PiP_Status.pgmPiP)
+  return pgmpip_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Server_Memory
+
+// uint32 currentMemory_GB = 1;
+inline void Value_Server_Memory::clear_currentmemory_gb() {
+  currentmemory_gb_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Server_Memory::currentmemory_gb() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Server_Memory.currentMemory_GB)
+  return currentmemory_gb_;
+}
+inline void Value_Server_Memory::set_currentmemory_gb(::google::protobuf::uint32 value) {
+  
+  currentmemory_gb_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Server_Memory.currentMemory_GB)
+}
+
+// uint32 expectedMemory_GB = 2;
+inline void Value_Server_Memory::clear_expectedmemory_gb() {
+  expectedmemory_gb_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Server_Memory::expectedmemory_gb() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Server_Memory.expectedMemory_GB)
+  return expectedmemory_gb_;
+}
+inline void Value_Server_Memory::set_expectedmemory_gb(::google::protobuf::uint32 value) {
+  
+  expectedmemory_gb_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Server_Memory.expectedMemory_GB)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Cache_ReplayPlayer_HighResVideo_Range
+
+// uint64 currentFrameID = 1;
+inline void Value_Cache_ReplayPlayer_HighResVideo_Range::clear_currentframeid() {
+  currentframeid_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Cache_ReplayPlayer_HighResVideo_Range::currentframeid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.currentFrameID)
+  return currentframeid_;
+}
+inline void Value_Cache_ReplayPlayer_HighResVideo_Range::set_currentframeid(::google::protobuf::uint64 value) {
+  
+  currentframeid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.currentFrameID)
+}
+
+// uint64 out = 2;
+inline void Value_Cache_ReplayPlayer_HighResVideo_Range::clear_out() {
+  out_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Cache_ReplayPlayer_HighResVideo_Range::out() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.out)
+  return out_;
+}
+inline void Value_Cache_ReplayPlayer_HighResVideo_Range::set_out(::google::protobuf::uint64 value) {
+  
+  out_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range.out)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Cache_ReplayPlayer_HighResVideo
+
+// uint32 count = 1;
+inline void Value_Cache_ReplayPlayer_HighResVideo::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Cache_ReplayPlayer_HighResVideo::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.count)
+  return count_;
+}
+inline void Value_Cache_ReplayPlayer_HighResVideo::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.count)
+}
+
+// repeated .GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.Range range = 2;
+inline int Value_Cache_ReplayPlayer_HighResVideo::range_size() const {
+  return range_.size();
+}
+inline void Value_Cache_ReplayPlayer_HighResVideo::clear_range() {
+  range_.Clear();
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range* Value_Cache_ReplayPlayer_HighResVideo::mutable_range(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range)
+  return range_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range >*
+Value_Cache_ReplayPlayer_HighResVideo::mutable_range() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range)
+  return &range_;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range& Value_Cache_ReplayPlayer_HighResVideo::range(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range)
+  return range_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range* Value_Cache_ReplayPlayer_HighResVideo::add_range() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range)
+  return range_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo_Range >&
+Value_Cache_ReplayPlayer_HighResVideo::range() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo.range)
+  return range_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Cache_ReplayPlayer_ExternalAudio_Range
+
+// uint64 currentFrameID = 1;
+inline void Value_Cache_ReplayPlayer_ExternalAudio_Range::clear_currentframeid() {
+  currentframeid_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Cache_ReplayPlayer_ExternalAudio_Range::currentframeid() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.currentFrameID)
+  return currentframeid_;
+}
+inline void Value_Cache_ReplayPlayer_ExternalAudio_Range::set_currentframeid(::google::protobuf::uint64 value) {
+  
+  currentframeid_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.currentFrameID)
+}
+
+// uint64 out = 2;
+inline void Value_Cache_ReplayPlayer_ExternalAudio_Range::clear_out() {
+  out_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Cache_ReplayPlayer_ExternalAudio_Range::out() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.out)
+  return out_;
+}
+inline void Value_Cache_ReplayPlayer_ExternalAudio_Range::set_out(::google::protobuf::uint64 value) {
+  
+  out_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range.out)
+}
+
+// -------------------------------------------------------------------
+
+// Value_Cache_ReplayPlayer_ExternalAudio
+
+// uint32 count = 1;
+inline void Value_Cache_ReplayPlayer_ExternalAudio::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Cache_ReplayPlayer_ExternalAudio::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.count)
+  return count_;
+}
+inline void Value_Cache_ReplayPlayer_ExternalAudio::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.count)
+}
+
+// repeated .GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.Range range = 2;
+inline int Value_Cache_ReplayPlayer_ExternalAudio::range_size() const {
+  return range_.size();
+}
+inline void Value_Cache_ReplayPlayer_ExternalAudio::clear_range() {
+  range_.Clear();
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range* Value_Cache_ReplayPlayer_ExternalAudio::mutable_range(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range)
+  return range_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range >*
+Value_Cache_ReplayPlayer_ExternalAudio::mutable_range() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range)
+  return &range_;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range& Value_Cache_ReplayPlayer_ExternalAudio::range(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range)
+  return range_.Get(index);
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range* Value_Cache_ReplayPlayer_ExternalAudio::add_range() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range)
+  return range_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio_Range >&
+Value_Cache_ReplayPlayer_ExternalAudio::range() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio.range)
+  return range_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Storage_Capacity
+
+// uint32 blockSize_MB = 1;
+inline void Value_Storage_Capacity::clear_blocksize_mb() {
+  blocksize_mb_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Storage_Capacity::blocksize_mb() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Storage_Capacity.blockSize_MB)
+  return blocksize_mb_;
+}
+inline void Value_Storage_Capacity::set_blocksize_mb(::google::protobuf::uint32 value) {
+  
+  blocksize_mb_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Storage_Capacity.blockSize_MB)
+}
+
+// uint32 nbBlockUsed = 2;
+inline void Value_Storage_Capacity::clear_nbblockused() {
+  nbblockused_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Storage_Capacity::nbblockused() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Storage_Capacity.nbBlockUsed)
+  return nbblockused_;
+}
+inline void Value_Storage_Capacity::set_nbblockused(::google::protobuf::uint32 value) {
+  
+  nbblockused_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Storage_Capacity.nbBlockUsed)
+}
+
+// uint32 nbBlockTotal = 3;
+inline void Value_Storage_Capacity::clear_nbblocktotal() {
+  nbblocktotal_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_Storage_Capacity::nbblocktotal() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Storage_Capacity.nbBlockTotal)
+  return nbblocktotal_;
+}
+inline void Value_Storage_Capacity::set_nbblocktotal(::google::protobuf::uint32 value) {
+  
+  nbblocktotal_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Storage_Capacity.nbBlockTotal)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_ReferenceStatus
+
+// .GoogleProtoBB.ReferenceStatus referenceStatus = 1;
+inline void Value_HealthInfo_ReferenceStatus::clear_referencestatus() {
+  referencestatus_ = 0;
+}
+inline ::GoogleProtoBB::ReferenceStatus Value_HealthInfo_ReferenceStatus::referencestatus() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_ReferenceStatus.referenceStatus)
+  return static_cast< ::GoogleProtoBB::ReferenceStatus >(referencestatus_);
+}
+inline void Value_HealthInfo_ReferenceStatus::set_referencestatus(::GoogleProtoBB::ReferenceStatus value) {
+  
+  referencestatus_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_ReferenceStatus.referenceStatus)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_SerialNumber_ServerInfo
+
+// int32 ip = 1;
+inline void Value_HealthInfo_SerialNumber_ServerInfo::clear_ip() {
+  ip_ = 0;
+}
+inline ::google::protobuf::int32 Value_HealthInfo_SerialNumber_ServerInfo::ip() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.ip)
+  return ip_;
+}
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_ip(::google::protobuf::int32 value) {
+  
+  ip_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.ip)
+}
+
+// uint32 snSize = 2;
+inline void Value_HealthInfo_SerialNumber_ServerInfo::clear_snsize() {
+  snsize_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_SerialNumber_ServerInfo::snsize() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.snSize)
+  return snsize_;
+}
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_snsize(::google::protobuf::uint32 value) {
+  
+  snsize_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.snSize)
+}
+
+// bytes sn = 3;
+inline void Value_HealthInfo_SerialNumber_ServerInfo::clear_sn() {
+  sn_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& Value_HealthInfo_SerialNumber_ServerInfo::sn() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+  return sn_.GetNoArena();
+}
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_sn(const ::std::string& value) {
+  
+  sn_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+}
+#if LANG_CXX11
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_sn(::std::string&& value) {
+  
+  sn_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+}
+#endif
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_sn(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  sn_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+}
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_sn(const void* value, size_t size) {
+  
+  sn_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+}
+inline ::std::string* Value_HealthInfo_SerialNumber_ServerInfo::mutable_sn() {
+  
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+  return sn_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* Value_HealthInfo_SerialNumber_ServerInfo::release_sn() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+  
+  return sn_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void Value_HealthInfo_SerialNumber_ServerInfo::set_allocated_sn(::std::string* sn) {
+  if (sn != NULL) {
+    
+  } else {
+    
+  }
+  sn_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), sn);
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo.sn)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_SerialNumber
+
+// uint32 nbServer = 1;
+inline void Value_HealthInfo_SerialNumber::clear_nbserver() {
+  nbserver_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_SerialNumber::nbserver() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_SerialNumber.nbServer)
+  return nbserver_;
+}
+inline void Value_HealthInfo_SerialNumber::set_nbserver(::google::protobuf::uint32 value) {
+  
+  nbserver_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_SerialNumber.nbServer)
+}
+
+// repeated .GoogleProtoBB.Value_HealthInfo_SerialNumber.ServerInfo serverInfo = 2;
+inline int Value_HealthInfo_SerialNumber::serverinfo_size() const {
+  return serverinfo_.size();
+}
+inline void Value_HealthInfo_SerialNumber::clear_serverinfo() {
+  serverinfo_.Clear();
+}
+inline ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo* Value_HealthInfo_SerialNumber::mutable_serverinfo(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo)
+  return serverinfo_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo >*
+Value_HealthInfo_SerialNumber::mutable_serverinfo() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo)
+  return &serverinfo_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo& Value_HealthInfo_SerialNumber::serverinfo(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo)
+  return serverinfo_.Get(index);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo* Value_HealthInfo_SerialNumber::add_serverinfo() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo)
+  return serverinfo_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_SerialNumber_ServerInfo >&
+Value_HealthInfo_SerialNumber::serverinfo() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_HealthInfo_SerialNumber.serverInfo)
+  return serverinfo_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_RemainingTimePerCam_RemainingTime
+
+// .GoogleProtoBB.CamID cam = 1;
+inline void Value_HealthInfo_RemainingTimePerCam_RemainingTime::clear_cam() {
+  cam_ = 0;
+}
+inline ::GoogleProtoBB::CamID Value_HealthInfo_RemainingTimePerCam_RemainingTime::cam() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.cam)
+  return static_cast< ::GoogleProtoBB::CamID >(cam_);
+}
+inline void Value_HealthInfo_RemainingTimePerCam_RemainingTime::set_cam(::GoogleProtoBB::CamID value) {
+  
+  cam_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.cam)
+}
+
+// uint32 remainingSecond = 2;
+inline void Value_HealthInfo_RemainingTimePerCam_RemainingTime::clear_remainingsecond() {
+  remainingsecond_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_RemainingTimePerCam_RemainingTime::remainingsecond() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.remainingSecond)
+  return remainingsecond_;
+}
+inline void Value_HealthInfo_RemainingTimePerCam_RemainingTime::set_remainingsecond(::google::protobuf::uint32 value) {
+  
+  remainingsecond_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime.remainingSecond)
+}
+
+// -------------------------------------------------------------------
+
+// Value_HealthInfo_RemainingTimePerCam
+
+// uint32 count = 1;
+inline void Value_HealthInfo_RemainingTimePerCam::clear_count() {
+  count_ = 0u;
+}
+inline ::google::protobuf::uint32 Value_HealthInfo_RemainingTimePerCam::count() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.count)
+  return count_;
+}
+inline void Value_HealthInfo_RemainingTimePerCam::set_count(::google::protobuf::uint32 value) {
+  
+  count_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.count)
+}
+
+// repeated .GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.RemainingTime remainingTime = 2;
+inline int Value_HealthInfo_RemainingTimePerCam::remainingtime_size() const {
+  return remainingtime_.size();
+}
+inline void Value_HealthInfo_RemainingTimePerCam::clear_remainingtime() {
+  remainingtime_.Clear();
+}
+inline ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime* Value_HealthInfo_RemainingTimePerCam::mutable_remainingtime(int index) {
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime)
+  return remainingtime_.Mutable(index);
+}
+inline ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime >*
+Value_HealthInfo_RemainingTimePerCam::mutable_remainingtime() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime)
+  return &remainingtime_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime& Value_HealthInfo_RemainingTimePerCam::remainingtime(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime)
+  return remainingtime_.Get(index);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime* Value_HealthInfo_RemainingTimePerCam::add_remainingtime() {
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime)
+  return remainingtime_.Add();
+}
+inline const ::google::protobuf::RepeatedPtrField< ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam_RemainingTime >&
+Value_HealthInfo_RemainingTimePerCam::remainingtime() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam.remainingTime)
+  return remainingtime_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Film_Effect_Status
+
+// repeated bool PGM_enabled = 1;
+inline int Value_Film_Effect_Status::pgm_enabled_size() const {
+  return pgm_enabled_.size();
+}
+inline void Value_Film_Effect_Status::clear_pgm_enabled() {
+  pgm_enabled_.Clear();
+}
+inline bool Value_Film_Effect_Status::pgm_enabled(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled)
+  return pgm_enabled_.Get(index);
+}
+inline void Value_Film_Effect_Status::set_pgm_enabled(int index, bool value) {
+  pgm_enabled_.Set(index, value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled)
+}
+inline void Value_Film_Effect_Status::add_pgm_enabled(bool value) {
+  pgm_enabled_.Add(value);
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled)
+}
+inline const ::google::protobuf::RepeatedField< bool >&
+Value_Film_Effect_Status::pgm_enabled() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled)
+  return pgm_enabled_;
+}
+inline ::google::protobuf::RepeatedField< bool >*
+Value_Film_Effect_Status::mutable_pgm_enabled() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Film_Effect_Status.PGM_enabled)
+  return &pgm_enabled_;
+}
+
+// repeated bool PRV_enabled = 2;
+inline int Value_Film_Effect_Status::prv_enabled_size() const {
+  return prv_enabled_.size();
+}
+inline void Value_Film_Effect_Status::clear_prv_enabled() {
+  prv_enabled_.Clear();
+}
+inline bool Value_Film_Effect_Status::prv_enabled(int index) const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled)
+  return prv_enabled_.Get(index);
+}
+inline void Value_Film_Effect_Status::set_prv_enabled(int index, bool value) {
+  prv_enabled_.Set(index, value);
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled)
+}
+inline void Value_Film_Effect_Status::add_prv_enabled(bool value) {
+  prv_enabled_.Add(value);
+  // @@protoc_insertion_point(field_add:GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled)
+}
+inline const ::google::protobuf::RepeatedField< bool >&
+Value_Film_Effect_Status::prv_enabled() const {
+  // @@protoc_insertion_point(field_list:GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled)
+  return prv_enabled_;
+}
+inline ::google::protobuf::RepeatedField< bool >*
+Value_Film_Effect_Status::mutable_prv_enabled() {
+  // @@protoc_insertion_point(field_mutable_list:GoogleProtoBB.Value_Film_Effect_Status.PRV_enabled)
+  return &prv_enabled_;
+}
+
+// -------------------------------------------------------------------
+
+// Value_Common_TimeReference
+
+// uint64 timeReference = 1;
+inline void Value_Common_TimeReference::clear_timereference() {
+  timereference_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 Value_Common_TimeReference::timereference() const {
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.Value_Common_TimeReference.timeReference)
+  return timereference_;
+}
+inline void Value_Common_TimeReference::set_timereference(::google::protobuf::uint64 value) {
+  
+  timereference_ = value;
+  // @@protoc_insertion_point(field_set:GoogleProtoBB.Value_Common_TimeReference.timeReference)
+}
+
+// -------------------------------------------------------------------
+
 // BroadCastData
 
-// .GoogleProtoBB.Value_Recorder_Train_In_Out Recorder_Train_In_Out = 1;
-inline bool BroadCastData::has_recorder_train_in_out() const {
-  return this != internal_default_instance() && recorder_train_in_out_ != NULL;
+// .GoogleProtoBB.Value_Recorder_Train_In_Out value_Recorder_Train_In_Out = 1;
+inline bool BroadCastData::has_value_recorder_train_in_out() const {
+  return this != internal_default_instance() && value_recorder_train_in_out_ != NULL;
 }
-inline void BroadCastData::clear_recorder_train_in_out() {
-  if (GetArenaNoVirtual() == NULL && recorder_train_in_out_ != NULL) {
-    delete recorder_train_in_out_;
+inline void BroadCastData::clear_value_recorder_train_in_out() {
+  if (GetArenaNoVirtual() == NULL && value_recorder_train_in_out_ != NULL) {
+    delete value_recorder_train_in_out_;
   }
-  recorder_train_in_out_ = NULL;
+  value_recorder_train_in_out_ = NULL;
 }
-inline const ::GoogleProtoBB::Value_Recorder_Train_In_Out& BroadCastData::_internal_recorder_train_in_out() const {
-  return *recorder_train_in_out_;
+inline const ::GoogleProtoBB::Value_Recorder_Train_In_Out& BroadCastData::_internal_value_recorder_train_in_out() const {
+  return *value_recorder_train_in_out_;
 }
-inline const ::GoogleProtoBB::Value_Recorder_Train_In_Out& BroadCastData::recorder_train_in_out() const {
-  const ::GoogleProtoBB::Value_Recorder_Train_In_Out* p = recorder_train_in_out_;
-  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.Recorder_Train_In_Out)
+inline const ::GoogleProtoBB::Value_Recorder_Train_In_Out& BroadCastData::value_recorder_train_in_out() const {
+  const ::GoogleProtoBB::Value_Recorder_Train_In_Out* p = value_recorder_train_in_out_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Recorder_Train_In_Out)
   return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Recorder_Train_In_Out*>(
       &::GoogleProtoBB::_Value_Recorder_Train_In_Out_default_instance_);
 }
-inline ::GoogleProtoBB::Value_Recorder_Train_In_Out* BroadCastData::release_recorder_train_in_out() {
-  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.Recorder_Train_In_Out)
+inline ::GoogleProtoBB::Value_Recorder_Train_In_Out* BroadCastData::release_value_recorder_train_in_out() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Recorder_Train_In_Out)
   
-  ::GoogleProtoBB::Value_Recorder_Train_In_Out* temp = recorder_train_in_out_;
-  recorder_train_in_out_ = NULL;
+  ::GoogleProtoBB::Value_Recorder_Train_In_Out* temp = value_recorder_train_in_out_;
+  value_recorder_train_in_out_ = NULL;
   return temp;
 }
-inline ::GoogleProtoBB::Value_Recorder_Train_In_Out* BroadCastData::mutable_recorder_train_in_out() {
+inline ::GoogleProtoBB::Value_Recorder_Train_In_Out* BroadCastData::mutable_value_recorder_train_in_out() {
   
-  if (recorder_train_in_out_ == NULL) {
+  if (value_recorder_train_in_out_ == NULL) {
     auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Recorder_Train_In_Out>(GetArenaNoVirtual());
-    recorder_train_in_out_ = p;
+    value_recorder_train_in_out_ = p;
   }
-  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.Recorder_Train_In_Out)
-  return recorder_train_in_out_;
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Recorder_Train_In_Out)
+  return value_recorder_train_in_out_;
 }
-inline void BroadCastData::set_allocated_recorder_train_in_out(::GoogleProtoBB::Value_Recorder_Train_In_Out* recorder_train_in_out) {
+inline void BroadCastData::set_allocated_value_recorder_train_in_out(::GoogleProtoBB::Value_Recorder_Train_In_Out* value_recorder_train_in_out) {
   ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == NULL) {
-    delete recorder_train_in_out_;
+    delete value_recorder_train_in_out_;
   }
-  if (recorder_train_in_out) {
+  if (value_recorder_train_in_out) {
     ::google::protobuf::Arena* submessage_arena = NULL;
     if (message_arena != submessage_arena) {
-      recorder_train_in_out = ::google::protobuf::internal::GetOwnedMessage(
-          message_arena, recorder_train_in_out, submessage_arena);
+      value_recorder_train_in_out = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_recorder_train_in_out, submessage_arena);
     }
     
   } else {
     
   }
-  recorder_train_in_out_ = recorder_train_in_out;
-  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.Recorder_Train_In_Out)
+  value_recorder_train_in_out_ = value_recorder_train_in_out;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Recorder_Train_In_Out)
 }
 
-// .GoogleProtoBB.Value_Player_Status Player_Status = 2;
-inline bool BroadCastData::has_player_status() const {
-  return this != internal_default_instance() && player_status_ != NULL;
+// .GoogleProtoBB.Value_Player_Status value_Player_Status = 2;
+inline bool BroadCastData::has_value_player_status() const {
+  return this != internal_default_instance() && value_player_status_ != NULL;
 }
-inline void BroadCastData::clear_player_status() {
-  if (GetArenaNoVirtual() == NULL && player_status_ != NULL) {
-    delete player_status_;
+inline void BroadCastData::clear_value_player_status() {
+  if (GetArenaNoVirtual() == NULL && value_player_status_ != NULL) {
+    delete value_player_status_;
   }
-  player_status_ = NULL;
+  value_player_status_ = NULL;
 }
-inline const ::GoogleProtoBB::Value_Player_Status& BroadCastData::_internal_player_status() const {
-  return *player_status_;
+inline const ::GoogleProtoBB::Value_Player_Status& BroadCastData::_internal_value_player_status() const {
+  return *value_player_status_;
 }
-inline const ::GoogleProtoBB::Value_Player_Status& BroadCastData::player_status() const {
-  const ::GoogleProtoBB::Value_Player_Status* p = player_status_;
-  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.Player_Status)
+inline const ::GoogleProtoBB::Value_Player_Status& BroadCastData::value_player_status() const {
+  const ::GoogleProtoBB::Value_Player_Status* p = value_player_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Status)
   return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Status*>(
       &::GoogleProtoBB::_Value_Player_Status_default_instance_);
 }
-inline ::GoogleProtoBB::Value_Player_Status* BroadCastData::release_player_status() {
-  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.Player_Status)
+inline ::GoogleProtoBB::Value_Player_Status* BroadCastData::release_value_player_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Status)
   
-  ::GoogleProtoBB::Value_Player_Status* temp = player_status_;
-  player_status_ = NULL;
+  ::GoogleProtoBB::Value_Player_Status* temp = value_player_status_;
+  value_player_status_ = NULL;
   return temp;
 }
-inline ::GoogleProtoBB::Value_Player_Status* BroadCastData::mutable_player_status() {
+inline ::GoogleProtoBB::Value_Player_Status* BroadCastData::mutable_value_player_status() {
   
-  if (player_status_ == NULL) {
+  if (value_player_status_ == NULL) {
     auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Status>(GetArenaNoVirtual());
-    player_status_ = p;
+    value_player_status_ = p;
   }
-  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.Player_Status)
-  return player_status_;
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Status)
+  return value_player_status_;
 }
-inline void BroadCastData::set_allocated_player_status(::GoogleProtoBB::Value_Player_Status* player_status) {
+inline void BroadCastData::set_allocated_value_player_status(::GoogleProtoBB::Value_Player_Status* value_player_status) {
   ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == NULL) {
-    delete player_status_;
+    delete value_player_status_;
   }
-  if (player_status) {
+  if (value_player_status) {
     ::google::protobuf::Arena* submessage_arena = NULL;
     if (message_arena != submessage_arena) {
-      player_status = ::google::protobuf::internal::GetOwnedMessage(
-          message_arena, player_status, submessage_arena);
+      value_player_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_status, submessage_arena);
     }
     
   } else {
     
   }
-  player_status_ = player_status;
-  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.Player_Status)
+  value_player_status_ = value_player_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Status)
 }
 
-// .GoogleProtoBB.Value_Camera_Type camera_type = 3;
-inline bool BroadCastData::has_camera_type() const {
-  return this != internal_default_instance() && camera_type_ != NULL;
+// .GoogleProtoBB.Value_Camera_Type value_Camera_Type = 3;
+inline bool BroadCastData::has_value_camera_type() const {
+  return this != internal_default_instance() && value_camera_type_ != NULL;
 }
-inline void BroadCastData::clear_camera_type() {
-  if (GetArenaNoVirtual() == NULL && camera_type_ != NULL) {
-    delete camera_type_;
+inline void BroadCastData::clear_value_camera_type() {
+  if (GetArenaNoVirtual() == NULL && value_camera_type_ != NULL) {
+    delete value_camera_type_;
   }
-  camera_type_ = NULL;
+  value_camera_type_ = NULL;
 }
-inline const ::GoogleProtoBB::Value_Camera_Type& BroadCastData::_internal_camera_type() const {
-  return *camera_type_;
+inline const ::GoogleProtoBB::Value_Camera_Type& BroadCastData::_internal_value_camera_type() const {
+  return *value_camera_type_;
 }
-inline const ::GoogleProtoBB::Value_Camera_Type& BroadCastData::camera_type() const {
-  const ::GoogleProtoBB::Value_Camera_Type* p = camera_type_;
-  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.camera_type)
+inline const ::GoogleProtoBB::Value_Camera_Type& BroadCastData::value_camera_type() const {
+  const ::GoogleProtoBB::Value_Camera_Type* p = value_camera_type_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Camera_Type)
   return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Camera_Type*>(
       &::GoogleProtoBB::_Value_Camera_Type_default_instance_);
 }
-inline ::GoogleProtoBB::Value_Camera_Type* BroadCastData::release_camera_type() {
-  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.camera_type)
+inline ::GoogleProtoBB::Value_Camera_Type* BroadCastData::release_value_camera_type() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Camera_Type)
   
-  ::GoogleProtoBB::Value_Camera_Type* temp = camera_type_;
-  camera_type_ = NULL;
+  ::GoogleProtoBB::Value_Camera_Type* temp = value_camera_type_;
+  value_camera_type_ = NULL;
   return temp;
 }
-inline ::GoogleProtoBB::Value_Camera_Type* BroadCastData::mutable_camera_type() {
+inline ::GoogleProtoBB::Value_Camera_Type* BroadCastData::mutable_value_camera_type() {
   
-  if (camera_type_ == NULL) {
+  if (value_camera_type_ == NULL) {
     auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Camera_Type>(GetArenaNoVirtual());
-    camera_type_ = p;
+    value_camera_type_ = p;
   }
-  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.camera_type)
-  return camera_type_;
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Camera_Type)
+  return value_camera_type_;
 }
-inline void BroadCastData::set_allocated_camera_type(::GoogleProtoBB::Value_Camera_Type* camera_type) {
+inline void BroadCastData::set_allocated_value_camera_type(::GoogleProtoBB::Value_Camera_Type* value_camera_type) {
   ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == NULL) {
-    delete camera_type_;
+    delete value_camera_type_;
   }
-  if (camera_type) {
+  if (value_camera_type) {
     ::google::protobuf::Arena* submessage_arena = NULL;
     if (message_arena != submessage_arena) {
-      camera_type = ::google::protobuf::internal::GetOwnedMessage(
-          message_arena, camera_type, submessage_arena);
+      value_camera_type = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_camera_type, submessage_arena);
     }
     
   } else {
     
   }
-  camera_type_ = camera_type;
-  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.camera_type)
+  value_camera_type_ = value_camera_type;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Camera_Type)
 }
 
-// .GoogleProtoBB.Value_Recorder_ClosedCaption Recorder_ClosedCaption = 4;
-inline bool BroadCastData::has_recorder_closedcaption() const {
-  return this != internal_default_instance() && recorder_closedcaption_ != NULL;
+// .GoogleProtoBB.Value_Recorder_ClosedCaption value_Recorder_ClosedCaption = 4;
+inline bool BroadCastData::has_value_recorder_closedcaption() const {
+  return this != internal_default_instance() && value_recorder_closedcaption_ != NULL;
 }
-inline void BroadCastData::clear_recorder_closedcaption() {
-  if (GetArenaNoVirtual() == NULL && recorder_closedcaption_ != NULL) {
-    delete recorder_closedcaption_;
+inline void BroadCastData::clear_value_recorder_closedcaption() {
+  if (GetArenaNoVirtual() == NULL && value_recorder_closedcaption_ != NULL) {
+    delete value_recorder_closedcaption_;
   }
-  recorder_closedcaption_ = NULL;
+  value_recorder_closedcaption_ = NULL;
 }
-inline const ::GoogleProtoBB::Value_Recorder_ClosedCaption& BroadCastData::_internal_recorder_closedcaption() const {
-  return *recorder_closedcaption_;
+inline const ::GoogleProtoBB::Value_Recorder_ClosedCaption& BroadCastData::_internal_value_recorder_closedcaption() const {
+  return *value_recorder_closedcaption_;
 }
-inline const ::GoogleProtoBB::Value_Recorder_ClosedCaption& BroadCastData::recorder_closedcaption() const {
-  const ::GoogleProtoBB::Value_Recorder_ClosedCaption* p = recorder_closedcaption_;
-  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.Recorder_ClosedCaption)
+inline const ::GoogleProtoBB::Value_Recorder_ClosedCaption& BroadCastData::value_recorder_closedcaption() const {
+  const ::GoogleProtoBB::Value_Recorder_ClosedCaption* p = value_recorder_closedcaption_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Recorder_ClosedCaption)
   return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Recorder_ClosedCaption*>(
       &::GoogleProtoBB::_Value_Recorder_ClosedCaption_default_instance_);
 }
-inline ::GoogleProtoBB::Value_Recorder_ClosedCaption* BroadCastData::release_recorder_closedcaption() {
-  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.Recorder_ClosedCaption)
+inline ::GoogleProtoBB::Value_Recorder_ClosedCaption* BroadCastData::release_value_recorder_closedcaption() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Recorder_ClosedCaption)
   
-  ::GoogleProtoBB::Value_Recorder_ClosedCaption* temp = recorder_closedcaption_;
-  recorder_closedcaption_ = NULL;
+  ::GoogleProtoBB::Value_Recorder_ClosedCaption* temp = value_recorder_closedcaption_;
+  value_recorder_closedcaption_ = NULL;
   return temp;
 }
-inline ::GoogleProtoBB::Value_Recorder_ClosedCaption* BroadCastData::mutable_recorder_closedcaption() {
+inline ::GoogleProtoBB::Value_Recorder_ClosedCaption* BroadCastData::mutable_value_recorder_closedcaption() {
   
-  if (recorder_closedcaption_ == NULL) {
+  if (value_recorder_closedcaption_ == NULL) {
     auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Recorder_ClosedCaption>(GetArenaNoVirtual());
-    recorder_closedcaption_ = p;
+    value_recorder_closedcaption_ = p;
   }
-  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.Recorder_ClosedCaption)
-  return recorder_closedcaption_;
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Recorder_ClosedCaption)
+  return value_recorder_closedcaption_;
 }
-inline void BroadCastData::set_allocated_recorder_closedcaption(::GoogleProtoBB::Value_Recorder_ClosedCaption* recorder_closedcaption) {
+inline void BroadCastData::set_allocated_value_recorder_closedcaption(::GoogleProtoBB::Value_Recorder_ClosedCaption* value_recorder_closedcaption) {
   ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == NULL) {
-    delete recorder_closedcaption_;
+    delete value_recorder_closedcaption_;
   }
-  if (recorder_closedcaption) {
+  if (value_recorder_closedcaption) {
     ::google::protobuf::Arena* submessage_arena = NULL;
     if (message_arena != submessage_arena) {
-      recorder_closedcaption = ::google::protobuf::internal::GetOwnedMessage(
-          message_arena, recorder_closedcaption, submessage_arena);
+      value_recorder_closedcaption = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_recorder_closedcaption, submessage_arena);
     }
     
   } else {
     
   }
-  recorder_closedcaption_ = recorder_closedcaption;
-  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.Recorder_ClosedCaption)
+  value_recorder_closedcaption_ = value_recorder_closedcaption;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Recorder_ClosedCaption)
 }
 
-// .GoogleProtoBB.Value_Player_ClosedCaption Player_ClosedCaption = 5;
-inline bool BroadCastData::has_player_closedcaption() const {
-  return this != internal_default_instance() && player_closedcaption_ != NULL;
+// .GoogleProtoBB.Value_Player_ClosedCaption value_Player_ClosedCaption = 5;
+inline bool BroadCastData::has_value_player_closedcaption() const {
+  return this != internal_default_instance() && value_player_closedcaption_ != NULL;
 }
-inline void BroadCastData::clear_player_closedcaption() {
-  if (GetArenaNoVirtual() == NULL && player_closedcaption_ != NULL) {
-    delete player_closedcaption_;
+inline void BroadCastData::clear_value_player_closedcaption() {
+  if (GetArenaNoVirtual() == NULL && value_player_closedcaption_ != NULL) {
+    delete value_player_closedcaption_;
   }
-  player_closedcaption_ = NULL;
+  value_player_closedcaption_ = NULL;
 }
-inline const ::GoogleProtoBB::Value_Player_ClosedCaption& BroadCastData::_internal_player_closedcaption() const {
-  return *player_closedcaption_;
+inline const ::GoogleProtoBB::Value_Player_ClosedCaption& BroadCastData::_internal_value_player_closedcaption() const {
+  return *value_player_closedcaption_;
 }
-inline const ::GoogleProtoBB::Value_Player_ClosedCaption& BroadCastData::player_closedcaption() const {
-  const ::GoogleProtoBB::Value_Player_ClosedCaption* p = player_closedcaption_;
-  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.Player_ClosedCaption)
+inline const ::GoogleProtoBB::Value_Player_ClosedCaption& BroadCastData::value_player_closedcaption() const {
+  const ::GoogleProtoBB::Value_Player_ClosedCaption* p = value_player_closedcaption_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_ClosedCaption)
   return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_ClosedCaption*>(
       &::GoogleProtoBB::_Value_Player_ClosedCaption_default_instance_);
 }
-inline ::GoogleProtoBB::Value_Player_ClosedCaption* BroadCastData::release_player_closedcaption() {
-  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.Player_ClosedCaption)
+inline ::GoogleProtoBB::Value_Player_ClosedCaption* BroadCastData::release_value_player_closedcaption() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_ClosedCaption)
   
-  ::GoogleProtoBB::Value_Player_ClosedCaption* temp = player_closedcaption_;
-  player_closedcaption_ = NULL;
+  ::GoogleProtoBB::Value_Player_ClosedCaption* temp = value_player_closedcaption_;
+  value_player_closedcaption_ = NULL;
   return temp;
 }
-inline ::GoogleProtoBB::Value_Player_ClosedCaption* BroadCastData::mutable_player_closedcaption() {
+inline ::GoogleProtoBB::Value_Player_ClosedCaption* BroadCastData::mutable_value_player_closedcaption() {
   
-  if (player_closedcaption_ == NULL) {
+  if (value_player_closedcaption_ == NULL) {
     auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_ClosedCaption>(GetArenaNoVirtual());
-    player_closedcaption_ = p;
+    value_player_closedcaption_ = p;
   }
-  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.Player_ClosedCaption)
-  return player_closedcaption_;
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_ClosedCaption)
+  return value_player_closedcaption_;
 }
-inline void BroadCastData::set_allocated_player_closedcaption(::GoogleProtoBB::Value_Player_ClosedCaption* player_closedcaption) {
+inline void BroadCastData::set_allocated_value_player_closedcaption(::GoogleProtoBB::Value_Player_ClosedCaption* value_player_closedcaption) {
   ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
   if (message_arena == NULL) {
-    delete player_closedcaption_;
+    delete value_player_closedcaption_;
   }
-  if (player_closedcaption) {
+  if (value_player_closedcaption) {
     ::google::protobuf::Arena* submessage_arena = NULL;
     if (message_arena != submessage_arena) {
-      player_closedcaption = ::google::protobuf::internal::GetOwnedMessage(
-          message_arena, player_closedcaption, submessage_arena);
+      value_player_closedcaption = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_closedcaption, submessage_arena);
     }
     
   } else {
     
   }
-  player_closedcaption_ = player_closedcaption;
-  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.Player_ClosedCaption)
+  value_player_closedcaption_ = value_player_closedcaption;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_ClosedCaption)
+}
+
+// .GoogleProtoBB.Value_Player_Group value_Player_Group = 6;
+inline bool BroadCastData::has_value_player_group() const {
+  return this != internal_default_instance() && value_player_group_ != NULL;
+}
+inline void BroadCastData::clear_value_player_group() {
+  if (GetArenaNoVirtual() == NULL && value_player_group_ != NULL) {
+    delete value_player_group_;
+  }
+  value_player_group_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Group& BroadCastData::_internal_value_player_group() const {
+  return *value_player_group_;
+}
+inline const ::GoogleProtoBB::Value_Player_Group& BroadCastData::value_player_group() const {
+  const ::GoogleProtoBB::Value_Player_Group* p = value_player_group_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Group)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Group*>(
+      &::GoogleProtoBB::_Value_Player_Group_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Group* BroadCastData::release_value_player_group() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Group)
+  
+  ::GoogleProtoBB::Value_Player_Group* temp = value_player_group_;
+  value_player_group_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Group* BroadCastData::mutable_value_player_group() {
+  
+  if (value_player_group_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Group>(GetArenaNoVirtual());
+    value_player_group_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Group)
+  return value_player_group_;
+}
+inline void BroadCastData::set_allocated_value_player_group(::GoogleProtoBB::Value_Player_Group* value_player_group) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_group_;
+  }
+  if (value_player_group) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_group = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_group, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_group_ = value_player_group;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Group)
+}
+
+// .GoogleProtoBB.Value_Player_Camera value_Player_Camera = 7;
+inline bool BroadCastData::has_value_player_camera() const {
+  return this != internal_default_instance() && value_player_camera_ != NULL;
+}
+inline void BroadCastData::clear_value_player_camera() {
+  if (GetArenaNoVirtual() == NULL && value_player_camera_ != NULL) {
+    delete value_player_camera_;
+  }
+  value_player_camera_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Camera& BroadCastData::_internal_value_player_camera() const {
+  return *value_player_camera_;
+}
+inline const ::GoogleProtoBB::Value_Player_Camera& BroadCastData::value_player_camera() const {
+  const ::GoogleProtoBB::Value_Player_Camera* p = value_player_camera_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Camera)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Camera*>(
+      &::GoogleProtoBB::_Value_Player_Camera_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Camera* BroadCastData::release_value_player_camera() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Camera)
+  
+  ::GoogleProtoBB::Value_Player_Camera* temp = value_player_camera_;
+  value_player_camera_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Camera* BroadCastData::mutable_value_player_camera() {
+  
+  if (value_player_camera_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Camera>(GetArenaNoVirtual());
+    value_player_camera_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Camera)
+  return value_player_camera_;
+}
+inline void BroadCastData::set_allocated_value_player_camera(::GoogleProtoBB::Value_Player_Camera* value_player_camera) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_camera_;
+  }
+  if (value_player_camera) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_camera = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_camera, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_camera_ = value_player_camera;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Camera)
+}
+
+// .GoogleProtoBB.Value_Player_Type value_Player_Type = 8;
+inline bool BroadCastData::has_value_player_type() const {
+  return this != internal_default_instance() && value_player_type_ != NULL;
+}
+inline void BroadCastData::clear_value_player_type() {
+  if (GetArenaNoVirtual() == NULL && value_player_type_ != NULL) {
+    delete value_player_type_;
+  }
+  value_player_type_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Type& BroadCastData::_internal_value_player_type() const {
+  return *value_player_type_;
+}
+inline const ::GoogleProtoBB::Value_Player_Type& BroadCastData::value_player_type() const {
+  const ::GoogleProtoBB::Value_Player_Type* p = value_player_type_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Type)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Type*>(
+      &::GoogleProtoBB::_Value_Player_Type_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Type* BroadCastData::release_value_player_type() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Type)
+  
+  ::GoogleProtoBB::Value_Player_Type* temp = value_player_type_;
+  value_player_type_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Type* BroadCastData::mutable_value_player_type() {
+  
+  if (value_player_type_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Type>(GetArenaNoVirtual());
+    value_player_type_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Type)
+  return value_player_type_;
+}
+inline void BroadCastData::set_allocated_value_player_type(::GoogleProtoBB::Value_Player_Type* value_player_type) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_type_;
+  }
+  if (value_player_type) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_type = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_type, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_type_ = value_player_type;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Type)
+}
+
+// .GoogleProtoBB.Value_Player_AudioPresetId value_Player_AudioPresetId = 9;
+inline bool BroadCastData::has_value_player_audiopresetid() const {
+  return this != internal_default_instance() && value_player_audiopresetid_ != NULL;
+}
+inline void BroadCastData::clear_value_player_audiopresetid() {
+  if (GetArenaNoVirtual() == NULL && value_player_audiopresetid_ != NULL) {
+    delete value_player_audiopresetid_;
+  }
+  value_player_audiopresetid_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_AudioPresetId& BroadCastData::_internal_value_player_audiopresetid() const {
+  return *value_player_audiopresetid_;
+}
+inline const ::GoogleProtoBB::Value_Player_AudioPresetId& BroadCastData::value_player_audiopresetid() const {
+  const ::GoogleProtoBB::Value_Player_AudioPresetId* p = value_player_audiopresetid_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_AudioPresetId)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_AudioPresetId*>(
+      &::GoogleProtoBB::_Value_Player_AudioPresetId_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_AudioPresetId* BroadCastData::release_value_player_audiopresetid() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_AudioPresetId)
+  
+  ::GoogleProtoBB::Value_Player_AudioPresetId* temp = value_player_audiopresetid_;
+  value_player_audiopresetid_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_AudioPresetId* BroadCastData::mutable_value_player_audiopresetid() {
+  
+  if (value_player_audiopresetid_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_AudioPresetId>(GetArenaNoVirtual());
+    value_player_audiopresetid_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_AudioPresetId)
+  return value_player_audiopresetid_;
+}
+inline void BroadCastData::set_allocated_value_player_audiopresetid(::GoogleProtoBB::Value_Player_AudioPresetId* value_player_audiopresetid) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_audiopresetid_;
+  }
+  if (value_player_audiopresetid) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_audiopresetid = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_audiopresetid, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_audiopresetid_ = value_player_audiopresetid;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_AudioPresetId)
+}
+
+// .GoogleProtoBB.Value_Player_Speed value_Player_Speed = 10;
+inline bool BroadCastData::has_value_player_speed() const {
+  return this != internal_default_instance() && value_player_speed_ != NULL;
+}
+inline void BroadCastData::clear_value_player_speed() {
+  if (GetArenaNoVirtual() == NULL && value_player_speed_ != NULL) {
+    delete value_player_speed_;
+  }
+  value_player_speed_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Speed& BroadCastData::_internal_value_player_speed() const {
+  return *value_player_speed_;
+}
+inline const ::GoogleProtoBB::Value_Player_Speed& BroadCastData::value_player_speed() const {
+  const ::GoogleProtoBB::Value_Player_Speed* p = value_player_speed_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Speed)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Speed*>(
+      &::GoogleProtoBB::_Value_Player_Speed_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Speed* BroadCastData::release_value_player_speed() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Speed)
+  
+  ::GoogleProtoBB::Value_Player_Speed* temp = value_player_speed_;
+  value_player_speed_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Speed* BroadCastData::mutable_value_player_speed() {
+  
+  if (value_player_speed_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Speed>(GetArenaNoVirtual());
+    value_player_speed_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Speed)
+  return value_player_speed_;
+}
+inline void BroadCastData::set_allocated_value_player_speed(::GoogleProtoBB::Value_Player_Speed* value_player_speed) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_speed_;
+  }
+  if (value_player_speed) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_speed = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_speed, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_speed_ = value_player_speed;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Speed)
+}
+
+// .GoogleProtoBB.Value_Player_Consigne value_Player_Consigne = 11;
+inline bool BroadCastData::has_value_player_consigne() const {
+  return this != internal_default_instance() && value_player_consigne_ != NULL;
+}
+inline void BroadCastData::clear_value_player_consigne() {
+  if (GetArenaNoVirtual() == NULL && value_player_consigne_ != NULL) {
+    delete value_player_consigne_;
+  }
+  value_player_consigne_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Consigne& BroadCastData::_internal_value_player_consigne() const {
+  return *value_player_consigne_;
+}
+inline const ::GoogleProtoBB::Value_Player_Consigne& BroadCastData::value_player_consigne() const {
+  const ::GoogleProtoBB::Value_Player_Consigne* p = value_player_consigne_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Consigne)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Consigne*>(
+      &::GoogleProtoBB::_Value_Player_Consigne_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Consigne* BroadCastData::release_value_player_consigne() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Consigne)
+  
+  ::GoogleProtoBB::Value_Player_Consigne* temp = value_player_consigne_;
+  value_player_consigne_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Consigne* BroadCastData::mutable_value_player_consigne() {
+  
+  if (value_player_consigne_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Consigne>(GetArenaNoVirtual());
+    value_player_consigne_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Consigne)
+  return value_player_consigne_;
+}
+inline void BroadCastData::set_allocated_value_player_consigne(::GoogleProtoBB::Value_Player_Consigne* value_player_consigne) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_consigne_;
+  }
+  if (value_player_consigne) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_consigne = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_consigne, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_consigne_ = value_player_consigne;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Consigne)
+}
+
+// .GoogleProtoBB.Value_Player_Mode value_Player_Mode = 12;
+inline bool BroadCastData::has_value_player_mode() const {
+  return this != internal_default_instance() && value_player_mode_ != NULL;
+}
+inline void BroadCastData::clear_value_player_mode() {
+  if (GetArenaNoVirtual() == NULL && value_player_mode_ != NULL) {
+    delete value_player_mode_;
+  }
+  value_player_mode_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Mode& BroadCastData::_internal_value_player_mode() const {
+  return *value_player_mode_;
+}
+inline const ::GoogleProtoBB::Value_Player_Mode& BroadCastData::value_player_mode() const {
+  const ::GoogleProtoBB::Value_Player_Mode* p = value_player_mode_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Mode)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Mode*>(
+      &::GoogleProtoBB::_Value_Player_Mode_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Mode* BroadCastData::release_value_player_mode() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Mode)
+  
+  ::GoogleProtoBB::Value_Player_Mode* temp = value_player_mode_;
+  value_player_mode_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Mode* BroadCastData::mutable_value_player_mode() {
+  
+  if (value_player_mode_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Mode>(GetArenaNoVirtual());
+    value_player_mode_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Mode)
+  return value_player_mode_;
+}
+inline void BroadCastData::set_allocated_value_player_mode(::GoogleProtoBB::Value_Player_Mode* value_player_mode) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_mode_;
+  }
+  if (value_player_mode) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_mode = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_mode, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_mode_ = value_player_mode;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Mode)
+}
+
+// .GoogleProtoBB.Value_Player_Extend_Playlist value_Player_Extend_Playlist = 13;
+inline bool BroadCastData::has_value_player_extend_playlist() const {
+  return this != internal_default_instance() && value_player_extend_playlist_ != NULL;
+}
+inline void BroadCastData::clear_value_player_extend_playlist() {
+  if (GetArenaNoVirtual() == NULL && value_player_extend_playlist_ != NULL) {
+    delete value_player_extend_playlist_;
+  }
+  value_player_extend_playlist_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Extend_Playlist& BroadCastData::_internal_value_player_extend_playlist() const {
+  return *value_player_extend_playlist_;
+}
+inline const ::GoogleProtoBB::Value_Player_Extend_Playlist& BroadCastData::value_player_extend_playlist() const {
+  const ::GoogleProtoBB::Value_Player_Extend_Playlist* p = value_player_extend_playlist_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Extend_Playlist)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Extend_Playlist*>(
+      &::GoogleProtoBB::_Value_Player_Extend_Playlist_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Extend_Playlist* BroadCastData::release_value_player_extend_playlist() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Extend_Playlist)
+  
+  ::GoogleProtoBB::Value_Player_Extend_Playlist* temp = value_player_extend_playlist_;
+  value_player_extend_playlist_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Extend_Playlist* BroadCastData::mutable_value_player_extend_playlist() {
+  
+  if (value_player_extend_playlist_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Extend_Playlist>(GetArenaNoVirtual());
+    value_player_extend_playlist_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Extend_Playlist)
+  return value_player_extend_playlist_;
+}
+inline void BroadCastData::set_allocated_value_player_extend_playlist(::GoogleProtoBB::Value_Player_Extend_Playlist* value_player_extend_playlist) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_extend_playlist_;
+  }
+  if (value_player_extend_playlist) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_extend_playlist = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_extend_playlist, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_extend_playlist_ = value_player_extend_playlist;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Extend_Playlist)
+}
+
+// .GoogleProtoBB.Value_Player_Limit_In_Out value_Player_Limit_In_Out = 14;
+inline bool BroadCastData::has_value_player_limit_in_out() const {
+  return this != internal_default_instance() && value_player_limit_in_out_ != NULL;
+}
+inline void BroadCastData::clear_value_player_limit_in_out() {
+  if (GetArenaNoVirtual() == NULL && value_player_limit_in_out_ != NULL) {
+    delete value_player_limit_in_out_;
+  }
+  value_player_limit_in_out_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Limit_In_Out& BroadCastData::_internal_value_player_limit_in_out() const {
+  return *value_player_limit_in_out_;
+}
+inline const ::GoogleProtoBB::Value_Player_Limit_In_Out& BroadCastData::value_player_limit_in_out() const {
+  const ::GoogleProtoBB::Value_Player_Limit_In_Out* p = value_player_limit_in_out_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Limit_In_Out)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Limit_In_Out*>(
+      &::GoogleProtoBB::_Value_Player_Limit_In_Out_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Limit_In_Out* BroadCastData::release_value_player_limit_in_out() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Limit_In_Out)
+  
+  ::GoogleProtoBB::Value_Player_Limit_In_Out* temp = value_player_limit_in_out_;
+  value_player_limit_in_out_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Limit_In_Out* BroadCastData::mutable_value_player_limit_in_out() {
+  
+  if (value_player_limit_in_out_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Limit_In_Out>(GetArenaNoVirtual());
+    value_player_limit_in_out_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Limit_In_Out)
+  return value_player_limit_in_out_;
+}
+inline void BroadCastData::set_allocated_value_player_limit_in_out(::GoogleProtoBB::Value_Player_Limit_In_Out* value_player_limit_in_out) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_limit_in_out_;
+  }
+  if (value_player_limit_in_out) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_limit_in_out = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_limit_in_out, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_limit_in_out_ = value_player_limit_in_out;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Limit_In_Out)
+}
+
+// .GoogleProtoBB.Value_Player_Loop_Mode value_Player_Loop_Mode = 15;
+inline bool BroadCastData::has_value_player_loop_mode() const {
+  return this != internal_default_instance() && value_player_loop_mode_ != NULL;
+}
+inline void BroadCastData::clear_value_player_loop_mode() {
+  if (GetArenaNoVirtual() == NULL && value_player_loop_mode_ != NULL) {
+    delete value_player_loop_mode_;
+  }
+  value_player_loop_mode_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Mode& BroadCastData::_internal_value_player_loop_mode() const {
+  return *value_player_loop_mode_;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Mode& BroadCastData::value_player_loop_mode() const {
+  const ::GoogleProtoBB::Value_Player_Loop_Mode* p = value_player_loop_mode_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Loop_Mode)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Loop_Mode*>(
+      &::GoogleProtoBB::_Value_Player_Loop_Mode_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Mode* BroadCastData::release_value_player_loop_mode() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Loop_Mode)
+  
+  ::GoogleProtoBB::Value_Player_Loop_Mode* temp = value_player_loop_mode_;
+  value_player_loop_mode_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Mode* BroadCastData::mutable_value_player_loop_mode() {
+  
+  if (value_player_loop_mode_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Mode>(GetArenaNoVirtual());
+    value_player_loop_mode_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Loop_Mode)
+  return value_player_loop_mode_;
+}
+inline void BroadCastData::set_allocated_value_player_loop_mode(::GoogleProtoBB::Value_Player_Loop_Mode* value_player_loop_mode) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_loop_mode_;
+  }
+  if (value_player_loop_mode) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_loop_mode = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_loop_mode, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_loop_mode_ = value_player_loop_mode;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Loop_Mode)
+}
+
+// .GoogleProtoBB.Value_Player_Loop_Count value_Player_Loop_Count = 16;
+inline bool BroadCastData::has_value_player_loop_count() const {
+  return this != internal_default_instance() && value_player_loop_count_ != NULL;
+}
+inline void BroadCastData::clear_value_player_loop_count() {
+  if (GetArenaNoVirtual() == NULL && value_player_loop_count_ != NULL) {
+    delete value_player_loop_count_;
+  }
+  value_player_loop_count_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Count& BroadCastData::_internal_value_player_loop_count() const {
+  return *value_player_loop_count_;
+}
+inline const ::GoogleProtoBB::Value_Player_Loop_Count& BroadCastData::value_player_loop_count() const {
+  const ::GoogleProtoBB::Value_Player_Loop_Count* p = value_player_loop_count_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Loop_Count)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Loop_Count*>(
+      &::GoogleProtoBB::_Value_Player_Loop_Count_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Count* BroadCastData::release_value_player_loop_count() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Loop_Count)
+  
+  ::GoogleProtoBB::Value_Player_Loop_Count* temp = value_player_loop_count_;
+  value_player_loop_count_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Loop_Count* BroadCastData::mutable_value_player_loop_count() {
+  
+  if (value_player_loop_count_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Loop_Count>(GetArenaNoVirtual());
+    value_player_loop_count_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Loop_Count)
+  return value_player_loop_count_;
+}
+inline void BroadCastData::set_allocated_value_player_loop_count(::GoogleProtoBB::Value_Player_Loop_Count* value_player_loop_count) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_loop_count_;
+  }
+  if (value_player_loop_count) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_loop_count = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_loop_count, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_loop_count_ = value_player_loop_count;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Loop_Count)
+}
+
+// .GoogleProtoBB.Value_Player_Playlist_ID value_Player_Playlist_ID = 17;
+inline bool BroadCastData::has_value_player_playlist_id() const {
+  return this != internal_default_instance() && value_player_playlist_id_ != NULL;
+}
+inline void BroadCastData::clear_value_player_playlist_id() {
+  if (GetArenaNoVirtual() == NULL && value_player_playlist_id_ != NULL) {
+    delete value_player_playlist_id_;
+  }
+  value_player_playlist_id_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_ID& BroadCastData::_internal_value_player_playlist_id() const {
+  return *value_player_playlist_id_;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_ID& BroadCastData::value_player_playlist_id() const {
+  const ::GoogleProtoBB::Value_Player_Playlist_ID* p = value_player_playlist_id_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Playlist_ID)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Playlist_ID*>(
+      &::GoogleProtoBB::_Value_Player_Playlist_ID_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_ID* BroadCastData::release_value_player_playlist_id() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Playlist_ID)
+  
+  ::GoogleProtoBB::Value_Player_Playlist_ID* temp = value_player_playlist_id_;
+  value_player_playlist_id_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_ID* BroadCastData::mutable_value_player_playlist_id() {
+  
+  if (value_player_playlist_id_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_ID>(GetArenaNoVirtual());
+    value_player_playlist_id_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Playlist_ID)
+  return value_player_playlist_id_;
+}
+inline void BroadCastData::set_allocated_value_player_playlist_id(::GoogleProtoBB::Value_Player_Playlist_ID* value_player_playlist_id) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_playlist_id_;
+  }
+  if (value_player_playlist_id) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_playlist_id = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_playlist_id, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_playlist_id_ = value_player_playlist_id;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Playlist_ID)
+}
+
+// .GoogleProtoBB.Value_Player_Playlist_Element_ID value_Player_Playlist_Element_ID = 18;
+inline bool BroadCastData::has_value_player_playlist_element_id() const {
+  return this != internal_default_instance() && value_player_playlist_element_id_ != NULL;
+}
+inline void BroadCastData::clear_value_player_playlist_element_id() {
+  if (GetArenaNoVirtual() == NULL && value_player_playlist_element_id_ != NULL) {
+    delete value_player_playlist_element_id_;
+  }
+  value_player_playlist_element_id_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_Element_ID& BroadCastData::_internal_value_player_playlist_element_id() const {
+  return *value_player_playlist_element_id_;
+}
+inline const ::GoogleProtoBB::Value_Player_Playlist_Element_ID& BroadCastData::value_player_playlist_element_id() const {
+  const ::GoogleProtoBB::Value_Player_Playlist_Element_ID* p = value_player_playlist_element_id_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Player_Playlist_Element_ID)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Player_Playlist_Element_ID*>(
+      &::GoogleProtoBB::_Value_Player_Playlist_Element_ID_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_Element_ID* BroadCastData::release_value_player_playlist_element_id() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Player_Playlist_Element_ID)
+  
+  ::GoogleProtoBB::Value_Player_Playlist_Element_ID* temp = value_player_playlist_element_id_;
+  value_player_playlist_element_id_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Player_Playlist_Element_ID* BroadCastData::mutable_value_player_playlist_element_id() {
+  
+  if (value_player_playlist_element_id_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Player_Playlist_Element_ID>(GetArenaNoVirtual());
+    value_player_playlist_element_id_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Player_Playlist_Element_ID)
+  return value_player_playlist_element_id_;
+}
+inline void BroadCastData::set_allocated_value_player_playlist_element_id(::GoogleProtoBB::Value_Player_Playlist_Element_ID* value_player_playlist_element_id) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_player_playlist_element_id_;
+  }
+  if (value_player_playlist_element_id) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_player_playlist_element_id = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_player_playlist_element_id, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_player_playlist_element_id_ = value_player_playlist_element_id;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Player_Playlist_Element_ID)
+}
+
+// .GoogleProtoBB.Value_DVE_Mode value_DVE_Mode = 19;
+inline bool BroadCastData::has_value_dve_mode() const {
+  return this != internal_default_instance() && value_dve_mode_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_mode() {
+  if (GetArenaNoVirtual() == NULL && value_dve_mode_ != NULL) {
+    delete value_dve_mode_;
+  }
+  value_dve_mode_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Mode& BroadCastData::_internal_value_dve_mode() const {
+  return *value_dve_mode_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Mode& BroadCastData::value_dve_mode() const {
+  const ::GoogleProtoBB::Value_DVE_Mode* p = value_dve_mode_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Mode)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Mode*>(
+      &::GoogleProtoBB::_Value_DVE_Mode_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Mode* BroadCastData::release_value_dve_mode() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Mode)
+  
+  ::GoogleProtoBB::Value_DVE_Mode* temp = value_dve_mode_;
+  value_dve_mode_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Mode* BroadCastData::mutable_value_dve_mode() {
+  
+  if (value_dve_mode_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Mode>(GetArenaNoVirtual());
+    value_dve_mode_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Mode)
+  return value_dve_mode_;
+}
+inline void BroadCastData::set_allocated_value_dve_mode(::GoogleProtoBB::Value_DVE_Mode* value_dve_mode) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_mode_;
+  }
+  if (value_dve_mode) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_mode = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_mode, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_mode_ = value_dve_mode;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Mode)
+}
+
+// .GoogleProtoBB.Value_DVE_Type value_DVE_Type = 20;
+inline bool BroadCastData::has_value_dve_type() const {
+  return this != internal_default_instance() && value_dve_type_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_type() {
+  if (GetArenaNoVirtual() == NULL && value_dve_type_ != NULL) {
+    delete value_dve_type_;
+  }
+  value_dve_type_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Type& BroadCastData::_internal_value_dve_type() const {
+  return *value_dve_type_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Type& BroadCastData::value_dve_type() const {
+  const ::GoogleProtoBB::Value_DVE_Type* p = value_dve_type_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Type)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Type*>(
+      &::GoogleProtoBB::_Value_DVE_Type_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Type* BroadCastData::release_value_dve_type() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Type)
+  
+  ::GoogleProtoBB::Value_DVE_Type* temp = value_dve_type_;
+  value_dve_type_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Type* BroadCastData::mutable_value_dve_type() {
+  
+  if (value_dve_type_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Type>(GetArenaNoVirtual());
+    value_dve_type_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Type)
+  return value_dve_type_;
+}
+inline void BroadCastData::set_allocated_value_dve_type(::GoogleProtoBB::Value_DVE_Type* value_dve_type) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_type_;
+  }
+  if (value_dve_type) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_type = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_type, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_type_ = value_dve_type;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Type)
+}
+
+// .GoogleProtoBB.Value_DVE_Channel value_DVE_Channel = 21;
+inline bool BroadCastData::has_value_dve_channel() const {
+  return this != internal_default_instance() && value_dve_channel_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_channel() {
+  if (GetArenaNoVirtual() == NULL && value_dve_channel_ != NULL) {
+    delete value_dve_channel_;
+  }
+  value_dve_channel_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Channel& BroadCastData::_internal_value_dve_channel() const {
+  return *value_dve_channel_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Channel& BroadCastData::value_dve_channel() const {
+  const ::GoogleProtoBB::Value_DVE_Channel* p = value_dve_channel_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Channel)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Channel*>(
+      &::GoogleProtoBB::_Value_DVE_Channel_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Channel* BroadCastData::release_value_dve_channel() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Channel)
+  
+  ::GoogleProtoBB::Value_DVE_Channel* temp = value_dve_channel_;
+  value_dve_channel_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Channel* BroadCastData::mutable_value_dve_channel() {
+  
+  if (value_dve_channel_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Channel>(GetArenaNoVirtual());
+    value_dve_channel_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Channel)
+  return value_dve_channel_;
+}
+inline void BroadCastData::set_allocated_value_dve_channel(::GoogleProtoBB::Value_DVE_Channel* value_dve_channel) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_channel_;
+  }
+  if (value_dve_channel) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_channel = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_channel, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_channel_ = value_dve_channel;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Channel)
+}
+
+// .GoogleProtoBB.Value_DVE_Num value_DVE_Num = 22;
+inline bool BroadCastData::has_value_dve_num() const {
+  return this != internal_default_instance() && value_dve_num_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_num() {
+  if (GetArenaNoVirtual() == NULL && value_dve_num_ != NULL) {
+    delete value_dve_num_;
+  }
+  value_dve_num_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Num& BroadCastData::_internal_value_dve_num() const {
+  return *value_dve_num_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Num& BroadCastData::value_dve_num() const {
+  const ::GoogleProtoBB::Value_DVE_Num* p = value_dve_num_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Num)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Num*>(
+      &::GoogleProtoBB::_Value_DVE_Num_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Num* BroadCastData::release_value_dve_num() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Num)
+  
+  ::GoogleProtoBB::Value_DVE_Num* temp = value_dve_num_;
+  value_dve_num_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Num* BroadCastData::mutable_value_dve_num() {
+  
+  if (value_dve_num_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Num>(GetArenaNoVirtual());
+    value_dve_num_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Num)
+  return value_dve_num_;
+}
+inline void BroadCastData::set_allocated_value_dve_num(::GoogleProtoBB::Value_DVE_Num* value_dve_num) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_num_;
+  }
+  if (value_dve_num) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_num = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_num, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_num_ = value_dve_num;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Num)
+}
+
+// .GoogleProtoBB.Value_DVE_Den value_DVE_Den = 23;
+inline bool BroadCastData::has_value_dve_den() const {
+  return this != internal_default_instance() && value_dve_den_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_den() {
+  if (GetArenaNoVirtual() == NULL && value_dve_den_ != NULL) {
+    delete value_dve_den_;
+  }
+  value_dve_den_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Den& BroadCastData::_internal_value_dve_den() const {
+  return *value_dve_den_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Den& BroadCastData::value_dve_den() const {
+  const ::GoogleProtoBB::Value_DVE_Den* p = value_dve_den_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Den)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Den*>(
+      &::GoogleProtoBB::_Value_DVE_Den_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Den* BroadCastData::release_value_dve_den() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Den)
+  
+  ::GoogleProtoBB::Value_DVE_Den* temp = value_dve_den_;
+  value_dve_den_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Den* BroadCastData::mutable_value_dve_den() {
+  
+  if (value_dve_den_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Den>(GetArenaNoVirtual());
+    value_dve_den_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Den)
+  return value_dve_den_;
+}
+inline void BroadCastData::set_allocated_value_dve_den(::GoogleProtoBB::Value_DVE_Den* value_dve_den) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_den_;
+  }
+  if (value_dve_den) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_den = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_den, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_den_ = value_dve_den;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Den)
+}
+
+// .GoogleProtoBB.Value_DVE_CutThreshold value_DVE_CutThreshold = 24;
+inline bool BroadCastData::has_value_dve_cutthreshold() const {
+  return this != internal_default_instance() && value_dve_cutthreshold_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_cutthreshold() {
+  if (GetArenaNoVirtual() == NULL && value_dve_cutthreshold_ != NULL) {
+    delete value_dve_cutthreshold_;
+  }
+  value_dve_cutthreshold_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_CutThreshold& BroadCastData::_internal_value_dve_cutthreshold() const {
+  return *value_dve_cutthreshold_;
+}
+inline const ::GoogleProtoBB::Value_DVE_CutThreshold& BroadCastData::value_dve_cutthreshold() const {
+  const ::GoogleProtoBB::Value_DVE_CutThreshold* p = value_dve_cutthreshold_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_CutThreshold)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_CutThreshold*>(
+      &::GoogleProtoBB::_Value_DVE_CutThreshold_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_CutThreshold* BroadCastData::release_value_dve_cutthreshold() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_CutThreshold)
+  
+  ::GoogleProtoBB::Value_DVE_CutThreshold* temp = value_dve_cutthreshold_;
+  value_dve_cutthreshold_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_CutThreshold* BroadCastData::mutable_value_dve_cutthreshold() {
+  
+  if (value_dve_cutthreshold_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_CutThreshold>(GetArenaNoVirtual());
+    value_dve_cutthreshold_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_CutThreshold)
+  return value_dve_cutthreshold_;
+}
+inline void BroadCastData::set_allocated_value_dve_cutthreshold(::GoogleProtoBB::Value_DVE_CutThreshold* value_dve_cutthreshold) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_cutthreshold_;
+  }
+  if (value_dve_cutthreshold) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_cutthreshold = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_cutthreshold, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_cutthreshold_ = value_dve_cutthreshold;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_CutThreshold)
+}
+
+// .GoogleProtoBB.Value_DVE_Custom_Transparency value_DVE_Custom_Transparency = 25;
+inline bool BroadCastData::has_value_dve_custom_transparency() const {
+  return this != internal_default_instance() && value_dve_custom_transparency_ != NULL;
+}
+inline void BroadCastData::clear_value_dve_custom_transparency() {
+  if (GetArenaNoVirtual() == NULL && value_dve_custom_transparency_ != NULL) {
+    delete value_dve_custom_transparency_;
+  }
+  value_dve_custom_transparency_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_DVE_Custom_Transparency& BroadCastData::_internal_value_dve_custom_transparency() const {
+  return *value_dve_custom_transparency_;
+}
+inline const ::GoogleProtoBB::Value_DVE_Custom_Transparency& BroadCastData::value_dve_custom_transparency() const {
+  const ::GoogleProtoBB::Value_DVE_Custom_Transparency* p = value_dve_custom_transparency_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_DVE_Custom_Transparency)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_DVE_Custom_Transparency*>(
+      &::GoogleProtoBB::_Value_DVE_Custom_Transparency_default_instance_);
+}
+inline ::GoogleProtoBB::Value_DVE_Custom_Transparency* BroadCastData::release_value_dve_custom_transparency() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_DVE_Custom_Transparency)
+  
+  ::GoogleProtoBB::Value_DVE_Custom_Transparency* temp = value_dve_custom_transparency_;
+  value_dve_custom_transparency_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_DVE_Custom_Transparency* BroadCastData::mutable_value_dve_custom_transparency() {
+  
+  if (value_dve_custom_transparency_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_DVE_Custom_Transparency>(GetArenaNoVirtual());
+    value_dve_custom_transparency_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_DVE_Custom_Transparency)
+  return value_dve_custom_transparency_;
+}
+inline void BroadCastData::set_allocated_value_dve_custom_transparency(::GoogleProtoBB::Value_DVE_Custom_Transparency* value_dve_custom_transparency) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_dve_custom_transparency_;
+  }
+  if (value_dve_custom_transparency) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_dve_custom_transparency = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_dve_custom_transparency, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_dve_custom_transparency_ = value_dve_custom_transparency;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_DVE_Custom_Transparency)
+}
+
+// .GoogleProtoBB.Value_RTD_Status value_RTD_Status = 26;
+inline bool BroadCastData::has_value_rtd_status() const {
+  return this != internal_default_instance() && value_rtd_status_ != NULL;
+}
+inline void BroadCastData::clear_value_rtd_status() {
+  if (GetArenaNoVirtual() == NULL && value_rtd_status_ != NULL) {
+    delete value_rtd_status_;
+  }
+  value_rtd_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_RTD_Status& BroadCastData::_internal_value_rtd_status() const {
+  return *value_rtd_status_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Status& BroadCastData::value_rtd_status() const {
+  const ::GoogleProtoBB::Value_RTD_Status* p = value_rtd_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_RTD_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_RTD_Status*>(
+      &::GoogleProtoBB::_Value_RTD_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_RTD_Status* BroadCastData::release_value_rtd_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_RTD_Status)
+  
+  ::GoogleProtoBB::Value_RTD_Status* temp = value_rtd_status_;
+  value_rtd_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_RTD_Status* BroadCastData::mutable_value_rtd_status() {
+  
+  if (value_rtd_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Status>(GetArenaNoVirtual());
+    value_rtd_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_RTD_Status)
+  return value_rtd_status_;
+}
+inline void BroadCastData::set_allocated_value_rtd_status(::GoogleProtoBB::Value_RTD_Status* value_rtd_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_rtd_status_;
+  }
+  if (value_rtd_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_rtd_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_rtd_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_rtd_status_ = value_rtd_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_RTD_Status)
+}
+
+// .GoogleProtoBB.Value_RTD_Type value_RTD_Type = 27;
+inline bool BroadCastData::has_value_rtd_type() const {
+  return this != internal_default_instance() && value_rtd_type_ != NULL;
+}
+inline void BroadCastData::clear_value_rtd_type() {
+  if (GetArenaNoVirtual() == NULL && value_rtd_type_ != NULL) {
+    delete value_rtd_type_;
+  }
+  value_rtd_type_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_RTD_Type& BroadCastData::_internal_value_rtd_type() const {
+  return *value_rtd_type_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Type& BroadCastData::value_rtd_type() const {
+  const ::GoogleProtoBB::Value_RTD_Type* p = value_rtd_type_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_RTD_Type)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_RTD_Type*>(
+      &::GoogleProtoBB::_Value_RTD_Type_default_instance_);
+}
+inline ::GoogleProtoBB::Value_RTD_Type* BroadCastData::release_value_rtd_type() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_RTD_Type)
+  
+  ::GoogleProtoBB::Value_RTD_Type* temp = value_rtd_type_;
+  value_rtd_type_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_RTD_Type* BroadCastData::mutable_value_rtd_type() {
+  
+  if (value_rtd_type_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Type>(GetArenaNoVirtual());
+    value_rtd_type_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_RTD_Type)
+  return value_rtd_type_;
+}
+inline void BroadCastData::set_allocated_value_rtd_type(::GoogleProtoBB::Value_RTD_Type* value_rtd_type) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_rtd_type_;
+  }
+  if (value_rtd_type) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_rtd_type = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_rtd_type, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_rtd_type_ = value_rtd_type;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_RTD_Type)
+}
+
+// .GoogleProtoBB.Value_RTD_Position value_RTD_Position = 28;
+inline bool BroadCastData::has_value_rtd_position() const {
+  return this != internal_default_instance() && value_rtd_position_ != NULL;
+}
+inline void BroadCastData::clear_value_rtd_position() {
+  if (GetArenaNoVirtual() == NULL && value_rtd_position_ != NULL) {
+    delete value_rtd_position_;
+  }
+  value_rtd_position_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_RTD_Position& BroadCastData::_internal_value_rtd_position() const {
+  return *value_rtd_position_;
+}
+inline const ::GoogleProtoBB::Value_RTD_Position& BroadCastData::value_rtd_position() const {
+  const ::GoogleProtoBB::Value_RTD_Position* p = value_rtd_position_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_RTD_Position)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_RTD_Position*>(
+      &::GoogleProtoBB::_Value_RTD_Position_default_instance_);
+}
+inline ::GoogleProtoBB::Value_RTD_Position* BroadCastData::release_value_rtd_position() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_RTD_Position)
+  
+  ::GoogleProtoBB::Value_RTD_Position* temp = value_rtd_position_;
+  value_rtd_position_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_RTD_Position* BroadCastData::mutable_value_rtd_position() {
+  
+  if (value_rtd_position_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_RTD_Position>(GetArenaNoVirtual());
+    value_rtd_position_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_RTD_Position)
+  return value_rtd_position_;
+}
+inline void BroadCastData::set_allocated_value_rtd_position(::GoogleProtoBB::Value_RTD_Position* value_rtd_position) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_rtd_position_;
+  }
+  if (value_rtd_position) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_rtd_position = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_rtd_position, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_rtd_position_ = value_rtd_position;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_RTD_Position)
+}
+
+// .GoogleProtoBB.Value_GFX_Status value_GFX_Status = 29;
+inline bool BroadCastData::has_value_gfx_status() const {
+  return this != internal_default_instance() && value_gfx_status_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_status() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_status_ != NULL) {
+    delete value_gfx_status_;
+  }
+  value_gfx_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Status& BroadCastData::_internal_value_gfx_status() const {
+  return *value_gfx_status_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Status& BroadCastData::value_gfx_status() const {
+  const ::GoogleProtoBB::Value_GFX_Status* p = value_gfx_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Status*>(
+      &::GoogleProtoBB::_Value_GFX_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Status* BroadCastData::release_value_gfx_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Status)
+  
+  ::GoogleProtoBB::Value_GFX_Status* temp = value_gfx_status_;
+  value_gfx_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Status* BroadCastData::mutable_value_gfx_status() {
+  
+  if (value_gfx_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Status>(GetArenaNoVirtual());
+    value_gfx_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Status)
+  return value_gfx_status_;
+}
+inline void BroadCastData::set_allocated_value_gfx_status(::GoogleProtoBB::Value_GFX_Status* value_gfx_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_status_;
+  }
+  if (value_gfx_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_status_ = value_gfx_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Status)
+}
+
+// .GoogleProtoBB.Value_GFX_Position value_GFX_Position = 30;
+inline bool BroadCastData::has_value_gfx_position() const {
+  return this != internal_default_instance() && value_gfx_position_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_position() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_position_ != NULL) {
+    delete value_gfx_position_;
+  }
+  value_gfx_position_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Position& BroadCastData::_internal_value_gfx_position() const {
+  return *value_gfx_position_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Position& BroadCastData::value_gfx_position() const {
+  const ::GoogleProtoBB::Value_GFX_Position* p = value_gfx_position_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Position)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Position*>(
+      &::GoogleProtoBB::_Value_GFX_Position_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Position* BroadCastData::release_value_gfx_position() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Position)
+  
+  ::GoogleProtoBB::Value_GFX_Position* temp = value_gfx_position_;
+  value_gfx_position_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Position* BroadCastData::mutable_value_gfx_position() {
+  
+  if (value_gfx_position_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Position>(GetArenaNoVirtual());
+    value_gfx_position_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Position)
+  return value_gfx_position_;
+}
+inline void BroadCastData::set_allocated_value_gfx_position(::GoogleProtoBB::Value_GFX_Position* value_gfx_position) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_position_;
+  }
+  if (value_gfx_position) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_position = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_position, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_position_ = value_gfx_position;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Position)
+}
+
+// .GoogleProtoBB.Value_GFX_Fade_In_Out_Duration value_GFX_Fade_In_Out_Duration = 31;
+inline bool BroadCastData::has_value_gfx_fade_in_out_duration() const {
+  return this != internal_default_instance() && value_gfx_fade_in_out_duration_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_fade_in_out_duration() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_fade_in_out_duration_ != NULL) {
+    delete value_gfx_fade_in_out_duration_;
+  }
+  value_gfx_fade_in_out_duration_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration& BroadCastData::_internal_value_gfx_fade_in_out_duration() const {
+  return *value_gfx_fade_in_out_duration_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration& BroadCastData::value_gfx_fade_in_out_duration() const {
+  const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* p = value_gfx_fade_in_out_duration_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Fade_In_Out_Duration)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration*>(
+      &::GoogleProtoBB::_Value_GFX_Fade_In_Out_Duration_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* BroadCastData::release_value_gfx_fade_in_out_duration() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Fade_In_Out_Duration)
+  
+  ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* temp = value_gfx_fade_in_out_duration_;
+  value_gfx_fade_in_out_duration_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* BroadCastData::mutable_value_gfx_fade_in_out_duration() {
+  
+  if (value_gfx_fade_in_out_duration_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration>(GetArenaNoVirtual());
+    value_gfx_fade_in_out_duration_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Fade_In_Out_Duration)
+  return value_gfx_fade_in_out_duration_;
+}
+inline void BroadCastData::set_allocated_value_gfx_fade_in_out_duration(::GoogleProtoBB::Value_GFX_Fade_In_Out_Duration* value_gfx_fade_in_out_duration) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_fade_in_out_duration_;
+  }
+  if (value_gfx_fade_in_out_duration) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_fade_in_out_duration = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_fade_in_out_duration, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_fade_in_out_duration_ = value_gfx_fade_in_out_duration;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Fade_In_Out_Duration)
+}
+
+// .GoogleProtoBB.Value_GFX_Loop_In_Out value_GFX_Loop_In_Out = 32;
+inline bool BroadCastData::has_value_gfx_loop_in_out() const {
+  return this != internal_default_instance() && value_gfx_loop_in_out_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_loop_in_out() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_loop_in_out_ != NULL) {
+    delete value_gfx_loop_in_out_;
+  }
+  value_gfx_loop_in_out_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_In_Out& BroadCastData::_internal_value_gfx_loop_in_out() const {
+  return *value_gfx_loop_in_out_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_In_Out& BroadCastData::value_gfx_loop_in_out() const {
+  const ::GoogleProtoBB::Value_GFX_Loop_In_Out* p = value_gfx_loop_in_out_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Loop_In_Out)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Loop_In_Out*>(
+      &::GoogleProtoBB::_Value_GFX_Loop_In_Out_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out* BroadCastData::release_value_gfx_loop_in_out() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Loop_In_Out)
+  
+  ::GoogleProtoBB::Value_GFX_Loop_In_Out* temp = value_gfx_loop_in_out_;
+  value_gfx_loop_in_out_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_In_Out* BroadCastData::mutable_value_gfx_loop_in_out() {
+  
+  if (value_gfx_loop_in_out_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_In_Out>(GetArenaNoVirtual());
+    value_gfx_loop_in_out_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Loop_In_Out)
+  return value_gfx_loop_in_out_;
+}
+inline void BroadCastData::set_allocated_value_gfx_loop_in_out(::GoogleProtoBB::Value_GFX_Loop_In_Out* value_gfx_loop_in_out) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_loop_in_out_;
+  }
+  if (value_gfx_loop_in_out) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_loop_in_out = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_loop_in_out, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_loop_in_out_ = value_gfx_loop_in_out;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Loop_In_Out)
+}
+
+// .GoogleProtoBB.Value_GFX_Loop_Count value_GFX_Loop_Count = 33;
+inline bool BroadCastData::has_value_gfx_loop_count() const {
+  return this != internal_default_instance() && value_gfx_loop_count_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_loop_count() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_loop_count_ != NULL) {
+    delete value_gfx_loop_count_;
+  }
+  value_gfx_loop_count_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_Count& BroadCastData::_internal_value_gfx_loop_count() const {
+  return *value_gfx_loop_count_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Loop_Count& BroadCastData::value_gfx_loop_count() const {
+  const ::GoogleProtoBB::Value_GFX_Loop_Count* p = value_gfx_loop_count_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Loop_Count)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Loop_Count*>(
+      &::GoogleProtoBB::_Value_GFX_Loop_Count_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count* BroadCastData::release_value_gfx_loop_count() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Loop_Count)
+  
+  ::GoogleProtoBB::Value_GFX_Loop_Count* temp = value_gfx_loop_count_;
+  value_gfx_loop_count_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Loop_Count* BroadCastData::mutable_value_gfx_loop_count() {
+  
+  if (value_gfx_loop_count_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Loop_Count>(GetArenaNoVirtual());
+    value_gfx_loop_count_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Loop_Count)
+  return value_gfx_loop_count_;
+}
+inline void BroadCastData::set_allocated_value_gfx_loop_count(::GoogleProtoBB::Value_GFX_Loop_Count* value_gfx_loop_count) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_loop_count_;
+  }
+  if (value_gfx_loop_count) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_loop_count = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_loop_count, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_loop_count_ = value_gfx_loop_count;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Loop_Count)
+}
+
+// .GoogleProtoBB.Value_GFX_Preload_Status value_GFX_Preload_Status = 34;
+inline bool BroadCastData::has_value_gfx_preload_status() const {
+  return this != internal_default_instance() && value_gfx_preload_status_ != NULL;
+}
+inline void BroadCastData::clear_value_gfx_preload_status() {
+  if (GetArenaNoVirtual() == NULL && value_gfx_preload_status_ != NULL) {
+    delete value_gfx_preload_status_;
+  }
+  value_gfx_preload_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_GFX_Preload_Status& BroadCastData::_internal_value_gfx_preload_status() const {
+  return *value_gfx_preload_status_;
+}
+inline const ::GoogleProtoBB::Value_GFX_Preload_Status& BroadCastData::value_gfx_preload_status() const {
+  const ::GoogleProtoBB::Value_GFX_Preload_Status* p = value_gfx_preload_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_GFX_Preload_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_GFX_Preload_Status*>(
+      &::GoogleProtoBB::_Value_GFX_Preload_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_GFX_Preload_Status* BroadCastData::release_value_gfx_preload_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_GFX_Preload_Status)
+  
+  ::GoogleProtoBB::Value_GFX_Preload_Status* temp = value_gfx_preload_status_;
+  value_gfx_preload_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_GFX_Preload_Status* BroadCastData::mutable_value_gfx_preload_status() {
+  
+  if (value_gfx_preload_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_GFX_Preload_Status>(GetArenaNoVirtual());
+    value_gfx_preload_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_GFX_Preload_Status)
+  return value_gfx_preload_status_;
+}
+inline void BroadCastData::set_allocated_value_gfx_preload_status(::GoogleProtoBB::Value_GFX_Preload_Status* value_gfx_preload_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_gfx_preload_status_;
+  }
+  if (value_gfx_preload_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_gfx_preload_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_gfx_preload_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_gfx_preload_status_ = value_gfx_preload_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_GFX_Preload_Status)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_Version value_HealthInfo_Version = 35;
+inline bool BroadCastData::has_value_healthinfo_version() const {
+  return this != internal_default_instance() && value_healthinfo_version_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_version() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_version_ != NULL) {
+    delete value_healthinfo_version_;
+  }
+  value_healthinfo_version_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Version& BroadCastData::_internal_value_healthinfo_version() const {
+  return *value_healthinfo_version_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Version& BroadCastData::value_healthinfo_version() const {
+  const ::GoogleProtoBB::Value_HealthInfo_Version* p = value_healthinfo_version_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_Version)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_Version*>(
+      &::GoogleProtoBB::_Value_HealthInfo_Version_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Version* BroadCastData::release_value_healthinfo_version() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_Version)
+  
+  ::GoogleProtoBB::Value_HealthInfo_Version* temp = value_healthinfo_version_;
+  value_healthinfo_version_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Version* BroadCastData::mutable_value_healthinfo_version() {
+  
+  if (value_healthinfo_version_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Version>(GetArenaNoVirtual());
+    value_healthinfo_version_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_Version)
+  return value_healthinfo_version_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_version(::GoogleProtoBB::Value_HealthInfo_Version* value_healthinfo_version) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_version_;
+  }
+  if (value_healthinfo_version) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_version = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_version, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_version_ = value_healthinfo_version;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_Version)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_Mixer_Status value_HealthInfo_Mixer_Status = 36;
+inline bool BroadCastData::has_value_healthinfo_mixer_status() const {
+  return this != internal_default_instance() && value_healthinfo_mixer_status_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_mixer_status() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_mixer_status_ != NULL) {
+    delete value_healthinfo_mixer_status_;
+  }
+  value_healthinfo_mixer_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status& BroadCastData::_internal_value_healthinfo_mixer_status() const {
+  return *value_healthinfo_mixer_status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status& BroadCastData::value_healthinfo_mixer_status() const {
+  const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* p = value_healthinfo_mixer_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_Mixer_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_Mixer_Status*>(
+      &::GoogleProtoBB::_Value_HealthInfo_Mixer_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* BroadCastData::release_value_healthinfo_mixer_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_Mixer_Status)
+  
+  ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* temp = value_healthinfo_mixer_status_;
+  value_healthinfo_mixer_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Mixer_Status* BroadCastData::mutable_value_healthinfo_mixer_status() {
+  
+  if (value_healthinfo_mixer_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Mixer_Status>(GetArenaNoVirtual());
+    value_healthinfo_mixer_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_Mixer_Status)
+  return value_healthinfo_mixer_status_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_mixer_status(::GoogleProtoBB::Value_HealthInfo_Mixer_Status* value_healthinfo_mixer_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_mixer_status_;
+  }
+  if (value_healthinfo_mixer_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_mixer_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_mixer_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_mixer_status_ = value_healthinfo_mixer_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_Mixer_Status)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_Network_Bandwidth value_HealthInfo_Network_Bandwidth = 37;
+inline bool BroadCastData::has_value_healthinfo_network_bandwidth() const {
+  return this != internal_default_instance() && value_healthinfo_network_bandwidth_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_network_bandwidth() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_network_bandwidth_ != NULL) {
+    delete value_healthinfo_network_bandwidth_;
+  }
+  value_healthinfo_network_bandwidth_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth& BroadCastData::_internal_value_healthinfo_network_bandwidth() const {
+  return *value_healthinfo_network_bandwidth_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth& BroadCastData::value_healthinfo_network_bandwidth() const {
+  const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* p = value_healthinfo_network_bandwidth_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_Network_Bandwidth)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth*>(
+      &::GoogleProtoBB::_Value_HealthInfo_Network_Bandwidth_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* BroadCastData::release_value_healthinfo_network_bandwidth() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_Network_Bandwidth)
+  
+  ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* temp = value_healthinfo_network_bandwidth_;
+  value_healthinfo_network_bandwidth_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* BroadCastData::mutable_value_healthinfo_network_bandwidth() {
+  
+  if (value_healthinfo_network_bandwidth_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth>(GetArenaNoVirtual());
+    value_healthinfo_network_bandwidth_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_Network_Bandwidth)
+  return value_healthinfo_network_bandwidth_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_network_bandwidth(::GoogleProtoBB::Value_HealthInfo_Network_Bandwidth* value_healthinfo_network_bandwidth) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_network_bandwidth_;
+  }
+  if (value_healthinfo_network_bandwidth) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_network_bandwidth = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_network_bandwidth, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_network_bandwidth_ = value_healthinfo_network_bandwidth;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_Network_Bandwidth)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_GPU_Temperature value_HealthInfo_GPU_Temperature = 38;
+inline bool BroadCastData::has_value_healthinfo_gpu_temperature() const {
+  return this != internal_default_instance() && value_healthinfo_gpu_temperature_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_gpu_temperature() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_gpu_temperature_ != NULL) {
+    delete value_healthinfo_gpu_temperature_;
+  }
+  value_healthinfo_gpu_temperature_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature& BroadCastData::_internal_value_healthinfo_gpu_temperature() const {
+  return *value_healthinfo_gpu_temperature_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature& BroadCastData::value_healthinfo_gpu_temperature() const {
+  const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* p = value_healthinfo_gpu_temperature_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_GPU_Temperature)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature*>(
+      &::GoogleProtoBB::_Value_HealthInfo_GPU_Temperature_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* BroadCastData::release_value_healthinfo_gpu_temperature() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_GPU_Temperature)
+  
+  ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* temp = value_healthinfo_gpu_temperature_;
+  value_healthinfo_gpu_temperature_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* BroadCastData::mutable_value_healthinfo_gpu_temperature() {
+  
+  if (value_healthinfo_gpu_temperature_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_GPU_Temperature>(GetArenaNoVirtual());
+    value_healthinfo_gpu_temperature_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_GPU_Temperature)
+  return value_healthinfo_gpu_temperature_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_gpu_temperature(::GoogleProtoBB::Value_HealthInfo_GPU_Temperature* value_healthinfo_gpu_temperature) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_gpu_temperature_;
+  }
+  if (value_healthinfo_gpu_temperature) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_gpu_temperature = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_gpu_temperature, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_gpu_temperature_ = value_healthinfo_gpu_temperature;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_GPU_Temperature)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_AJA_Status value_HealthInfo_AJA_Status = 39;
+inline bool BroadCastData::has_value_healthinfo_aja_status() const {
+  return this != internal_default_instance() && value_healthinfo_aja_status_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_aja_status() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_aja_status_ != NULL) {
+    delete value_healthinfo_aja_status_;
+  }
+  value_healthinfo_aja_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_AJA_Status& BroadCastData::_internal_value_healthinfo_aja_status() const {
+  return *value_healthinfo_aja_status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_AJA_Status& BroadCastData::value_healthinfo_aja_status() const {
+  const ::GoogleProtoBB::Value_HealthInfo_AJA_Status* p = value_healthinfo_aja_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_AJA_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_AJA_Status*>(
+      &::GoogleProtoBB::_Value_HealthInfo_AJA_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_AJA_Status* BroadCastData::release_value_healthinfo_aja_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_AJA_Status)
+  
+  ::GoogleProtoBB::Value_HealthInfo_AJA_Status* temp = value_healthinfo_aja_status_;
+  value_healthinfo_aja_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_AJA_Status* BroadCastData::mutable_value_healthinfo_aja_status() {
+  
+  if (value_healthinfo_aja_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_AJA_Status>(GetArenaNoVirtual());
+    value_healthinfo_aja_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_AJA_Status)
+  return value_healthinfo_aja_status_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_aja_status(::GoogleProtoBB::Value_HealthInfo_AJA_Status* value_healthinfo_aja_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_aja_status_;
+  }
+  if (value_healthinfo_aja_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_aja_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_aja_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_aja_status_ = value_healthinfo_aja_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_AJA_Status)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_HDD_Status value_HealthInfo_HDD_Status = 40;
+inline bool BroadCastData::has_value_healthinfo_hdd_status() const {
+  return this != internal_default_instance() && value_healthinfo_hdd_status_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_hdd_status() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_hdd_status_ != NULL) {
+    delete value_healthinfo_hdd_status_;
+  }
+  value_healthinfo_hdd_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_HDD_Status& BroadCastData::_internal_value_healthinfo_hdd_status() const {
+  return *value_healthinfo_hdd_status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_HDD_Status& BroadCastData::value_healthinfo_hdd_status() const {
+  const ::GoogleProtoBB::Value_HealthInfo_HDD_Status* p = value_healthinfo_hdd_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_HDD_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_HDD_Status*>(
+      &::GoogleProtoBB::_Value_HealthInfo_HDD_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_HDD_Status* BroadCastData::release_value_healthinfo_hdd_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_HDD_Status)
+  
+  ::GoogleProtoBB::Value_HealthInfo_HDD_Status* temp = value_healthinfo_hdd_status_;
+  value_healthinfo_hdd_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_HDD_Status* BroadCastData::mutable_value_healthinfo_hdd_status() {
+  
+  if (value_healthinfo_hdd_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_HDD_Status>(GetArenaNoVirtual());
+    value_healthinfo_hdd_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_HDD_Status)
+  return value_healthinfo_hdd_status_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_hdd_status(::GoogleProtoBB::Value_HealthInfo_HDD_Status* value_healthinfo_hdd_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_hdd_status_;
+  }
+  if (value_healthinfo_hdd_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_hdd_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_hdd_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_hdd_status_ = value_healthinfo_hdd_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_HDD_Status)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_ASIO_Status value_HealthInfo_ASIO_Status = 41;
+inline bool BroadCastData::has_value_healthinfo_asio_status() const {
+  return this != internal_default_instance() && value_healthinfo_asio_status_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_asio_status() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_asio_status_ != NULL) {
+    delete value_healthinfo_asio_status_;
+  }
+  value_healthinfo_asio_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status& BroadCastData::_internal_value_healthinfo_asio_status() const {
+  return *value_healthinfo_asio_status_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status& BroadCastData::value_healthinfo_asio_status() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* p = value_healthinfo_asio_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_ASIO_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ASIO_Status*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ASIO_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* BroadCastData::release_value_healthinfo_asio_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_ASIO_Status)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* temp = value_healthinfo_asio_status_;
+  value_healthinfo_asio_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ASIO_Status* BroadCastData::mutable_value_healthinfo_asio_status() {
+  
+  if (value_healthinfo_asio_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ASIO_Status>(GetArenaNoVirtual());
+    value_healthinfo_asio_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_ASIO_Status)
+  return value_healthinfo_asio_status_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_asio_status(::GoogleProtoBB::Value_HealthInfo_ASIO_Status* value_healthinfo_asio_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_asio_status_;
+  }
+  if (value_healthinfo_asio_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_asio_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_asio_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_asio_status_ = value_healthinfo_asio_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_ASIO_Status)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_External_TimeCode value_HealthInfo_External_TimeCode = 42;
+inline bool BroadCastData::has_value_healthinfo_external_timecode() const {
+  return this != internal_default_instance() && value_healthinfo_external_timecode_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_external_timecode() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_external_timecode_ != NULL) {
+    delete value_healthinfo_external_timecode_;
+  }
+  value_healthinfo_external_timecode_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode& BroadCastData::_internal_value_healthinfo_external_timecode() const {
+  return *value_healthinfo_external_timecode_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode& BroadCastData::value_healthinfo_external_timecode() const {
+  const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* p = value_healthinfo_external_timecode_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_External_TimeCode)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_External_TimeCode*>(
+      &::GoogleProtoBB::_Value_HealthInfo_External_TimeCode_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* BroadCastData::release_value_healthinfo_external_timecode() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_External_TimeCode)
+  
+  ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* temp = value_healthinfo_external_timecode_;
+  value_healthinfo_external_timecode_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_External_TimeCode* BroadCastData::mutable_value_healthinfo_external_timecode() {
+  
+  if (value_healthinfo_external_timecode_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_External_TimeCode>(GetArenaNoVirtual());
+    value_healthinfo_external_timecode_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_External_TimeCode)
+  return value_healthinfo_external_timecode_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_external_timecode(::GoogleProtoBB::Value_HealthInfo_External_TimeCode* value_healthinfo_external_timecode) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_external_timecode_;
+  }
+  if (value_healthinfo_external_timecode) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_external_timecode = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_external_timecode, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_external_timecode_ = value_healthinfo_external_timecode;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_External_TimeCode)
+}
+
+// .GoogleProtoBB.Value_CustomInfo value_CustomInfo = 43;
+inline bool BroadCastData::has_value_custominfo() const {
+  return this != internal_default_instance() && value_custominfo_ != NULL;
+}
+inline void BroadCastData::clear_value_custominfo() {
+  if (GetArenaNoVirtual() == NULL && value_custominfo_ != NULL) {
+    delete value_custominfo_;
+  }
+  value_custominfo_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_CustomInfo& BroadCastData::_internal_value_custominfo() const {
+  return *value_custominfo_;
+}
+inline const ::GoogleProtoBB::Value_CustomInfo& BroadCastData::value_custominfo() const {
+  const ::GoogleProtoBB::Value_CustomInfo* p = value_custominfo_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_CustomInfo)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_CustomInfo*>(
+      &::GoogleProtoBB::_Value_CustomInfo_default_instance_);
+}
+inline ::GoogleProtoBB::Value_CustomInfo* BroadCastData::release_value_custominfo() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_CustomInfo)
+  
+  ::GoogleProtoBB::Value_CustomInfo* temp = value_custominfo_;
+  value_custominfo_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_CustomInfo* BroadCastData::mutable_value_custominfo() {
+  
+  if (value_custominfo_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_CustomInfo>(GetArenaNoVirtual());
+    value_custominfo_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_CustomInfo)
+  return value_custominfo_;
+}
+inline void BroadCastData::set_allocated_value_custominfo(::GoogleProtoBB::Value_CustomInfo* value_custominfo) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_custominfo_;
+  }
+  if (value_custominfo) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_custominfo = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_custominfo, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_custominfo_ = value_custominfo;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_CustomInfo)
+}
+
+// .GoogleProtoBB.Value_BMR_Setting value_BMR_Setting = 44;
+inline bool BroadCastData::has_value_bmr_setting() const {
+  return this != internal_default_instance() && value_bmr_setting_ != NULL;
+}
+inline void BroadCastData::clear_value_bmr_setting() {
+  if (GetArenaNoVirtual() == NULL && value_bmr_setting_ != NULL) {
+    delete value_bmr_setting_;
+  }
+  value_bmr_setting_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_BMR_Setting& BroadCastData::_internal_value_bmr_setting() const {
+  return *value_bmr_setting_;
+}
+inline const ::GoogleProtoBB::Value_BMR_Setting& BroadCastData::value_bmr_setting() const {
+  const ::GoogleProtoBB::Value_BMR_Setting* p = value_bmr_setting_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_BMR_Setting)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_BMR_Setting*>(
+      &::GoogleProtoBB::_Value_BMR_Setting_default_instance_);
+}
+inline ::GoogleProtoBB::Value_BMR_Setting* BroadCastData::release_value_bmr_setting() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_BMR_Setting)
+  
+  ::GoogleProtoBB::Value_BMR_Setting* temp = value_bmr_setting_;
+  value_bmr_setting_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_BMR_Setting* BroadCastData::mutable_value_bmr_setting() {
+  
+  if (value_bmr_setting_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_BMR_Setting>(GetArenaNoVirtual());
+    value_bmr_setting_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_BMR_Setting)
+  return value_bmr_setting_;
+}
+inline void BroadCastData::set_allocated_value_bmr_setting(::GoogleProtoBB::Value_BMR_Setting* value_bmr_setting) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_bmr_setting_;
+  }
+  if (value_bmr_setting) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_bmr_setting = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_bmr_setting, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_bmr_setting_ = value_bmr_setting;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_BMR_Setting)
+}
+
+// .GoogleProtoBB.Value_VuMeter_Live_Mixer_PGM value_VuMeter_Live_Mixer_PGM = 45;
+inline bool BroadCastData::has_value_vumeter_live_mixer_pgm() const {
+  return this != internal_default_instance() && value_vumeter_live_mixer_pgm_ != NULL;
+}
+inline void BroadCastData::clear_value_vumeter_live_mixer_pgm() {
+  if (GetArenaNoVirtual() == NULL && value_vumeter_live_mixer_pgm_ != NULL) {
+    delete value_vumeter_live_mixer_pgm_;
+  }
+  value_vumeter_live_mixer_pgm_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM& BroadCastData::_internal_value_vumeter_live_mixer_pgm() const {
+  return *value_vumeter_live_mixer_pgm_;
+}
+inline const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM& BroadCastData::value_vumeter_live_mixer_pgm() const {
+  const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* p = value_vumeter_live_mixer_pgm_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_VuMeter_Live_Mixer_PGM)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM*>(
+      &::GoogleProtoBB::_Value_VuMeter_Live_Mixer_PGM_default_instance_);
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* BroadCastData::release_value_vumeter_live_mixer_pgm() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_VuMeter_Live_Mixer_PGM)
+  
+  ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* temp = value_vumeter_live_mixer_pgm_;
+  value_vumeter_live_mixer_pgm_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* BroadCastData::mutable_value_vumeter_live_mixer_pgm() {
+  
+  if (value_vumeter_live_mixer_pgm_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM>(GetArenaNoVirtual());
+    value_vumeter_live_mixer_pgm_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_VuMeter_Live_Mixer_PGM)
+  return value_vumeter_live_mixer_pgm_;
+}
+inline void BroadCastData::set_allocated_value_vumeter_live_mixer_pgm(::GoogleProtoBB::Value_VuMeter_Live_Mixer_PGM* value_vumeter_live_mixer_pgm) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_vumeter_live_mixer_pgm_;
+  }
+  if (value_vumeter_live_mixer_pgm) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_vumeter_live_mixer_pgm = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_vumeter_live_mixer_pgm, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_vumeter_live_mixer_pgm_ = value_vumeter_live_mixer_pgm;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_VuMeter_Live_Mixer_PGM)
+}
+
+// .GoogleProtoBB.Value_PiP_Status value_PiP_Status = 46;
+inline bool BroadCastData::has_value_pip_status() const {
+  return this != internal_default_instance() && value_pip_status_ != NULL;
+}
+inline void BroadCastData::clear_value_pip_status() {
+  if (GetArenaNoVirtual() == NULL && value_pip_status_ != NULL) {
+    delete value_pip_status_;
+  }
+  value_pip_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_PiP_Status& BroadCastData::_internal_value_pip_status() const {
+  return *value_pip_status_;
+}
+inline const ::GoogleProtoBB::Value_PiP_Status& BroadCastData::value_pip_status() const {
+  const ::GoogleProtoBB::Value_PiP_Status* p = value_pip_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_PiP_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_PiP_Status*>(
+      &::GoogleProtoBB::_Value_PiP_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_PiP_Status* BroadCastData::release_value_pip_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_PiP_Status)
+  
+  ::GoogleProtoBB::Value_PiP_Status* temp = value_pip_status_;
+  value_pip_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_PiP_Status* BroadCastData::mutable_value_pip_status() {
+  
+  if (value_pip_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_PiP_Status>(GetArenaNoVirtual());
+    value_pip_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_PiP_Status)
+  return value_pip_status_;
+}
+inline void BroadCastData::set_allocated_value_pip_status(::GoogleProtoBB::Value_PiP_Status* value_pip_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_pip_status_;
+  }
+  if (value_pip_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_pip_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_pip_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_pip_status_ = value_pip_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_PiP_Status)
+}
+
+// .GoogleProtoBB.Value_Server_Memory value_Server_Memory = 47;
+inline bool BroadCastData::has_value_server_memory() const {
+  return this != internal_default_instance() && value_server_memory_ != NULL;
+}
+inline void BroadCastData::clear_value_server_memory() {
+  if (GetArenaNoVirtual() == NULL && value_server_memory_ != NULL) {
+    delete value_server_memory_;
+  }
+  value_server_memory_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Server_Memory& BroadCastData::_internal_value_server_memory() const {
+  return *value_server_memory_;
+}
+inline const ::GoogleProtoBB::Value_Server_Memory& BroadCastData::value_server_memory() const {
+  const ::GoogleProtoBB::Value_Server_Memory* p = value_server_memory_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Server_Memory)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Server_Memory*>(
+      &::GoogleProtoBB::_Value_Server_Memory_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Server_Memory* BroadCastData::release_value_server_memory() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Server_Memory)
+  
+  ::GoogleProtoBB::Value_Server_Memory* temp = value_server_memory_;
+  value_server_memory_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Server_Memory* BroadCastData::mutable_value_server_memory() {
+  
+  if (value_server_memory_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Server_Memory>(GetArenaNoVirtual());
+    value_server_memory_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Server_Memory)
+  return value_server_memory_;
+}
+inline void BroadCastData::set_allocated_value_server_memory(::GoogleProtoBB::Value_Server_Memory* value_server_memory) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_server_memory_;
+  }
+  if (value_server_memory) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_server_memory = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_server_memory, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_server_memory_ = value_server_memory;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Server_Memory)
+}
+
+// .GoogleProtoBB.Value_Cache_ReplayPlayer_HighResVideo value_Cache_ReplayPlayer_HighResVideo = 48;
+inline bool BroadCastData::has_value_cache_replayplayer_highresvideo() const {
+  return this != internal_default_instance() && value_cache_replayplayer_highresvideo_ != NULL;
+}
+inline void BroadCastData::clear_value_cache_replayplayer_highresvideo() {
+  if (GetArenaNoVirtual() == NULL && value_cache_replayplayer_highresvideo_ != NULL) {
+    delete value_cache_replayplayer_highresvideo_;
+  }
+  value_cache_replayplayer_highresvideo_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo& BroadCastData::_internal_value_cache_replayplayer_highresvideo() const {
+  return *value_cache_replayplayer_highresvideo_;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo& BroadCastData::value_cache_replayplayer_highresvideo() const {
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* p = value_cache_replayplayer_highresvideo_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_HighResVideo)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo*>(
+      &::GoogleProtoBB::_Value_Cache_ReplayPlayer_HighResVideo_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* BroadCastData::release_value_cache_replayplayer_highresvideo() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_HighResVideo)
+  
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* temp = value_cache_replayplayer_highresvideo_;
+  value_cache_replayplayer_highresvideo_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* BroadCastData::mutable_value_cache_replayplayer_highresvideo() {
+  
+  if (value_cache_replayplayer_highresvideo_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo>(GetArenaNoVirtual());
+    value_cache_replayplayer_highresvideo_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_HighResVideo)
+  return value_cache_replayplayer_highresvideo_;
+}
+inline void BroadCastData::set_allocated_value_cache_replayplayer_highresvideo(::GoogleProtoBB::Value_Cache_ReplayPlayer_HighResVideo* value_cache_replayplayer_highresvideo) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_cache_replayplayer_highresvideo_;
+  }
+  if (value_cache_replayplayer_highresvideo) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_cache_replayplayer_highresvideo = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_cache_replayplayer_highresvideo, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_cache_replayplayer_highresvideo_ = value_cache_replayplayer_highresvideo;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_HighResVideo)
+}
+
+// .GoogleProtoBB.Value_Cache_ReplayPlayer_ExternalAudio value_Cache_ReplayPlayer_ExternalAudio = 49;
+inline bool BroadCastData::has_value_cache_replayplayer_externalaudio() const {
+  return this != internal_default_instance() && value_cache_replayplayer_externalaudio_ != NULL;
+}
+inline void BroadCastData::clear_value_cache_replayplayer_externalaudio() {
+  if (GetArenaNoVirtual() == NULL && value_cache_replayplayer_externalaudio_ != NULL) {
+    delete value_cache_replayplayer_externalaudio_;
+  }
+  value_cache_replayplayer_externalaudio_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio& BroadCastData::_internal_value_cache_replayplayer_externalaudio() const {
+  return *value_cache_replayplayer_externalaudio_;
+}
+inline const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio& BroadCastData::value_cache_replayplayer_externalaudio() const {
+  const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* p = value_cache_replayplayer_externalaudio_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_ExternalAudio)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio*>(
+      &::GoogleProtoBB::_Value_Cache_ReplayPlayer_ExternalAudio_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* BroadCastData::release_value_cache_replayplayer_externalaudio() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_ExternalAudio)
+  
+  ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* temp = value_cache_replayplayer_externalaudio_;
+  value_cache_replayplayer_externalaudio_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* BroadCastData::mutable_value_cache_replayplayer_externalaudio() {
+  
+  if (value_cache_replayplayer_externalaudio_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio>(GetArenaNoVirtual());
+    value_cache_replayplayer_externalaudio_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_ExternalAudio)
+  return value_cache_replayplayer_externalaudio_;
+}
+inline void BroadCastData::set_allocated_value_cache_replayplayer_externalaudio(::GoogleProtoBB::Value_Cache_ReplayPlayer_ExternalAudio* value_cache_replayplayer_externalaudio) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_cache_replayplayer_externalaudio_;
+  }
+  if (value_cache_replayplayer_externalaudio) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_cache_replayplayer_externalaudio = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_cache_replayplayer_externalaudio, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_cache_replayplayer_externalaudio_ = value_cache_replayplayer_externalaudio;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Cache_ReplayPlayer_ExternalAudio)
+}
+
+// .GoogleProtoBB.Value_Storage_Capacity value_Storage_Capacity = 50;
+inline bool BroadCastData::has_value_storage_capacity() const {
+  return this != internal_default_instance() && value_storage_capacity_ != NULL;
+}
+inline void BroadCastData::clear_value_storage_capacity() {
+  if (GetArenaNoVirtual() == NULL && value_storage_capacity_ != NULL) {
+    delete value_storage_capacity_;
+  }
+  value_storage_capacity_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Storage_Capacity& BroadCastData::_internal_value_storage_capacity() const {
+  return *value_storage_capacity_;
+}
+inline const ::GoogleProtoBB::Value_Storage_Capacity& BroadCastData::value_storage_capacity() const {
+  const ::GoogleProtoBB::Value_Storage_Capacity* p = value_storage_capacity_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Storage_Capacity)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Storage_Capacity*>(
+      &::GoogleProtoBB::_Value_Storage_Capacity_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Storage_Capacity* BroadCastData::release_value_storage_capacity() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Storage_Capacity)
+  
+  ::GoogleProtoBB::Value_Storage_Capacity* temp = value_storage_capacity_;
+  value_storage_capacity_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Storage_Capacity* BroadCastData::mutable_value_storage_capacity() {
+  
+  if (value_storage_capacity_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Storage_Capacity>(GetArenaNoVirtual());
+    value_storage_capacity_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Storage_Capacity)
+  return value_storage_capacity_;
+}
+inline void BroadCastData::set_allocated_value_storage_capacity(::GoogleProtoBB::Value_Storage_Capacity* value_storage_capacity) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_storage_capacity_;
+  }
+  if (value_storage_capacity) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_storage_capacity = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_storage_capacity, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_storage_capacity_ = value_storage_capacity;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Storage_Capacity)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_ReferenceStatus value_HealthInfo_ReferenceStatus = 51;
+inline bool BroadCastData::has_value_healthinfo_referencestatus() const {
+  return this != internal_default_instance() && value_healthinfo_referencestatus_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_referencestatus() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_referencestatus_ != NULL) {
+    delete value_healthinfo_referencestatus_;
+  }
+  value_healthinfo_referencestatus_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus& BroadCastData::_internal_value_healthinfo_referencestatus() const {
+  return *value_healthinfo_referencestatus_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus& BroadCastData::value_healthinfo_referencestatus() const {
+  const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* p = value_healthinfo_referencestatus_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_ReferenceStatus)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus*>(
+      &::GoogleProtoBB::_Value_HealthInfo_ReferenceStatus_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* BroadCastData::release_value_healthinfo_referencestatus() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_ReferenceStatus)
+  
+  ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* temp = value_healthinfo_referencestatus_;
+  value_healthinfo_referencestatus_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* BroadCastData::mutable_value_healthinfo_referencestatus() {
+  
+  if (value_healthinfo_referencestatus_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_ReferenceStatus>(GetArenaNoVirtual());
+    value_healthinfo_referencestatus_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_ReferenceStatus)
+  return value_healthinfo_referencestatus_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_referencestatus(::GoogleProtoBB::Value_HealthInfo_ReferenceStatus* value_healthinfo_referencestatus) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_referencestatus_;
+  }
+  if (value_healthinfo_referencestatus) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_referencestatus = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_referencestatus, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_referencestatus_ = value_healthinfo_referencestatus;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_ReferenceStatus)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_SerialNumber value_HealthInfo_SerialNumber = 52;
+inline bool BroadCastData::has_value_healthinfo_serialnumber() const {
+  return this != internal_default_instance() && value_healthinfo_serialnumber_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_serialnumber() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_serialnumber_ != NULL) {
+    delete value_healthinfo_serialnumber_;
+  }
+  value_healthinfo_serialnumber_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_SerialNumber& BroadCastData::_internal_value_healthinfo_serialnumber() const {
+  return *value_healthinfo_serialnumber_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_SerialNumber& BroadCastData::value_healthinfo_serialnumber() const {
+  const ::GoogleProtoBB::Value_HealthInfo_SerialNumber* p = value_healthinfo_serialnumber_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_SerialNumber)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_SerialNumber*>(
+      &::GoogleProtoBB::_Value_HealthInfo_SerialNumber_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_SerialNumber* BroadCastData::release_value_healthinfo_serialnumber() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_SerialNumber)
+  
+  ::GoogleProtoBB::Value_HealthInfo_SerialNumber* temp = value_healthinfo_serialnumber_;
+  value_healthinfo_serialnumber_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_SerialNumber* BroadCastData::mutable_value_healthinfo_serialnumber() {
+  
+  if (value_healthinfo_serialnumber_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_SerialNumber>(GetArenaNoVirtual());
+    value_healthinfo_serialnumber_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_SerialNumber)
+  return value_healthinfo_serialnumber_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_serialnumber(::GoogleProtoBB::Value_HealthInfo_SerialNumber* value_healthinfo_serialnumber) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_serialnumber_;
+  }
+  if (value_healthinfo_serialnumber) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_serialnumber = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_serialnumber, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_serialnumber_ = value_healthinfo_serialnumber;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_SerialNumber)
+}
+
+// .GoogleProtoBB.Value_HealthInfo_RemainingTimePerCam value_HealthInfo_RemainingTimePerCam = 53;
+inline bool BroadCastData::has_value_healthinfo_remainingtimepercam() const {
+  return this != internal_default_instance() && value_healthinfo_remainingtimepercam_ != NULL;
+}
+inline void BroadCastData::clear_value_healthinfo_remainingtimepercam() {
+  if (GetArenaNoVirtual() == NULL && value_healthinfo_remainingtimepercam_ != NULL) {
+    delete value_healthinfo_remainingtimepercam_;
+  }
+  value_healthinfo_remainingtimepercam_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam& BroadCastData::_internal_value_healthinfo_remainingtimepercam() const {
+  return *value_healthinfo_remainingtimepercam_;
+}
+inline const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam& BroadCastData::value_healthinfo_remainingtimepercam() const {
+  const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* p = value_healthinfo_remainingtimepercam_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_HealthInfo_RemainingTimePerCam)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam*>(
+      &::GoogleProtoBB::_Value_HealthInfo_RemainingTimePerCam_default_instance_);
+}
+inline ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* BroadCastData::release_value_healthinfo_remainingtimepercam() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_HealthInfo_RemainingTimePerCam)
+  
+  ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* temp = value_healthinfo_remainingtimepercam_;
+  value_healthinfo_remainingtimepercam_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* BroadCastData::mutable_value_healthinfo_remainingtimepercam() {
+  
+  if (value_healthinfo_remainingtimepercam_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam>(GetArenaNoVirtual());
+    value_healthinfo_remainingtimepercam_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_HealthInfo_RemainingTimePerCam)
+  return value_healthinfo_remainingtimepercam_;
+}
+inline void BroadCastData::set_allocated_value_healthinfo_remainingtimepercam(::GoogleProtoBB::Value_HealthInfo_RemainingTimePerCam* value_healthinfo_remainingtimepercam) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_healthinfo_remainingtimepercam_;
+  }
+  if (value_healthinfo_remainingtimepercam) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_healthinfo_remainingtimepercam = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_healthinfo_remainingtimepercam, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_healthinfo_remainingtimepercam_ = value_healthinfo_remainingtimepercam;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_HealthInfo_RemainingTimePerCam)
+}
+
+// .GoogleProtoBB.Value_Film_Effect_Status value_Film_Effect_Status = 54;
+inline bool BroadCastData::has_value_film_effect_status() const {
+  return this != internal_default_instance() && value_film_effect_status_ != NULL;
+}
+inline void BroadCastData::clear_value_film_effect_status() {
+  if (GetArenaNoVirtual() == NULL && value_film_effect_status_ != NULL) {
+    delete value_film_effect_status_;
+  }
+  value_film_effect_status_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Film_Effect_Status& BroadCastData::_internal_value_film_effect_status() const {
+  return *value_film_effect_status_;
+}
+inline const ::GoogleProtoBB::Value_Film_Effect_Status& BroadCastData::value_film_effect_status() const {
+  const ::GoogleProtoBB::Value_Film_Effect_Status* p = value_film_effect_status_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Film_Effect_Status)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Film_Effect_Status*>(
+      &::GoogleProtoBB::_Value_Film_Effect_Status_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Film_Effect_Status* BroadCastData::release_value_film_effect_status() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Film_Effect_Status)
+  
+  ::GoogleProtoBB::Value_Film_Effect_Status* temp = value_film_effect_status_;
+  value_film_effect_status_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Film_Effect_Status* BroadCastData::mutable_value_film_effect_status() {
+  
+  if (value_film_effect_status_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Film_Effect_Status>(GetArenaNoVirtual());
+    value_film_effect_status_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Film_Effect_Status)
+  return value_film_effect_status_;
+}
+inline void BroadCastData::set_allocated_value_film_effect_status(::GoogleProtoBB::Value_Film_Effect_Status* value_film_effect_status) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_film_effect_status_;
+  }
+  if (value_film_effect_status) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_film_effect_status = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_film_effect_status, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_film_effect_status_ = value_film_effect_status;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Film_Effect_Status)
+}
+
+// .GoogleProtoBB.Value_Common_TimeReference value_Common_TimeReference = 55;
+inline bool BroadCastData::has_value_common_timereference() const {
+  return this != internal_default_instance() && value_common_timereference_ != NULL;
+}
+inline void BroadCastData::clear_value_common_timereference() {
+  if (GetArenaNoVirtual() == NULL && value_common_timereference_ != NULL) {
+    delete value_common_timereference_;
+  }
+  value_common_timereference_ = NULL;
+}
+inline const ::GoogleProtoBB::Value_Common_TimeReference& BroadCastData::_internal_value_common_timereference() const {
+  return *value_common_timereference_;
+}
+inline const ::GoogleProtoBB::Value_Common_TimeReference& BroadCastData::value_common_timereference() const {
+  const ::GoogleProtoBB::Value_Common_TimeReference* p = value_common_timereference_;
+  // @@protoc_insertion_point(field_get:GoogleProtoBB.BroadCastData.value_Common_TimeReference)
+  return p != NULL ? *p : *reinterpret_cast<const ::GoogleProtoBB::Value_Common_TimeReference*>(
+      &::GoogleProtoBB::_Value_Common_TimeReference_default_instance_);
+}
+inline ::GoogleProtoBB::Value_Common_TimeReference* BroadCastData::release_value_common_timereference() {
+  // @@protoc_insertion_point(field_release:GoogleProtoBB.BroadCastData.value_Common_TimeReference)
+  
+  ::GoogleProtoBB::Value_Common_TimeReference* temp = value_common_timereference_;
+  value_common_timereference_ = NULL;
+  return temp;
+}
+inline ::GoogleProtoBB::Value_Common_TimeReference* BroadCastData::mutable_value_common_timereference() {
+  
+  if (value_common_timereference_ == NULL) {
+    auto* p = CreateMaybeMessage<::GoogleProtoBB::Value_Common_TimeReference>(GetArenaNoVirtual());
+    value_common_timereference_ = p;
+  }
+  // @@protoc_insertion_point(field_mutable:GoogleProtoBB.BroadCastData.value_Common_TimeReference)
+  return value_common_timereference_;
+}
+inline void BroadCastData::set_allocated_value_common_timereference(::GoogleProtoBB::Value_Common_TimeReference* value_common_timereference) {
+  ::google::protobuf::Arena* message_arena = GetArenaNoVirtual();
+  if (message_arena == NULL) {
+    delete value_common_timereference_;
+  }
+  if (value_common_timereference) {
+    ::google::protobuf::Arena* submessage_arena = NULL;
+    if (message_arena != submessage_arena) {
+      value_common_timereference = ::google::protobuf::internal::GetOwnedMessage(
+          message_arena, value_common_timereference, submessage_arena);
+    }
+    
+  } else {
+    
+  }
+  value_common_timereference_ = value_common_timereference;
+  // @@protoc_insertion_point(field_set_allocated:GoogleProtoBB.BroadCastData.value_Common_TimeReference)
 }
 
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
+// -------------------------------------------------------------------
+
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
@@ -2166,6 +22543,31 @@ inline void BroadCastData::set_allocated_player_closedcaption(::GoogleProtoBB::V
 namespace google {
 namespace protobuf {
 
+template <> struct is_proto_enum< ::GoogleProtoBB::Value_Player_Type_PlayerType> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::Value_Player_Type_PlayerType>() {
+  return ::GoogleProtoBB::Value_Player_Type_PlayerType_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::Value_Player_Mode_PlayerMode> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::Value_Player_Mode_PlayerMode>() {
+  return ::GoogleProtoBB::Value_Player_Mode_PlayerMode_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode>() {
+  return ::GoogleProtoBB::Value_Player_Loop_Mode_PlayerLoopMode_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::Value_DVE_Mode_DVEMode> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::Value_DVE_Mode_DVEMode>() {
+  return ::GoogleProtoBB::Value_DVE_Mode_DVEMode_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::Value_DVE_Type_DVEType> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::Value_DVE_Type_DVEType>() {
+  return ::GoogleProtoBB::Value_DVE_Type_DVEType_descriptor();
+}
 template <> struct is_proto_enum< ::GoogleProtoBB::BroadcastInfoKey> : ::std::true_type {};
 template <>
 inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::BroadcastInfoKey>() {
@@ -2175,6 +22577,41 @@ template <> struct is_proto_enum< ::GoogleProtoBB::CnlID> : ::std::true_type {};
 template <>
 inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::CnlID>() {
   return ::GoogleProtoBB::CnlID_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::CamID> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::CamID>() {
+  return ::GoogleProtoBB::CamID_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::RTDType> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::RTDType>() {
+  return ::GoogleProtoBB::RTDType_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::GFxCnl> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::GFxCnl>() {
+  return ::GoogleProtoBB::GFxCnl_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::TGAChannel> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::TGAChannel>() {
+  return ::GoogleProtoBB::TGAChannel_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::TGAChannelStatus> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::TGAChannelStatus>() {
+  return ::GoogleProtoBB::TGAChannelStatus_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::PiPType> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::PiPType>() {
+  return ::GoogleProtoBB::PiPType_descriptor();
+}
+template <> struct is_proto_enum< ::GoogleProtoBB::ReferenceStatus> : ::std::true_type {};
+template <>
+inline const EnumDescriptor* GetEnumDescriptor< ::GoogleProtoBB::ReferenceStatus>() {
+  return ::GoogleProtoBB::ReferenceStatus_descriptor();
 }
 
 }  // namespace protobuf
